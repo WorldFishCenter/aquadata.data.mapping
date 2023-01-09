@@ -12,7 +12,7 @@ dataverse_metadata <-
   janitor::remove_empty(c("rows", "cols")) |>
   dplyr::distinct()
 
-guestbook_responses <-
+worldfish_guestbook_responses <-
   readr::read_csv(paste0(pk_path, "/all_worldfish_guestbook_responses_2022.12.27.csv"), show_col_types = FALSE) |>
   dplyr::rename(
     title = Dataset,
@@ -37,4 +37,4 @@ guestbook_responses <-
   janitor::remove_empty(c("rows", "cols"))
 
 usethis::use_data(dataverse_metadata, overwrite = TRUE)
-usethis::use_data(guestbook_responses, overwrite = TRUE)
+usethis::use_data(worldfish_guestbook_responses, overwrite = TRUE)
