@@ -6,7 +6,7 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
-<img src="inst/images/aquadata_lg.jpeg" width="280" />
+![](inst/images/aquadata_lg_sticker.jpeg)
 
 The goal of aquadata.data.mapping is to collect and analyse metadata
 within the context aquatic food systems in order to identify and
