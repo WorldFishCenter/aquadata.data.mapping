@@ -4,11 +4,9 @@
 \alias{filterby_word}
 \title{Filter metadata by word}
 \usage{
-filterby_word(data = NULL, word = NULL)
+filterby_word(word = NULL)
 }
 \arguments{
-\item{data}{Metadata dataframe.}
-
 \item{word}{Character string to be be filtered.}
 }
 \value{

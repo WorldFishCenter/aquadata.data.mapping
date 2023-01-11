@@ -28,3 +28,39 @@ This repository is part of work package 1 "***AquaData***" of the initiative "**
 Further info:
 
 <https://www.cgiar.org/initiative/15-resilient-aquatic-foods-for-healthy-people-and-planet/>
+
+## To get started
+
+------------------------------------------------------------------------
+
+Install and load the R package from the most recent version using the following commands on the R console:
+
+```{r}
+#install.packages("devtools")
+#devtools::install_github("WorldFishCenter/aquadata.data.mapping")
+library(aquadata.data.mapping)
+```
+
+## Explore the data
+
+------------------------------------------------------------------------
+
+Once installed, you can access and explore the data directly from the package. `dataverse_metadata` include metadata information on the data of several CGIAR organizations, while `worldfish_guestbook_responses` include information provided by the users downloading WorldFish data.
+
+```{r}
+# Summary of dataverse_metadata 
+dplyr::glimpse(dataverse_metadata)
+
+# CGIAR organizations
+unique(dataverse_metadata$organization)
+
+# Summary of worldfish_guestbook_responses 
+dplyr::glimpse(worldfish_guestbook_responses)
+```
+
+You can filter the data using the `filterby_word` function and show the first 10 rows:
+
+```{r}
+filtered_metadata <- filterby_word(word = "Bangladesh")
+head(filtered_metadata)
+```
