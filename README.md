@@ -24,8 +24,6 @@ Further info:
 
 ## To get started
 
-------------------------------------------------------------------------
-
 Install and load the R package from the most recent version using the
 following commands on the R console:
 
@@ -36,8 +34,6 @@ library(aquadata.data.mapping)
 ```
 
 ## Explore the data
-
-------------------------------------------------------------------------
 
 Once installed, you can access and explore the data directly from the
 package. `dataverse_metadata` include metadata information on the data
