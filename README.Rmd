@@ -19,7 +19,7 @@ knitr::opts_chunk$set(
 
 <!-- badges: end -->
 
-![](man/figures/aquadata_lg_sticker.png){width="300"}
+![](man/figures/aquadata_lg_sticker.png){width="200"}
 
 The goal of **aquadata.data.mapping** is to collect and analyse metadata within the context aquatic food systems in order to identify and eventually fill data gaps in key geographic region: Bangladesh, Cambodia, Ghana, India, Myanmar, Nigeria, Solomon Islands, Timor-Leste and Zambia.
 
