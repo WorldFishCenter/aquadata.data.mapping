@@ -1,0 +1,821 @@
+WorldFish, Bangladesh
+       April 2019
+
+Summary
+As one of the technical partner, WorldFish is mainly promoting nutrition-sensitive fish and
+vegetable production systems for the beneficiary households of ‘Suchana’ program led by Save
+the Children and other consortium partners including WorldFish, HKI, IDE, icddr,b, CNRS, FIVDB
+and RDRS. Suchana has adopted an integrated approach delivering both nutrition specific and
+nutrition sensitive interventions to prevent chronic malnutrition within the critical first 1,000 days
+of a child’s life. The goal of the 6-year program is to reduce childhood stunting by 6% in 250,000
+very poor households in Sylhet and Moulvibazar districts. It is anticipated that 30% of the
+beneficiary households would have access to ponds or other small water-bodies and would
+receive support on nutrition-sensitive fish production along with other nutrition-sensitive and
+nutrition-specific program components. Nutrition-sensitive fish and vegetable production
+interventions focused mainly on carp-tilapia polyculture along with the production of small
+indigenous fish species (SiS) and different types of vegetables. The main aim of the interventions
+is to increase the production and consumption of fish and vegetables to enhance dietary diversity
+of women of reproductive age and young children of 6 to 23 months of age.
+But considering the expectations from the beneficiary households (BHHs) especially those have
+access to smaller portion of pond (less than 2 decimals of water area) per BHH, WorldFish is also
+promoting an integrated supports through incorporating the small-scale poultry rearing along with
+existing nutrition-sensitive aquaculture and vegetable production systems.
+Based on the study findings, there was also very encouraging progress in production and use of
+fish, poultry (chicken and duck), eggs and vegetables at the beneficiary households those
+received integrated supports from Suchana. Beneficiary households have harvested on an
+average 9.1 Kg of fish, 154 Kg of vegetables, 5.4 pieces of poultry birds (chicken and duck) and
+50.5 numbers of eggs during past 6 months. More than ninety percent (95%) of harvested fish,
+58% of vegetable, 61% of poultry birds and 67% of eggs were used for family consumption. Still,
+84.4% of the beneficiary’s ponds had average 12.9 Kg of fish (estimated bio-mass), 6.5 number
+of poultry birds either chicken or ducks or combination of both in addition to the vegetables at the
+gardens. All together the value of the overall fish (including the bio-mass) and poultry products
+were 8,036 taka based on the local market prices; of which the value of total fish was estimated
+as 3,880 taka, poultry birds was as 3,626 taka and eggs was as 530 taka per beneficiary
+households. I addition to that the value of harvested vegetables was 3,538 taka. Out of that the
+cash income from the vegetables was 1,146 taka per households and those money were spent
+for children’s education (74%), purchasing other food items (68%), productive activities (68%)
+like veg gardening, poultry rearing, Aquaculture and others, purchasing medicine (38%), clothes
+(32%), savings (24%), home appliances (18%), housing/ house repairing (12%), repaying loans
+(9%), purchasing furniture (6%) and some other (9%).
+
+Almost entire (98%) households were either satisfied (77%) or very satisfied (21%) after receiving
+the integrated supports including aquaculture and poultry rearing in addition to the vegetable
+production system. Only 2% of the BHHs mentioned their neutral impression about the integrated
+supports, and they were neither satisfied nor unsatisfied. The BHHs also mention that it enhanced
+the access of more diversified food (73%), generated opportunity for more production (59%) and
+more profits (63%), better use of resources like ditch/ small pond (26%) and better use of their
+skills (2%). Only 3% of the households mentioned that it was challenging to manage more
+components together.
+
+From the enhanced production of fish, poultry bird, eggs and vegetables, there was also very
+strong reflection on the dietary diversity of reproduction age women and 6 to 23 months of
+
+                                                                                                     i
+
+children. Almost three-fifth (57.8%) of the reproductive age women and two-third (64.7%) of the
+children (6 to 23 months) had diversified diets after one year since receiving the intervention from
+Suchana; although the number of sample households wasn’t adequate for statistical validation.
+
+At the same time, they also faced some challenges related to their production practices.
+Therefore, further attention should be required to improve their production systems to enhance
+the production practices especially ensuring the availability of quality fingerling at the community
+levels, improving the poultry shed and strengthening the coverage of vaccination for poultry birds.
+
+
+
+
+                                                                                                  ii
+
+Contents
+1.   Background...................................................................................................................... 1
+     1.1 Objectives of the study .................................................................................... 1
+     1.2 Specific objectives of the study ........................................................................ 2
+2.   Methodology.................................................................................................................... 2
+     2.1 Sample design ................................................................................................. 2
+     2.2 Process of the study ........................................................................................ 2
+     2.3 Limitation of the study ...................................................................................... 2
+3.   Results and discussion ..................................................................................................... 3
+     3.1 Dietary diversity of reproductive age women including the mothers ................ 3
+     3.2 Dietary diversity of 6 to 23 month old children ................................................. 3
+4.   Production and use fish and poultry products at integrated support model .............. 4
+     4.1 Pond profile and aquaculture practices............................................................ 5
+     4.1.1       Pond size and water area at the BHHs of integrated support ............................... 5
+     4.1.2       Aquaculture practices ........................................................................................... 5
+     4.1.3       Major challenges in aquaculture ........................................................................... 5
+     4.2 Vegetable gardening practices ........................................................................ 6
+     4.2.1       Production and use of vegetables ........................................................................ 7
+     4.2.2       Challenges faced by the BHHs related to vegetable production ........................... 8
+     4.3 Homestead poultry rearing practices ............................................................... 8
+     4.3.1       Poultry rearing practices....................................................................................... 9
+     4.3.2       Status of poultry shed at the BHHs have received integrated support .................. 9
+     4.3.3       Hatching practices.............................................................................................. 10
+     4.3.4       Status of vaccination .......................................................................................... 10
+     4.3.5       Challenges were faced by the BHHs on poultry rearing...................................... 11
+     4.4 Level of satisfaction about the integrated support ......................................... 11
+5.   Conclusion ..................................................................................................................... 12
+6.   References ..................................................................................................................... 13
+
+
+
+
+                                                                                                                                      iii
+
+List of Figures
+
+Figure 1: Proportion of reproductive age women consumed diversified diets ..............................................3
+Figure 2: Proportion of 6 to 23 months old children consumed diversified food ..........................................3
+Figure 3: Value of fish, chicken, duck and eggs in past 6 months and current stock...................................4
+Figure 4: Harvest and uses of vegetables in past 6 months ........................................................................7
+Figure 5: Proportion of BHHs spent money earned by selling vegetables from their gardens ....................7
+Figure 6: Challenges faced by HFP-pond HHs during intervention in past 6 months ..................................8
+Figure 7: Poultry shed were used at the BHHs have received integrated support .......................................9
+Figure 8: Status of poultry shed at the BHHs have received integrated support .........................................9
+Figure 9: Number of poultry birds was hatched per the BHHs in past 6 months .......................................10
+Figure 10: Proportion of BHHs used poultry vaccination through local service providers..........................10
+Figure 11: Proportion of households faced challenges regarding poultry rearing ......................................11
+Figure 12: Level of satisfaction after receiving the integrated supports from Suchana .............................11
+Figure 13: Reasons behind the satisfactions or dissatisfactions ................................................................12
+
+
+
+List of Tables
+
+Table 1: Production and use of fish and poultry products in past 6 months .................................................4
+Table 2: Average pond size and water area and share of respondent HH ..................................................5
+Table 3: Proportion (%) of BHHs used aquaculture technologies ................................................................5
+Table 4: Challenges faced by the BHHs related to aquaculture ...................................................................6
+Table 5: Average area of vegetable garden per BHHs in decimal ...............................................................6
+
+
+
+
+                                                                                                                                iv
+
+1. Background
+Suchana: Ending the cycle of undernutrition in Bangladesh is a multi-sectoral nutrition program
+that aims to achieve a significant reduction in stunting amongst children under two years of age
+in Sylhet and Moulvibazar districts of Bangladesh by catalyzing support across government and
+other stakeholders. Suchana has adopted an integrated approach delivering both nutrition
+specific and nutrition sensitive interventions to prevent chronic malnutrition within the critical first
+1,000 days of a child’s life. The program is led by Save the Children and involves WorldFish, HKI,
+IDE, icddr,b, CNRS, FIVDB and RDRS as consortium partners. DFID and the European Union
+are providing the financial support.
+
+WorldFish is mainly promoting nutrition-sensitive fish and vegetable production systems to the
+beneficiary households (BHHs) of the Suchana program. The Suchana program has a phased
+approach where each union receives intensive support for the first year, technical and behavioral
+change support in the second year, and follow-up and monitoring in the third year. A total of
+250,000 beneficiary households from 157 unions (20 upazilas) will receive support through 4
+phases (years) over the project period from 2015 to 2022. It is anticipated that 30% of beneficiary-
+households would have access to ponds or other small water-bodies and would receive support
+on nutrition-sensitive fish production along with vegetable production and behavioral change
+messaging on nutrition. This includes technical training, coaching, inputs (lime, fish fingerlings
+and fish feed for fish culture; seeds, seedlings and cuttings for vegetables), and linkages with
+local market actors and service providers from both public and private sectors. Fish production
+focuses mainly on carp and tilapia poly-culture along with small indigenous fish species (SiS)
+using improved management practices. Considering the expectations from the beneficiary
+households (BHHs) especially those have access to smaller pond (less than 2 decimals of water
+area), WorldFish is also promoting an integrated supports to strengthen the nutrition-sensitive
+vegetable, fish and poultry production systems at the beneficiary households of Suchana using
+the same amount of financial supports for single component either aquaculture or poultry rearing
+only. It is expected that these integrated support will create better outcomes through enhancing
+the household food production system and dietary diversity of the women and children less than
+two years of age.
+
+Up to March 2019, a total 1,801 BHHs (only at phase 2 working unions) have received both the
+aquaculture and poultry related supports besides the common horticulture package including
+training and primary inputs. Out of the 1,801 beneficiary households, 547 are at CNRS, 836 at
+FIVDB and 418 at RDRS working areas. This is one of the especial initiatives as pilot, therefore
+senior management of Suchana consortium has been recommended to conduct a rapid
+assessment to capture the level of outcomes from the interventions of integrated support.
+
+
+
+1.1 Objectives of the study
+The main objective of the study to document the overall performance of interventions related to
+the integrated supports on aquaculture, horticulture and poultry rearing. It is expected that the
+study will mainly focus the production of fish, vegetables and poultry (chicken & ducks), and their
+uses towards increasing production of diverse nutritious food for family consumption and
+additional income by selling the surplus produces along with few other relevant indicators.
+
+
+
+
+                                                                                                      1
+
+1.2 Specific objectives of the study
+   To analyze the trends towards increasing the production, consumption and sales of fish,
+    vegetables, and poultry birds and eggs produced at the beneficiary households of Suchana;
+   To capture the dietary diversity among the households including women and children less
+    than 2 years of age;
+   To identify the strengths and challenges faced by the households are involved in integrated
+    supports related to aquaculture, horticulture and poultry rearing components;
+   To explore the overall learning and the future potentialities of fish, horticultural and poultry
+    activities for the intervention communities;
+
+
+2. Methodology
+It was mainly a quantitative survey based rapid assessment. A set of well-structured
+questionnaire have been used for the survey focusing the mainly quantitative indicators along
+with some categorical indicators too capture some qualitative insights from the beneficiary
+households. As there was no baseline assessment of these households, no comparisons have
+been presented with the current findings.
+
+2.1 Sample design
+Considering the limitation of financial and human resources and management decisions, a total
+sample of ninety (90) beneficiary households (BHHs) those received the integrated package have
+been interviewed for the study. A total thirty (30) BHHs were selected from each of the
+implementing partners’ working areas. Simple random sampling technique was followed to select
+the 30 BHHs from each of the implementing partners’ working areas.
+
+2.2 Process of the study
+Considering the limitation of resources, existing technical team members from WorldFish and
+Helen Keller International (HKI) have collected the primary data and relevant information from
+the field. They have taken necessary supports from respective team members from other
+technical partners and implementing partners at the field levels. Data analyst of Suchana,
+WorldFish was responsible to develop the data entry package, enter the data and primary
+processing. M& E Specialist of Suchana from WorldFish is responsible to lead the overall the
+study including the preparing concept note, tools (questionnaires and check lists), capacity
+building, final data processing and analysis, and developing the reports. The team has also
+received the necessary guidance, review and editing supports from the Project Manager/ team
+leaders and other senior team members of Suchana and WorldFish including the senior team
+members from Save the Children, UK. Besides the primary information, available secondary
+information from the existing documents, database and relevant publications have also been
+used for the study.
+
+2.3 Limitation of the study
+The sample size is only 90 intervention households for quantitative data. So it is not the
+statistically validated number of sample. Moreover, no baseline is available to compare the
+current findings. Still, it is expected that it will give the good lessons for the program team and
+senior management about the progress towards achieving the intendent outcomes of Suchana.
+It can also be a good learning document to improve the future initiatives and decision making.
+
+                                                                                                  2
+
+3. Results and discussion
+
+
+3.1 Dietary diversity of reproductive age women including the mothers
+Figure 1 shows that more than half (57.8%) of the reproductive age women including the mothers
+of the children less than 2 years of age at the beneficiary households of integrated support had
+diversified diets after one year since receiving the intervention of Suchana.
+
+Figure 1: Proportion of reproductive age women consumed diversified diets
+                               100.0
+                                                                       1 to 4 food groups           5 or more food groups
+ % of reproductive age women
+
+
+
+
+                                80.0
+
+
+                                60.0
+                                                                                             57.8
+                                40.0
+                                                                  42.2
+
+                                20.0
+
+
+                                 0.0
+                                                          Dietary diversity for reproductive age women
+
+
+
+
+3.2 Dietary diversity of 6 to 23 month old children
+Almost two-third (64.7%) of the children (6-23 months old) had more diverse complementary
+feeding after the intervention of integrated support. It is very encouraging progress although
+number of sample wasn’t adequate for statistical validation.
+
+Figure 2: Proportion of 6 to 23 months old children consumed diversified food
+                               100.0
+% of children 6-23 months
+
+
+
+
+                                80.0
+
+                                60.0                                                                 64.7
+
+                                40.0
+
+                                20.0                                            29.4
+
+                                                           5.9
+                                 0.0
+                                                            Dietary diversity of children 6 to 23 months
+
+                                  Didn't take any complementary feed        1 to 3 Food groups          4 or more Food groups
+
+
+
+
+                                                                                                                                3
+
+4. Production and use fish and poultry products at integrated support
+   model
+Table 1: Production and use of fish and poultry products in past 6 months
+        Items                  Harvested/    Consumed      Gifted      Sold   Hatched         Have         Used and
+                                 Used                                                       currently/       Have
+                                                                                            Bio-mass       currently
+                                  n=90          n=90           n=90    n=90    n=90           n=90           n=90
+        Fish (in Kg)               9.1           8.6             0.2    0.3                   12.8           21.9
+                                               (95%)            (2%)   (3%)
+        Chicken & Duck             5.4           3.3             2.0    0.1                    6.5           11.9
+        (in number)                            (61%)           (37%)   (2%)
+        Eggs (in                   50.5         34.0            10.0    0.1      6.4          2.14           52.6
+        number)                                (67%)           (20%)   (0%)    (13%)
+Proportions of uses of the produces are showing in the parentheses
+
+Using the integrated supports, beneficiary households have harvested on an average 9.1 Kg of
+fish in past 6 months and 95% of those were used for family consumption. But it was the partial
+harvest and most (84.4%) of the ponds had fish and the estimated amount of fish (biomass) per
+respondent household was 12.9 Kg. All together their estimated production is 21.9 Kg per
+household. Besides the aquaculture, the households also received supports on poultry rearing
+which included chicken or duck based interest and local feasibility of individual households. From
+the poultry rearing 5.4 pieces of poultry birds were used in past 6 months and 61% of the birds
+were used for family consumption. Still they had 6.5 number of poultry birds either chicken or
+ducks or combination of both.
+
+Figure 3: Value of fish, chicken, duck and eggs in past 6 months and current stock
+
+                 10,000
+                          Value of Bio-mass in Taka n=90
+                          Value of uses in Taka n=90                                                     8,036
+                  8,000
+                                                                                                         4,329
+ Value in Taka
+
+
+
+
+                  6,000
+
+                               3,880                   3,626
+                  4,000
+                               2,297                   2,010                                             3,707
+                  2,000
+                               1,583                   1,616                   530     22
+                     0                                                        508
+                               Fish             Chicken & Duck                Eggs                       Total
+
+
+
+Based one figure 3, the value of harvested fish was 1,583 taka per BHH and they had estimated
+value worth of the fish in the pond was 2,297 taka per BHH. All together the value of total fish
+was estimated as 3,880 Taka per household based on local market price.
+
+The value of the uses poultry birds was 1,616 Taka per households, and they had 6.5 birds (table
+1) which had also the value of 2,010 Taka. So, total value of poultry birds was 3,626 Taka based
+on the local market price. Similarly, each of the households collected 50.5 eggs in past 6 months;
+from those 34 were used for family consumption and that was 67% of the production. Other 20%
+of the eggs were gifted to the relatives and neighbors, and 13% (6.4) was used for hatching new
+                                                                                                                    4
+
+chicks or ducklings. But selling of the produces was very negligible for both the fish and poultry
+products (table 1). However, each of the beneficiary households of integrated support model used
+the products of 3,707 taka and they had the products of 4,329 taka. Altogether, the value of the
+overall fish and poultry products were 8,036 taka based on the local market prices.
+
+4.1 Pond profile and aquaculture practices
+4.1.1 Pond size and water area at the BHHs of integrated support
+Table 2: Average pond size and water area and share of respondent HH
+  Item                               Overall Pond               Per Respondent Household
+  Pond Size                              7.6                               2.3
+  Water Area                             5.9                               1.8
+
+Table 2 shows, the average pond size and water area per ponds along with the share of the pond
+area for the respondent households. The average pond size and water area of the pond per
+beneficiary were very low. Water area per beneficiary households was only 1.8 decimal..
+
+
+4.1.2 Aquaculture practices
+Table 3 shows the fish culture practices used in the ponds; 83% of the beneficiary households
+followed ‘carp-tilapia polyculture using improved aquaculture practices (including SiS)’ and
+remaining 17% of the beneficiary households ‘carp-tilapia polyculture using traditional
+aquaculture practices (including SiS)’.
+
+Table 3: Proportion (%) of BHHs used aquaculture technologies
+  Type of technologies                                                           % of BHH
+                                                                                   n=90
+  Carp-tilapia poly-culture using traditional practices (including SiS)             17
+  Carp-tilapia poly-culture using improved practice (including SiS)                 83
+
+Usually, ‘carp-tilapia polyculture using traditional practices’ represents the aquaculture practice
+where farmers release only fingerlings. Usually, they do not prepare the pond following the
+recommend practices; do not use necessary feed and other improved practices. On the other
+hand, ‘carp-tilapia polyculture using improved practices’ is using the improved technological
+practices at all the levels like pond preparation, using limes and fertilizers, stocking quality
+fingerling from reliable sources, and ensuring regular feeding practices through maintaining water
+quality. These practices are very effective to increase the pond productivity.
+
+4.1.3 Major challenges in aquaculture
+Figure 4 shows the major challenges faced by the beneficiary households related to aquaculture.
+
+
+
+
+                                                                                                 5
+
+Table 4: Challenges faced by the BHHs related to aquaculture
+
+                  Didn't mentioned any challenge                   22%
+                                            Others           10%
+               Unavailability of desired fingerlings        6%
+    High turbid water during flood/ rainy season            9%
+                Lack of sunlight at the pond water           10%
+          Low level of water in homestead ponds              12%
+                     Lack of technical knowledge             12%
+                 Lack of water during dry season                 19%
+                                    Lack of money                   26%
+                     Joint ownership of the ponds                        32%
+                                                       0%    20%     40%     60%          80%   100%
+    n=90                                                            % of Households
+
+During the survey, a higher proportion of housheolds mentioned joint ownership ponds (32%),
+lack of money (26%), lack of water during dry season (19%), technical knowledge (12%), Low
+level of water in homestead ponds (12%), Lack of sunlight at the pond water (10%), High turbid
+water during flood and rainy season (9%), Unavailability of desired fingerlings (6%) and some
+others (10%). But 22% of the housheolds didn’t mention any challenge.
+
+4.2 Vegetable gardening practices
+Vegetable gardening is a traditional agricultural activity in rural Bangladesh and vegetables have
+a very important role in human diets as a source of valuable micronutrients (FPMU, 2014).
+Considering its importance, vegetable production has been one of the common interventions
+recommended for all beneficiary households in Suchana.
+
+About 89% households had active vegetable gardens after 1 year of intervention and almost all
+(98.9%) had one within the past 6 month. The usual locations for these gardens were homestead
+land (78%), nearby crop field (39%), roadsides (20%) and pond dikes (13%).
+
+Table 5: Average area of vegetable garden per BHHs in decimal
+  Types of garden and            % of BHHs had veg Garden              Size of veg garden in decimal
+  area                                     n=90                                     n=90
+  Pond dike                                13%                                       0.1
+
+  Road side                                    20%                                  0.3
+
+  Homestead                                    78%                                  1.0
+  Crop field                                   39%                                  1.9
+
+  Total                                        99%                                  3.3
+
+Table 5 shows the average area (decimal) of vegetable gardens using different categories of
+land. Average sizes of vegetable gardens were 3.3 decimals per beneficiary households.
+
+
+
+
+                                                                                                       6
+
+4.2.1 Production and use of vegetables
+Almost all (99%) households harvested vegetables in past 6 months. Average vegetable
+production was 154 kg per BHH (figure 7) after Suchana intervention.
+
+Figure 4: Harvest and uses of vegetables in past 6 months
+                            200
+                                                                                                                            n=90
+                            160
+ Vegetables per BHH in Kg
+
+
+
+
+                                                154
+                            120
+
+                             80                                              89     58%
+
+                             40                                                                                        50     33%
+                                                                                                     14     9%
+                              0
+                                     Total harvested Veg               Consumed                  Gifted                Sold
+                                             99%                         99%                     61%                    38%
+
+
+Figure 4 shows that a larger proportion (58%) of harvested vegetables was used for family
+consumption averaging 89 kg. Some of the vegetables like 14 kg (9% of total harvest) were gifted
+to their relatives and neighbors, and one third of the harvest (50 kg) was sold. The average
+income was 1,146 taka per household in past 6 months. The estimated value of the average
+harvest was 3,538 taka per households in past 6 months.
+
+Figure 5: Proportion of BHHs spent money earned by selling vegetables from their
+gardens
+
+                                      Others           9%
+                                    Furniture         6%
+                                   Repay loan          9%
+                            Housing/ repair                12%
+                            Home appliance                       18%
+                                      Savings                          24%
+                                      Clothes                                 32%
+                                    Medicine                                        38%
+ Productive activities                                                                    44%
+                                        Food                                                              68%
+                                   Education                                                                    74%
+
+                                                0%           20%                  40%          60%               80%   100%
+                            n=34                                                   % of Households
+
+
+Figure 5 shows that the highest proportion (74%) of the households the money earned money by
+selling harvested vegetables were used for education of the children and second highest
+proportion (68%) of the households used that for purchasing other food items. Other major
+expenditures were productive activities (68%) like veg production, poultry rearing, fish culture and
+others, purchasing medicine/ medical treatment (38%), clothes (32%), savings (24%), home
+
+
+
+                                                                                                                                    7
+
+appliances (18%), housing/ house repairing (12%), repaying loans (9%), purchasing furniture
+(6%) and some other (9%).
+
+4.2.2 Challenges faced by the BHHs related to vegetable production
+Figure 6: Challenges faced by HFP-pond HHs during intervention in past 6 months
+              No problem       7%
+                   Others                 19%
+             Lack of time      1%
+           Excessive cold      2%
+   Less amount of seeds        6%
+       Excessive drought           8%
+   Lack of technical skills        10%
+        Lack of pesticide           13%
+        Flood & drainage                        27%
+    Lack of quality seeds                         31%
+        Excessive raining                             34%
+        Irrigation problem                             36%
+
+                              0%            20%              40%        60%    80%      100%
+    n=90                                                     % of Households
+
+Figure 6 shows the major challenges faced by the beneficiary housheolds of integrated support
+especially regaring their vegetable production. Around one third of respondents mentioned about
+irrigation problem (36%), excessive rainning (34%), lack of qualiy seeds (31%), and flood and
+drainage problems (27%). Other challenges were lack of pesticides/ pest control (13%), lack of
+techncal skills (10%), exceessive drought (8%), less amount of seeds (6%) and some other
+(19%). Only 7% of the respondednt didn’t raise any challenge.
+
+
+
+4.3 Homestead poultry rearing practices
+Homestead poultry rearing is also one of the very traditional practices for rural Bangladesh
+including Sylhet and Moulvibazar districts. In recent decades, commercial poultry has grown
+dramatically though intensive rearing practices. Still, local poultry has huge demand in the market
+and price is also 40% to 60% higher compared to the broiler chicken. But they face a number of
+constraints and limitations during rearing the local chickens- attacking of diseases, higher
+mortality due to poor rearing practices and diseases, loss by the predators, and less production
+in terms of size and number of eggs, and meat per bird compared to the commercial once.
+
+Besides the number of constraints and limitations, there are many advantages in rearing of local
+chickens, such as immune capacity is stronger than hybrid or improved chicken, scavenging and
+semi-scavenging rearing is possible, easy adoptable in rural environment, new chickens can be
+hatched at the household levels, feeding and rearing costs are comparatively lower, market
+demand is higher, easy to sell, and sustainable rearing practices.
+
+Almost all (97%) of the respondent households had poultry rearing either chicken (92%) or duck
+(37%), or both (32%).
+
+
+
+
+                                                                                                 8
+
+4.3.1 Poultry rearing practices
+Figure 7 shows that one-third (34%) of the integrated support BHHs followed semi-scavenging
+poultry rearing practices and almost two-third BHHs of followed scavenging rearing practices.
+Only 1% BHHs followed confined rearing practice.
+
+Figure 7: Poultry shed were used at the BHHs have received integrated support
+                   100%
+
+                    80%
+                                       65%
+                    60%
+ % of households
+
+
+
+
+                    40%                                                 34%
+
+                    20%
+                                                                                                               1%
+                    0%
+                                   Scavenging                     Semi-scavenging                          Confined
+                      n=89
+
+
+
+
+4.3.2 Status of poultry shed at the BHHs have received integrated support
+Figure 8: Status of poultry shed at the BHHs have received integrated support
+                   100%
+
+
+                   80%
+
+
+                   60%
+ % of households
+
+
+
+
+                             42%
+                   40%
+                                                                                                       27%
+                   20%                                17%
+                                          13%
+                                                                        3%              4%                            6%
+                    0%
+                             No shed    Sound roof   Ventilated      Possible to       Portable   Traditional (mud    Other
+                                                                   separate chicks    improved        & straw)
+                    n=90                                             from hens       poultry shed
+
+
+More than two-fifth (42%) of the households didn’t have any separate poultry shed and more than
+a quarter (27%) of the households had traditional poultry shed made by mud and straw or similar
+other materials. Only 3% of BHHs had poultry shed where chicks may possible to separate from
+the hens where as 13% BHHs had poultry shed with sound roof and 17% BHHs had poultry shed
+with well-ventilation facilities. Only 4% BHHs had portable improved poultry shed, and 6% had
+other facilities of poultry shed like bamboo baskets locally called polo.
+
+
+
+
+                                                                                                                              9
+
+4.3.3 Hatching practices
+Hatching is also very important for rearing the local poultry and ducks for both the long term
+sustainability and profitability.
+
+Figure 9: Number of poultry birds was hatched per the BHHs in past 6 months
+                          15.0      13.7                                                            14.4
+ Number of pultry birds
+
+
+
+
+                          12.0
+
+                           9.0                                                                                8.4
+                                               7.8
+                                                                                                                       58%
+                                                      57%
+                           6.0
+
+                           3.0
+                                                                       0.6       0.6
+                                                                                         89%
+                           0.0
+                                         Chicks 66%                       Ducklings 6%               Total birds 67%
+
+                                               No. of bird hatched           No. of bird survived
+                                               n=60                          n=60
+
+Overall 67% of the respondent households hatched poultry bird using local broody hens in past
+6 months. Out of those, 66% households produced chicks and only 6% households produced
+ducklings. On an average total 14,4 numbers of birds were hatched per households; of which
+13.7 were chicks and only 0.6 were ducklings. But overall survival rate of the birds was 58%, and
+that was 57% for chicks and 89% for ducklings (figure 9).
+
+4.3.4 Status of vaccination
+Ensuring of the regular vaccination of poultry bird since day old chick, outbreak of many diseases
+can be prevented. Based on the findings, more than one third (36%) of BHHs used vaccination
+for their poultry and 35% was from Suchana vaccinators. Only 2% households used poultry
+vaccination from private/ local vaccinators or other sources.
+
+Figure 10: Proportion of BHHs used poultry vaccination through local service providers
+                          100%
+
+
+                           80%
+                                                                                                             63%
+                           60%
+ % of households
+
+
+
+
+                           40%         35%
+
+                           20%
+                                                               1%                        1%
+                            0%
+                                 Suchana Vaccinator   Private/local vaccinator           Other       Didn't used vaccination
+                          n=33
+
+
+
+                                                                                                                               10
+
+4.3.5 Challenges were faced by the BHHs on poultry rearing
+Figure 11: Proportion of households faced challenges regarding poultry rearing
+                                         No major problem faced                   26%
+                                                            Other      8%
+     Heavy rainfall or flash flood causing shortage of food supply    3%
+      Non-availability of trained & experienced veterinary service
+                            provider in locality                      4%
+              Non-availability of quality vaccination and medicine    6%
+        Poultry disease caused by excessively high temperature         8%
+    Death of poultry caused by natural disasters (flood, cyclones,
+                                etc.)                                      15%
+   Disease outbreak in winter season causing heavy cold injuries            16%
+    Outbreak of highly contagious infections & endemic diseases                         39%
+
+                                                                 0%        20%     40%     60%        80%         100%
+    n=89                                                                          % of Households
+
+Based on figure 11, attacking of disease was the major problem faced by the respondent
+households. The major four challenges were related to diseases or death of poultry bird due to
+‘outbreak of highly contagious infections & endemic diseases’ (39%), disease outbreak in winter
+season causing heavy cold injuries’ (16%), death of poultry caused by natural disasters (flood,
+cyclones, etc. 15%)’, ‘poultry disease caused by excessively high temperature (8%)’. Other
+constraints were ‘non-availability of quality vaccination and medicine’ (6%), ‘non-availability of
+trained & experienced veterinary service provider in locality’ (4%) along with few others (8%). It
+is also important that more than a quarter (26%) of BHHs mentioned that they didn’t face any
+major problems. Most of these problems may be reduced through regular vaccination following
+the recommended schedule and improving the poultry shed, use of supplementary feeding and
+other improved rearing practices including the biosecurity.
+
+
+
+4.4 Level of satisfaction about the integrated support
+Figure 12: Level of satisfaction after receiving the integrated supports from Suchana
+
+                                 2%
+                                               21%
+
+
+
+
+                                                                                 Very satisfied
+
+                                                                                 Satisfied
+                      77%
+                                                                                 Neutral- neither satisfied nor
+ n=90                                                                            unsatisfied
+
+
+
+                                                                                                                    11
+
+Figure 12 shows that almost entire (98%) households were either satisfied (77%) or very satisfied
+(21%) after receiving the integrated supports including aquaculture and poultry rearing in addition
+to the vegetable production system. Only 2% BHH mentioned their neutral impression about the
+integrated supports, and they were neither satisfied nor unsatisfied
+
+Figure 13: Reasons behind the satisfactions or dissatisfactions
+
+  Challenging to manage more components together              3%
+
+                              Better use of our skills        2%
+
+             Better use of resources like ditch/ pond                    26%
+
+               More production opportunities for us                                  59%
+
+                               More profitable for us                                 63%
+
+                         More diversified food for us                                       73%
+
+                                                         0%        20%    40%     60%      80%    100%
+    n=90                                                                 % of Households
+
+The enumerators also collected the reasons behind their impression about the level of satisfaction
+or dis-satisfactions about the integrated supports of Suchana. Highest proportion (73%) of the
+BHHs of integrated support had mentioned that this supports has given them “More diversified
+food for us”; they also mention the other reasons which were “More profitable for us” (63%), “More
+production opportunities for us” (59%), “Better use of resources like ditch/ pond” (26%) and
+“Better use of our skills” (2%). Only 3% of the households mentioned, it was “Challenging to
+manage more components together”.
+
+5. Conclusion
+Using the very small resources per household, there was very encouraging progress in
+production and use of fish, poultry (chicken and duck), eggs and vegetables at the beneficiary
+households those integrated supports from Suchana. They produced diversified species fish,
+considerable numbers of eggs and wider varieties of vegetables; and more importantly most of
+their production they used for their family consumption. It has also strong reflections on dietary
+diversity of reproductive age women and 6 to 23 months of children. Despite high level of
+satisfaction in doing aquaculture, poultry rearing and vegetable cultivation in the very limited
+areas, the BHHs also faced some challenges regarding their production practices. Therefore,
+further attention should be required to improve their production practices to enhance the
+production practices especially ensuring of the quality fingerling at the community levels,
+improving the poultry shed and strengthening the coverage of vaccination of poultry birds
+following the recommended vaccination schedules.
+
+
+
+
+                                                                                                    12
+
+6. References
+   1. FAO and FHI 360. (2016). Minimum Dietary Diversity for Women: A Guide for
+      Measurement. Rome: FAO
+   2. Magnani, Robert. 1999. Sampling Guide. Washington, D.C.: FHI 360/FANTA
+   3. Save the Children, Helen Keller International, International Development Enterprises,
+      WorldFish (2015) ‘Suchana: Ending the Cycle of Undernutrition in Bangladesh’ Proposal
+      Submission to Department for International Development, Bangladesh and the European
+      Union Delegation, Bangladesh
+   4. FPMU 2014. Role of Horticulture in Nutrition, a Nutrition fact sheet, published by the
+      Food planning and Monitoring Unit (FPMU) of the Ministry of Food of the Government of
+      Bangladesh, Khadday Bhaban, Ground floor, 16 Abdul Ghani Road, Dhaka- 1000,
+      Bangladesh
+   5. WorldFish, 2016. ‘Formative Research on Potentials of Fisheries, Horticulture, Poultry
+      rearing and Nutritional practices towards enhancing nutritional outcomes for very poor
+      households of Sylhet and Moulvibazar districts’. An unpublished report of WorldFish,
+      Bangladesh, on behalf of the coalition members of Suchana program.
+   6. WorldFish, 2018. ‘Annual performance assessment of Suchana: nutrition sensitive fish
+      and vegetable production in Sylhet and Moulvibazar’. WorldFish, Banani, Dhaka,
+      Bangladesh. An unpublished report of WorldFish, Bangladesh under Suchana program
+
+
+
+
+                                                                                         13
+

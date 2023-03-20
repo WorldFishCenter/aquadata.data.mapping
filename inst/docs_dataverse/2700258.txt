@@ -1,0 +1,473 @@
+                                people  science  environment  partners
+
+
+
+
+                                   FINAL REPORT
+                               APRIL 2006 – JULY 2008
+
+“Assessing the farm-level impact of genetically improved farmed
+          tilapia (GIFT) in China and the Philippines”
+
+
+
+
+                                 Project leader: Diemuth E. Pemsl
+
+               Policy, Economics and Social Science Discipline (PESS)
+                         WorldFish Center, Penang, Malaysia
+
+
+
+
+  OFFICE Jalan Batu Maung, Batu Maung, 11960 Bayan Lepas, Penang, Malaysia  MAIL PO Box 500 GPO, 10670 Penang, Malaysia
+  PHONE (+60-4) 626 1606  FAX (+60-4) 626 5530  EMAIL worldfishcenter@cgiar.org
+
+
+
+
+                    formerly known as “ICLARM – The World Fish Center”               www.worldfishcenter.org
+
+1. Name of IARC
+The WorldFish Center (ICLARM)
+
+2. Project Title
+Assessing the farm-level impact of genetically improved farmed tilapia (GIFT) in China and the
+Philippines
+
+3. GTZ Project Number and Contract Number
+Project Number: 04.7860.2-001.00     Contract Number: 81085673
+
+4. Reporting Period
+1 April 2006 – 31 July 2008
+
+5. Project Coordinator (Leading Scientist)
+Dr. Diemuth E. Pemsl                               d.pemsl@cgiar.org,            Ext. 192
+
+Postal address:       WorldFish Center
+                      GPO Box 500, 10670 Penang, Malaysia
+                      Telephone:   +60(4)6202-Ext.
+                      Fax:         +60(4)626 5530 (general)
+
+6. Collaborating Institutions and Staff including NARS and German Partners
+
+China
+   Dr. Xu Pao                               Freshwater Fisheries Research Center (FFRC)
+   Mr. Yuan Yongming                        Freshwater Fisheries Research Center (FFRC)
+   Prof. Li Sifa                            Shanghai Fisheries University (SFU)
+   Dr. Weidong Zhou                         WorldFish Center, China Office
+
+Philippines
+    Dr. Tereso Abella                       Freshwater Aquaculture Center (FAC) at CLSU
+    Dr. Emanuelle Vera-Cruz                 Freshwater Aquaculture Center (FAC) at CLSU
+    Dr. Yolanda Garcia                      WorldFish Center, Philippines Office /
+                                            University of the Philippines at Los Baños (UPLB)
+
+German partners
+   Prof. Dr. Hermann Waibel                 Leibniz University Hannover
+   Ms. Thongporn Tongruksawattana           Leibniz University Hannover
+   Mr. Jan Peter Butenhoff                  Leibniz University Hannover
+
+7. Project Description
+Description given in the proposal
+The objective of this research project is to assess the impact of genetically improved farmed
+tilapia (GIFT), including GIFT-derived strains, on productivity, income, food security, and
+livelihood of small-scale farmers. The analysis also allows the assessment of the effects of its
+adoption on poverty reduction. The Philippines was chosen as a study site because it was the
+country where the GIFT development was initiated and implemented. China, on the other hand,
+is a major producer of tilapia worldwide. Moreover, the countries took very different paths of
+disseminating the technology. While dissemination in the Philippines was carried out mainly by
+
+
+
+                                               2
+
+the GIFT foundation, a not for profit organization, in conjunction with the private sector,
+dissemination in China was mainly done by government agencies through their breeding
+stations and hatcheries.
+
+The specific objectives of the research project are:
+   i) To analyze the farm-level impact of the GIFT strain,
+   ii) To examine the effect of different dissemination strategies on adoption and impact, and
+   iii) To derive the internal rate of return (IRR) to the investment in GIFT development.
+
+For the second objective, the project will evaluate the role of the dissemination channel on the
+rate of adoption of the GIFT technology by small-scale versus larger-scale aquaculture farms.
+Thus, the potential for increased food security and enhanced livelihoods of poor farmers (i.e. the
+equity implications of introducing GIFT) can be assessed.
+
+The major outputs of the project are:
+1) A comprehensive impact assessment including a detailed account of the adoption pattern,
+   i.e. who are the adopters of the technology and what are the driving forces for adoption, and
+2) A report on the effect of different institutional settings on magnitude and distribution of
+   impact, i.e. empirical evidence of the benefits of developing the GIFT strain on the producer
+   level and in particular assessment of equity implications (e.g. are small-scale or large-scale
+   producers benefiting most?) and impact on poverty.
+
+Subsequent changes
+The producer surveys conducted under this project in China and in the Philippines showed only
+relatively low adoption levels of the GIFT strain at the time of the survey. This reduces the
+options for subsequent econometric analysis of the data. Also, the strain names that farmers
+provided in many cases did not allow unambiguous conclusions whether or not the breed was of
+GIFT origin. Thus we reverted to the following additional measures:
+   1) A hatchery follow-up survey was conducted in Region IV in the Philippines (which had a
+      very large share, 94%, of unidentified strains) in early 2008 to trace the origin of the
+      seed back to the source and thus get a better understanding of the genetic origin of the
+      fish cultured. This was possible since farmers were asked about the source of the seed
+      used (i.e. they were asked where they purchased the seed). In this way, the information
+      obtained from the hatchery survey could be linked with the producer survey. The strain
+      data from the producer survey was updated with this additional information. While use
+      was made of the farmers’ response for the adoption analysis, at the same time updated
+      strain information for the subsequent comparison of (economic) performance of different
+      strains was incorporated.
+   2) Because the share of pure GIFT strains in the data set was very limited we included the
+      additional category of GIFT-derived strains. This category reflects the fact, that GIFT
+      was used as breeding material in national breeding programs thus helping to improve
+      the overall quality of seed available. We included the “GIFT-derived” category in the
+      analysis and compare the performance to the GIFT and non-GIFT groups, respectively.
+      However, in cases where the GIFT category had too few observations we merged the
+      GIFT and GIFT-derived categories. However, there is an inherent methodological
+      challenge since the “level” of GIFT within the GIFT-derived strains is not known and
+      most likely highly variable. Thus, this procedure leads to a “watering down” of the GIFT
+      effect and might be one reason for the lack of significant differences between GIFT and
+      non-GIFT.
+
+
+                                                3
+
+   3) For the analysis of farm-level adoption of GIFT in the Philippines, Ms Tongruksawattana,
+      the junior researcher from Hannover University, made use of the data on history of strain
+      adoption (this was recorded back for the past 10 years). This measure was used in order
+      to have a sufficiently large group of adopters for the econometric analysis despite the
+      low number of producers cultivating GIFT in the survey season. She then identified
+      different categories of adopters/non-adopters by also considering the dis-adoption
+      behavior (i.e. retainers who continue to adopt versus rejecters who did cultivate the GIFT
+      strain in the past but now do not continue this adoption).
+
+   4) In response to the large share of farmers who either did not know the name of the strain
+      they were using (and where we could not update the information based on the hatchery
+      survey results) or where the strain names given were not unambiguous with regard to
+      the presence of GIFT in the breeding line, we introduced a category of “unspecified”. In
+      consequence the observations cannot be used to assess the performance of GIFT or
+      non-GIFT strains thus de facto reducing the sample size.
+
+Given the relatively low adoption of GIFT in our sample and the challenges in identifying the
+respective strains farmers were cultivating, we shifted the attention from the originally planned
+comparison and assessment of the GIFT strain towards a better understanding of the national
+breeding sector and the challenges of disseminating improved strains. Thus, the outcome and
+contribution of this project is an improved understanding of the underlying forces driving or
+inhibiting adoption and dissemination. In addition a critical discussion of “lessons learnt” from
+the problems faced during the dissemination of the GIFT technology is added. This is
+particularly relevant given that GIFT was shown to be a very high potential and successful
+technology based on the experimental and on-farm testing results achieved at the end of the
+GIFT and DEGITA projects.
+
+Similarly, since GIFT has gone very different ways in the Philippines and in China, the two
+countries included in this project, we focus on providing a detailed account of the pathway as
+well as the related challenges and limitations rather than a formal comparison to identify the
+“best” dissemination channel. Thus, the calculation of rates of return of the GIFT development
+was not possible. However the research results clearly identified the pitfalls of the dissemination
+of aquaculture technologies (and improved strains in particular) and provided a compilation and
+discussion of the lessons learnt both for WorldFish as well as the national partners.
+
+
+8. Major Research Findings
+Given the different state of GIFT adoption and some differences in the type of data available for
+the two countries, the major research findings of the project will first be presented for the two
+countries separately followed by an overall discussion and assessment of findings in Section 9.
+
+Philippines
+The producer survey was conducted in late 2006 and early 2007 in three regions in the
+Philippines. We selected major tilapia producing provinces and included some more remote
+sites based on the production statistics obtained from the Bureau of Fisheries and Aquatic
+Resources (BFAR), within the selected research areas, municipalities with a large number of
+tilapia producers were selected based on lists obtained from the Provincial and Municipal
+Agriculture Offices. The selection of producers was then randomized. All interviews were
+conducted face-to-face using a structured questionnaire. The questionnaire was pre-tested
+together with the enumerators as part of their training and translated into Tagalog to avoid
+
+
+                                                4
+
+misunderstandings. Completed questionnaires were checked on the site for completeness and
+consistency and if necessary taken back to the respective farmer.
+
+The survey in Region IV was coordinated by the local WorldFish Office (with support from the
+German student) while CLSU was in charge of the survey in Region II and III. In total, 780 tilapia
+producers where interviewed (see IIFET paper for more details).
+During the producer survey in the Philippines we found, that:
+   •   adoption of pure GIFT is low (only some 6% of the entire sample), though there were
+       marked differences between the included research sites (ranging from 16% adoption in
+       Region III which is closed to the major national breeding center to only 1% in Region IV).
+   •   based on the adoption history of tilapia strains which was recorded in the interviews, the
+       peak of GIFT adoption was before 2002.
+   •   the GIFT strain was widely used in national breeding programs and around 50% of the
+       cultivated strains in our sample were classified as “GIFT-derived”.
+   •   especially in Region IV, the identification of strains was a real issue since farmers were
+       using (local) names (such as “nilotica”, “tagalong” or “danao”) which do not specify the
+       genetic origin of the strain. In this survey area 94% of the observations were classified
+       as “unspecified”.
+   •   in the hatchery follow-up survey (71 hatchery operators), some of the unspecified strains
+       could be identified, but there are still some 70% of remaining “unspecified” observations
+       in Region IV and some 28% of “unspecified” strains in the entire sample.
+   •   in the conducted adoption analysis, the standard explanatory variables (such as age,
+       educational level, farm size, access to extension services) did not sufficiently explain the
+       adoption behavior. Thus other factors such as the (local) availability of seed, established
+       relationships (trust) between grow-out operators and hatcheries are most likely the major
+       driving forces behind the strain adoption decision.
+   •   there was no major difference between the farm level performance (in terms of yield and
+       profitability) of GIFT and non-GIFT strains. This could either mean that all other strains
+       have improved (due to cross-breeding) or GIFT quality has deteriorated over the past
+       years. This might explain why farmers are not very concerned about what strain to use.
+   •   the realized yield seems to depend much more on the level of inputs (such as feed and
+       fertilizer) used rather than the cultivated strain (this needs further quantification).
+In addition to the findings derived from the data analysis, the following important insights were
+gained during the fieldwork for this project:
+   •   Genomar did not have any active satellite hatcheries anymore by the time of the survey,
+       which might explain the low adoption of GIFT since seed was simply not available.
+   •   the GIFT Foundation is active again since the end of 2005 and trying to “revive” GIFT,
+       but with very limited staff capacity and resources. They did however provide GIFT seed
+       to some farmers in Region III.
+   •   there is a number of national tilapia breeding initiatives which are competing rather than
+       collaborating in tilapia improvement efforts each promoting their own strain(s).
+
+
+
+
+                                                5
+
+   •    there is a very large number of (small) hatcheries and middlemen active in the seed
+        sector; this results in a lack of transparency and quality control. Farmers can’t assess
+        fingerling quality before/while buying.
+   •    it seems that poor brood stock management has resulted in deteriorated improved
+        strains which might explain why we did not find significant differences between strains.
+Further analysis of the data by national partners and the WorldFish team is on-going (focusing
+e.g. on production function and technical efficiency analysis). The findings will be incorporated
+in the technical report (to be published in late 2008) and scientific papers.
+
+China
+The three provinces of Guangdong, Guangxi and Fujian (together accounting for some 75% of
+national tilapia production in 2006) were selected as survey sites. Within the provinces, major
+tilapia producing counties were selected (with the additional criterion of GIFT presence). Within
+counties, farmers were selected randomly. The major limitation for the project work in China
+was to not have a full-time staff on the ground overseeing the activities. The involved German
+master student was based in Penang and only visited the research sites during the inception trip
+together with the project leader (because it was impossible to obtain a research permit for him).
+The national counterpart from FFRC was based in Wuxi and only visited the survey sites
+occasionally. Pre-testing and enumerator training was conducted by project partners during the
+visits to the survey sites. Data collection was conducted by local extension staff (using an
+adapted and translated version of the questionnaire developed for the survey in the Philippines)
+and was thus more difficult to implement and oversee. Data cleaning and entering were
+delayed, since hard copies of the questionnaires had to be send to FFRC in Wuxi. There were
+reservations with regard to the quality of data submitted to WorldFish and thus, a major step of
+data cleaning was conducted by the German student and all incomplete or inconsistent
+observations were eliminated from the sample. This led to a drastic reduction in the sample size
+(from 600 surveyed producers a final sample of only 176 observations for all three provinces
+was complete enough to be used for the analysis).
+During the producer survey in China we found, that:
+   •    the adoption of GIFT in the final sample was 15%. The majority of farmers were using
+        non-GIFT crossbreeds of O. nilotica and O. aurea (called “AuNi” in China referring to the
+        two parent lines) with mainly male offspring.
+   •    the three included provinces have considerably different climatic and environmental
+        conditions, making cross province comparison questionable. This is a problem especially
+        for Guangdong data since there were only two “GIFT” farmers in the sample.
+   •    tilapia in the survey area are produced in ponds or reservoirs (21 of the observations
+        were in reservoirs i.e. 35% of the final sample in Fujian and 5% in Guangdong). Since
+        these are two very different production environments, the sample is further fragmented.
+   •    the GIFT farmers had a similar educational level, larger farms, shorter cycle length of
+        tilapia production, lower yields and lower production costs as compared to non-GIFT
+        producers (as evident from descriptive analysis).
+   •    there is a clear linear positive effect of the amount of feed on the final yield (for both
+        GIFT and non-GIFT strains).
+   •    the production function estimation showed a negative and significant coefficient for the
+        GIFT dummy, indicating that GIFT producers obtained lower yields.
+
+
+
+                                                6
+
+In addition to the findings derived from the data analysis, the following important insights were
+gained during the fieldwork for this project:
+   •   when the GIFT strain was first introduced to China in the early 1990s, there was only
+       relatively limited testing and dissemination going on since the national partner was part
+       of the university and research network rather than the government extension system.
+   •   though not formally banned, there is a de facto rule within the government breeding and
+       extension sector to not conduct sex reversal of fish fry. This makes the GIFT strain
+       unattractive to producers due to the high rate of proliferation and results small fish which
+       are very heterogeneous in size.
+   •   GIFT was first introduced to the study sites in 1998 but these early introductions reached
+       only a small number of farmers. Improved GIFT strains were disseminated in the area
+       from 2001 onwards. Only in 2006 was an improved GIFT strain available and did FFRC
+       start to use GIFT for cross-breeding with “blue tilapia” (O. aurea) to obtain mainly male
+       off-spring and thus avoid sex-reversal or the earlier problem of excessive proliferation.
+   •   Genomar has a hatchery facility in Hainan and is producing large amounts of Genomar
+       Supreme Tilapia fry which are based on the GIFT strain and sex reversed.
+   •   fingerlings/fry are widely traded between provinces and transported over long distances
+       (even by air) in China. Thus, the seed market is very competitive and by now dominated
+       by the private sector rather than government hatcheries.
+A major limitation for the analysis and interpretation of the findings from the China survey is the
+small (and uneven) sample size across provinces and production systems. Since there were so
+few GIFT adopters, the preconditions for running an econometric adoption analysis were not
+met. Also, considering the history and background of GIFT in China, there is a similar problem
+as in the Philippines since GIFT seed was not widely available at the time of the survey. Since
+the national breeding sector has now focused efforts on incorporating some of the positive traits
+of the GIFT strain by crossbreeding, it can be expected that result would be much more positive
+if the survey were to be repeated in some 3-5 years time. At the moment, GIFT is a very young
+and immature technology in the context of China, since local requirements such as the need to
+produce a very large share of male offspring to avoid prolific breeding without applying sex
+reversal hormones are not met. This puts the result of the production function analysis in
+perspective, which show that GIFT had a negative effect on productivity. In addition, there are
+some outstanding data issues for the sample which need to be addressed (e.g. obvious outliers
+which do not fit the distribution of yield in the sample). This might affect or change the results.
+
+9. Assessment of Research Findings
+It is very surprising at first glance that a technology that has been shown to be as successful as
+the GIFT strain in on-farm testing is not used more widespread and that it is not possible to
+demonstrate significant benefits based on the producer survey. However, when considering the
+history and conditions in the two respective countries, there are a number of reasons which
+explain the current status and our findings.
+First, in the case of the Philippines, the major problem seems to be the poor management of
+brood stock and thus the deterioration of strain quality over time. This problem is aggravated by
+a seed producing sector which is overcrowded with small scale hatcheries, nurseries and
+middlemen and the lack of accreditation of the actors involved. This makes it very difficult for the
+farmer to assess the quality of the seed they are purchasing. Also, there were considerable
+problems with the established Public-Private-Partnership (PPP) with Genomar and thus the
+further improvement and dissemination of high quality GIFT seed was interrupted and the brand
+
+
+                                                 7
+
+name damaged. This does not allow the conclusion however, that PPP is not a suitable model
+in disseminating aquaculture technologies in general but rather points to the pitfalls that can
+occur when setting up such a partnership.
+
+In China, the technology did not even reach farmers on a larger scale when the strain was first
+transferred to the country. This had partly to do with the institutional and personal characteristics
+of the national partner involved in the GIFT and DEGITA project but also with the general notion
+that sex reversal (which is routinely conducted for the GIFT strain and other improved strains in
+other countries) is not acceptable. The national breeding sector branched off into different
+directions to address the problem of early maturity and prolific reproduction by concentrating the
+breeding efforts on the production of genetically male strains. Only recently has the GIFT strain
+been brought back to their attention (and have more GIFT fish for breeding been transferred to
+China) and it seems that initial breeding efforts have yielded good success. However, it is too
+early to assess those efforts and it will take another 3-5 years before the impact of those “GIFT-
+derived” strains can be evaluated on the farm-level.
+
+Thus, there is no point comparing the two different dissemination channels (public player versus
+private institution), as both are not successful (at the moment) for the dissemination of GIFT for
+entirely different reasons. This does not mean however, that they are entirely wrong or
+unsuitable strategies. There are very important lessons to be learnt on how to disseminate
+improved strains to ensure the technology benefits the farmers (see section 12).
+
+10. Know-How Transfer
+A number of different types of knowledge transfer took place within the project. First, the work
+was a learning experience for the involved team, which benefitted especially from the round of
+expert meetings during the inception visits in each country. The national staff was actively
+involved at all stages of the project and knows about all aspects of the study. One additional
+level of know-how transfer was the involvement of German students who not only learnt about
+the technical and methodological aspects of the project, but also experienced living and working
+in a developing country and within an international research community. Finally, the findings and
+in particular the lessons learnt will be presented to a wider international audience in the form of
+a technical report published in the WorldFish publication series as well as during conferences
+and in the form of scientific journal papers.
+
+11. Training (if applicable)
+Training was not a major component of this small-scale impact assessment study. However, a
+number of formal and informal training sessions were held with national partners on the survey
+methodology as well as the process of designing, pre-testing and implementing a survey.
+Moreover, national partners benefitted from joint data analysis, a session on methods of
+adoption analysis and paper writing with (and back-stopping provided by) the WorldFish team.
+Finally, the involvement of two master students was a considerable training investment in terms
+of time spent by the project leader, national partners and the senior German project partner.
+
+12. Lessons learnt
+In terms of implementing and running the project, the data collection supported by the master
+student and/or national partners at the site worked very well. To avoid problems with the survey
+implementation and the data quality as experienced in China in future studies, a fulltime person
+on the ground is highly recommended at least for the entire survey period.
+
+
+
+                                                 8
+
+It was beneficial to have an interdisciplinary team involved in the study, and the design and set-
+up benefited from the institutional memory which still existed within WorldFish.
+The major lesson learnt, however, is on how to best deliver research findings or products to the
+end users. Based on our findings, it seems essential that in order to successfully disseminate
+improved strains a strong national breeding sector is present which has the capacity to maintain
+the purity and quality of the strain in question. Brood stock management is more complex and
+difficult for fish than it is for livestock (e.g. the problem of tagging individuals). Alternatively (or
+additionally), a well implemented system of continued support and monitoring can ensure the
+successful management and dissemination of the technology. If an improved strain is merely
+handed over to national partners, the chances of a sustained benefit seem rather low.
+The findings and conclusions from this research will be presented to WorldFish colleagues and
+management in an internal research seminar which is scheduled as a session within the “Food
+for Thought” series and will take place on 11th September 2008.
+
+13. Future Research Needs
+Based on the results of the study, there are a number of future research needs that have been
+identified, both for the GIFT strain in particular, but also for other (similar) technologies in
+general. With regard to the GIFT strain, it would be interesting to check on the genetic content
+of the strains at the hatchery level and breeding centers and assess how and where quality
+deterioration happens. This would aid an improved quality control system and counter measures
+could be installed. With regard to the compiled data sets and information, further analysis is
+worthwhile and in fact on-going (e.g. production function estimation and efficiency analysis for
+Philippines data set). Some of this will be completed within a short timeframe and can still be
+incorporated in the forthcoming technical report to be published as booklet within the WorldFish
+Technical Report series.
+In terms of more general research needs, there is a burning question of how to design and
+implement better strategies to sustain and disseminate research findings (such as improved
+strains) in developing countries. This is extremely relevant for the international agricultural
+research community in general, since the question of how best to sustainably transfer improved
+technologies to the field is still partly unresolved. Also, for future impact studies, a close
+monitoring of development and release of technologies in order to test and demonstrate impact
+needs to be designed and implemented. Since funds and resources – especially for impact
+assessment – are scarce, this requires a smart and pragmatic approach that meets the rigorous
+standards of the scientific community while keeping involved time and funds to a minimum.
+
+
+
+
+                                                   9
+
+14. Publications, Papers and Reports
+
+
+Papers and Reports
+Pemsl, D., O. Chen, T. Tongruksawattana, Y. Garcia, E. Vera-Cruz, T. Abella, and H. Waibel
+  (2008). Adoption and farm-level impact of genetically improved farmed tilapia (GIFT) in the
+  Philippines. Paper presented at IIFET 2008, 22 – 25 July, Vietnam.
+Vera-Cruz, E., T. Abella (2007). Farm level impact of genetically improved farmed tilapia in
+   Regions 2 and 3, Philippines. Survey Report submitted to WorldFish in June 2007. 14 pp.
+Tongruksawattana, T., H. Waibel, D. Pemsl (2007). Explaining adoption of tilapia strains: a case
+   study of cage culture in the Philippines. Draft paper, Leibniz University Hannover, 20 pp.
+Tongruksawattana, T., and D. Pemsl (2006). Assessing the farm-level impact of genetically
+   improved farmed tilapia (GIFT) in China and the Philippines - Inception Report – Philippines.
+   September 2006, Project Report, 29 pp.
+Butenhoff, J., and D. Pemsl (2006). Assessing the farm-level impact of genetically improved
+   farmed tilapia (GIFT) in China and the Philippines - Inception Report – China. November
+   2006, Project report, 26 pp.
+
+
+Theses
+Butenhoff, J.P. (2008). Analysis of the productivity effects of Genetically Improved Farmed
+   Tilapia (GIFT) in Southern China. Master thesis, Leibniz University Hannover. Submitted on
+   17th June 2008, 100 pp.
+Tongruksawattana, T. (2007). Technology adoption in aquaculture in developing countries:
+   genetically improved tilapia in the Philippines. Master thesis, Leibniz University Hannover,
+   Submitted on 5th May 2007. 147 pp.
+
+
+Conference presentations
+Pemsl, D., O. Chen, T. Tongruksawattana, Y. Garcia, E. Vera-Cruz, T. Abella, and H. Waibel
+  (2008). Adoption and farm-level impact of genetically improved farmed tilapia (GIFT) in the
+  Philippines. Paper presented at IIFET 2008, 22 – 25 July, Vietnam.
+Pemsl, D., Tongruksawattana, T., and Waibel, H. (2007): Technology Adoption in Aquaculture in
+  Developing Countries: Genetically Improved Tilapia in the Philippines. Poster presentation,
+  Tropentag, October 9-11, 2007, Witzenhausen, Germany.
+
+
+
+
+                                              10
+

@@ -1,0 +1,1865 @@
+REPORT ON GIS AQUCULTURE MARKET
+RESOURCE MAPPING
+
+
+
+
+07October, 2019
+
+                             Page |
+
+                                                                Table of Content
+Contents
+Acronym ..........................................................................................................................................................1
+Acknowledgement ..........................................................................................................................................2
+Executive Summary .........................................................................................................................................3
+Section One: Field Survey of Aquaculture Resource Mapping .......................................................................4
+1.1 Background ...............................................................................................................................................4
+1.2 Purpose of the Mapping ...........................................................................................................................5
+1.3 Methodology.............................................................................................................................................5
+   1.3.1 Aquaculture market actors ................................................................................................................5
+   1.3.2 Census mechanism ............................................................................................................................6
+   1.3.3 Existing data collection and review ...................................................................................................6
+   1.3.4 Field survey plan and preparation .....................................................................................................7
+   1.3.5 Training and field trial on data collection ..........................................................................................7
+   1.3.6 Data collection ...................................................................................................................................8
+   1.3.7 Data management .............................................................................................................................9
+   1.3.8 Guideline using artificial intelligence ...............................................................................................11
+   1.3.9 Field management and monitoring .................................................................................................12
+   1.3.10 Duration of the study.....................................................................................................................12
+1.4 Findings and Analysis ..............................................................................................................................12
+   1.4.1 Aquaculture support service center ................................................................................................12
+   1.4.2 Aquaculture market actors ..............................................................................................................15
+1.5 Challenges from Field..............................................................................................................................18
+   1.5.1 Technical challenges: .......................................................................................................................18
+   1.5.2 Invisible geographical boundary ......................................................................................................19
+   1.5.3 Overlapping market boundary.........................................................................................................19
+   1.5.4 Time management ...........................................................................................................................20
+   1.5.5 Field movement ...............................................................................................................................20
+   1.5.6 Weather situation ............................................................................................................................20
+   1.5.7 Others ..............................................................................................................................................21
+1.6 Lessons Learned ......................................................................................................................................21
+   1.6.1 Change in team plan ........................................................................................................................21
+   1.6.2 Aqua-medicine dealership ...............................................................................................................21
+   1.6.3 Left unions .......................................................................................................................................22
+   1.6.4 Field team composition ...................................................................................................................22
+   1.6.5 Everyday group sharing ...................................................................................................................22
+   1.6.6 Monthly group meeting ...................................................................................................................22
+   1.6.7 Digital communication .....................................................................................................................23
+   1.6.8 Women involvement in aquaculture market system ......................................................................23
+1.7. Conclusion and Recommendations .......................................................................................................24
+Section 2: GIS Data Application in Aquaculture ............................................................................................25
+2.1. Application of GIS in Aquaculture Market Resource Mapping ..............................................................25
+   2.1.1 Business support tool ......................................................................................................................25
+   2.1.2 Making investment plan ..................................................................................................................27
+   2.1.3 Administrative regulations ..............................................................................................................29
+   2.1.4 Infrastructure support .....................................................................................................................30
+   2.1.5 Establish local, regional and national database...............................................................................31
+   2.1.6 Data usage by Government .............................................................................................................32
+   2.1.7 Support on Activity management decisions ....................................................................................32
+2.2 Way Forward...........................................................................................................................................33
+References ....................................................................................................................................................35
+Annex 1 Description of key features .............................................................................................................36
+Annex 2 Left union list ..................................................................................................................................38
+
+                                                                                                                                                      Page | i
+
+Annex 3 Hatchery type .................................................................................................................................39
+Annex 4 Nursery type ...................................................................................................................................40
+Annex 5 Questionnaire .................................................................................................................................42
+Annex 6 Weekly report template for field staff ............................................................................................43
+Annex 7 Case study template for field staff..................................................................................................44
+Annex 8 Some examples from field notes ....................................................................................................45
+Annex 9 Study team ......................................................................................................................................47
+
+List of Figures
+Figure 1 Area coverage ...................................................................................................................................4
+Figure 2 Feature class description ..................................................................................................................6
+Figure 3 Training session arranged for survey team .......................................................................................7
+Figure 4 Taking GPS location...........................................................................................................................8
+Figure 5 Data collection ..................................................................................................................................8
+Figure 6 Field movement map prepared by planning team ...........................................................................8
+Figure 7 Data collection in Kobo Toolbox .......................................................................................................9
+Figure 8 Data collection and processing system ...........................................................................................11
+Figure 9 Digital communication platform .....................................................................................................12
+Figure 10 Market type-fish & without fish....................................................................................................13
+Figure 11 Fish market ...................................................................................................................................13
+Figure 12 Geographical distribution of fish market ......................................................................................14
+Figure 13 Regional distribution of fish wholesale market ............................................................................14
+Figure 14 Presence of fish Arot in markets ...................................................................................................14
+Figure 15 Different actors of important aquaculture input ..........................................................................15
+Figure 16 Semi-auto/Nano feed mill.............................................................................................................16
+Figure 17 Geographical concentration of feed mill ......................................................................................16
+Figure 18 Geographical concentration of hatcheries ...................................................................................17
+Figure 19 Geographical concentration of nurseries .....................................................................................18
+Figure 20 Markets with overlapping union boundary ..................................................................................19
+Figure 21 Challenging village roads ..............................................................................................................20
+Figure 22 No transportation during rain .......................................................................................................20
+Figure 23 Team members’ discussion in monthly meeting ..........................................................................22
+Figure 24 Feed traders transaction profile ...................................................................................................26
+Figure 25 Market gap analysis ......................................................................................................................27
+Figure 26 Geographical visualization of dataset ...........................................................................................28
+Figure 27 Distance analysis for ice factory and aquaculture wholesale market ..........................................29
+Figure 28 Maps showing city center with road connection to hatcheries and nurseries .............................29
+Figure 29 Map showing product demand from different locations .............................................................30
+Figure 30 Route analysis to deliver product at different location ................................................................31
+Figure 31 Attribute data visualization...........................................................................................................31
+Figure 32 Snapshot of Department of Agricultural Marketing website .......................................................32
+Figure 33 Geographical coverage of Prameeda Enterprise ..........................................................................33
+
+
+List of Tables
+Table 1 Place details for aquaculture activity ...............................................................................................13
+Table 2 Information on aquaculture market actors......................................................................................15
+
+
+
+
+                                                                                                                                               Page | ii
+
+Acronym
+
+AIN       Aquaculture for Income and Nutrition
+BI        Business Intelligence
+DAM       Department of Agriculture Marketing
+DE        Data Enumerator
+DMA       Data Management Assistant
+DMS       Data Management Specialist
+DOF       Department of Fisheries
+FTF       Feed the Future
+GS        Group Supervisor
+GIS       Geographic Information System
+GPS       Global Positioning System
+GoB       Government of Bangladesh
+LGED      Local Government Engineering Department
+LSP       Local Service Providers
+MIA       Market Information Assistant
+MIS       Management Information System
+VC        Value Chain
+ZOI       Zone of Influence
+ZOR       Zone of Resilience
+
+
+
+
+                                                    Page | 1
+
+    Acknowledgement
+
+
+Our sincere thanks go to USAID AIN for funding this GIS Aquaculture Market Resource Mapping work.
+We would like to acknowledge the support received from Feed the Future Bangladesh Aquaculture
+and Nutrition Activity team including Chief of Party (COP), Deputy Chief of Party (DCOP), Market
+System Development team, Communication unit, General unit and others. Our sincere gratitude goes
+to the officials from Department of Fisheries (DoF) and Local Government offices (e.g. Union
+Parishads) who enriched this work by providing valuable information. We acknowledge with thanks
+the information, suggestions and constructive review received from the officials of different NGO; fish
+feed, aqua medicine and fish seed companies. We sincerely acknowledge the time and effort spent by
+members of different associations including hatchery owners associations (especially located in
+Jashore and Cox’s Bazar), nursery owners association (especially Nagarkanda Quality Fish Seed Group
+and Amtali, Barguna nursery LSP association) and market shop owners associations. Finally, our warm
+thanks to all the local people who welcomed us in their village and made our journey more
+comfortable.
+
+
+
+
+                                                                                              Page | 2
+
+Executive Summary
+
+Feed the Future Bangladesh Aquaculture and Nutrition Activity targets to achieve inclusive
+aquaculture sector growth through a market systems approach. Significant importance is thus given
+on market resource mapping using a Geographical Information System (GIS). Starting from December,
+2018 to September’ 2019 an extensive spatial survey has been conducted across the Feed the Future
+Zone of Influence (ZOI) and Zone of Resilience (ZOR) to locate all the aquaculture market actors.
+
+The main objective of this market resource mapping exercise was to identify potential gaps in input
+supply or market services and provide a key decision and policy tool for management of the Activity
+and the aquaculture sector in the coverage areas. Linked to GIS maps this spatial database shall
+provide near real-time spatial information on supplier/market actor’s location and product
+description. In total 23 districts, 150 Upazillas, 99 Paurashavas and 1332 unions have been visited
+under this GIS resource mapping activity. Basic information along with spatial data for every single
+market actors across the surveyed region has been captured. After series of data checking and
+validation stage collected data has been uploaded in server. This census has collected detailed
+information for 7,414 markets including fish and without fish, 153 feed mills, 339 hatcheries and
+18,324 nurseries in the survey site.
+
+A spatial variation on market system between different areas within the ZOI and ZOR has also been
+analyzed. This report is divided into two sections; first section summarizes the census information
+along with the background document, methodology, finding, analysis, field challenges and learnings.
+Second section is added to demonstrate the application of GIS dataset in analyzing and overlaying
+data by diversified ways to run different analytical functions that could contribute to a faster and more
+efficient decision making process. Some potential applicability of GIS dataset as a supportive tool for
+making investment plan, market gap analysis, route plan, market research etc. has been showcased in
+section two to encourage stakeholders for integrating GIS in their decision support system. Finally, a
+list of way forwards are suggested for its scalability and ability to reach to a wider audience.
+
+
+
+
+                                                                                                Page | 3
+
+             Section One: Field Survey of Aquaculture Resource Mapping
+
+        1.1 Background
+
+Feed the Future Bangladesh Aquaculture and Nutrition Activity is built on the achievements of the six-
+year Aquaculture for Income and Nutrition (AIN) project, which ended in 2017. Ideologically the
+Activity is a shift from AIN’s direct delivery approach to inclusive market-focused, private sector led
+system that ensures the sustainability of aquaculture’s contribution to income and nutrition system
+in a gender inclusive manner. This five-year (2018–2023) activity aims to take a market system
+approach by designing and implementing interventions that address the underlying causes of poor
+market functioning, including lack of trust between market actors, lack of information on market
+signals and limits on market access placed by actors. The Activity target private sector firms to find out
+specific windows of opportunity where it can contribute for improved income and nutrition. The
+private firms have potentially been targeted to a) facilitate widespread adoption of new technologies,
+b) provide key business support services and c) guide key sector stakeholders in policy adaptation for
+improved aquaculture sector competitiveness. This Activity aims to a) engage with all key aquaculture
+market system actors’ including private sector, government, universities, and civil society
+organizations and b) re-align functions with the players best-positioned to advance continued
+aquaculture transformation that is inclusive of disadvantaged groups, including women and youth
+(aged 15-29 years old).
+The goal of the Activity is to achieve inclusive aquaculture sector growth through a market systems
+approach that means stimulating investment by the private sector and organizations to achieve the
+objectives with a focus on
+sustainability. The specific
+objective of the Activity
+has been identified as
+increased productivity of
+aquaculture        systems,
+strengthened aquaculture
+market systems, with
+special attention paid to
+expanding opportunities
+for women and youth and
+increased awareness and
+adoption of nutrition-
+related           behavior,
+specifically focusing on
+women and youth.
+The geographic coverage
+of    this     Geographic
+Information System (GIS)
+study is the Feed the
+Future (FTF) ZOI, covering
+twenty-one       southern                                  Figure 1 Area coverage
+
+                                                                                                 Page | 4
+
+districts in Barisal Division (Barisal, Bhola, Jhalokati, Pirojpur, Barguna, Patuakhali), Dhaka Division
+(Faridpur, Gopalganj, Madaripur, Rajbari, Shariatpur), and Khulna Division (Jashore, Jhenaidah,
+Magura, Narail, Bagerhat, Khulna, Satkhira, Chuadanga, Meherpur, Kushtia). In addition to the 21
+districts of ZOI this GIS census also covers two additional districts i.e. Bandarban and Cox’s Bazar which
+falls under Zone of Resilience (ZOR). Figure 1 visualizes the coverage area for this study.
+
+        1.2 Purpose of the Mapping
+
+The purpose of this mapping is to support Activity (program) in achieving improved relations between
+aquaculture market actors and established functioning market linkages by conducting a detailed
+spatial aquaculture market resource mapping using GIS in intervention site. An extensive spatial
+survey covering the entire ZOI and ZOR aims to capture current situation and targets for different
+actors/nodes in the Value Chain (VC). This spatial market resource mapping and market analysis aims
+to identify potential gaps in input supply or market services and provide a key decision and policy tool
+for management of this Activity and the aquaculture sector in the coverage areas.
+One of the key targets of this mapping exercise is to make a large Global Positioning System (GPS)
+enabled aquaculture market actors’ inventory which will finally help private sector or potential
+investors (domestic and foreign) in their informed decision-making. This location-based inventory is
+expected to add value in business intelligence of public and private investors. Integration of spatial
+dataset in Management Information System (MIS) to portray geographical variation in aquaculture
+market system is also desired. Linked to GIS maps this spatial database shall provide near real-time
+spatial information on supplier/VC actor location, product description including their performance.
+Diversified data like location information (i.e. nursery, hatchery) and specific data (i.e. the availability
+of feeds dealer for certain region) has been collected to measure the differences in the resource base
+or aquaculture systems between different areas within the ZOI and ZOR spatially. This geo-tagged
+dataset can strongly be used as a decision making tool by playing an important role in Monitoring
+Evaluation and Learning (MEL).
+
+        1.3 Methodology
+
+This study is mainly a census that surveyed all the major aquaculture market actors located in FTF ZOI
+and ZOR. Most precisely, the study took the attempt to visualize aquaculture market system
+deployment geographically. Hence, in addition to getting basic feature information the spatial
+attribute data have also been collected under this initiative.
+A detail process can be summarized below:
+
+      1.3.1 Aquaculture market actors
+
+The basic aquaculture VC actors identified and surveyed to collect information in this study are listed
+below. A brief description of key actors/features is also provided in Annex. For ease of data collection
+system VC actors were grouped under some feature classes. Figure 2 describes the feature class as
+per the grouping structure.
+
+
+
+
+                                                                                                   Page | 5
+
+                              Aquaculture company office, Aquaculture service center, BMO Office, DoF
+                              Office, Financial Institute, Fish Research Institute, Fish-Shrimp Processing
+     Office/Institute/        Company, Fry sell center, Paurashava/City Corporation, Union service
+         Company              center & Transport stand.
+
+         Market
+                              Fish market/ Market without fish, Retail/Wholesale, Sitting Frequency, No.
+                              of fish arot, No. of shop & No. of retailer
+
+       Feed mill
+                             Commercial/ Semiauto & Feed type
+
+
+          Dealer
+                              Feed dealer, Input dealer & Fish seed dealer
+
+
+     Dealership type
+                              Mixed/solo
+
+
+        Sub-dealer
+                              Feed sub-dealer, Input sub-dealer & Fish seed sub-dealer
+
+
+         Retailer
+                              Feed retailer, Input retailer & Fish seed retailer
+
+
+     Feed ingredient
+          seller              Ingredient type
+
+
+         Nursery
+                              Type of nursery i.e. carp, gulsha, koi
+
+
+        Hatchery
+                              Type of hatchery i.e. carp, gulsha, koi
+
+
+                                     Figure 2 Feature class description
+    1.3.2 Census mechanism
+
+A team of 45 people moved into the field with GPS enabled device. The entire study area was divided
+into small segments i.e. village, union for survey purpose. Field team members physically visited every
+single target feature and collected information including spatial data in their device. They were given
+an online questionnaire loaded in their electronic device (mobile tab). For each entity the data
+enumerators had to fill up some questions and simultaneously take GPS locations. All these data were
+finally uploaded in the Kobo Toolbox server after certain data checking stages.
+
+    1.3.3 Existing data collection and review
+
+Before going to the field for data collection, ground work has been done for base map preparation.
+GIS maps were collected from Local Government and Engineering Department (LGED) for
+administrative boundary i.e. division, district, upazilla and union level; river polygon; forest location
+and road network. GPS locations collected from field were overlaid on the LGED maps to cross check
+boundary and spatial locations of the features. New locations were finally added in the base maps
+after certain cross validation. Consultations were also held with International Food Policy Research
+
+
+                                                                                                     Page | 6
+
+Institute (IFPRI) to collect and review available data relevant for this aquaculture GIS resource
+mapping.
+
+         1.3.4 Field survey plan and preparation
+
+Prior to start the GIS aquaculture market mapping, a study team was formed by positioning people at
+different levels. The overall leadership and coordination task was done by MEL & GIS Specialist. For
+field level convenience the survey team has been divided into some layers with designated roles and
+responsibilities:
+    a. There were 36 Data Enumerators (DE) who were responsible to collect data from the field. All
+       these 36 DEs were divided into 04 groups named Rui, Katla, Koi and Silver having 09 DEs in
+       each group.
+    b. To supervise and support these DEs04 Group Supervisors (GS) were recruited. Each group (i.e.
+       Ruo, Katla, Koi and Silver) has their own GS.
+    c.     A planning team of 04 members has been formed to provide an effective and coordinated
+          field movement plan for the groups.
+    d. To provide overall guidance to the field team 01 survey supervisor has also been recruited.
+Besides team formation, another major task for field survey preparation was to develop
+questionnaire. MEL team divided the VC actors into some feature classes and listed key questions to
+be collected. An online platform “Kobo Toolbox” was used for field survey. Data collection was done
+using mobile device provided by the Activity. All the devices were loaded with electronic questionnaire
+with internet enabled mobile sim card. Once ready, the mobile devices were handed over to the field
+team. The digital communication platform “Slack” was used in this work has also been prepared at
+this preparation stage. The details on this system will be discussed later.
+
+         1.3.5 Training and field trial on data collection
+
+The survey team has been provided a 3 day long residential training prior to their field movement. The
+team has received an orientation on fundamental aquaculture related knowledge; market actors,
+places and their functions; hands on training on data collection using electronic device and process on
+GPS data collection.
+
+
+
+
+                          Figure 3 Training session arranged for survey team
+
+
+
+                                                                                              Page | 7
+
+At the end of training, the survey team collected data as a field trial from 4 districts as of Khulna,
+Satkhira, Jashore and Narail. To capture the aquaculture system diversity the first two districts were
+selected from shrimp culture zone and the rest two came from fish culture zone. Survey team tested
+the survey questionnaire in the field and attended refresher training. In the training, field learning and
+challenges were discussed and necessary updates on questionnaire and field movement plan has been
+made. Finally, survey team started their journey towards data collection.
+
+      1.3.6 Data collection
+
+Data collected from field was duly checked and stored in the Activity server. There was a systematic
+effort to collect data from field, check at different levels and finally submit in the server. The key steps
+involved in data collection process are discussed below:
+    a. Questionnaire survey with location information: DEs went to the field with the questionnaire
+       loaded in the mobile device and collected data from different aquaculture VC actors. There
+       were lists of questions fixed for different actors in their device. The location of each VC actors
+       were also taken using the GPS system of mobile tab. For example, while DEs were doing the
+       questionnaire survey for any market, the GPS location of that market has also been taken
+       simultaneously. Here, the maximum error for location was accepted as 10m.
+
+
+
+
+            Figure 5 Data collection                         Figure 4 Taking GPS location
+
+
+        There were 36 DEs who visited every location, collected information, took GPS location and
+        uploaded that in the
+        server. GSs were
+        supporting DEs to
+        make      movement
+        plan in the target
+        areas. They were also
+        responsible to check
+        field data, collect
+        preliminary
+        hatchery,    nursery
+        and dealer location
+        to support DEs and
+        solve       technical
+                                   Figure 6 Field movement map prepared by planning team
+
+                                                                                                   Page | 8
+
+        problems i.e. tab maintenance, online question portal troubleshooting. The GSs also
+        performed some administrative responsibilities like checking travel bills of DEs, manage
+        leave/holidays, provide logistic support etc. There was also a planning team to support field
+        movement. This team planned for the entry and exit point for four groups in the working
+        areas. They ensured that any feature should not be double taken (which is most common in
+        the village or union borders as there is no physical demarcation of boundary in reality). This
+        planning team also visited hatcheries to collect tentative nursery list, union parishad for village
+        map, hotel location for accommodation, markets, Upazilla Fisheries Office and special
+        features if any to support DEs. The survey supervisor maintained the communication with the
+        feed dealer or other aquaculture input company to verify the information collected by DEs.
+        The survey supervisor has also reserved the authority to check travel bills, approve movement
+        plan, and leave of field team. He was always in close contact with the DEs, GSs and planning
+        team members to learn about their challenges and take immediate steps to solve the
+        problems. As a part of process monitoring system the SS also prepared a weekly field report
+        and submitted to Activity MEL team.
+    b. Online survey portal: As mentioned earlier, the online survey toolbox “KoBo Toolbox” was
+       used for data collection from the field. The GIS team has made some customization view to
+       make it more efficient. To
+       minimize typing error
+       during data entry, some
+       tools like fixing 11 digits for
+       mobile       number,      auto
+       completion of some field
+       etc. were also used.
+        To confirm uninterrupted
+        internet connection the
+        survey team was provided
+        internet enabled mobile
+        sim. Using this service the
+        field staff had access to
+        internet at lowest cost with
+                                                    Figure 7 Data collection in Kobo Toolbox
+        better connection.
+    c. Focus group discussion (FGD): FGD has been conducted with the key VC actors i.e. feed dealer,
+       hatchery owner, nursery owner, arotdar and depot owner. These FGDs supplemented the
+       information collected during questionnaire survey that certainly helped to understand the
+       potential gaps in different market nodes. Most importantly, the applicability of spatial
+       information in aquaculture market system has also been discussed which provided a real
+       world scenario to plan for GIS as a key decision and policy support tool.
+
+        1.3.7 Data management
+
+All the collected information is uploaded in the server after several steps of checking. Data cleaning,
+sorting and compiling were also done by a group of data management team comprised of Data
+
+
+
+                                                                                                  Page | 9
+
+Management Assistant (DMA), GIS Assistant and Data Management Specialist (DMS). The entire
+process can be clearly understood from the below description:
+   a. Field data collection: The planning team finalized the survey area for every group and fixed a
+      number of target unions against each DE. All the DEs then visited their assigned areas and
+      collected information in their tab. At this stage, collected data was saved only in their device
+      memory.
+   b. Field level data checking and uploading in the server: At the end of each day DEs gave a final
+      check of their field dataset and provided to GS for checking. The GS then thoroughly checked
+      his group members’ collected information in pre developed excel checking format and
+      provided feedback if any correction was needed. After GS approval, DEs uploaded their data
+      in the server.
+   c. Data checking by DMA: Whenever DE collected data was uploaded in the server that arrived
+      in the table of DMA. She then downloaded the data set and checked the data based on the
+      checking indicator. Some of the key checking criteria were:
+                No of features: DMA counted to the number of features collected by per DE/day. If
+                 the number was not near to average level the respective DEs were then
+                 communicated for clarification.
+                Mobile number: This is the most important factor for dataset as it provides the
+                 identity of individuals. So, DMA checked whether the DE collected mobile number
+                 of the dealers, nursery/hatchery owner etc. were actual people or not.
+                Spelling error: One of the crucial issues for dataset was ensuring unique spelling for
+                 common features by all. Hence, the DEs were provided a list of words which are
+                 mostly common in all areas. DMA also needed to check the spelling provided by DE.
+                New village: During survey, field team found some new villages which were not
+                 listed. One major reason was difference in village name as known locally and written
+                 in the official documents. Besides, some villages also divided in to two or more parts
+                 and got a new name. DMA checked the village name with the list and took notes
+                 whenever any new village was found.
+                Unusual entity: Sometimes some unusual entities were observed because of typing
+                 mistakes. DMA checked the information and contacted the concerned DE to recheck
+                 the data.
+                Data accuracy: GPS location taken by DE for each feature should have ≤10 meter
+                 error. Hence, the data accuracy levels were also checked by DMA. If needed the DEs
+                 were requested to recollect the data when the error became ≥10 meter.
+   d. Data checking by GIS Assistant: GIS Assistant cross matched the GPS locations taken for
+      individual features/places with LGED union boundary and other attribute data every day. After
+      this validation field data was sent to DMA for finalization.
+   e. Data compilation by DMS: After the checking done by DMA and GIS assistant when all the
+      necessary corrections are made data set was sent to DMS. Afterward, the DMS finally checked
+      and compiled the dataset.
+   f.   Information checking by Market Information Assistant (MIA): An external data cross checking
+        was also performed by MIAs of the Activity. For example, the MIA randomly took one GS’s 2
+        surveyed villages from one union and cross checked that data. All the collected information
+
+                                                                                             Page | 10
+
+        of these villages were then rechecked by the MIA. DEs were requested to recollect the data if
+        any information found wrong or not properly collected.
+    g. Data verification: Hatchery information has been checked at several stages. At first, hatchery
+       list was collected from hatchery association for respective region. A list was also collected
+       from the upazilla level Department of Fisheries (DoF) office. Discussion was also held with the
+       lead hatchery owners of every upazilla and union to know the hatchery information. DEs have
+       finally visited every hatchery in the study areas and updated the list. For example, demolished
+       hatchery was removed from the list and new one was added when found. The hatchery list
+       was also checked with previously collected data in AIN project.
+        Data verification has also been performed for nurseries. DEs have collected mobile phone
+        number of every nursery during field visit. After receiving data from field, data management
+        team called every nursery owner to know about their business and finally listed in the
+        database.
+        Dealer information collected from field has also been crosschecked. GS met the feed and
+        medicine company officials in the respective regions and confirmed dealer list.
+
+      1.3.8 Guideline using artificial intelligence
+
+One of the important subject of this
+survey was using of “artificial
+intelligence”. For the survey guideline a
+robot known as “G-bot” was developed.
+This electronic robot was used as live
+guideline of the survey questionnaire.
+The objective of developing this G-bot is
+to support field team by providing
+                                                                                     KoBo
+information anytime they needed. For                                                 Server
+example, sometimes the DEs feel
+confused whether they should take GPS
+location for a feature or not. This
+artificial intelligence G-bot can provide
+answer to the question asked by the
+team, which provided them an
+immediate support. The entire data
+collection and processing system is
+shown in figure 8
+.
+
+
+
+Figure 8 Data collection and processing
+                system                                                                Server
+
+
+
+
+                                                                                               Page | 11
+
+        1.3.9 Field management and monitoring
+
+One of the important steps of this study is to have an effective and continuous monitoring system in
+place. This is done in two different ways:
+    a. Process documentation: There is a system of documenting all the activities performed in the
+       field. The survey supervisor is mainly responsible to deliver this report on weekly basis to the
+       GIS reporting consultant. In this report the survey supervisor has documented field data
+       collection process, all the field challenges, learnings, own observation etc. that helped
+       monitoring team to learn from the challenges and make a more effective plan.
+    b. Digital platform: An online communication and monitoring
+       platform called “Slack” is used for the team to ensure that all
+       the team members keep in touch and help each other
+       anytime in need. GIS assistant uploaded field maps in slack
+       prior to the survey so that the entire team can update
+       themselves and make plan for their field movement. There
+       are some specific threads where information are sent and
+       stored. For example, in the dealer list thread the DEs have
+       uploaded dealers’ information and that information is further
+       verified by survey supervisor. In survey supervisor thread the
+       survey provides field decisions/information to the DEs and
+       planning team. All these activities are monitored by DMA and
+       GIS specialist continuously using slack. The photos taken by
+       field team were also uploaded in this platform.
+
+                          Figure 9 Digital communication platform
+
+
+
+      1.3.10 Duration of the study
+
+The 10 month long field study started from December, 2018 and continued up to September, 2019.
+Due to rainy season field work was stopped for two months from July-August, 2019. During that
+period, the study team was engaged in data verification and checking in this interim period. The field
+work again resumed from end of August and continued till end of September. This aquaculture
+mapping work ended by a closing workshop organized in Cox’s bazar attended by the entire study
+team.
+
+        1.4 Findings and Analysis
+
+This study has covered 23 districts of ZOI and ZOR. About 150 upazillas, 99 paurashavas and 1,332
+unions were physically visited and surveyed by the field based survey team. The key findings of this
+extensive field visit are summarized in the next section.
+
+      1.4.1 Aquaculture support service center
+
+The most prominent places identified in this mapping were market. There are approximately 7,414
+markets found spread across the study area. Locations of union service centers were also collected
+
+                                                                                             Page | 12
+
+and incorporated in the spatial dataset. Around 2,100 financial institutes have been identified during
+the survey. Some other major aquaculture activity pace located in this region are fish/shrimp depot,
+fish/shrimp processing zone, fry sell center, dry fish processing zone, aquaculture company and so on.
+The summary of these actors and their numbers are shown in table 1.
+Table 1 Place details for aquaculture activity
+
+ Type                                       Number       Type                                     Number
+ Market                                       7,414      Department of Fisheries office             166
+ Bank branch/Leasing company                  2,108      Landing center                             132
+ Union service center                         1,359      Aquaculture company office                 107
+ Gadighar                                      312       Fish/shrimp processing company              73
+ Transport stand                               309       Dry fish processing zone                    14
+ Fry sells center                              225       Fish or Shrimp Depot Zone                   44
+ Business management association               213       Fish research institute                     22
+ Fish Fattening Zone                           161
+
+Market information has been collected in two segments as fish market and market without fish.
+Interestingly, most of the markets (6,661 markets) have fish place in its territory. Among 7,414
+markets only 753 markets were identified where fishes were not sold. The percentage distribution of
+fish market is illustrated in figure 10.
+
+
+
+
+    Figure 11 Fish market                                Figure 10 Market type-fish & without fish
+
+In the figure 12 the geographical distribution of fish market is explained. In ZOI the highest fish markets
+were found in Barishal followed by Jashore. On the other hand, in ZOR the highest numbers of fish
+markets are found in Cox’s Bazar (329 fish markets).
+
+
+
+
+                                                                                                Page | 13
+
+                         Figure 12 Geographical distribution of fish market
+
+The fish markets were again categorized by retail or wholesale. The presence of wholesale fish market
+is highest in Bhola, Patuakhali, Khulna and Satkhira. These are some of the major fish culture zone in
+ZOI from where fishes/shrimps are being exported outside the districts and even country. The
+proportion of wholesale fish market in different districts is well illustrated in figure 13.
+
+
+
+
+                      Figure 13 Regional distribution of fish wholesale market
+
+Fish Arot is also a dominant feature in most of aquaculture business areas. Majority of the big markets
+have Arots that collects fish from fisherman. Figure 14 clearly states the present status of fish market
+having Arot within its amenity.
+
+
+
+
+                                                                                              Without
+                                                                                              arot
+
+                                                                                               With arot
+
+
+
+
+                              Figure 14 Presence of fish Arot in markets
+
+
+
+
+                                                                                              Page | 14
+
+    1.4.2 Aquaculture market actors
+
+A variety of aquaculture market actors were also identified in this mapping. Table 2 provides a
+snapshot of the prominent market actors found in ZOI and ZOR for aquaculture. The detailed analysis
+of these major market actors are discussed below.
+Table 2 Information on aquaculture market actors
+
+ Market actors                                                        Number of actors
+ Feed ingredient seller                                                  21,437
+ Retailer                                                                18,548
+ Nursery                                                                 18,324
+ Dealer                                                                   2,896
+ Sub-dealer                                                               2,771
+ Shrimp/prawn depot                                                       2,493
+ Ice factory                                                               578
+ Crab Depot                                                                576
+ Hatchery                                                                  339
+ Fish Fattening Point                                                      155
+ Feed Mill                                                                 153
+ Input supplier (i.e. hormone, alcohol, oxygen, packaging etc.)            198
+
+
+In aquaculture seed, feed and medicine are considered as some of the important inputs. Private
+sectors have maintained a specific supply chain for these products. For example, there are 7,241
+traders who supply only feed. At the same time, 1854 of total traders supply both feed and aqua
+medicine. Figure 15 illustrates traders’ (dealers, sub dealers, retailers) business types in ZOI and ZOR.
+This should be noted that, total supply chain maintained by different companies has also been
+collected along with the GPS location under this study.
+
+
+
+
+                      Figure 15 Different actors of important aquaculture input
+
+
+
+
+                                                                                               Page | 15
+
+Feed mills can be classified in two categories as commercial and semi-auto/nano. Among total 153
+feed mills identified in the study areas 119 are semi-auto and the rest 34 are commercial. Feed types
+of these mills include floating, sinking and sometimes both. However, sinking type feed is predominant
+among the feed mills.
+
+
+
+
+                                    Figure 16 Semi-auto/Nano feed mill
+
+ In the study areas most of feed mills were found in Jashore, Sathkhira and Khulna. There are about
+40 feed mills in Jashore, 25 in Sathkhira and 19 in Khulna. The number of feed mills in other districts
+ranges from 1- 10. The upazilla level feed mill distribution is presented in figure 17.
+
+
+
+
+                    Legend
+
+                       Commercial
+
+                       Semiauto
+
+
+
+
+                             Figure 17 Geographical concentration of feed mill
+
+                                                                                             Page | 16
+
+Diversified categories of hatcheries were found in different locations of the country. For example, in
+ZOI the presence of carp, tilapia and prawn hatchery is predominant. Due to short cycle production
+people are also doing climbing perch and catfish. People can get high value comparatively in shorter
+period. On the other hand, in ZOR shrimp hatcheries are predominant. Presence of high salinity in
+ZOR influences to flourish shrimp hatcheries. The regional concentration of hatcheries is described in
+figure 18. A table is also provided in annex.
+
+
+
+
+                          Figure 18 Geographical concentration of hatcheries
+
+Nurseries are the most important aquaculture market actor point from where farmer get fingerling. A
+diversified set of nurseries are observed across the ZOI and ZOR. For example, in ZOI the most common
+nursery types are carp; carp & thai-puti; carp & tilapia; carp, catfish, thai-puti & tilapia etc. Shrimp and
+prawn nursey is mostly found in Khulna division. One of the reasons for flourishing tilapia nursery in
+ZOI is its saline tolerant capacity. So, farmers in this region are doing tilapia along with shrimp
+cultivation. In contrary, the ZOR have mostly carp; carp & tilapia and catfish nursery. Detailed
+information on the combination of nursery type with geographical variation is provided in annex. The
+figure 19 also illustrates the concentration of nurseries across the region.
+
+
+
+
+                                                                                                 Page | 17
+
+                         Figure 19 Geographical concentration of nurseries
+
+        1.5 Challenges from Field
+
+While working in the field a numbers of challenges were faced by the team ranges from technical,
+social, physical and even meteorological.
+
+      1.5.1 Technical challenges:
+
+There were some technical issues raised by the field staff especially at the beginning stage which was
+resolved by the team accordingly. Some of the key challenges were:
+             a. Finalizing unique spelling: One of the big problems faced by DMA was receiving
+                 different spelling naming for a single feature. There was no spelling guideline
+                 provided to field team members at the initial stage. So, DEs provided information
+                 based on their knowledge and thus the spelling varied. Finally, the MEL team decided
+                 to provide a spelling guide/checklist for some common features to ensure that
+                 everyone using the same spelling for common features.
+             b. Taking GPS Location: Some of the common technical problems for taking GPS location
+                 confronted by the team was taking longer time to get GPS reading, it was hard to
+                 take location at evening or during rain/cloudy weather and getting accuracy less than
+                 or equal to 10 m. To minimize these problems some of the faulty tabs were replaced
+                 by new one. The new tabs could take measurements within 5m accuracy level. The
+
+
+
+                                                                                            Page | 18
+
+                 teams were also suggested to survey at the day time that helps to get GPS location
+                 more easily.
+             c. Identifying features: Sometimes confusion arose while taking features information in
+                 field. For example, when union parishad complex and aquaculture information
+                 center were located at the same building complex, DEs became confused on whether
+                 to take one location or twice for both features. Besides, in some cases DEs couldn’t
+                 determine whether they should take location of the feature or not. To solve these
+                 sorts of problems instructions were provided at the slack in artificial intelligence “G-
+                 Bot” where DEs can ask any question or problems faced during field visit or anytime
+                 they are in need.
+
+      1.5.2 Invisible geographical boundary
+
+The team was divided into some groups with some given target areas. For example, each DE has to
+cover a certain number of unions. As the DEs were moving in the field with union/village maps,
+problems arose whenever they came across to geographical boundary but in real world there is no
+physical border. There was a possibility to take a location twice by two DEs surveying at the adjacent
+areas. So, to tackle this problem, data were checked by field supervisor some in the field. Planning
+team first defined the border zone and visited the area to identify features if available. Then the team
+informed respective DEs to cover the feature during their survey. The DEs were also requested to
+recheck with his nearby teammate while collecting information.
+
+      1.5.3 Overlapping market boundary
+
+Some of the markets in village areas fall under more than one union boundary. For example, a market
+in Faridpur district covers both Gerda and Nogirkanda union. In that case it was difficult to identify the
+union for which the market should be located. To solve this problem, the union from where the first
+location was captured considered as the union for these overlapping markets.
+
+
+
+
+                         Figure 20 Markets with overlapping union boundary
+
+                                                                                               Page | 19
+
+      1.5.4 Time management
+
+All the 04 groups were given some target unions to be covered in a day. Sometimes, it was tough to
+meet targets when the area appeared as heavy feature zone. In this situation team members from
+nearby low feature zone were asked for support in this dense area to cover target within the time. It
+was also very difficult when the distance between living station and field location was quite far away.
+In that case, the teams were suggested to start field work early in the morning to cover travel time.
+Planning teams have also tried to find living places for the teams nearby their field areas to reduce the
+travel time.
+
+      1.5.5 Field movement
+
+Moving a long distance every day is another major challenge
+for the team. Sometimes, the DEs have to travel 80 km a day
+to cover target areas. In most cases DEs had to manage local
+transportation system like motorbike or van to identify
+features. However, often the DEs had to walk entire day to
+visit the area where no local transportation was available.
+The transportation situation was more complex in the hilly
+areas. The field team members had to wait longer time to
+get any suitable vehicle. After field trial in 04 districts, a
+planning team was formed to locally analyze movement
+planning system including accommodation, fastest route
+etc. That initiative dramatically reduced the movement
+problem.                                                         Figure 21 Challenging village roads
+
+      1.5.6 Weather situation
+
+Extreme weather situation has made the task very difficult for the field team as DEs had to physically
+visit every feature location to collect
+information. There are remote areas in the
+ZOI and ZOR which were totally inaccessible
+during rainy season. Besides, working during
+high temperature made many staff physically
+ill. By taking these issues into consideration it
+was decided to postpone field work for two
+months from June-July. The remote areas like
+Phatuakhali, Bhola and Barguna regions were
+covered before the rain season. To cope up
+with the rain, survey supervisors also
+followed regular weather forecast update by
+Google every 30 minutes to make efficient
+movement plan in the field.                           Figure 22 No transportation during rain
+
+
+
+
+                                                                                              Page | 20
+
+      1.5.7 Others
+
+Mobile number of the nursery, hatchery owner, depot, dealers etc. were also collected under this
+study as that provided a unique identity of every feature. So, the DEs strongly gave emphasis to collect
+this information from field. However, in some cases it was challenging to get mobile number. There is
+a tendency among the people not to share their mobile number publicly because they are frightened
+of harassment. Unavailability of market actors during day time was also another challenge faced by
+the field team as the data were mainly collected during the day time. Hence, this was a challenge as
+sometimes they could not find any market actors to provide required information. This scenario was
+mostly happened for nurseries, when nursery owners went out for work their family members weren’t
+willing to talk to outsiders. So the team had to visit twice to get those information which required
+double effort and time.
+
+        1.6 Lessons Learned
+A closing workshop was arranged in Cox’s bazar at the end of this market resource mapping work in
+September 2019. Team members who involved in this work shared their learning from different
+perspective from administrative to technical issues. The major learnings from the workshop and also
+from field notes are summarized in the next section.
+
+        1.6.1 Change in team plan
+
+Initially the team was divided into 4 groups and each group was led by a group supervisor. Every 2
+groups were again guided by a survey supervisor. So, there were 2 survey supervisors whose main
+responsibility was to facilitate survey plan, oversee administrative issues, manage accommodation
+etc. They made travel plan for their respective DEs. For huge workload, survey supervisors could not
+make local movement map, which could have reduced the overlapping of DEs, working location,
+finding the best route etc. For instance, one DE could cover others groups working area which is near
+to him but far from the designated groups. Hence, it has been observed that the DEs had to travel long
+distance that might be reduced if a coordinated plan were made. Managing accommodation for large
+team at one place is also a challenge for survey supervisor especially in remote areas. Keeping that in
+mind a little change in team plan has been made. Team deployed one survey supervisor who
+thoroughly overseen visit plan to reduce movement time and distance. A planning team comprising
+one team member from 4 groups each was also deployed to support DEs. They would then take the
+responsibility to pre-visit survey area and provide information to DEs. Managing accommodation for
+every group was also their responsibility. So, now the team can stay in small groups and live near to
+their survey area. This reduces travel time in one hand and also provides more time for field work.
+
+        1.6.2 Aqua-medicine dealership
+
+It was assumed that the aqua-medicine follow the similar dealership pattern of feed supply chain.
+Unfortunately, the actual scenario is totally different in real world. There is no dealership given for
+aqua-medicine. Marketing officers of the medicine company visit individual farmers and shop owners
+and assess their problems, produce demand to company and then finally provide the products to the
+client. Sometimes, the marketing officers also provide the most wanted products to feed dealer shops
+or even local retailers from where the clients buy aqua-medicine. One of the reasons of this aqua-
+
+
+                                                                                              Page | 21
+
+medicine supply chain might be the limited amount of required for fish culture compared to fish feed.
+Sole dealership only for medicine may not bring much profit. More study on this issue may be taken
+in future to analyze this fact.
+
+      1.6.3 Left unions
+Field staff started to visit every single union to find target features. While surveying, the team found
+that there are some unions which might be left untouched as there is no necessary feature. Visiting
+those areas should be wastage of time and team effort. Hence, the planning team decided to get
+information of the target unions prior to survey and suggest DEs to take or avoid those unions based
+on feature availability. There are about 26 unions that are not covered under this study which are
+listed in annex.
+
+      1.6.4 Field team composition
+
+All the information of this study has been collected in mobile tab using online survey portal. So, having
+technical knowledge on internet and mobile usage was mandatory. Moreover, knowledge on
+aquaculture is also very important to know while taking information from the targets. Therefore, while
+recruiting field staff people having technical knowledge on internet and mobile usage, experience on
+working aquaculture issues, capacity to work in remote areas etc. were taken into consideration. Each
+team was formed in a way so that each member can support other when required. For example, in
+every team there were 01 university graduate who supported in technical troubleshooting and 01
+aquaculture expertise assisted on aquaculture related issues. This team composition worked very well
+during field survey.
+
+      1.6.5 Everyday group sharing
+At the end of each day the team members sat in their living station to share about their experience
+with GS along with other team members. This was an excellent practice that helped each other to
+learn and improve their own skill. For example, some group members were facing problems to collect
+mobile number. This was because problems in communication strategy of the surveyor. While sharing
+this challenge other member who was good in collecting mobile numbers shared his strategy and thus
+helped each other to improve own capacity.
+
+      1.6.6 Monthly group meeting
+Generally the monthly group meeting was conducted
+on 20th of each month to compile monthly bills before
+the month ends. So, the field staff could get their
+monthly expenditure at the end of each month. This
+initiative helped the staff to work more effectively
+while they received their bills in time. This monthly
+meeting also gave the opportunity to meet all the
+team members at a place and work on the field
+challenges. Here, all the problems, successes,
+learnings and findings were discussed more
+                                                             Figure 23 Team members’ discussion in
+responsively. The open discussion during the meeting
+                                                                        monthly meeting
+
+
+                                                                                              Page | 22
+
+helped them to make a more effective work plan for next survey areas.
+
+      1.6.7 Digital communication
+
+Exploring “Slack” as communication platform was one of the best learnings of this study. At the
+beginning of work team members mostly communicated through mobile phone calls for everyday
+communication which resulted in communication gap. With this communication system team
+members used to miss team decision as those were not recorded. On the other hand, it was also not
+possible to bring all team members to inform about any issues immediately after the decisions are
+made. Survey supervisors also faced problems to locate DEs when they were in the field. Hence, team
+members were motivated to use “Slack” as their sole communication platform that made the
+communication process very easy. Through that app, the decisions were posted and members could
+notice immediately when it is uploaded. DEs could upload survey photos whenever they needed. Here,
+all the information is kept safe and stored for future requirement.
+
+      1.6.8 Women involvement in aquaculture market system
+
+Even though this survey did not include gender mapping in its scope, an additional discussion with the
+enumerators after completion of the survey helped identifying gender aspects with qualitative
+explanations.
+Contact persons as individual actors documented in the report have both men and women in the
+overall aquaculture sector. However, sex based segmentation exists among the actual actors. Men
+documented as contact persons in nurseries, feed ingredient sellers and hatcheries do not necessarily
+reflect that the activities are operated or led by men. It is rather a reflection of the societal perception
+and practice of providing men’s contact for communication purposes. Besides, whenever a contact
+person found in the survey is a woman, it reflects the obviousness that the business is largely operated
+or led by a woman.
+Among the individual actors identified, nurseries largely have active participation of women.
+Reportedly, men are enlisted as contact persons though mostly women are operating the nurseries as
+a whole in Narail (Jashore) area. The same scenario is found among feed ingredient sellers even though
+women are mostly operating the businesses. It has been identified that usually women operate the
+units in daytime and from evening men engage. However, most of the feed ingredient selling is
+transacted in daytime (done by women mostly) and during the evening they (men, mostly) usually sell
+other items they have. In case of hatcheries, the businesses are mostly collaborative within the
+families though market part is solely taken care of by the men.
+The participation of women in aquaculture business is very few compared to men. However, some
+women dealers were found in Keshobpur and Gopalganj sador. A few number of women also run
+shops where aquaculture inputs are sold. One of main reasons for women to come to this business
+was the absence of male household member in the family who could take the lead. Most interestingly,
+women shop owners don’t feel comfortable to tell their names as property owner. Usually, they tell
+her son or husband’s name as shop owner even though she owns the property.
+Findings of the survey can be used to re-investigate the gender aspects in the market support service
+centers as well as sex based segmentation of actors in nurseries, feed ingredient sellers and
+hatcheries, retailers and depots.
+
+
+                                                                                                 Page | 23
+
+Kaliganj and Boro bajar in Shatkhira, Gopalganj Shatpar bazar, Taal toli (Shonakata union) of Barguna,
+Banghmara bajar (Rajvilla Union, Bandarban), and Foltita bazar of Bagherhat can be studied to identify
+potential gender aspects concerning aquaculture market. There are issues about roles women and
+men are playing, differences in wages/returns of equal works between men and women at market
+places. For example, in Fakirhat there is market where women get fish as return of grading fish which
+they sell in a different place in the evening. Also, in Jibonnagor upazila of Chuadanga district some
+women catch fish on their own and sell them at market in the evening. Women’s participation in
+dealership or sub-dealership of feed are rare and the only reason for women get involved in this
+business as a replacement of their expired spouses, reportedly.
+
+    1.7. Conclusion and Recommendations
+
+The collection and processing of this GIS enabled spatial census data for a large number of market
+actors is certainly a great achievement for the Activity. This geo-tagged baseline database is capable
+of making significant impact on aquaculture market system improvement by successful application of
+the information collected. However, the success mostly depends on the availability and usability of
+this database; hence, some recommendations are suggested mostly on its applicability:
+    a. This spatial database targets a wider range of actors each with their own purposes. For
+       example, some users of feed companies may only need to locate the point from where the
+       demand has been generated. Whereas, some input seller may desire to integrate this location
+       data with road infrastructure or regional weather forecast before planning for any shipment.
+       Therefore, a platform is needed that can support targeted user groups each with their own
+       requirements, knowledge and preferred tools. So, in first case for the above mentioned
+       examples a web interface to visualize the location map is well enough to fulfill user demand.
+       However, for the second case it is needed to offer data integration and spatial analysis support
+       in the platform. Hence, this interactive platform should consider which communities and which
+       purposes they want to be served and make appropriate choices for their approach.
+    b. There is an issue of data safety as a bulk amount of information has been captured in this
+       census. Great care should be taken for personally identifiable information for the management
+       and security of such information.
+    c. Spatial attributes may change over time, since market is dynamic space and it is market
+       resource map. For example, the number of input sellers of any location may change in a course
+       of time or any Arot may stop running its business. So, this is important to capture a time-series
+       of data within the attribute of the spatial database. A system should be in place to keep this
+       database up to date.
+    d. One of the major challenges would be availing GIS expertise in the target user groups. Private
+       firms may feel uncomfortable to use this dataset in their everyday business due to lack of
+       capacity in handling GIS software. The Activity should encourage its stakeholders to include
+       GIS/spatial information in their MIS considering the massive significance of this system. They
+       may also offer initial stage training for the beginners to handle the dataset.
+    e. There is certainly some cost involvement in managing this spatial dataset that includes
+       purchasing GIS software, regular updating of the system, recruiting GIS expertise etc. So, The
+       Activity should plan for a sustainable management system to ensure that the huge census data
+       collected for the benefit of wider aquaculture community is not lost when this project ends.
+
+                                                                                              Page | 24
+
+       Private sectors may consider using open source GIS software to cut the cost for software
+       management. It may also think of introducing some user fee while providing access to this
+       dataset.
+
+                       Section 2: GIS Data Application in Aquaculture
+
+    2.1. Application of GIS in Aquaculture Market Resource Mapping
+
+GIS is becoming an integral part of natural resource management actions worldwide. This is often the
+case that GIS is used for site selection that incorporates physical and biological parameters along with
+geospatial infrastructure. Thailand and Sri Lanka were facing problems for disease outbreak in shrimp
+and salmon farms which was undoubtedly been minimized by careful site selection procedure using
+GIS (Seekao and Pharino, 2016; Datta, 2013; Dahdouh-Guebas et al, 2002). Hawaii has also integrated
+a range of physical, environmental, and social factors with careful input and consideration of local
+population concerns and cultural practices for aquaculture siting (Puniwai et al, 2014). Despite the site
+selection process the essential usefulness of GIS however, lies in its ability to analyze and overlay data
+in diversified ways to run different analytical functions that could contribute to a faster and more
+efficient decision making process in aquaculture (Datta, 2013).
+Besides aquaculture and natural resource management, GIS has become an important supportive and
+enabling technology within the business environment and especially within the sphere of business
+intelligence (BI) (Posthumus, 2008). To support the analytical process, today's business organizations
+deploy data management system and spatial tools such as access, visualize, and analyze their
+integrated, aggregated and summarized data (Rivest et al, 2005). Having a flourishing aquaculture
+market system with lucrative private investment opportunity Bangladesh is expected to have a strong
+data management system. Unfortunately, there is a significant data gap for aquaculture market
+practices in Bangladesh. Private investors always struggle to get actual information on market
+dynamics like entry point, strengths, weaknesses, competitiveness etc. So, it is expected that this
+market resource census will generate a Big Data system for aquaculture and minimize the existing
+data gap.
+This study has collected a range of digital geo-referenced data which could produce maps and other
+textual, graphical and tabular outputs for scientific investigations, resource management, and
+development planning. The data set can be used as analytic tool for investment and can be integrated
+with business MIS for geographical visual representation of their business. Some of the important uses
+of this spatial database are discussed below in detail:
+
+      2.1.1 Business support tool
+
+The information generated in GIS would be essential to assess market situation at different levels of
+aquaculture operation. A diverse range of information can be successively integrated within GIS to
+generate outcomes that are potentially useful for economic and market analysis. The visualization
+benefits along with other analytical functions have made this spatial tool more beneficial for
+aquaculture business. For example, fish feed companies usually depends on demands generated by
+dealers while sending products to any region. Sometimes, a delay in shipments may bring considerable
+amount of losses to companies when other feed companies take the opportunity to get into the
+market well ahead. The situation might not have happened if the feed companies had a spatial
+
+                                                                                               Page | 25
+
+database showing region specific feed information for the previous years. So that they could make a
+projection of feed demand and deliver their products to those markets in time. This database also
+provide region wise nursery and hatchery information which help companies to understand the
+specific types of feed required for different region and thus plan accordingly in advance. Feed
+companies will be more benefited when integrate this data with their MIS. An example is described in
+figure 24 that uses GIS data to show transaction of the traders geographically. One can easily
+understand the variation of trader’s type in different region and can take business plan for the
+company.
+
+
+
+
+                             Figure 24 Feed traders transaction profile
+
+The location along with product information of nurseries and hatcheries can also be shown in the
+spatial maps. This might be an important decision support tools in aquaculture business. From the
+
+                                                                                          Page | 26
+
+data it was revealed that on average every hatchery serves 121 nurseries in FTF ZOI. But in Gopalganj,
+Rajbari, Faridpur, Shariatpur, Narail and Magura hatcheries have served 150-327 nurseries. This means
+that there is a chance of hatchery improvement in the area. Using a GIS app hatcheries may easily
+know the location and types of products required in the nurseries of their targets. So, they may
+produce products as per market demand and supply to the market in time.
+
+      2.1.2 Making investment plan
+
+GIS bridge the data gap to provide a total view of business. Spatial analysis allows business users to
+explore and analyze geographic and business data by combining analytical power of databases with
+the geographic capabilities of maps and thereby add better informed perspective on investment plan.
+Investors may segment target groups, understand competitors’ geographical domination and analyze
+market segmentation depending on real data. For example, the GIS dataset shows that the areas
+where Mega feed doesn’t have any traders are captured by Victor Feed to expand their business (see
+figure 25). So, companies like Victor Feed may perform this sort of spatial analysis while making any
+investment plan for any region.
+
+
+
+
+                                   Figure 25 Market gap analysis
+
+Spatial data integration in the existing MIS may provide valuable insights allowing the company to
+maximize revenue from existing resources and also improve operational efficiency. Merging GIS into
+the planning process produces results that simply visualize data on a map which take less time to
+evaluate and are easier to understand. For example, figure 26 shows the recent marketing project of
+MEGA Feed which mainly plots their Mega Feed School location. If they integrate the data set with
+their MIS they can monitor geographically performance of their new investment. Another example
+can be given for proximity analysis to ice factory and wholesale market. Ice factories needs to be
+located adjacent to wholesale market to ensure the availability of ice supply for fish preservation,
+
+                                                                                            Page | 27
+
+packaging and supply. So, a proximity analysis was performed to understand the location of ice
+factories within 10m buffer of wholesale markets. Figure 27 shows that many wholesale markets in
+Patuakhali, Jashore and Bagerhat don’t have any ice factories within 10m buffer zone. In many cases
+ice factories are in 15-17 km away from wholesale markets. Based on this analysis investors may assess
+the demand of ice factories in the scarce zone and plan for new investments.
+
+
+
+
+                          Figure 26 Geographical visualization of dataset
+
+
+
+
+                                                                                            Page | 28
+
+           Figure 27 Distance analysis for ice factory and aquaculture wholesale market
+
+      2.1.3 Administrative regulations
+
+Spatial correlations could be used to attribute data from the GIS data layer with satellite imagery to
+identify the locations potential for aquaculture development. For example, government may decide
+to establish an aquaculture support/research center where the highest concentration of aquaculture
+farm/activities exists. This spatial database collects information on aquaculture along the entire
+market system i.e. farms, feed companies, hatcheries, nurseries etc. So, while merging this
+information with satellite image a suitable location that offers the best support to the existing
+aquaculture functions will appear. Government may run different models in GIS to fulfill the criteria
+for research/support center location like the center should be located in the city center having good
+access to fish farm or center should be near to the fish hatcheries. Models will then calculate the
+provided criteria from the given database and provide the best suitable location that matches with
+government requirement. The resulting site and background information can be potentially used in
+understanding aquaculture in the context of aquaculture spatial planning and management
+objectives.
+
+
+
+
+       Figure 28 Maps showing city center with road connection to hatcheries and nurseries
+
+                                                                                            Page | 29
+
+In addition to that, decision makers also easily take control over the unnecessary/unplanned
+expansion of aquaculture activities in certain region as the information is available with spatial
+attributes. If it is observed that increasing growth of fish farm/hatcheries/nurseries in any specific
+region may bring less profit to aquaculture business, government may then spatially analyze the
+growth pattern with real time information and impose control over expansion. In a similar way,
+government may also provide support to boost up aquaculture activities in any region where this
+business may bring more profit.
+This spatial database also offers a great opportunity to the big companies who sale feed or other
+aquaculture inputs to plan for their business. They can identify the location along with other detail
+information of aquaculture pattern of any region and thus plan for distributing their dealership across
+the region. This administrative decision is very much helpful for the companies to ensure optimum
+use of their human and financial resources.
+
+      2.1.4 Infrastructure support
+
+The significance of GIS technology is that it adds a new level of functionality to query and analyze
+information on infrastructure assets based on their location and spatial relationships to other features
+with visual information that facilitates better and faster decision-making. This spatial decision support
+system allows a decision maker to build relations between different types of data, merge multiple
+data layers, get weighted outcome from potentially competing alternatives and also forecast for new
+planning initiatives. For instance, aquaculture product manufacturing companies may desire to
+perform a route analysis for their product shipment across a region. It is possible for this analysis to
+link GIS to a model that predicts shortest distance that a vehicle should travel from origin to
+destination, travel time and route plan based on vehicle and product category. This model can be
+linked to region wise product demand and thus make an effective shipment plan. An arbitrary example
+can be drawn here to portray this model, company A located in Khulna received product demand from
+point B and C. Travel distance from A to C is 60 km. At the same time company A also received another
+demand from point D and E. Distance from A to E is 25 km. Please see figure 29 for reference.
+
+
+
+
+                  Figure 29 Map showing product demand from different locations
+
+So, if company A decides to deliver products separately from A to B & C and A to D & E, the total travel
+distance would be 85 km. Instead of making separate trip whenever the company performs route
+
+
+                                                                                               Page | 30
+
+analysis they may find that sum of travel distance from A to C and A to E is greater than A-D-E-B-C
+single trip. Total travel time would be then only 60 km covering all the stations. The companies then
+may decide to make a single shipment for both the regions which certainly save travel time and cost.
+Please see figure 30 given below.
+
+
+
+
+                        Figure 30 Route analysis to deliver product at different location
+
+
+This spatial database can also be potentially used at field level by the farmers. If the farmers could
+have the easy access of this spatial information collected in this study by simple mobile based app
+then they can use this lucrative database for their fish business i.e. finding suitable fish market for
+better price with route plan, selecting travel mode and estimating travel cost, identifying input dealers
+etc. Thus, GIS offers the opportunity to the stakeholders to examine their own assets, compare among
+alternative solutions and take an informed decision.
+
+      2.1.5 Establish local, regional and national database
+
+GIS allows for a regular flow of spatially related information in a standardized format and easy and
+immediate integration of large data sets. Aquaculture information at varied degree from small
+nurseries to big industries at small village to country level could be easily stored and analyzed in GIS.
+One can easily get any information
+by just clicking in the map. Figure 31
+is showing a list of attribute data
+spatially visualized in GIS. Its
+visualization experiments with
+almost infinite range of potential
+graphic displays allowing maps to be
+customized to suit situations and
+individuals or tasks i.e. farmers to
+locate markets to sell product or
+depot to preserve fish, industries to
+target communities to sell inputs,
+governments           to      regulate
+aquaculture zoning etc. The display
+of spatial data in elaborative map as
+output is self-explanatory and easily
+                                                     Figure 31 Attribute data visualization
+
+                                                                                               Page | 31
+
+comprehensible to most people that make spatial analysis more preferable over other database
+management system. Hence, the use of GIS greatly improves aquaculture productivity by applying
+improved spatial monitoring and analysis techniques eventually take better and more effective
+management practices.
+
+      2.1.6 Data usage by Government
+
+There is always a data gap persisted at Government level that strikes policy level decision making. To
+overcome this data lacking Bangladesh Government has taken several steps. For example, there is a
+website on agricultural marketing from where a variety of information i.e. product price, relevant
+government development initiatives, product information etc. are made publicly available and easily
+accessible. A snapshot of the website is added in figure 32. Similar to this database platform a unique
+website can also be developed for aquaculture with the information collected by this aquaculture
+market resource mapping. This may help Government to spatially visualize the challenges as well as
+amenities and thus get data support while planning for development actions.
+
+
+
+
+                Figure 32 Snapshot of Department of Agricultural Marketing website
+
+      2.1.7 Support on Activity management decisions
+
+The Activity will be mostly benefitted by integrating this spatial dataset with its own MIS. The real time
+data ensure that it reaches the right people at the right time to implement the program interventions.
+For instance, this market resource mapping reveals that there are 06 feed companies that mostly
+dominates the feed business in FTF ZOI and FTF ZOR. They have the highest market reach through
+their supply chain. However, their capacity to meet farmers demand is not adequate. In addition to
+these big companies there are also some small and mid-level companies who can meet farmers
+demand with some quality concern. All these locations are available in geotagged real time database
+that can visualize partner details with area coverage in maps. So, while selecting prospective partners
+for Activity, this spatial dataset will be an asset. Figure 33 illustrates the geographical coverage of a
+company called Prameeda Enterprise. One can see the difference in concentration in two areas called
+Gopalganj and Sathkhira.
+
+
+                                                                                               Page | 32
+
+                                                                            Legend
+                                                                                  Coverage
+
+
+
+                      Figure 33 Geographical coverage of Prameeda Enterprise
+
+In a nutshell, the applicability of GIS in aquaculture decision making is not limited to these above
+mentioned functions only. Spatial data is capable of providing insights into the information
+infrastructure needed to capture and dynamically explore the aquaculture market system and support
+new analytics. GIS has the ability to locate big data sources in a faster way by tying many internal and
+external data points together through location. In effect the GIS enhance data management system
+to a true “one stop data access point”. Through this report some attempts have been taken to
+showcase some examples for spatial analysis in current aquaculture practices and encourage
+stakeholders to integrate GIS in their decision support system.
+
+    2.2 Way Forward
+
+The success of this extensive aquaculture market resource mapping largely depends on its scalability
+and ability to reach to a wider audience. This spatial dataset is expected to evolve as a planning tool
+that can provide a comprehensive total view of market system and gain a real competitive advantage
+for the aquaculture market actors. Thereby, some initial plans are proposed to take this work forward:
+    a. At first stage, this is planned to organize a workshop in WorldFish to officially acknowledge
+       this dataset. Decision needs to be taken to ensure that this dataset is updated on regular basis.
+       A monitoring and budgetary plan should be in place.
+    b. To ensure the sustainability of this spatial dataset, collaboration with government is must.
+       Government body like DoF and other aquaculture research organization needs to be informed
+       about the usage and application of this aquaculture market resource mapping. This is
+
+
+
+                                                                                              Page | 33
+
+   expected that the entire dataset will be handed over to DoF for wider scalability. A handover
+   strategy thus needs to be developed.
+c. The successful application of this information rich geospatial dataset depends on the
+   acceptability by all diversified segments of aquaculture market actors. For example, one
+   hatchery may identify new growth opportunities for its business. Similarly, feed company may
+   find internal and external market potential to achieve sales targets. GIS is capable of
+   performing these analyses by presenting data on map. As a new data analysis perspective
+   market actors may need rigorous motivation to introduce this spatial data as their major
+   decision support tool. Therefore, a comprehensive work plan including advertising the
+   functionality of GIS data, making communication material, arranging workshops and seminars
+   with market actors etc. needs to be prepared.
+d. This market resource mapping can be an excellent source of information for market research
+   as well. Private investors may visually and geographically identify promising customer
+   segments for marker analysis by collaborating market place and actor information with spatial
+   data. Hence, to introduce the diversified functionalities of this data resource workshop,
+   seminar and training will be arranged for the private investors.
+e. GIS is exceptionally good in providing real-time result by extracting values from all the data
+   with intuitive maps that take less time to evaluate and are easier to understand. So, bringing
+   this GIS intelligence to wider community a user-friendly app or online platform are planned to
+   be developed.
+
+
+
+
+                                                                                       Page | 34
+
+References
+
+  1   Dahdouh-Guebas, F., Zetterström, T., Rönnbäck, P., Troell, M., Wickramasinghe, A. and
+      Koedam, N., 2002. Recent Changes in Land-Use in the Pambala–Chilaw Lagoon Complex (Sri
+      Lanka) Investigated Using Remote Sensing and GIS: Conservation of Mangroves vs.
+      Development of Shrimp Farming. Environment, Development and Sustainability. 4(2), pp.
+      185-200. https://doi.org/10.1023/A:1020854413866.
+  2   Datta, S., 2013. Application of GIS in Mapping Fisheries Resources. Unpublished.
+      https://doi.org/10.13140/rg.2.1.1407.1121.
+  3   Posthumus, R. , 2008. GIS as a tool in business intelligence. Position IT.
+  4   Puniwai, N., Canale, L., Haws, M., Potemra, J., Lepczyk, C. and Gray, S., 2013. Development
+      of a GIS-Based Tool for Aquaculture Siting. ISPRS International Journal of Geo-
+      Information.3(2), pp. 800- https://doi.org/10.3390/ijgi3020800.
+  5   Rivest, S., Bédard, Y., Proulx, M., Nadeau, M., Hubert, F. and Pastor, J., 2005. SOLAP
+      technology: Merging business intelligence with geospatial technology for interactive spatio-
+      temporal exploration and analysis of data. ISPRS Journal of Photogrammetry and Remote
+      Sensing. 60(1), pp. 17-33. https://doi.org/10.1016/j.isprsjprs.2005.10.002.
+  6   Seekao, C. and Pharino, C., 2016. Assessment of the flood vulnerability of shrimp farms
+      using a multicriteria evaluation and GIS: a case study in the Bangpakong Sub-Basin, Thailand.
+      Environmental Earth Science. 75(4), p.308. https://doi.org/10.1007/s12665-015-5154-4.
+
+
+
+
+                                                                                         Page | 35
+
+  Annex 1 Description of key features
+
+Feature             Description
+Market              The details of the market where aquaculture products i.e. fish and other inputs
+                    are bought/sold are listed here. The surveyor take information about market
+                    name, location, market type, no. of open days etc.
+Hatchery            A fish hatchery is a "place for artificial breeding, hatching and rearing through
+                    the early life stages of fish species”.
+Nursery             Nursery is a “pond farm where young fish are raised for subsequent transfer to
+                    fish farms, where market weight is attained.” Nurseries whose sole purpose is
+                    to sell young fish are only considered for this census. The GPS locations were
+                    collected to find out the access point of grow out fish farmers for their fry or
+                    fingerling.
+Fish arot           A fish arot is a place where arotdar (owner) conducts auction to sell fish and
+                    receives commission from the fish producers/fishermen.
+Shrimp/Fish Depot Shrimp depot is an establishment for buying and selling shrimps. Shrimps are
+                  stored temporarily before sending it to the fish/shrimp processing company. A
+                  shrimp depot is a business establishment. That’s why it is usually seen that
+                  shrimp depots have rooms, signboards and freezer/ice boxes to store shrimps.
+                  Fish depots have some permanent establishment and staff to collect fish from
+                  farmers, process and send to the industry.
+Godighor            It is a kind of place where large amount fishes are bought from the fishermen
+                    without having any auction. Those fishes are temporarily stored in the godighar
+                    and finally sent to the big cities. Godighar is usually seen in the riverside areas
+                    like Barishal. This is not a widely seen feature across the region. However,
+                    census team collected these data for further research purpose by the
+                    practitioners.
+Feed Mill           An establishment that produces feed for the fish/aquaculture. Feed mills were
+                    categorized under two broad head: commercial and semi-auto/Nano feed mills.
+Dealer              Dealers are the direct agent of the company who works to deliver company
+                    product to the people. A dealer operates under an authorization to sell or
+                    distribute the company’s products in a particular area. This study aims to
+                    collect the entire dealer information for feed, input, seed and aquamedicine in
+                    the project locations.
+Sub-Dealer          The person or organization that buys products from dealers and sells to the
+                    retailers is called a sub- dealer.
+Retailers           The person or organization those collect products from dealers, sub dealers or
+                    company and sell to consumer in retail price.
+
+
+
+
+                                                                                          Page | 36
+
+Feature             Description
+Feed Ingredient     The feed ingredient seller sells ingredients those are used to produce fish feed.
+Seller              The ingredients may like Oil cake (Khoil),Bran (Kura or Vushi) etc. which are
+                    directly or indirectly related to fish feed production.
+Hormone and         These suppliers usually supply various kinds of chemicals such as hormone,
+Alcohol Suppliers   alcohol for hatching fish.
+Fry Sell Center     Fry Sells center is a particular place where fry and fingerlings of different sizes
+                    are sold in pots or in ‘hapa’. There might be a signboard or a room for a fry sells
+                    center depending on the place.
+Fish/ Shrimp        These companies refine and process fish/shrimp to export in foreign countries
+Processing          (sometimes sell in domestic market). Fish/ shrimp are usually collected from
+Company             agents or depots.
+Fish Landing        After catching fish from the sea or river (or sometimes pond) fishermen gather
+Center              their boats in a certain place to unload. That particular place is called fish
+                    landing center. From this place fishes are supplied to the markets.
+Dry Fish            This is the place where different types of fishes are dried up by using sunlight
+Processing Zone     and heat. Dried fish are then sent all over the country from this zone. Dry fish
+                    processing zone is an important point of interest to feed mills owners. They
+                    collect feed ingredients (fish meal) from this processing zone.
+Transport Stand     A specific place where various types of transports are made available to
+                    transport fish from one place to another. Transport stands are usually found
+                    near wholesale fish markets.
+
+
+
+
+                                                                                          Page | 37
+
+Annex 2 Left union list
+
+             Zone       District        Upazila          Union_ward          data_type
+   1 FTF ZOI          BAGERHAT MONGLA             CHANDPAI RANGE             no feature
+   2 FTF ZOI          BAGERHAT SARANKHOLA         SHARANKHOLA RANGE          no feature
+   3 FTF ZOI          BARISAL     MEHENDIGANJ     GOBINDAPUR                 no feature
+   4 FTF ZOI          BHOLA       CHAR FASSON     AHAMMADPUR                 no feature
+   5 FTF ZOI          GOPALGANJ KOTALIPARA        GHAGAR                     no feature
+   6 FTF ZOI          KHULNA      DACOPE          KHULNA RANGE               no feature
+   7 FTF ZOI          KHULNA      KHAN JAHAN ALI  GILATALA CANTT.            no feature
+   8 FTF ZOI          KUSHTIA     DAULATPUR       CHILMARI                   no feature
+   9 FTF ZOI          KUSHTIA     KUSHTIA SADAR   BARAKHADA                  no feature
+  10 FTF ZOI          KUSHTIA     KUSHTIA SADAR   MAZAMPUR                   no feature
+  11 FTF ZOI          PATUAKHALI PATUAKHALI SADAR BHURIA                     no feature
+  12 FTF ZOI          PATUAKHALI PATUAKHALI SADAR MAUKARAN                   no feature
+  13 FTF ZOI          PATUAKHALI RANGABALI        CHAR MONTAZ                no feature
+  14 FTF ZOI          SATKHIRA    SHYAMNAGAR      SATKHIRA RANGE (FLOATIN)   no feature
+  15 FTF ZOI          SHARIATPUR ZANJIRA          KUNDER CHAR                no feature
+  16 FTF ZOR          BANDARBAN ALIKADAM          ALIKADAM                   no feature
+  17 FTF ZOR          BANDARBAN NAIKHONGCHHARI BAISHARI                      no feature
+  18 FTF ZOR          BANDARBAN NAIKHONGCHHARI DOCHHARI                      no feature
+  19 FTF ZOR          BANDARBAN NAIKHONGCHHARI GHUMDUM                       no feature
+  20 FTF ZOR          BANDARBAN RUMA              GHALANGYA                  no feature
+  21 FTF ZOR          BANDARBAN RUMA              PAINDU                     no feature
+  22 FTF ZOR          BANDARBAN RUMA              REMAKRI PRANSA             no feature
+  23 FTF ZOR          BANDARBAN THANCHI           REMAKRY                    no feature
+  24 FTF ZOR          BANDARBAN THANCHI           TINDU                      no feature
+  25 FTF ZOR          COX'S BAZAR MAHESHKHALI     DHALGHATA                  no feature
+  26 FTF ZOR          COX'S BAZAR TEKNAF          ST.MARTIN DWIP             no feature
+
+
+
+
+                                                                              Page | 38
+
+Annex 3 Hatchery type
+
+                                                                   Division
+                                           Dhaka        Barisal   Khulna           Chittagong   Total
+ Hatchery type
+ Carp                                               7        21               61            1     90
+ Carp and Catfish                                   1         2                5            0         8
+ Carp and Thaiputi                                  4         6                4            0     14
+ Carp and Tilapia                                   0         4               10            1     15
+ Carp, Catfish and Climbing Perch                   0         2                3            0         5
+ Carp, Catfish and Thaiputi                         0         2                6            0         8
+ Carp, Catfish and Tilapia                          1         1                4            1         7
+ Carp, Catfish, Climbing Perch and
+ Thaiputi                                           0         3                4            0         7
+ Carp, Catfish, Climbing Perch and
+ Tilapia                                            0         2                2            0         4
+ Carp, Catfish, Climbing Perch, Thaiputi
+ and Tilapia                                        0         1               11            0     12
+ Carp, Catfish, Thaiputi and Tilapia                0         1                0            0         1
+ Carp, Climbing Perch and Tilapia                   0         0                1            0         1
+ Carp, Climbing Perch, Thaiputi and
+ Tilapia                                            0         1             1               0         2
+ Carp, Thaiputi and Tilapia                         1         4             0               0         5
+ Catfish                                            0         1             4               1         6
+ Catfish and Climbing Perch                         0         3            15               0     18
+ Catfish and Thaiputi                               0         1             0               0         1
+ Catfish, Climbing Perch and Thaiputi               0         0             2               0         2
+ Catfish, Thaiputi and Tilapia                      0         0             1               0         1
+ Climbing Perch                                     0         1             6               0         7
+ Other                                              2         0             7               0         9
+ Shrimp/Prawn                                       1         7            14              34     56
+ Shrimp/Prawn and Tilapia                           0         1             1               0         2
+ Tilapia                                            0         6            43               9     58
+ Total                                             17        70           205              47    339
+
+
+
+
+                                                                                          Page | 39
+
+Annex 4 Nursery type
+
+                                                                 Division
+                                            Dhaka       Barisal           Khulna       Chittagong
+           Nursery Category                Division     Division         Division       Division
+ Carp                                           3081          3073             6207             54
+ Carp and Catfish                                  10           85                90             2
+ Carp and Climbing Perch                            1             3               39             0
+ Carp and Shrimp                                    0             6               98             0
+ Carp and Snakehead                                 1             0                3             0
+ Carp and Thaiputi                                977          454              694              8
+ Carp and Tilapia                                 122          168              412             11
+ Carp, Catfish and Climbing Perch                   0           10                26             0
+ Carp, Catfish and Shrimp                           0             0                4             0
+ Carp, Catfish and Snakehead                        0             4                0             0
+ Carp, Catfish and Thaiputi                        16          119                32             2
+ Carp, Catfish and Tilapia                          0           68                80             1
+ Carp, Catfish, Climbing Perch and
+ Thaiputi                                         10             0                0             0
+ Carp, Catfish, Climbing Perch and
+ Snakehead                                         0             2                0             0
+ Carp, Catfish, Climbing Perch and
+ Thaiputi                                          0             1                2             0
+ Carp, Catfish, Climbing Perch and
+ Tilapia                                           7             7               16             0
+ Carp, Catfish, Climbing Perch,
+ Snakehead and Tilapia                             0             0                2             0
+ Carp, Catfish, Climbing Perch,
+ Snakehead,Thaiputi and Tilapia                    0            11               81             0
+ Carp, Catfish, Climbing Perch, Thaiputi
+ and Tilapia                                       2            18               34             0
+ Carp, Catfish, Shrimp and Tilapia                 0             0                1             0
+ Carp, Catfish, Snakehead and Tilapia              0             1                0             0
+ Carp, Catfish, Snakehead,Thaiputi and
+ Tilapia                                           1            1                 1             0
+ Carp, Catfish, Thaiputi and Tilapia              21          152                56             1
+ Carp, Climbing Perch and Tilapia                  1            1                 8             0
+ Carp, Climbing Perch, Thaiputi and
+ Tilapia                                          10            9                 5             0
+ Carp, Shrimp and Tilapia                          0            0                 6             0
+ Carp, Snakehead and Thaiputi                      0            0                 2             0
+ Carp, Snakehead and Tilapia                       0            0                 2             0
+ Carp, Snakehead,Thaiputi and Tilapia              1            0                 2             0
+ Carp, Thaiputi and Tilapia                      145          184               250             0
+ Carp,Climbing Perch and Thaiputi                  2            1                 9             1
+ Catfish                                          20          106                74             8
+ Catfish and Climbing Perch                        3            6                31             0
+
+                                                                                        Page | 40
+
+                                                                  Division
+                                         Dhaka         Barisal           Khulna          Chittagong
+            Nursery Category            Division       Division          Division         Division
+Catfish and Snakehead                              1           2                     0             0
+Catfish and Thaiputi                               1           5                     1             0
+Catfish and Tilapia                                1          19                    11             2
+Catfish, Climbing Perch and Thaiputi               0           1                     0             0
+Catfish, Climbing Perch ,Thaiputi and
+Tilapia                                            0               1                 0            0
+Catfish, Climbing Perch and
+Snakehead                                          0               1                 1            0
+Catfish, Climbing Perch and Thaiputi               0               1                 0            0
+Catfish, Climbing Perch and Tilapia                0               1                 3            0
+Catfish, Climbing Perch, and
+Snakehead                                          0               0                 1            0
+Catfish, Climbing Perch, Snakehead
+and Thaiputi                                       0               1                 0            0
+Catfish, Climbing Perch,
+Snakehead,Thaiputi and Tilapia                 0               2                 1                0
+Catfish, Snakehead and Tilapia                 0               1                 0                0
+Catfish, Thaiputi and Tilapia                  0               2                 1                0
+Climbing Perch                                 6               9                60                2
+Climbing Perch and Thaiputi                    0               0                 1                1
+Climbing Perch and Tilapia                     1               2                 4                0
+Other                                          0               2                19                0
+Shrimp/Prawn                                   0               3               576                0
+Shrimp/Prawn and Tilapia                       0               0                 4                0
+Snakehead                                      2               2                 3                0
+Snakehead and Tilapia                          0               0                 1                0
+Thaiputi                                      17              44                11                1
+Thaiputi and Tilapia                           3              18                 5                0
+Tilapia                                       21              95                56               18
+Total                                       4484            4702              9026              112
+
+
+
+
+                                                                                          Page | 41
+
+Annex 5 Questionnaire
+
+
+
+
+                        Page | 42
+
+Annex 6 Weekly report template for field staff
+
+
+
+
+                                                 Page | 43
+
+Annex 7 Case study template for field staff
+
+
+
+
+                                              Page | 44
+
+Annex 8 Some examples from field notes
+
+Case study 1: Geolocation Errors
+A large number of point feature has been found outside the corresponding union boundary. Most of
+those points are categorically ‘No Feature’. Except those features, a large number of point unmatched
+point features based on their geolocation with their Union attribute are “Market place’ in nature. In
+this case, the geolocation of the unmatched point features are not matching their Union boundary in
+the maps, provided by the LGED, with their specific attribute columns in which their Union name is
+being provided by the surveyors. To find out the reason, a number of unmatched market place have
+been visited to find out the underlying issues for not matching their geolocation. It has been found
+that, the market places are usually located at the joining point of two or more number of villages which
+cover more than a single union area. That means, a single market place is situated on the boundary
+lines of more than one union boundary usually. And, the DE s are commanded to use his surveyed
+Union name in these cases to avoid the redundancy in the database for a single market place. As
+example, the Mahila Road Bazar can be used. This single market place is located into the borders of
+three different Union namely, Gerda union under the Faridpur Upazilla and Talma and Ramnagar
+Unions under the Nagarkanda Upazilla. This Unions are being divided by a bridge named Jamtola
+Bridge only. So, the point features of the market places taken from this market having the union name
+of Gerda as attribute data, showing its location into the boundary of Talma Union.
+
+
+
+Case Study 2: Port Road Fish Market
+The official Name Of this Market is Rasulpur
+Paikari Motsho Arot. Some people called it as
+Zia Fish Market. After Mohipur and Fatorghata
+Fish Market, this is the Biggest Wholesale Fish
+Market in Barisal Division. This Market is consist
+of 120 fish arot ,70 Fish Wholesaler and around
+80 fish retailer. About, 1500 to 2000 People
+depends on this fish Market. In this market,
+there are 3 different BMO institutions which
+belongs to wholesale, arotdar, and the labours
+who carry the fishes. Unfortunately, there is no
+retailer observed in BMO. There is more than 50
+labours who lead their livelihood pattern in
+seasonal variation. Though they are not registered but they have strong relation with the wholesaler,
+retailer and so on. It has created the transportation facilities through truck, pickup and so on.
+
+
+
+
+Case Study 3: Experience from Morelganj, Sarankhola
+
+                                                                                              Page | 45
+
+আমার মমাড়লগঞ্জ ও শরণখ ালা উপখেলার জেউধারা,বহরবুনিয়া, পঞ্চকরি, াউনলয়া,ম ান্তাকাটা,দনিি ালী
+ইউনিয়িগুখলাখে কাে করার সুখ াগ হখয়খে।এই এলাকাগুখলার বাস্তবো অিযািয এলাকা মেখক একটু
+নিন্ন।এ াখি মাে চাষখক মকন্দ্র কখর হযাচারী, িাসারী,মাখের
+                                                স         াবাখরর নিলার বা ুচরা নবখেো আখে।োোড়া
+এলাকায় অখিখক আখে ারা মাে চাখষর প্রনে আগ্রহী এবং এর উপর মেনিংও কখরখেি।নকন্তু োরা এটাখক কাখে
+লাগাখে পারখে িা শুধুমাত্র অবকাঠাখমা বা ম াগাখ াগ বযবস্থা িা োকার কারখি।আমরা সাধারণে ম াগাখ াখগর
+েিয ম       ািবাহি বযবহার কনর মসগুখলা এ াখি েু লিামূলক কম।কারি আইলা এ াখি আঘাে আিার পর
+রাস্তাঘাখটর মবহাল অবস্থা। রাস্তাঘাট বলখে ম টুকু আখে মসটুকুও বযবহাখরর অিুপখ াগী। মসখিখত্র োখদরখক
+উপখেলা বা মেলার সাখে ম াগাখ াগ বা াোয়াখের েিয মবনশরিাগ পে মহেঁ খট,মমাটরসাইখকল ও মিৌ াি বযবহার
+করখে হয়।ম টা োখদর েিয কষ্টকর এবং োখদর কাখের গনেখক োনমখয় মদয়।একটু বৃষ্টষ্ট হখল োখদর েীবি াত্রা
+আরও দূনবষহ  স হখয় ওখঠ মবনশরিাগ রাস্তাঘাট চলাচখলর অবস্থায় োখক িা এবং ঝুেঁনক নিখয় োখদর চলখে হয়।ম
+কারখণ সুু্খ াগ োকাখলও োরা মসটাখক কাখে লাগাখে পারখে িা।
+
+
+
+Case Study 4: The fish traders are ignorant of the production of pona fish in the Dhaoa
+Union
+There is no fish nursery at Dhaoa Union
+which is a part of Bhandaria upazila,
+Pirojpur. There is a lot of patilwala
+working in this union. They supply fish
+pona from Jashore, Khulna to the traders
+living here. But in this area, there are
+plenty of ponds to produce fish which
+can be developed as nursery. These
+ponds are very useful for pona fish and
+the pond environment is very useful for
+pona fish production but people here do
+not have any knowledge about fish
+nursery. But it is a matter of great news
+that the people here have expressed
+interest in producing pona fish, and
+especially one person said that he will
+take training on producing pona and at
+some time he will start a nursery
+business.
+
+
+
+
+                                                                                       Page | 46
+
+     Annex 9 Study team
+
+SL                    Name           Designation
+ 1    Kamolesh Mondal                    DE
+ 2    Md. Nahid Hasan                    DE
+ 3    Shah Noorur Rahman                 DE
+ 4    Md. Sharif Ahmmed                  DE
+ 5    S.M Humayun Rashid                 DE
+ 6    Md. Najiur Rahman                  DE
+ 7    Md. Humayun Kabir                  DE
+ 8    Rajani Mohalder                    DE
+ 9    Sudipto Kumar Sarker               DE
+10    Md. Zihad Hossain                  DE
+11    Md. Alamgir Kabir                  DE
+13    Golam Sagir                        DE
+14    Md. Safir Uddin                    DE
+15    S.M Shimul Akter                   DE
+16    Subroto Adhikary                   DE
+17    Md. Delowar Hossain                DE
+18    Md. Hafiz Uddin                    DE
+19    Md. Muzahid Mehedi                 DE
+20    Md. Nazmul Alam                    DE
+21    Md. Salim Golder                   DE
+22    Md. Abu Taleb Mollah               DE
+24    Md. Liton Sana                     DE
+25    Mostafa Kamal                      DE
+26    Johirul Islam                      DE
+28    Md. Anuwar Hossain                 DE
+29    J. M. Asrafujjaman                 DE
+30    Rabiul Islam                       DE
+31    Md. Nazmul Hasan                   DE
+32    Md. Mozaffor Hossen Shagider       DE
+33    Afif Rahman                        DE
+35    Md. Ashraful Islam                 DE
+36    Md. Aktar-Uzzaman                  DE
+37    Sanjoy Baroi                       DE
+38    Sudipto Kumar Nandi                DE
+39    Md. Arifur Rahman                  DE
+40    ireen Parveen                      DE
+41    Md. Rafiqul Islam                  DE
+42    Md. Tuhin Khan                     DE
+43    Zakir Ahmed                        DE
+44    Pritom Biswas                      DE
+46    Abu Bakar Sidik                    GS
+
+
+
+                                                   Page | 47
+
+47   Md. Zakaria Alam                    GS
+48   M. M. Imran Parvez                  GS
+49   Md. Zakir Hossain                   GS
+50   Md. Mostafizur Rhaman               GS
+51   Asraful Haque               SURVEY Supervisor
+52   Kazi Sany Ferdous           SURVEY Supervisor
+53   Fatema tuj Johora                  GISA
+54   Ashaduzzaman Chandan               GISA
+55   Ireen Parveen                      DMA
+56   Shamima Aktar           Consultant (Report Writing)
+
+
+
+
+                                                           Page | 48
+
