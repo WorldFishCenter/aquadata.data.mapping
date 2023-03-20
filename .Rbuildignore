@@ -4,3 +4,9 @@
 ^data-raw$
 ^README\.Rmd$
 ^get_dataverse_metadata\.py$
+^_pkgdown\.yml$
+^docs$
+^pkgdown$
+__pycache__/
+get_dataverse_metadata.py
+chatgpt_chaindoc2.py

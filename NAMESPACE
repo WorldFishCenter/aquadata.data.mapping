@@ -3,6 +3,7 @@
 export("%>%")
 export(clean_metadata_files)
 export(filterby_word)
+export(summarise_chatgpt_wrapper)
 importFrom(magrittr,"%<>%")
 importFrom(magrittr,"%>%")
 importFrom(magrittr,"%T>%")
