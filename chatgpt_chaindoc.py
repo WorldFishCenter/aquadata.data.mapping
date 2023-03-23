@@ -18,24 +18,25 @@ def summarize_document(document_path, openaikey, engine, temperature):
     char_text_splitter = RecursiveCharacterTextSplitter(chunk_size=4000, chunk_overlap=200)
     docs = char_text_splitter.split_documents(document)
 
-    prompt_template = """Write a concise summary of the following:
+    prompt_template = """Write an extensive summary of the following:
     
     {text}
     
-    CONCISE SUMMARY IN ITALIAN:"""
+    FINAL STORY:"""
     
     PROMPT = PromptTemplate(template=prompt_template, input_variables=["text"])
     
     refine_template = (
-        "Your job is to produce a final summary\n"
+        "Your job is to produce a final, extensive sucess-story in the context of food systems, malnutrition and social development\n\n"
         "We have provided an existing summary up to a certain point: {existing_answer}\n"
-        "We have the opportunity to refine the existing summary"
+        "We have the opportunity to refine the existing summary to a final story"
         "(only if needed) with some more context below.\n"
         "------------\n"
         "{text}\n"
         "------------\n"
-        "Given the new context, refine the original summary in Italian"
-        "If the context isn't useful, return the original summary."
+        "Given the new context, refine the original summary in a final and extensive sucess-story highlighting the most relevant results and providing a concise story' title"
+        "Also, only if relevant, provide a concise table (or tables) summarising the most important findings"
+        "If the context isn't useful, return the original extensive summary."
     )
     
     refine_prompt = PromptTemplate(
@@ -51,7 +52,5 @@ def summarize_document(document_path, openaikey, engine, temperature):
         return_intermediate_steps=False
     )
     
-    model({"input_documents": docs}, return_only_outputs=True)
-    # summary = model.run(docs, return_only_outputs=True)
-    #summary = chain({"input_documents": docs}, return_only_outputs=True)
-    #return summary
+    summary = model({"input_documents": docs}, return_only_outputs=True)
+    return summary
