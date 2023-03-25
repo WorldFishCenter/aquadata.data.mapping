@@ -17,6 +17,8 @@ knitr::opts_chunk$set(
 
 <!-- badges: start -->
 
+[![DOI](https://zenodo.org/badge/584795495.svg)](https://zenodo.org/badge/latestdoi/584795495)
+
 <!-- badges: end -->
 
 ![](man/figures/aquadata_lg_sticker.png){width="200"}

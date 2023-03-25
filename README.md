@@ -4,6 +4,9 @@
 # aquadata.data.mapping
 
 <!-- badges: start -->
+
+[![DOI](https://zenodo.org/badge/584795495.svg)](https://zenodo.org/badge/latestdoi/584795495)
+
 <!-- badges: end -->
 
 <img src="man/figures/aquadata_lg_sticker.png" width="200" />
