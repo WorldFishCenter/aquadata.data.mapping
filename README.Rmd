@@ -21,7 +21,9 @@ knitr::opts_chunk$set(
 
 ![](man/figures/aquadata_lg_sticker.png){width="200"}
 
-The goal of **aquadata.data.mapping** is to collect and analyse metadata within the context aquatic food systems in order to identify and eventually fill data gaps in key geographic region: Bangladesh, Cambodia, Ghana, India, Myanmar, Nigeria, Solomon Islands, Timor-Leste and Zambia.
+The goal of **aquadata.data.mapping** is to collect metadata within the context aquatic food systems in order to identify data gaps and generate new data in key geographic region: Bangladesh, Cambodia, Ghana, India, Myanmar, Nigeria, Solomon Islands, Timor-Leste and Zambia.
+
+**aquadata.data.mapping** uses metadata information to download data and elaborate data stories and scientific reports' summaries using AI tools (ChatGPT).
 
 This repository is part of work package 1 "***AquaData***" of the initiative "***Resilient Aquatic Food Systems for Healthy People and Planet***" (<https://cgspace.cgiar.org/handle/10568/121141> ).
 
@@ -59,4 +61,24 @@ You can filter the data using the `filterby_word` function and show the first 10
 ```{r}
 filtered_metadata <- filterby_word(word = "Bangladesh")
 head(filtered_metadata)
+```
+
+## Download Data
+
+Use `get_dataset` and `get_dataset_file` to download data.
+
+## Generate stories using AI
+
+Use AI tools (ChatGPT) to generate stories from downloaded data.
+
+```{r}
+#output <-
+#  summarise_chatgpt_wrapper(
+#    document_path = "inst/docs_dataverse/5636634.txt",
+#    openaikey = OPENAI_TOKEN,
+#    engine = "gpt-3.5-turbo",
+#    temperature = 0.7,
+#    refine_text = REFINE_TEXT
+#  )
+#cat(output$output_text)
 ```

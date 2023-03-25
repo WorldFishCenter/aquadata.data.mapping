@@ -4,7 +4,7 @@ from langchain import OpenAI
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain import PromptTemplate
 
-def summarize_document(document_path, openaikey, engine, temperature):
+def summarize_document(document_path, openaikey, engine, temperature, refine_text):
     loader = UnstructuredFileLoader(document_path)
     document = loader.load()
     
@@ -27,16 +27,7 @@ def summarize_document(document_path, openaikey, engine, temperature):
     PROMPT = PromptTemplate(template=prompt_template, input_variables=["text"])
     
     refine_template = (
-        "Your job is to produce a final, extensive sucess-story in the context of food systems, malnutrition and social development\n\n"
-        "We have provided an existing summary up to a certain point: {existing_answer}\n"
-        "We have the opportunity to refine the existing summary to a final story"
-        "(only if needed) with some more context below.\n"
-        "------------\n"
-        "{text}\n"
-        "------------\n"
-        "Given the new context, refine the original summary in a final and extensive sucess-story highlighting the most relevant results and providing a concise story' title"
-        "Also, only if relevant, provide a concise table (or tables) summarising the most important findings"
-        "If the context isn't useful, return the original extensive summary."
+        refine_text
     )
     
     refine_prompt = PromptTemplate(

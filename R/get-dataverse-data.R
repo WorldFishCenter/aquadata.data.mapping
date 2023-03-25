@@ -1,6 +1,22 @@
-get_dataset <- function(parsed_doi = NULL, dataverse_key = NULL) {
+#' Get dataset metadata
+#'
+#' A wrapper function of [dataverse::get_dataset].
+#'
+#' This function returns dataset' metadata information.
+#'
+#' @param doi The dataset DOI including only (eg. "10.7910/DVN/EXSAJ7").
+#' @param dataverse_key Dataverse token.
+#'
+#' @return A dataframe.
+#' @export
+#'
+#' @examples
+#' \dontrun{
+#' get_dataset(doi = "10.7910/DVN/WMLQ3D", token = DATAVERSE_TOKEN)
+#' }
+get_dataset <- function(doi = NULL, dataverse_key = NULL) {
   dataverse::get_dataset(
-    dataset = parsed_doi,
+    dataset = doi,
     key = dataverse_key,
     server = "dataverse.harvard.edu"
   ) %>%
@@ -8,6 +24,26 @@ get_dataset <- function(parsed_doi = NULL, dataverse_key = NULL) {
     dplyr::as_tibble(.name_repair = "unique")
 }
 
+#' Get file from dataverse dataset
+#'
+#' A wrapper function of [dataverse::get_dataframe_by_id].
+#'
+#' This function returns a specific file associated to a dataverse dataset.
+#' It returns an object based on the extension of the file. A dataframe in case of
+#' .csv or .xlsx, a text for .pdf and .docx files.
+#'
+#' @param dataset A dataverse dataset returned from [aquadata.data.mappind::get_dataset].
+#' @param file_id The dataverse file id.
+#'
+#' @return An object based on the file extension. A dataframe in case of .csv or .xlsx,
+#'  a text for .pdf and .docx files.
+#' @export
+#'
+#' @examples
+#' \dontrun{
+#' dataverse_dataset <- get_dataset(doi = "10.7910/DVN/WMLQ3D", token = DATAVERSE_TOKEN)
+#' get_dataset_file(dataset = dataverse_dataset, id = 4570239)
+#' }
 get_dataset_file <- function(dataset = NULL, file_id = NULL) {
   datafile <- dataset %>% dplyr::filter(.data$id == file_id)
   extension <- magrittr::extract2(datafile, "extension")
