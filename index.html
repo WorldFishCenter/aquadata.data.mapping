@@ -56,7 +56,8 @@
 <!-- badges: start -->
 <!-- badges: end -->
 <p><img src="reference/figures/aquadata_lg_sticker.png" width="200"></p>
-<p>The goal of <strong>aquadata.data.mapping</strong> is to collect and analyse metadata within the context aquatic food systems in order to identify and eventually fill data gaps in key geographic region: Bangladesh, Cambodia, Ghana, India, Myanmar, Nigeria, Solomon Islands, Timor-Leste and Zambia.</p>
+<p>The goal of <strong>aquadata.data.mapping</strong> is to collect metadata within the context aquatic food systems in order to identify data gaps and generate new data in key geographic region: Bangladesh, Cambodia, Ghana, India, Myanmar, Nigeria, Solomon Islands, Timor-Leste and Zambia.</p>
+<p><strong>aquadata.data.mapping</strong> uses metadata information to download data and elaborate data stories and scientific reports’ summaries using AI tools (ChatGPT).</p>
 <p>This repository is part of work package 1 “<strong><em>AquaData</em></strong>” of the initiative “<strong><em>Resilient Aquatic Food Systems for Healthy People and Planet</em></strong>” (<a href="https://cgspace.cgiar.org/handle/10568/121141" class="external-link uri">https://cgspace.cgiar.org/handle/10568/121141</a> ).</p>
 <p>Further info:</p>
 <p><a href="https://www.cgiar.org/initiative/15-resilient-aquatic-foods-for-healthy-people-and-planet/" class="external-link uri">https://www.cgiar.org/initiative/15-resilient-aquatic-foods-for-healthy-people-and-planet/</a></p>
@@ -130,6 +131,26 @@
 <span><span class="co">#&gt; # … with abbreviated variable names ¹​dataset_id, ²​dataset_doi,</span></span>
 <span><span class="co">#&gt; #   ³​publication_date, ⁴​keyword_value, ⁵​keyword_vocabulary,</span></span>
 <span><span class="co">#&gt; #   ⁶​keyword_vocabulary_uri</span></span></code></pre></div>
+</div>
+<div class="section level2">
+<h2 id="download-data">Download Data<a class="anchor" aria-label="anchor" href="#download-data"></a>
+</h2>
+<p>Use <code>get_dataset</code> and <code>get_dataset_file</code> to download data.</p>
+</div>
+<div class="section level2">
+<h2 id="generate-stories-using-ai">Generate stories using AI<a class="anchor" aria-label="anchor" href="#generate-stories-using-ai"></a>
+</h2>
+<p>Use AI tools (ChatGPT) to generate stories from downloaded data.</p>
+<div class="sourceCode" id="cb4"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span><span class="co">#output &lt;-</span></span>
+<span><span class="co">#  summarise_chatgpt_wrapper(</span></span>
+<span><span class="co">#    document_path = "inst/docs_dataverse/5636634.txt",</span></span>
+<span><span class="co">#    openaikey = OPENAI_TOKEN,</span></span>
+<span><span class="co">#    engine = "gpt-3.5-turbo",</span></span>
+<span><span class="co">#    temperature = 0.7,</span></span>
+<span><span class="co">#    refine_text = REFINE_TEXT</span></span>
+<span><span class="co">#  )</span></span>
+<span><span class="co">#cat(output$output_text)</span></span></code></pre></div>
 </div>
 </div>
   </main><aside class="col-md-3"><div class="license">
