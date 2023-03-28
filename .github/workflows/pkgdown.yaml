@@ -32,11 +32,12 @@ jobs:
         with:
           extra-packages: any::pkgdown, local::.
           needs: website
-
+          
       - name: Install dependencies
         run: |
-          # ⚠️ leave other commands intact,
+          # ⚠️ leave other commands intact, 
           # and add the following command to the end of the list 👇🏼
+          install.packages("remotes")
           remotes::install_deps(dependencies = TRUE)
           install.packages("pkgdown", type = "binary")
           install.packages("preferably")
