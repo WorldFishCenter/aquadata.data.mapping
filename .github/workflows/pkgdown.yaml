@@ -39,8 +39,7 @@ jobs:
           # and add the following command to the end of the list 👇🏼
           remotes::install_deps(dependencies = TRUE)
           install.packages("pkgdown", type = "binary")
-          install.packages("preferably")      - name: Build site
-        shell: Rscript {0}
+          install.packages("preferably")
 
       - name: Deploy to GitHub pages 🚀
         if: github.event_name != 'pull_request'
