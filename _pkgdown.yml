@@ -1,4 +1,5 @@
-url: https://worldfishcenter.github.io/aquadata.data.mapping/
+url: ~
 template:
   bootstrap: 5
   bootswatch: yeti
+
