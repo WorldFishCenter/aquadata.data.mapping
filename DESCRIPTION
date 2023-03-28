@@ -12,7 +12,7 @@ Authors@R:
              role = "cph"))
 Maintainer: The package maintainer <l.longobardi@cgiar.orgt>
 Description: The goal of aquadata.data.mapping is to collect and analyse metadata within the context aquatic food systems.   
-License: MIT + file LICENSE
+License: GPL (>= 3)
 Encoding: UTF-8
 LazyData: true
 Imports: 
