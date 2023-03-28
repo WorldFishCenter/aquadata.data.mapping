@@ -26,6 +26,7 @@ Imports:
     pdftools,
     readr,
     readxl,
+    remotes,
     reticulate,
     rlang,
     stringr
