@@ -1,4 +1,6 @@
 url: https://worldfishcenter.github.io/aquadata.data.mapping/
 template:
+  package: preferably
   bootstrap: 5
-
+  params:
+    toggle: manual
