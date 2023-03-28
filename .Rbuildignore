@@ -9,7 +9,6 @@
 ^pkgdown$
 __pycache__/
 get_dataverse_metadata.py
-chatgpt_chaindoc2.py
 ^\.github$
 ^auth_aquadata$
 chatgpt_chaindoc.py

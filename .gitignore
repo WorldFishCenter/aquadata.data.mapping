@@ -45,6 +45,5 @@ docs
 *.tsv
 
 # Other
-chatgpt_chaindoc2.py
 get_dataverse_metadata.py
 __pycache__/
