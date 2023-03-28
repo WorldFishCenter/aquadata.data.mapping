@@ -13,3 +13,4 @@ get_dataverse_metadata.py
 ^auth_aquadata$
 chatgpt_chaindoc.py
 
+^CODE_OF_CONDUCT\.md$
