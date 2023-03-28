@@ -37,10 +37,10 @@ jobs:
         run: |
           # ⚠️ leave other commands intact, 
           # and add the following command to the end of the list 👇🏼
-          install.packages("remotes")
+          install.packages('remotes')
           remotes::install_deps(dependencies = TRUE)
-          install.packages("pkgdown", type = "binary")
-          install.packages("preferably")
+          install.packages('pkgdown', type = 'binary')
+          install.packages('preferably')
 
       - name: Deploy to GitHub pages 🚀
         if: github.event_name != 'pull_request'
