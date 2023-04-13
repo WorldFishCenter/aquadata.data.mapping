@@ -45,5 +45,4 @@ docs
 *.tsv
 
 # Other
-get_dataverse_metadata.py
 __pycache__/

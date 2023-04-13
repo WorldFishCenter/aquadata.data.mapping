@@ -69,3 +69,29 @@ get_dataset_file <- function(dataset = NULL, file_id = NULL) {
       original = F
     )
 }
+
+#' Download metadata
+#'
+#' This function is a wrapper of a python script `get_dataverse_metadata.py` udeful
+#' to download metadata from a defined Dataverse.
+#'
+#' @param organization The Dataverse alias of the entity posting the data.
+#'
+#' @return A csv with metadata information.
+#' @export
+#'
+#' @examples
+#' \dontrun{
+#' get_organization_metadata(organization = "CIAT")
+#' }
+get_organization_metadata <- function(organization) {
+  foo_import <- reticulate::import("get_dataverse_metadata")
+  py_function <- foo_import$get_dataverse_metadata
+  py_function(organization)
+
+  # Drop intermediate folders
+  files <- list.files(full.names = TRUE)
+  json_drop <- files[c(which(grepl("dataset_JSON", files)))]
+  csv_drop <- files[c(which(grepl("csv_files", files)))]
+  unlink(c(json_drop, csv_drop), force = TRUE, recursive = TRUE)
+}

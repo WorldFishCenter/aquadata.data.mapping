@@ -1,6 +1,6 @@
 ## code to prepare `dataverse_raw` dataset goes here
 
-pk_path <- system.file(package = "aquadata.data.mapping")
+pk_path <- system.file("data-raw", package = "aquadata.data.mapping")
 csv_files <- list.files(pk_path)
 metadata_files <- csv_files[c(which(grepl("dataset_metadata", csv_files)))]
 org_names <- stringr::word(metadata_files, 1, sep = "\\_")
