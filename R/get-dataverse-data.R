@@ -4,7 +4,7 @@
 #'
 #' This function returns dataset' metadata information.
 #'
-#' @param doi The dataset DOI including only (eg. "10.7910/DVN/EXSAJ7").
+#' @param doi The dataset DOI (eg. "10.7910/DVN/EXSAJ7").
 #' @param dataverse_key Dataverse token.
 #'
 #' @return A dataframe.

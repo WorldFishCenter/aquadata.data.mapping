@@ -7,7 +7,7 @@
 get_dataset(doi = NULL, dataverse_key = NULL)
 }
 \arguments{
-\item{doi}{The dataset DOI including only (eg. "10.7910/DVN/EXSAJ7").}
+\item{doi}{The dataset DOI (eg. "10.7910/DVN/EXSAJ7").}
 
 \item{dataverse_key}{Dataverse token.}
 }
