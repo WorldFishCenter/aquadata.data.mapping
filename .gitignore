@@ -43,7 +43,7 @@ docs
 *.xlsx
 *.csv
 *.tsv
+all_worldfish_guestbook_responses_2022.12.27.csv
 
 # Other
-get_dataverse_metadata.py
 __pycache__/

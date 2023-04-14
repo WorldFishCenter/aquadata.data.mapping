@@ -21,3 +21,4 @@ local:
     token: !expr readLines("auth_aquadata/openai-key")
   dataverse:
     token: !expr readLines('auth_aquadata/dataverse-token')
+  seed: !expr readLines('auth_aquadata/seed')
