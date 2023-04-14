@@ -1,4 +1,5 @@
 ## code to prepare `dataverse_raw` dataset goes here
+pars <- read_config(conf = "local")
 
 pk_path <- system.file("data-raw", package = "aquadata.data.mapping")
 csv_files <- list.files(pk_path)
@@ -11,6 +12,11 @@ dataverse_metadata <-
   dplyr::bind_rows(.id = "organization") %>%
   janitor::remove_empty(c("rows", "cols")) %>%
   dplyr::distinct()
+
+anonymize <- function(x, algo="xxhash32", seed = pars$seed){
+  unq_hashes <- vapply(unique(x), function(object) digest::digest(object, algo=algo, seed = seed), FUN.VALUE="", USE.NAMES=TRUE)
+  unname(unq_hashes[x])
+}
 
 worldfish_guestbook_responses <-
   readr::read_csv(paste0(pk_path, "/all_worldfish_guestbook_responses_2022.12.27.csv"), show_col_types = FALSE) %>%
@@ -31,7 +37,9 @@ worldfish_guestbook_responses <-
   dplyr::mutate(
     file_id = as.integer(file_id),
     publication_date = as.Date(publication_date, "%m/%d/%Y"),
-    dplyr::across(c(title, user_name, Institution, Position, answer_1, answer_2), tolower)
+    dplyr::across(c(title, user_name, Institution, Position, answer_1, answer_2), tolower),
+    user_name = anonymize(.data$user_name),
+    Email = anonymize(.data$Email)
   ) %>%
   janitor::clean_names() %>%
   janitor::remove_empty(c("rows", "cols"))
