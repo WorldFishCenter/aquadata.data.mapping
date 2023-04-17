@@ -1,4 +1,4 @@
-FROM rocker/base:4.2.3
+FROM rocker/geospatial:4.2
 
 # Tidyverse system requirements
 RUN apt-get update -qq && apt-get -y --no-install-recommends install \
