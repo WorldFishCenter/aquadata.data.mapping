@@ -23,6 +23,8 @@ jobs:
           dockerfile: Dockerfile.prod
       - name: Install Miniconda
         run: |
+          Rscript -e "install.packages('remotes')"
+          Rscript -e "remotes::install_github('rstudio/reticulate')"
           Rscript -e "reticulate::install_miniconda()"
           Rscript -e "reticulate::conda_create('r-reticulate', packages = c('python==3.8.13'))"
 
