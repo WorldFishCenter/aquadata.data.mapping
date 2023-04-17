@@ -12,5 +12,7 @@ get_dataverse_metadata.py
 ^\.github$
 ^auth_aquadata$
 chatgpt_chaindoc.py
-
+^Dockerfile*
+^docker-compose.yaml$
+^.dockerignore$
 ^CODE_OF_CONDUCT\.md$
