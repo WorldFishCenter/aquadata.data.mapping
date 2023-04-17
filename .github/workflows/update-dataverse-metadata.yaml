@@ -12,6 +12,10 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
+      - name: Install Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.8.13'
       - name: Build image with cache
         id: build-docker
         uses: whoan/docker-build-with-cache-action@v5
@@ -21,12 +25,6 @@ jobs:
           registry: docker.pkg.github.com
           image_name: r-update-dataverse-metadata
           dockerfile: Dockerfile.prod
-      - name: Install Miniconda
-        run: |
-          Rscript -e "install.packages('remotes')"
-          Rscript -e "remotes::install_github('rstudio/reticulate')"
-          Rscript -e "reticulate::install_miniconda()"
-          Rscript -e "reticulate::conda_create('r-reticulate', packages = c('python==3.8.13'))"
 
   update-data:
     name: Update organizations metadata
