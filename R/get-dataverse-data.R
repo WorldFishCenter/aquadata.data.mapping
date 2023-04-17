@@ -85,7 +85,8 @@ get_dataset_file <- function(dataset = NULL, file_id = NULL) {
 #' get_organization_metadata(organization = "CIAT")
 #' }
 get_organization_metadata <- function(organization) {
-  foo_import <- reticulate::import_from_path("get_dataverse_metadata", path = getwd())
+  foo_import <- reticulate::import_from_path("get_dataverse_metadata",
+                                             path = system.file("python", package = "aquadata.data.mapping"))
   py_function <- foo_import$get_dataverse_metadata
   py_function(organization)
 

@@ -16,18 +16,23 @@
 #' @examples
 #' \dontrun{
 #' output <-
-#' summarise_chatgpt_wrapper(
-#' document_path = "inst/docs_dataverse/5636634.txt",
-#' openaikey = OPENAI_KEY,
-#' engine = "gpt-3.5-turbo",
-#' temperature = 0.7,
-#' refine_text = pars$openai$refine_prompts$p1
-#' )
+#'   summarise_chatgpt_wrapper(
+#'     document_path = "inst/docs_dataverse/5636634.txt",
+#'     openaikey = OPENAI_KEY,
+#'     engine = "gpt-3.5-turbo",
+#'     temperature = 0.7,
+#'     refine_text = pars$openai$refine_prompts$p1
+#'   )
 #' cat(output$output_text)
 #' }
 summarise_chatgpt_wrapper <- function(document_path, openaikey, engine, temperature, refine_text) {
-  chatgpt_chain_py <- reticulate::import("chatgpt_chaindoc")
+  chatgpt_chain_py <- reticulate::import_from_path("chatgpt_chaindoc",
+    path = system.file("python", package = "aquadata.data.mapping")
+  )
   py_function <- chatgpt_chain_py$summarize_document
-  result <- py_function(document_path, openaikey, engine, temperature, refine_text)
+  result <- py_function(
+    document_path, openaikey, engine,
+    temperature, refine_text
+  )
   return(result)
 }
