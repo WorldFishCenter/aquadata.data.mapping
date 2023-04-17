@@ -15,16 +15,16 @@ jobs:
       - name: Build image with cache
         id: build-docker
         uses: whoan/docker-build-with-cache-action@v5
-      - name: Install Miniconda
-        run: |
-          Rscript -e "reticulate::install_miniconda()"
-          Rscript -e "reticulate::conda_create('r-reticulate', packages = c('python==3.8.13'))"
         with:
           username: $GITHUB_ACTOR
           password: "${{ secrets.GITHUB_TOKEN }}"
           registry: docker.pkg.github.com
           image_name: r-update-dataverse-metadata
           dockerfile: Dockerfile.prod
+      - name: Install Miniconda
+        run: |
+          Rscript -e "reticulate::install_miniconda()"
+          Rscript -e "reticulate::conda_create('r-reticulate', packages = c('python==3.8.13'))"
 
   update-data:
     name: Update organizations metadata
