@@ -97,3 +97,8 @@ get_organization_metadata <- function(organization) {
   csv_drop <- files[c(which(grepl("csv_files", files)))]
   unlink(c(json_drop, csv_drop), force = TRUE, recursive = TRUE)
 }
+
+get_organization_metadata_test <- function() {
+  python_path <- system.file("python", package = "aquadata.data.mapping")
+  print(list.files(python_path))
+}

@@ -35,13 +35,13 @@ aimed to elaborate large text documents using LangChain and ChatGPT.
 \examples{
 \dontrun{
 output <-
-summarise_chatgpt_wrapper(
-document_path = "inst/docs_dataverse/5636634.txt",
-openaikey = OPENAI_KEY,
-engine = "gpt-3.5-turbo",
-temperature = 0.7,
-refine_text = pars$openai$refine_prompts$p1
-)
+  summarise_chatgpt_wrapper(
+    document_path = "inst/docs_dataverse/5636634.txt",
+    openaikey = OPENAI_KEY,
+    engine = "gpt-3.5-turbo",
+    temperature = 0.7,
+    refine_text = pars$openai$refine_prompts$p1
+  )
 cat(output$output_text)
 }
 }
