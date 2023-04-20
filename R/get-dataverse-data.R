@@ -98,6 +98,17 @@ get_organization_metadata <- function(organization) {
   unlink(c(json_drop, csv_drop), force = TRUE, recursive = TRUE)
 }
 
+#' Download metadata test func
+#'
+#' Lorem ipsum dolor sit amet, consectetur adipiscing elit
+#'
+#' @return consectetur adipiscing elit
+#' @export
+#'
+#' @examples
+#' \dontrun{
+#' get_organization_metadata()
+#' }
 get_organization_metadata_test <- function() {
   python_path <- system.file("python", package = "aquadata.data.mapping")
   print(list.files(python_path))
