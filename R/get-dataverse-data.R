@@ -85,7 +85,7 @@ get_dataset_file <- function(dataset = NULL, file_id = NULL) {
 #' get_organization_metadata(organization = "CIAT")
 #' }
 get_organization_metadata <- function(organization) {
-  python_path <- system.file("/inst/python", package = "aquadata.data.mapping")
+  python_path <- system.file("python", package = "aquadata.data.mapping")
   foo_import <- reticulate::import_from_path(
     module = "get_dataverse_metadata",
     path = python_path
@@ -98,21 +98,4 @@ get_organization_metadata <- function(organization) {
   json_drop <- files[c(which(grepl("dataset_JSON", files)))]
   csv_drop <- files[c(which(grepl("csv_files", files)))]
   unlink(c(json_drop, csv_drop), force = TRUE, recursive = TRUE)
-}
-
-
-#' Download metadata test
-#'
-#'Testing function to get python files path
-#'
-#' @return Nothing
-#' @export
-#'
-#' @examples
-#' \dontrun{
-#' get_organization_metadata(organization = "CIAT")
-#' }
-get_organization_metadata_test <- function() {
-  python_path <- system.file("python", package = "aquadata.data.mapping")
-  list.files(python_path)
 }
