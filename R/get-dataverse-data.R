@@ -85,9 +85,11 @@ get_dataset_file <- function(dataset = NULL, file_id = NULL) {
 #' get_organization_metadata(organization = "CIAT")
 #' }
 get_organization_metadata <- function(organization) {
-  python_path <- system.file("python", package = "aquadata.data.mapping")
-  foo_import <- reticulate::import_from_path(module = "get_dataverse_metadata",
-                                             path = python_path)
+  python_path <- system.file("/inst/python", package = "aquadata.data.mapping")
+  foo_import <- reticulate::import_from_path(
+    module = "get_dataverse_metadata",
+    path = python_path
+  )
   py_function <- foo_import$get_dataverse_metadata
   py_function(organization)
 
@@ -98,18 +100,19 @@ get_organization_metadata <- function(organization) {
   unlink(c(json_drop, csv_drop), force = TRUE, recursive = TRUE)
 }
 
-#' Download metadata test func
+
+#' Download metadata test
 #'
-#' Lorem ipsum dolor sit amet, consectetur adipiscing elit
+#'Testing function to get python files path
 #'
-#' @return consectetur adipiscing elit
+#' @return Nothing
 #' @export
 #'
 #' @examples
 #' \dontrun{
-#' get_organization_metadata()
+#' get_organization_metadata(organization = "CIAT")
 #' }
 get_organization_metadata_test <- function() {
-  python_path <- system.file("python", package = "aquadata.data.mapping")
-  print(list.files(python_path))
+  python_path <- system.file("/inst/python", package = "aquadata.data.mapping")
+  list.files(python_path)
 }

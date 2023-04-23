@@ -2,18 +2,18 @@
 % Please edit documentation in R/get-dataverse-data.R
 \name{get_organization_metadata_test}
 \alias{get_organization_metadata_test}
-\title{Download metadata test func}
+\title{Download metadata test}
 \usage{
 get_organization_metadata_test()
 }
 \value{
-consectetur adipiscing elit
+Nothing
 }
 \description{
-Lorem ipsum dolor sit amet, consectetur adipiscing elit
+Testing function to get python files path
 }
 \examples{
 \dontrun{
-get_organization_metadata()
+get_organization_metadata(organization = "CIAT")
 }
 }

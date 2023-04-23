@@ -13,8 +13,8 @@ dataverse_metadata <-
   janitor::remove_empty(c("rows", "cols")) %>%
   dplyr::distinct()
 
-anonymize <- function(x, algo="xxhash32", seed = pars$seed){
-  unq_hashes <- vapply(unique(x), function(object) digest::digest(object, algo=algo, seed = seed), FUN.VALUE="", USE.NAMES=TRUE)
+anonymize <- function(x, algo = "xxhash32", seed = pars$seed) {
+  unq_hashes <- vapply(unique(x), function(object) digest::digest(object, algo = algo, seed = seed), FUN.VALUE = "", USE.NAMES = TRUE)
   unname(unq_hashes[x])
 }
 

@@ -26,9 +26,11 @@
 #' cat(output$output_text)
 #' }
 summarise_chatgpt_wrapper <- function(document_path, openaikey, engine, temperature, refine_text) {
-  python_path <- system.file("python", package = "aquadata.data.mapping")
-  chatgpt_chain_py <- reticulate::import_from_path(module = "chatgpt_chaindoc",
-                                                   path = python_path)
+  python_path <- system.file("/inst/python", package = "aquadata.data.mapping")
+  chatgpt_chain_py <- reticulate::import_from_path(
+    module = "chatgpt_chaindoc",
+    path = python_path
+  )
   py_function <- chatgpt_chain_py$summarize_document
   result <- py_function(
     document_path, openaikey, engine,
