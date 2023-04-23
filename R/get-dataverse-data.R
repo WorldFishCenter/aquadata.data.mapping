@@ -113,6 +113,6 @@ get_organization_metadata <- function(organization) {
 #' get_organization_metadata(organization = "CIAT")
 #' }
 get_organization_metadata_test <- function() {
-  python_path <- system.file("/inst/python", package = "aquadata.data.mapping")
+  python_path <- system.file(package = "aquadata.data.mapping")
   list.files(python_path)
 }
