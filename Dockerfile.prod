@@ -13,6 +13,11 @@ RUN apt-get update -qq && apt-get -y --no-install-recommends install \
     unixodbc-dev && \
   rm -rf /var/lib/apt/lists/*
 
+# Install Python 3.8.13
+RUN apt-get update -qq && apt-get -y install python3.8-dev python3-pip && \
+  rm -rf /var/lib/apt/lists/* && \
+  python3.8 -m pip install --upgrade pip
+
 # Install imports
 RUN install2.r --error --skipinstalled \
     config \
