@@ -99,3 +99,16 @@ get_organization_metadata <- function(organization) {
   csv_drop <- files[c(which(grepl("csv_files", files)))]
   unlink(c(json_drop, csv_drop), force = TRUE, recursive = TRUE)
 }
+
+#' Test working folder
+#'
+#' Get working directory path
+#'
+#' @return working directory path
+#' @export
+#'
+test_folder <- function() {
+  python_path <- system.file("python", package = "aquadata.data.mapping")
+  reticulate::py_run_file(paste0(python_path,"/test_folder.py"))
+}
+

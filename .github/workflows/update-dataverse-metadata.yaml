@@ -33,4 +33,4 @@ jobs:
         password: ${{ secrets.GITHUB_TOKEN }}
     steps:
       - name: Call get_organization_metadata()
-        run: Rscript -e 'aquadata.data.mapping::get_organization_metadata(organization = "CIAT")'
+        run: Rscript -e 'aquadata.data.mapping::test_folder()'
