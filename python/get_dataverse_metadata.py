@@ -399,8 +399,9 @@ def get_dataverse_metadata(organization):
 
     # Create csv file in the directory that the user selected
     #data_path = os.path.abspath(os.path.join(os.getcwd(), 'data-raw'))
-    filename = 'python/%s_dataset_metadata_%s.csv' % (alias, current_time)
+    #filename = 'python/%s_dataset_metadata_%s.csv' % (alias, current_time)
     #filename = os.path.join(data_path, f"{alias}_dataset_metadata_{current_time}.csv")
+    filename = 'python/%s_dataset_metadata_%s.csv' % (alias, current_time)
 
     # Save directory paths to each csv file as a list and save in 'all_tables'
     # variable
