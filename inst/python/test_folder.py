@@ -1,2 +1,4 @@
 import os
-print(os.getcwd())
+folder = os.getcwd()
+files = os.listdir(folder)
+print(files)
