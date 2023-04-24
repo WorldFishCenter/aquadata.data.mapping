@@ -3,7 +3,6 @@ from functools import reduce
 import glob
 import json
 import os
-import pandas as pd
 import sys
 import time
 from urllib.request import urlopen, Request
