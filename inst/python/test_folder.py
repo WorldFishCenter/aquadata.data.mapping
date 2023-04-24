@@ -1,4 +1,4 @@
 import os
-folder = os.getcwd()
+folder = 'data-raw'
 files = os.listdir(folder)
 print(files)
