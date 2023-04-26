@@ -35,4 +35,4 @@ jobs:
       #- name: Call get_organization_metadata()
       #  run: Rscript -e 'aquadata.data.mapping::get_organization_metadata("CIAT")'
       - name: Test path
-        run: Rscript -e 'system.file()'
+        run: Rscript -e 'system.file(package = "aquadata.data.mapping")'
