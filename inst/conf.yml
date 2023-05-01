@@ -15,6 +15,7 @@ default:
        "If the context isn't useful, return the original extensive summary."
   dataverse:
     token: !expr Sys.getenv('DATAVERSE_KEY')
+    organizations: [AllianceBioversityCIAT, ASTI, CCAFSbaseline, CIAT, IFPRI, RiceResearch, worldfish]
 
 local:
   openai:

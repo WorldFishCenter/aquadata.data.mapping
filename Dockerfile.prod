@@ -13,6 +13,15 @@ RUN apt-get update -qq && apt-get -y --no-install-recommends install \
     unixodbc-dev && \
   rm -rf /var/lib/apt/lists/*
 
+# Install Python 3 and upgrade pip
+RUN apt-get update && \
+    apt-get install -y python3 python3-pip && \
+    rm -rf /var/lib/apt/lists/* && \
+    pip3 install --upgrade pip
+
+# Install pandas
+RUN pip3 install pandas
+
 # Install imports
 RUN install2.r --error --skipinstalled \
     config \
@@ -28,7 +37,9 @@ RUN install2.r --error --skipinstalled \
     readxl \
     reticulate \
     rlang \
-    stringr
+    stringr \
+    purrr \
+    logger
 
 # Install local package
 COPY . /home

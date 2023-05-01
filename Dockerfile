@@ -15,4 +15,6 @@ RUN install2.r --error --skipinstalled \
     readxl \
     reticulate \
     rlang \
-    stringr
+    stringr \
+    purrr \
+    logger
