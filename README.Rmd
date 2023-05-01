@@ -45,7 +45,7 @@ library(aquadata.data.mapping)
 
 ## Explore the data
 
-Once installed, you can access and explore the data directly from the package. `dataverse_metadata` include metadata information on the data of several CGIAR organizations, while `worldfish_guestbook_responses` include information provided by the users downloading WorldFish data.
+Once installed, you can access and explore the data directly from the package. `dataverse_metadata` include metadata information on the data of several CGIAR organizations.
 
 ```{r}
 # Summary of dataverse_metadata
@@ -54,8 +54,6 @@ dplyr::glimpse(dataverse_metadata)
 # CGIAR organizations
 unique(dataverse_metadata$organization)
 
-# Summary of worldfish_guestbook_responses
-dplyr::glimpse(worldfish_guestbook_responses)
 ```
 
 You can filter the data using the `filterby_word` function and show the first 10 rows:

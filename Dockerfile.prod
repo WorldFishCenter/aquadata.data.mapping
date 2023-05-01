@@ -26,7 +26,6 @@ RUN pip3 install pandas
 RUN install2.r --error --skipinstalled \
     config \
     dataverse \
-    digest \
     dplyr \
     janitor \
     logger \
@@ -39,7 +38,8 @@ RUN install2.r --error --skipinstalled \
     rlang \
     stringr \
     purrr \
-    logger
+    logger \
+    usethis
 
 # Install local package
 COPY . /home

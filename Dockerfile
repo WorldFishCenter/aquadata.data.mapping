@@ -4,7 +4,6 @@ FROM rocker/geospatial:4.2
 RUN install2.r --error --skipinstalled \
     config \
     dataverse \
-    digest \
     dplyr \
     janitor \
     logger \
@@ -17,4 +16,5 @@ RUN install2.r --error --skipinstalled \
     rlang \
     stringr \
     purrr \
-    logger
+    logger \
+    usethis
