@@ -34,8 +34,11 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
+      - run: git config --global --add safe.directory /__w/aquadata.data.mapping/aquadata.data.mapping
+
       - name: Download organizations metadata
         run: Rscript -e 'aquadata.data.mapping::get_organization_metadata(organization = "CIAT")'
+
       - name: Commit changes package data
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
