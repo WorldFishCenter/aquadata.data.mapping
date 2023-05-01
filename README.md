@@ -34,8 +34,8 @@ Install and load the R package from the most recent version using the
 following commands on the R console:
 
 ``` r
-#install.packages("devtools")
-#devtools::install_github("WorldFishCenter/aquadata.data.mapping")
+# install.packages("devtools")
+# devtools::install_github("WorldFishCenter/aquadata.data.mapping")
 library(aquadata.data.mapping)
 ```
 
@@ -43,11 +43,10 @@ library(aquadata.data.mapping)
 
 Once installed, you can access and explore the data directly from the
 package. `dataverse_metadata` include metadata information on the data
-of several CGIAR organizations, while `worldfish_guestbook_responses`
-include information provided by the users downloading WorldFish data.
+of several CGIAR organizations.
 
 ``` r
-# Summary of dataverse_metadata 
+# Summary of dataverse_metadata
 dplyr::glimpse(dataverse_metadata)
 #> Rows: 22,181
 #> Columns: 9
@@ -66,27 +65,6 @@ unique(dataverse_metadata$organization)
 #> [1] "AllianceBioversityCIAT" "ASTI"                   "CCAFSbaseline"         
 #> [4] "CIAT"                   "IFPRI"                  "RiceResearch"          
 #> [7] "worldfish"
-
-# Summary of worldfish_guestbook_responses 
-dplyr::glimpse(worldfish_guestbook_responses)
-#> Rows: 8,529
-#> Columns: 16
-#> $ guestbook        <chr> "WorldFish Guestbook", "WorldFish Guestbook", "WorldF…
-#> $ title            <chr> "myanmar baseline aquaculture performance assessment"…
-#> $ dataset_doi      <chr> "doi:10.7910/DVN/MIYZYQ", "doi:10.7910/DVN/MIYZYQ", "…
-#> $ publication_date <date> 2022-12-26, 2022-12-26, 2022-12-26, 2022-12-26, 2022…
-#> $ type             <chr> "Download", "Download", "Download", "Download", "Down…
-#> $ file_name        <chr> "20190719 G01_food_certification.tab", "20190719 D07_…
-#> $ file_id          <int> 3677836, 3677828, 3677827, 3677821, 3677819, 3677851,…
-#> $ file_doi         <chr> "doi:10.7910/DVN/MIYZYQ/UW6ZPH", "doi:10.7910/DVN/MIY…
-#> $ user_name        <chr> "fda08cf2", "fda08cf2", "fda08cf2", "fda08cf2", "fda0…
-#> $ email            <chr> "b9cb1ce6", "b9cb1ce6", "b9cb1ce6", "b9cb1ce6", "b9cb…
-#> $ institution      <chr> "gw", "gw", "gw", "gw", "gw", "gw", "gw", "gw", "gw",…
-#> $ position         <chr> NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, N…
-#> $ question_1       <chr> "Briefly describe how the data will be used", "Briefl…
-#> $ answer_1         <chr> "research", "research", "research", "research", "rese…
-#> $ question_2       <chr> "Where are you located?", "Where are you located?", "…
-#> $ answer_2         <chr> "nc", "nc", "nc", "nc", "nc", "nc", "nc", "nc", "nc",…
 ```
 
 You can filter the data using the `filterby_word` function and show the
@@ -118,7 +96,7 @@ Use `get_dataset` and `get_dataset_file` to download data.
 Use AI tools (ChatGPT) to generate stories from downloaded data.
 
 ``` r
-#output <-
+# output <-
 #  summarise_chatgpt_wrapper(
 #    document_path = "inst/docs_dataverse/5636634.txt",
 #    openaikey = OPENAI_TOKEN,
@@ -126,5 +104,5 @@ Use AI tools (ChatGPT) to generate stories from downloaded data.
 #    temperature = 0.7,
 #    refine_text = REFINE_TEXT
 #  )
-#cat(output$output_text)
+# cat(output$output_text)
 ```
