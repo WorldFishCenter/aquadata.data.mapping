@@ -1,5 +1,39 @@
 url: https://worldfishcenter.github.io/aquadata.data.mapping/
+
 template:
   bootstrap: 5
-  bootswatch: yeti
+  bootswatch: zephyr
+  bslib:
+    base_font: {google: "Poppins"}
+    primary: "#112446"
 
+navbar:
+  structure:
+    left:
+    - intro
+    - reference
+    - articles
+    - tutorials
+    - news
+    right: github
+  components:
+    reference:
+      text: Reference
+      href: reference/index.html
+    news:
+      text: Changelog
+      href: news/index.html
+
+reference:
+- title: All functions
+  contents:
+  - '`clean_metadata_files`'
+  - '`dataverse_metadata`'
+  - '`filterby_word`'
+  - '`get_dataset`'
+  - '`get_dataset_file`'
+  - '`get_dataverse_metadata`'
+  - '`get_organization_metadata`'
+  - '`process_raw_metadata`'
+  - '`read_config`'
+  - '`summarise_chatgpt_wrapper`'
