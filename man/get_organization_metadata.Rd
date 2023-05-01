@@ -4,7 +4,7 @@
 \alias{get_organization_metadata}
 \title{Download metadata}
 \usage{
-get_organization_metadata(organization)
+get_organization_metadata(organization = NULL)
 }
 \arguments{
 \item{organization}{The Dataverse alias of the entity posting the data.}

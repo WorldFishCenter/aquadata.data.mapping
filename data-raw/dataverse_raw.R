@@ -1,4 +1,6 @@
 ## code to prepare `dataverse_raw` dataset goes here
+library(digest)
+
 pars <- read_config(conf = "local")
 
 pk_path <- system.file("data-raw", package = "aquadata.data.mapping")

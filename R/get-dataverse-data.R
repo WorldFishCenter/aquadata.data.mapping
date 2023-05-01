@@ -84,15 +84,17 @@ get_dataset_file <- function(dataset = NULL, file_id = NULL) {
 #' \dontrun{
 #' get_organization_metadata(organization = "CIAT")
 #' }
-get_organization_metadata <- function(organization) {
+get_organization_metadata <- function(organization = NULL) {
   python_path <- system.file("python", package = "aquadata.data.mapping")
   foo_import <- reticulate::import_from_path(
     module = "get_dataverse_metadata",
     path = python_path
   )
   py_function <- foo_import$get_dataverse_metadata
+  logger::log_info("Downloading {organization} metadata")
   py_function(organization)
 
+  logger::log_info("Deleting intermediate folders")
   # Drop intermediate folders
   files <- list.files(full.names = TRUE)
   json_drop <- files[c(which(grepl("dataset_JSON", files)))]
@@ -100,16 +102,29 @@ get_organization_metadata <- function(organization) {
   unlink(c(json_drop, csv_drop), force = TRUE, recursive = TRUE)
 }
 
-
-#' Test python paths
+#' Download dataverse metadata
 #'
-#' test function
+#' This function uses [purrr::walk] together with `get_organization_metadata`
+#' to download Dataverse metadata from several organizations. Data are then
+#' stored as csv files into data-raw folder.
 #'
+#' @param log_threshold The (standard Apache logj4) log level used as a
+#'   threshold for the logging infrastructure. See [logger::log_levels] for more
+#'   details
 #'
-#' @return python files
+#' @return Nothing, this function is used for its side effects.
 #' @export
 #'
-path_test <- function() {
-  python_path <- system.file("python", package = "aquadata.data.mapping")
-  reticulate::py_run_file(paste0(python_path, "/python_path.py"))
+#' @examples
+#' \dontrun{
+#' get_dataverse_metadata()
+#' }
+get_dataverse_metadata <- function(log_threshold = logger::DEBUG) {
+  logger::log_threshold(log_threshold)
+
+  pars <- read_config()
+
+  logger::log_info("Downloading all Dataverse metadata")
+  pars$dataverse$organizations %>%
+  purrr::walk(get_organization_metadata)
 }
