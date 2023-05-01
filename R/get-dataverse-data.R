@@ -126,7 +126,7 @@ get_dataverse_metadata <- function(log_threshold = logger::DEBUG) {
   pk_path <- system.file("data-raw", package = "aquadata.data.mapping")
   csv_files <- list.files(pk_path, full.names = TRUE)
   metadata_files <- csv_files[c(which(grepl("dataset_metadata", csv_files)))]
-  unlink(metadata_files, force = TRUE, recursive = TRUE)
+  file.remove(metadata_files)
 
   pars <- read_config()
 
