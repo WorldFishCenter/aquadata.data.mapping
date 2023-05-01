@@ -36,14 +36,15 @@ jobs:
         uses: actions/checkout@v3
       - run: git config --global --add safe.directory /__w/aquadata.data.mapping/aquadata.data.mapping
 
-      - name: Download organizations metadata
+      - name: Download dataverse raw metadata
         run: Rscript -e 'aquadata.data.mapping::get_dataverse_metadata()'
-
-      - name: Commit changes package data
+      - name: Commit raw metadata
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
           file_pattern: data-raw/*
 
-      - name: Clean and store raw metadata
+      - name: Process raw metadata
         run: Rscript -e 'aquadata.data.mapping::process_raw_metadata()'
+      - name: Commit processed metadata
+        uses: stefanzweifel/git-auto-commit-action@v4
 
