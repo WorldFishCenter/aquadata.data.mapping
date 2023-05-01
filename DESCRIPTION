@@ -25,6 +25,7 @@ Imports:
     magrittr,
     officer,
     pdftools,
+    purrr,
     readr,
     readxl,
     reticulate,
