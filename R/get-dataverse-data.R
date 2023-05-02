@@ -123,7 +123,12 @@ get_dataverse_metadata <- function(log_threshold = logger::DEBUG) {
   logger::log_threshold(log_threshold)
   pars <- read_config()
 
-  logger::log_info("Downloading all Dataverse metadata")
-  pars$dataverse$organizations %>%
+  logger::log_info("Cleaning old metadata")
+  folder_path <- system.file("dataverse_raw", package = "aquadata.data.mapping")
+  files <- list.files(folder_path, full.names = TRUE, recursive = TRUE)
+  file.remove(files)
+
+  logger::log_info("Downloading Dataverse raw metadata")
+  pars$dataverse$organizations[1:2] %>%
     purrr::walk(get_organization_metadata)
 }

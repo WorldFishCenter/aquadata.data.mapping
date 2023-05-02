@@ -47,9 +47,9 @@ process_raw_metadata <- function(log_threshold = logger::DEBUG) {
   )
   logger::log_info("Print folder_files")
   print(folder_files)
-  logger::log_info("system.file()")
+  logger::log_info("system.file")
   system.file()
-  logger::log_info("list.files()")
+  logger::log_info("list.files")
   list.files()
   org_names <- stringr::word(list.files(folder_path), 1, sep = "\\_")
 
