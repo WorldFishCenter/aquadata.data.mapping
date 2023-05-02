@@ -28,10 +28,12 @@ Imports:
     readr,
     readxl,
     reticulate,
-    rlang,
+    rlang (>= 0.4.11),
     stringr,
     usethis
 Depends: 
     R (>= 2.10)
 RoxygenNote: 7.2.3
 URL: https://worldfishcenter.github.io/aquadata.data.mapping/
+Suggests: 
+    roxygen2
