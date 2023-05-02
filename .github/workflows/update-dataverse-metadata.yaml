@@ -54,7 +54,6 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
-      - run: git config --global --add safe.directory /__w/aquadata.data.mapping/aquadata.data.mapping
       - name: Process raw metadata
         run: Rscript -e 'aquadata.data.mapping::process_raw_metadata()'
       - name: Commit processed metadata
