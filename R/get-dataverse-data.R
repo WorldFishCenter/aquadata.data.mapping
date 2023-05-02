@@ -106,7 +106,7 @@ get_organization_metadata <- function(organization = NULL) {
 #'
 #' This function uses [purrr::walk] together with `get_organization_metadata`
 #' to download Dataverse metadata from several organizations. Data are then
-#' stored as csv files into data-raw folder.
+#' stored as csv files into dataverse_raw folder.
 #'
 #' @param log_threshold The (standard Apache logj4) log level used as a
 #'   threshold for the logging infrastructure. See [logger::log_levels] for more
@@ -122,13 +122,13 @@ get_organization_metadata <- function(organization = NULL) {
 get_dataverse_metadata <- function(log_threshold = logger::DEBUG) {
   logger::log_threshold(log_threshold)
 
+  pars <- read_config()
+
   logger::log_info("Cleaning old files")
-  pk_path <- system.file("data-raw", package = "aquadata.data.mapping")
+  pk_path <- system.file("dataverse_raw", package = "aquadata.data.mapping")
   csv_files <- list.files(pk_path, full.names = TRUE)
   metadata_files <- csv_files[c(which(grepl("dataset_metadata", csv_files)))]
-  file.remove(metadata_files)
-
-  pars <- read_config()
+  unlink(metadata_files, force = TRUE, recursive = TRUE)
 
   logger::log_info("Downloading all Dataverse metadata")
   pars$dataverse$organizations %>%

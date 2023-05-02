@@ -398,7 +398,7 @@ def get_dataverse_metadata(organization):
     # Create CSV of all metadata by joining CSV files in the csv_files folder
 
     # Create csv file in the directory that the user selected
-    filename = 'data-raw/%s_dataset_metadata_%s.csv' % (alias, current_time)
+    filename = 'inst/dataverse_raw/%s_dataset_metadata_%s.csv' % (alias, current_time)
 
     # Save directory paths to each csv file as a list and save in 'all_tables'
     # variable
