@@ -42,13 +42,14 @@ process_raw_metadata <- function(log_threshold = logger::DEBUG) {
   pars <- read_config()
 
   folder_path <- system.file("dataverse_raw", package = "aquadata.data.mapping", mustWork = TRUE)
-  metadata_files <- list.files(folder_path,
-    full.names = TRUE,
-    recursive = TRUE,
-    include.dirs = TRUE
+  folder_files <- list.files(
+    path = folder_path, full.names = TRUE,
+    recursive = TRUE, include.dirs = TRUE
   )
+  print(folder_files)
+  system.file()
+  list.files()
   org_names <- stringr::word(list.files(folder_path), 1, sep = "\\_")
-  print(metadata_files)
 
   logger::log_info("Cleaning metadata raw data")
   dataverse_metadata <-

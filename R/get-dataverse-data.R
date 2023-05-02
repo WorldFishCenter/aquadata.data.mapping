@@ -131,7 +131,7 @@ get_dataverse_metadata <- function(log_threshold = logger::DEBUG) {
     recursive = TRUE, include.dirs = TRUE
   )
   print(folder_files)
-  file.remove(folder_files)
+  unlink(folder_files, recursive = TRUE, force = TRUE)
 
   logger::log_info("Downloading all Dataverse metadata")
   pars$dataverse$organizations %>%
