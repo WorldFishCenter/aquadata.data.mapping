@@ -4,11 +4,9 @@
 \alias{clean_metadata_files}
 \title{Clean metadata raw files}
 \usage{
-clean_metadata_files(folder_path = NULL, file_path = NULL)
+clean_metadata_files(file_path = NULL)
 }
 \arguments{
-\item{folder_path}{Path of folder where raw metadata are located.}
-
 \item{file_path}{Path of raw metadata file.}
 }
 \value{
