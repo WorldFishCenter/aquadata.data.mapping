@@ -126,9 +126,10 @@ get_dataverse_metadata <- function(log_threshold = logger::DEBUG) {
 
   logger::log_info("Cleaning old files")
   pk_path <- system.file("dataverse_raw", package = "aquadata.data.mapping")
-  csv_files <- list.files(pk_path, full.names = TRUE)
-  metadata_files <- csv_files[c(which(grepl("dataset_metadata", csv_files)))]
-  unlink(metadata_files, force = TRUE, recursive = TRUE)
+  folder_files <- list.files(pk_path, full.names = TRUE)
+  metadata_files <- folder_files[c(which(grepl("dataset_metadata", folder_files)))]
+  print(metadata_files)
+  file.remove(metadata_files)
 
   logger::log_info("Downloading all Dataverse metadata")
   pars$dataverse$organizations %>%

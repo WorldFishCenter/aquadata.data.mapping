@@ -44,6 +44,7 @@ process_raw_metadata <- function(log_threshold = logger::DEBUG) {
   path <- system.file("dataverse_raw", package = "aquadata.data.mapping")
   metadata_files <- list.files(path, full.names = TRUE)
   org_names <- stringr::word(list.files(path), 1, sep = "\\_")
+  print(metadata_files)
 
   logger::log_info("Cleaning metadata raw data")
   dataverse_metadata <-
