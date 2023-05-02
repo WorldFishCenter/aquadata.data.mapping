@@ -41,6 +41,8 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
           file_pattern: inst/dataverse_raw/*
+      - name: Checkout repository
+        uses: actions/checkout@v3
       - name: Process raw metadata
         run: Rscript -e 'aquadata.data.mapping::process_raw_metadata()'
       - name: Commit processed metadata
