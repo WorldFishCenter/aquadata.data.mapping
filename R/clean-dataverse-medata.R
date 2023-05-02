@@ -39,21 +39,23 @@ clean_metadata_files <- function(file_path = NULL) {
 #' update_metadata()
 #' }
 process_raw_metadata <- function(log_threshold = logger::DEBUG) {
-  pars <- read_config()
 
   folder_path <- system.file("dataverse_raw", package = "aquadata.data.mapping", mustWork = TRUE)
   folder_files <- list.files(
     path = folder_path, full.names = TRUE,
     recursive = TRUE, include.dirs = TRUE
   )
+  logger::log_info("Print folder_files")
   print(folder_files)
+  logger::log_info("system.file()")
   system.file()
+  logger::log_info("list.files()")
   list.files()
   org_names <- stringr::word(list.files(folder_path), 1, sep = "\\_")
 
   logger::log_info("Cleaning metadata raw data")
   dataverse_metadata <-
-    purrr::map(metadata_files, clean_metadata_files) %>%
+    purrr::map(folder_files, clean_metadata_files) %>%
     rlang::set_names(org_names) %>%
     dplyr::bind_rows(.id = "organization") %>%
     janitor::remove_empty(c("rows", "cols")) %>%
