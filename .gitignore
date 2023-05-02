@@ -44,6 +44,3 @@ docs
 #*.csv
 #*.tsv
 
-# Other
-dataverse_raw.R
-

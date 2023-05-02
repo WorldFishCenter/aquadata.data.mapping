@@ -132,5 +132,5 @@ get_dataverse_metadata <- function(log_threshold = logger::DEBUG) {
 
   logger::log_info("Downloading all Dataverse metadata")
   pars$dataverse$organizations %>%
-  purrr::walk(get_organization_metadata)
+    purrr::walk(get_organization_metadata)
 }

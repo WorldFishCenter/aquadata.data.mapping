@@ -53,7 +53,6 @@ dplyr::glimpse(dataverse_metadata)
 
 # CGIAR organizations
 unique(dataverse_metadata$organization)
-
 ```
 
 You can filter the data using the `filterby_word` function and show the first 10 rows:
