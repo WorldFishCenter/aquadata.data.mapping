@@ -13,9 +13,6 @@ def get_dataverse_metadata(organization):
     server = 'https://dataverse.harvard.edu'
     alias = organization
 
-    # Get current date and time (may be in UTC)
-    current_time = time.strftime('%Y.%m.%d_%H.%M.%S')
-
     # Get ID of given dataverse alias
     url = '%s/api/dataverses/%s' % (server, alias)
     req = Request(url, headers={'User-Agent': 'Mozilla/5.0'})
@@ -67,7 +64,7 @@ def get_dataverse_metadata(organization):
     print('\n\nDataset PIDs saved: %s' % (total))
 
     # Create directory to store JSON metadata files
-    json_metadata_directory = 'dataset_JSON_files_%s' % (current_time)
+    json_metadata_directory = 'dataset_JSON_files_%s'
     os.mkdir(json_metadata_directory)
 
     # Get the JSON metadata for each dataset_pid
@@ -107,15 +104,14 @@ def get_dataverse_metadata(organization):
     print('\nFinished downloading %s of %s JSON files' % (count, total))
 
     # Create directory to store CSV files
-    csv_files_directory = 'csv_files_%s' % (current_time)
+    csv_files_directory = 'csv_files_%s'
     os.mkdir(csv_files_directory)
 
     # Parse JSON files to write dataset DOI and publication date metadata to a
     # CSV file
 
     # Add path of csv file to filename variable
-    basic_metadata_csv = '%s/basic_metadata_%s.csv' % (
-        csv_files_directory, current_time)
+    basic_metadata_csv = '%s/basic_metadata_%s.csv' % csv_files_directory
 
     with open(basic_metadata_csv, mode='w') as metadatafile:
         metadatafile = csv.writer(
@@ -173,7 +169,7 @@ def get_dataverse_metadata(organization):
     for fieldname in primativefields:
 
         # Store path of csv file to filename variable
-        filename = '%s/%s_%s.csv' % (csv_files_directory, fieldname, current_time)
+        filename = '%s/%s_%s.csv' % (csv_files_directory, fieldname)
 
         with open(filename, mode='w') as metadatafile:
             metadatafile = csv.writer(
@@ -300,8 +296,7 @@ def get_dataverse_metadata(organization):
 
 
     # Store path of csv file to filename variable
-    filename = '%s/%s_%s.csv' % (csv_files_directory,
-                                 parent_compound_field, current_time)
+    filename = '%s/%s_%s.csv' % (csv_files_directory, parent_compound_field)
 
     # Create column names for the header row
     ids = ['dataset_id', 'persistentUrl']
@@ -398,7 +393,7 @@ def get_dataverse_metadata(organization):
     # Create CSV of all metadata by joining CSV files in the csv_files folder
 
     # Create csv file in the directory that the user selected
-    filename = 'inst/dataverse_raw/%s_dataset_metadata_%s.csv' % (alias, current_time)
+    filename = 'inst/dataverse_raw/%s_dataset_metadata_%s.csv' % alias
 
     # Save directory paths to each csv file as a list and save in 'all_tables'
     # variable

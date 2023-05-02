@@ -121,17 +121,7 @@ get_organization_metadata <- function(organization = NULL) {
 #' }
 get_dataverse_metadata <- function(log_threshold = logger::DEBUG) {
   logger::log_threshold(log_threshold)
-
   pars <- read_config()
-
-  logger::log_info("Cleaning old files")
-  folder_path <- system.file("dataverse_raw", package = "aquadata.data.mapping", mustWork = TRUE)
-  folder_files <- list.files(
-    path = folder_path, full.names = TRUE,
-    recursive = TRUE, include.dirs = TRUE
-  )
-  print(folder_files)
-  unlink(folder_files, force = TRUE, recursive = TRUE)
 
   logger::log_info("Downloading all Dataverse metadata")
   pars$dataverse$organizations %>%
