@@ -22,8 +22,8 @@ jobs:
           image_name: r-update-dataverse-metadata
           dockerfile: Dockerfile.prod
 
-  update-metadata:
-    name: Update organizations metadata
+  update-raw-metadata:
+    name: Update raw metadata
     needs: build-container
     runs-on: ubuntu-20.04
     container:
@@ -41,8 +41,20 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
           file_pattern: inst/dataverse_raw/*
+
+  process-raw-metadata:
+    name: Process raw metadata
+    needs: update-raw-metadata
+    runs-on: ubuntu-20.04
+    container:
+      image: docker.pkg.github.com/worldfishcenter/aquadata.data.mapping/r-update-dataverse-metadata
+      credentials:
+        username: ${{ github.actor }}
+        password: ${{ secrets.GITHUB_TOKEN }}
+    steps:
       - name: Checkout repository
         uses: actions/checkout@v3
+      - run: git config --global --add safe.directory /__w/aquadata.data.mapping/aquadata.data.mapping
       - name: Process raw metadata
         run: Rscript -e 'aquadata.data.mapping::process_raw_metadata()'
       - name: Commit processed metadata
