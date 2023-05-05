@@ -65,4 +65,4 @@ jobs:
           git add data/
           git commit -m "Commit processed metadata"
           git push
-          git config --global user.name "Your Name"
+          git config --global user.name "langbart"

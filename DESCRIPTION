@@ -18,6 +18,7 @@ LazyData: true
 Imports: 
     config,
     dataverse,
+    devtools,
     dplyr,
     janitor,
     logger,

@@ -48,6 +48,7 @@ process_raw_metadata <- function(log_threshold = logger::DEBUG) {
   logger::log_info("Print folder_files")
   print(folder_files)
   org_names <- stringr::word(list.files(folder_path), 1, sep = "\\_")
+  print(org_names)
 
   logger::log_info("Cleaning metadata raw data")
   dataverse_metadata <-
@@ -56,8 +57,12 @@ process_raw_metadata <- function(log_threshold = logger::DEBUG) {
     dplyr::bind_rows(.id = "organization") %>%
     janitor::remove_empty(c("rows", "cols")) %>%
     dplyr::distinct()
-  head(dataverse_metadata)
+
+  print(colnames(dataverse_metadata))
 
   logger::log_info("Saving tidy metadata")
   usethis::use_data(dataverse_metadata, overwrite = TRUE)
+  devtools::document()
 }
+
+usethis::use_package("devtools")
