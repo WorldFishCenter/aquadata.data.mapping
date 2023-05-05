@@ -62,7 +62,4 @@ process_raw_metadata <- function(log_threshold = logger::DEBUG) {
 
   logger::log_info("Saving tidy metadata")
   usethis::use_data(dataverse_metadata, overwrite = TRUE)
-  devtools::document()
 }
-
-usethis::use_package("devtools")
