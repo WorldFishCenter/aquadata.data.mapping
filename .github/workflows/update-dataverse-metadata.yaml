@@ -57,6 +57,8 @@ jobs:
       - name: Process raw metadata
         run: Rscript -e 'aquadata.data.mapping::process_raw_metadata()'
       - name: Commit processed metadata
-        uses: stefanzweifel/git-auto-commit-action@v4
-        with:
-          file_pattern: data/*
+        run: |
+          git pull
+          git add data/
+          git commit -m "Commit processed metadata"
+          git push
