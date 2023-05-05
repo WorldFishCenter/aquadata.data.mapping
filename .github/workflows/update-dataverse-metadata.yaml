@@ -59,7 +59,10 @@ jobs:
         run: Rscript -e 'aquadata.data.mapping::process_raw_metadata()'
       - name: Commit processed metadata
         run: |
+          git config --global user.email "lorenzo.longobardi@gmail.com.com"
+          git config --global user.name "langbart"
           git pull
           git add data/
           git commit -m "Commit processed metadata"
           git push
+          git config --global user.name "Your Name"
