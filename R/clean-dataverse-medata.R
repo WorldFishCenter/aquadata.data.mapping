@@ -9,6 +9,7 @@
 #' @importFrom rlang .data
 #'
 clean_metadata_files <- function(file_path = NULL) {
+  logger::log_info("Cleaning metadata raw data")
   readr::read_csv(file_path, show_col_types = FALSE) %>%
     dplyr::rename(
       dataset_doi = .data$persistentUrl,
@@ -36,7 +37,7 @@ clean_metadata_files <- function(file_path = NULL) {
 #' @export
 #' @examples
 #' \dontrun{
-#' update_metadata()
+#' process_raw_metadata()
 #' }
 process_raw_metadata <- function(log_threshold = logger::DEBUG) {
 
@@ -50,15 +51,14 @@ process_raw_metadata <- function(log_threshold = logger::DEBUG) {
   org_names <- stringr::word(list.files(folder_path), 1, sep = "\\_")
   print(org_names)
 
-  logger::log_info("Cleaning metadata raw data")
   dataverse_metadata <-
-    purrr::map(folder_files, clean_metadata_files) %>%
+    purrr::map(folder_files, aquadata.data.mapping::clean_metadata_files) %>%
     rlang::set_names(org_names) %>%
     dplyr::bind_rows(.id = "organization") %>%
     janitor::remove_empty(c("rows", "cols")) %>%
     dplyr::distinct()
 
-  print(colnames(dataverse_metadata))
+  print(head(dataverse_metadata))
 
   logger::log_info("Saving tidy metadata")
   usethis::use_data(dataverse_metadata, overwrite = TRUE)
