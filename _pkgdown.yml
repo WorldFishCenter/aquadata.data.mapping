@@ -27,13 +27,13 @@ navbar:
 reference:
 - title: All functions
   contents:
-  - '`clean_metadata_files`'
+  - '`chatgpt_wrapper`'
+  - '`clean_dataverse_metadata`'
   - '`dataverse_metadata`'
   - '`filterby_word`'
   - '`get_dataset`'
   - '`get_dataset_file`'
   - '`get_dataverse_metadata`'
   - '`get_organization_metadata`'
-  - '`process_raw_metadata`'
+  - '`process_dataverse_raw`'
   - '`read_config`'
-  - '`summarise_chatgpt_wrapper`'

@@ -72,7 +72,7 @@ Use AI tools (ChatGPT) to generate stories from downloaded data.
 
 ```{r}
 # output <-
-#  summarise_chatgpt_wrapper(
+#  chatgpt_wrapper(
 #    document_path = "inst/docs_dataverse/5636634.txt",
 #    openaikey = OPENAI_TOKEN,
 #    engine = "gpt-3.5-turbo",

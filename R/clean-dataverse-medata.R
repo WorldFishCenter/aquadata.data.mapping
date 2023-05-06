@@ -8,8 +8,7 @@
 #' @export
 #' @importFrom rlang .data
 #'
-clean_metadata_files <- function(file_path = NULL) {
-  logger::log_info("Cleaning metadata raw data")
+clean_dataverse_metadata <- function(file_path = NULL) {
   readr::read_csv(file_path, show_col_types = FALSE) %>%
     dplyr::rename(
       dataset_doi = .data$persistentUrl,
@@ -26,7 +25,7 @@ clean_metadata_files <- function(file_path = NULL) {
 
 #' Clean raw metadata
 #'
-#' This function uses `clean_metadata_files` to clean metadata raw files into an
+#' This function uses `clean_dataverse_metadata` to clean metadata raw files into an
 #' unique and structured .rda file.
 #'
 #' @param log_threshold The (standard Apache logj4) log level used as a
@@ -37,28 +36,24 @@ clean_metadata_files <- function(file_path = NULL) {
 #' @export
 #' @examples
 #' \dontrun{
-#' process_raw_metadata()
+#' process_dataverse_raw()
 #' }
-process_raw_metadata <- function(log_threshold = logger::DEBUG) {
+process_dataverse_raw <- function(log_threshold = logger::DEBUG) {
 
   folder_path <- system.file("dataverse_raw", package = "aquadata.data.mapping", mustWork = TRUE)
   folder_files <- list.files(
     path = folder_path, full.names = TRUE,
     recursive = TRUE, include.dirs = TRUE
   )
-  logger::log_info("Print folder_files")
-  print(folder_files)
   org_names <- stringr::word(list.files(folder_path), 1, sep = "\\_")
-  print(org_names)
 
+  logger::log_info("Cleaning metadata raw data")
   dataverse_metadata <-
-    purrr::map(folder_files, aquadata.data.mapping::clean_metadata_files) %>%
+    purrr::map(folder_files, aquadata.data.mapping::clean_dataverse_metadata) %>%
     rlang::set_names(org_names) %>%
     dplyr::bind_rows(.id = "organization") %>%
     janitor::remove_empty(c("rows", "cols")) %>%
     dplyr::distinct()
-
-  print(head(dataverse_metadata))
 
   logger::log_info("Saving tidy metadata")
   usethis::use_data(dataverse_metadata, overwrite = TRUE)
