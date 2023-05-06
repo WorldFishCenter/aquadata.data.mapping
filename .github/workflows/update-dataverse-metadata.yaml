@@ -22,8 +22,8 @@ jobs:
           image_name: r-update-dataverse-metadata
           dockerfile: Dockerfile.prod
 
-  update-data:
-    name: Update organizations metadata
+  update-raw-metadata:
+    name: Update raw metadata
     needs: build-container
     runs-on: ubuntu-20.04
     container:
@@ -34,12 +34,38 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
+      - name: Clean old raw metadata
+        run: rm -rf inst/dataverse_raw/*
       - run: git config --global --add safe.directory /__w/aquadata.data.mapping/aquadata.data.mapping
-
-      - name: Download organizations metadata
+      - name: Download dataverse raw metadata
         run: Rscript -e 'aquadata.data.mapping::get_dataverse_metadata()'
+      - name: Commit raw metadata
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          file_pattern: inst/dataverse_raw/*
 
+  process-raw-metadata:
+    name: Process raw metadata
+    needs: update-raw-metadata
+    runs-on: ubuntu-20.04
+    container:
+      image: docker.pkg.github.com/worldfishcenter/aquadata.data.mapping/r-update-dataverse-metadata
+      credentials:
+        username: ${{ github.actor }}
+        password: ${{ secrets.GITHUB_TOKEN }}
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+      - run: git config --global --add safe.directory /__w/aquadata.data.mapping/aquadata.data.mapping
+      - name: Process raw metadata
+        run: Rscript -e 'aquadata.data.mapping::process_dataverse_raw()'
+      - name: Pull changes from previuous job
+        run: |
+          git config --global user.email "lorenzo.longobardi@gmail.com.com"
+          git config --global user.name "langbart"
+          git pull
       - name: Commit changes package data
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          file_pattern: data-raw/*
+          file_pattern: data/*
+

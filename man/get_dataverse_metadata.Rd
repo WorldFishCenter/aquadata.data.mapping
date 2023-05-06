@@ -17,7 +17,7 @@ Nothing, this function is used for its side effects.
 \description{
 This function uses [purrr::walk] together with `get_organization_metadata`
 to download Dataverse metadata from several organizations. Data are then
-stored as csv files into data-raw folder.
+stored as csv files into dataverse_raw folder.
 }
 \examples{
 \dontrun{
