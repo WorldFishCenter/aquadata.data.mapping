@@ -64,7 +64,7 @@ jobs:
           git config --global user.email "lorenzo.longobardi@gmail.com.com"
           git config --global user.name "langbart"
           git pull
-          git add data/
-          git commit -m "Commit processed metadata"
-          git push
-          git config --global user.name "langbart"
+      - name: Commit changes package data
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          file_pattern: data/*
