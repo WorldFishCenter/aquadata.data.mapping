@@ -7,7 +7,13 @@
     <loc>https://worldfishcenter.github.io/aquadata.data.mapping/CODE_OF_CONDUCT.html</loc>
   </url>
   <url>
+    <loc>https://worldfishcenter.github.io/aquadata.data.mapping/CONTRIBUTING.html</loc>
+  </url>
+  <url>
     <loc>https://worldfishcenter.github.io/aquadata.data.mapping/LICENSE.html</loc>
+  </url>
+  <url>
+    <loc>https://worldfishcenter.github.io/aquadata.data.mapping/SUPPORT.html</loc>
   </url>
   <url>
     <loc>https://worldfishcenter.github.io/aquadata.data.mapping/authors.html</loc>
@@ -19,7 +25,10 @@
     <loc>https://worldfishcenter.github.io/aquadata.data.mapping/news/index.html</loc>
   </url>
   <url>
-    <loc>https://worldfishcenter.github.io/aquadata.data.mapping/reference/clean_metadata_files.html</loc>
+    <loc>https://worldfishcenter.github.io/aquadata.data.mapping/reference/chatgpt_wrapper.html</loc>
+  </url>
+  <url>
+    <loc>https://worldfishcenter.github.io/aquadata.data.mapping/reference/clean_dataverse_metadata.html</loc>
   </url>
   <url>
     <loc>https://worldfishcenter.github.io/aquadata.data.mapping/reference/dataverse_metadata.html</loc>
@@ -46,12 +55,12 @@
     <loc>https://worldfishcenter.github.io/aquadata.data.mapping/reference/pipe.html</loc>
   </url>
   <url>
+    <loc>https://worldfishcenter.github.io/aquadata.data.mapping/reference/process_dataverse_raw.html</loc>
+  </url>
+  <url>
     <loc>https://worldfishcenter.github.io/aquadata.data.mapping/reference/read_config.html</loc>
   </url>
   <url>
-    <loc>https://worldfishcenter.github.io/aquadata.data.mapping/reference/summarise_chatgpt_wrapper.html</loc>
-  </url>
-  <url>
-    <loc>https://worldfishcenter.github.io/aquadata.data.mapping/reference/worldfish_guestbook_responses.html</loc>
+    <loc>https://worldfishcenter.github.io/aquadata.data.mapping/reference/tidyeval.html</loc>
   </url>
 </urlset>

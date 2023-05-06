@@ -9,7 +9,8 @@
 <title>What the Package Does (Title Case) • aquadata.data.mapping</title>
 <script src="deps/jquery-3.6.0/jquery-3.6.0.min.js"></script><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <link href="deps/bootstrap-5.2.2/bootstrap.min.css" rel="stylesheet">
-<script src="deps/bootstrap-5.2.2/bootstrap.bundle.min.js"></script><!-- Font Awesome icons --><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk=" crossorigin="anonymous">
+<script src="deps/bootstrap-5.2.2/bootstrap.bundle.min.js"></script><link href="deps/Poppins-0.4.6/font.css" rel="stylesheet">
+<!-- Font Awesome icons --><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk=" crossorigin="anonymous">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/v4-shims.min.css" integrity="sha256-wZjR52fzng1pJHwx4aV2AO3yyTOXrcDW7jBpJtTwVxw=" crossorigin="anonymous">
 <!-- bootstrap-toc --><script src="https://cdn.jsdelivr.net/gh/afeld/bootstrap-toc@v1.0.1/dist/bootstrap-toc.min.js" integrity="sha256-4veVQbu7//Lk5TSmc7YV48MxtMy98e26cf5MrgZYnwo=" crossorigin="anonymous"></script><!-- headroom.js --><script src="https://cdnjs.cloudflare.com/ajax/libs/headroom/0.11.0/headroom.min.js" integrity="sha256-AsUX4SJE1+yuDu5+mAVzJbuYNPHj/WroHuZ8Ir/CkE0=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/headroom/0.11.0/jQuery.headroom.min.js" integrity="sha256-ZX/yNShbjqsohH1k95liqY9Gd8uOiE1S4vZc+9KQ1K4=" crossorigin="anonymous"></script><!-- clipboard.js --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js" integrity="sha256-inc5kl9MA1hkeYUt+EC3BhlIgyp/2jDIyBLS6k3UxPI=" crossorigin="anonymous"></script><!-- search --><script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.4.6/fuse.js" integrity="sha512-zv6Ywkjyktsohkbp9bb45V6tEMoWhzFzXis+LrMehmJZZSys19Yxf1dopHx7WzIKxr5tK2dVcYmaCk2uqdjF4A==" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/autocomplete.js/0.38.0/autocomplete.jquery.min.js" integrity="sha512-GU9ayf+66Xx2TmpxqJpliWbT5PiGYxpaG8rfnBEk1LL8l1KGkRShhngwdXK1UgqhAzWpZHSiYPc09/NwDQIGyg==" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.min.js" integrity="sha512-5CYOlHXGh6QpOFA/TeTylKLWfB3ftPsde7AnmhuitiTX4K5SqCLBeKro6sPS8ilsz1Q4NRx3v8Ko2IBiszzdww==" crossorigin="anonymous"></script><!-- pkgdown --><script src="pkgdown.js"></script><meta property="og:title" content="What the Package Does (Title Case)">
 <meta property="og:description" content="The goal of aquadata.data.mapping is to collect and analyse metadata within the context aquatic food systems.   ">
@@ -26,7 +27,7 @@
     
     <a class="navbar-brand me-2" href="index.html">aquadata.data.mapping</a>
 
-    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="">1.0.0</small>
+    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="">2.0.0</small>
 
     
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -70,18 +71,18 @@
 </h2>
 <p>Install and load the R package from the most recent version using the following commands on the R console:</p>
 <div class="sourceCode" id="cb1"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span><span class="co">#install.packages("devtools")</span></span>
-<span><span class="co">#devtools::install_github("WorldFishCenter/aquadata.data.mapping")</span></span>
+<code class="sourceCode R"><span><span class="co"># install.packages("devtools")</span></span>
+<span><span class="co"># devtools::install_github("WorldFishCenter/aquadata.data.mapping")</span></span>
 <span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://worldfishcenter.github.io/aquadata.data.mapping/">aquadata.data.mapping</a></span><span class="op">)</span></span></code></pre></div>
 </div>
 <div class="section level2">
 <h2 id="explore-the-data">Explore the data<a class="anchor" aria-label="anchor" href="#explore-the-data"></a>
 </h2>
-<p>Once installed, you can access and explore the data directly from the package. <code>dataverse_metadata</code> include metadata information on the data of several CGIAR organizations, while <code>worldfish_guestbook_responses</code> include information provided by the users downloading WorldFish data.</p>
+<p>Once installed, you can access and explore the data directly from the package. <code>dataverse_metadata</code> include metadata information on the data of several CGIAR organizations.</p>
 <div class="sourceCode" id="cb2"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span><span class="co"># Summary of dataverse_metadata </span></span>
+<code class="sourceCode R"><span><span class="co"># Summary of dataverse_metadata</span></span>
 <span><span class="fu">dplyr</span><span class="fu">::</span><span class="fu"><a href="https://pillar.r-lib.org/reference/glimpse.html" class="external-link">glimpse</a></span><span class="op">(</span><span class="va">dataverse_metadata</span><span class="op">)</span></span>
-<span><span class="co">#&gt; Rows: 22,181</span></span>
+<span><span class="co">#&gt; Rows: 22,273</span></span>
 <span><span class="co">#&gt; Columns: 9</span></span>
 <span><span class="co">#&gt; $ organization           &lt;chr&gt; "AllianceBioversityCIAT", "AllianceBioversityCI…</span></span>
 <span><span class="co">#&gt; $ dataset_id             &lt;int&gt; 3248318, 3248318, 3248318, 3248318, 3248318, 32…</span></span>
@@ -97,28 +98,7 @@
 <span><span class="fu"><a href="https://rdrr.io/r/base/unique.html" class="external-link">unique</a></span><span class="op">(</span><span class="va">dataverse_metadata</span><span class="op">$</span><span class="va">organization</span><span class="op">)</span></span>
 <span><span class="co">#&gt; [1] "AllianceBioversityCIAT" "ASTI"                   "CCAFSbaseline"         </span></span>
 <span><span class="co">#&gt; [4] "CIAT"                   "IFPRI"                  "RiceResearch"          </span></span>
-<span><span class="co">#&gt; [7] "worldfish"</span></span>
-<span></span>
-<span><span class="co"># Summary of worldfish_guestbook_responses </span></span>
-<span><span class="fu">dplyr</span><span class="fu">::</span><span class="fu"><a href="https://pillar.r-lib.org/reference/glimpse.html" class="external-link">glimpse</a></span><span class="op">(</span><span class="va">worldfish_guestbook_responses</span><span class="op">)</span></span>
-<span><span class="co">#&gt; Rows: 8,529</span></span>
-<span><span class="co">#&gt; Columns: 16</span></span>
-<span><span class="co">#&gt; $ guestbook        &lt;chr&gt; "WorldFish Guestbook", "WorldFish Guestbook", "WorldF…</span></span>
-<span><span class="co">#&gt; $ title            &lt;chr&gt; "myanmar baseline aquaculture performance assessment"…</span></span>
-<span><span class="co">#&gt; $ dataset_doi      &lt;chr&gt; "doi:10.7910/DVN/MIYZYQ", "doi:10.7910/DVN/MIYZYQ", "…</span></span>
-<span><span class="co">#&gt; $ publication_date &lt;date&gt; 2022-12-26, 2022-12-26, 2022-12-26, 2022-12-26, 2022…</span></span>
-<span><span class="co">#&gt; $ type             &lt;chr&gt; "Download", "Download", "Download", "Download", "Down…</span></span>
-<span><span class="co">#&gt; $ file_name        &lt;chr&gt; "20190719 G01_food_certification.tab", "20190719 D07_…</span></span>
-<span><span class="co">#&gt; $ file_id          &lt;int&gt; 3677836, 3677828, 3677827, 3677821, 3677819, 3677851,…</span></span>
-<span><span class="co">#&gt; $ file_doi         &lt;chr&gt; "doi:10.7910/DVN/MIYZYQ/UW6ZPH", "doi:10.7910/DVN/MIY…</span></span>
-<span><span class="co">#&gt; $ user_name        &lt;chr&gt; "fda08cf2", "fda08cf2", "fda08cf2", "fda08cf2", "fda0…</span></span>
-<span><span class="co">#&gt; $ email            &lt;chr&gt; "b9cb1ce6", "b9cb1ce6", "b9cb1ce6", "b9cb1ce6", "b9cb…</span></span>
-<span><span class="co">#&gt; $ institution      &lt;chr&gt; "gw", "gw", "gw", "gw", "gw", "gw", "gw", "gw", "gw",…</span></span>
-<span><span class="co">#&gt; $ position         &lt;chr&gt; NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, N…</span></span>
-<span><span class="co">#&gt; $ question_1       &lt;chr&gt; "Briefly describe how the data will be used", "Briefl…</span></span>
-<span><span class="co">#&gt; $ answer_1         &lt;chr&gt; "research", "research", "research", "research", "rese…</span></span>
-<span><span class="co">#&gt; $ question_2       &lt;chr&gt; "Where are you located?", "Where are you located?", "…</span></span>
-<span><span class="co">#&gt; $ answer_2         &lt;chr&gt; "nc", "nc", "nc", "nc", "nc", "nc", "nc", "nc", "nc",…</span></span></code></pre></div>
+<span><span class="co">#&gt; [7] "worldfish"</span></span></code></pre></div>
 <p>You can filter the data using the <code>filterby_word</code> function and show the first 10 rows:</p>
 <div class="sourceCode" id="cb3"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="va">filtered_metadata</span> <span class="op">&lt;-</span> <span class="fu"><a href="reference/filterby_word.html">filterby_word</a></span><span class="op">(</span>word <span class="op">=</span> <span class="st">"Bangladesh"</span><span class="op">)</span></span>
@@ -127,11 +107,11 @@
 <span><span class="co">#&gt;   organization datase…¹ datas…² publicat…³ title subject keywo…⁴ keywo…⁵ keywo…⁶</span></span>
 <span><span class="co">#&gt;   &lt;chr&gt;           &lt;int&gt; &lt;chr&gt;   &lt;date&gt;     &lt;chr&gt; &lt;chr&gt;   &lt;chr&gt;   &lt;chr&gt;   &lt;chr&gt;  </span></span>
 <span><span class="co">#&gt; 1 ASTI          2693658 doi:10… 2015-11-03 asti… Arts a… bangla… AGROVOC http:/…</span></span>
-<span><span class="co">#&gt; 2 ASTI          2693658 doi:10… 2015-11-03 asti… Arts a… south … AGROVOC http:/…</span></span>
-<span><span class="co">#&gt; 3 ASTI          2693658 doi:10… 2015-11-03 asti… Arts a… asia    AGROVOC http:/…</span></span>
-<span><span class="co">#&gt; 4 ASTI          2693658 doi:10… 2015-11-03 asti… Arts a… agricu… AGROVOC http:/…</span></span>
-<span><span class="co">#&gt; 5 ASTI          2693658 doi:10… 2015-11-03 asti… Social… bangla… AGROVOC http:/…</span></span>
-<span><span class="co">#&gt; 6 ASTI          2693658 doi:10… 2015-11-03 asti… Social… south … AGROVOC http:/…</span></span>
+<span><span class="co">#&gt; 2 ASTI          2693658 doi:10… 2015-11-03 asti… Social… bangla… AGROVOC http:/…</span></span>
+<span><span class="co">#&gt; 3 ASTI          2693658 doi:10… 2015-11-03 asti… Arts a… south … AGROVOC http:/…</span></span>
+<span><span class="co">#&gt; 4 ASTI          2693658 doi:10… 2015-11-03 asti… Social… south … AGROVOC http:/…</span></span>
+<span><span class="co">#&gt; 5 ASTI          2693658 doi:10… 2015-11-03 asti… Arts a… asia    AGROVOC http:/…</span></span>
+<span><span class="co">#&gt; 6 ASTI          2693658 doi:10… 2015-11-03 asti… Social… asia    AGROVOC http:/…</span></span>
 <span><span class="co">#&gt; # … with abbreviated variable names ¹​dataset_id, ²​dataset_doi,</span></span>
 <span><span class="co">#&gt; #   ³​publication_date, ⁴​keyword_value, ⁵​keyword_vocabulary,</span></span>
 <span><span class="co">#&gt; #   ⁶​keyword_vocabulary_uri</span></span></code></pre></div>
@@ -146,7 +126,7 @@
 </h2>
 <p>Use AI tools (ChatGPT) to generate stories from downloaded data.</p>
 <div class="sourceCode" id="cb4"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span><span class="co">#output &lt;-</span></span>
+<code class="sourceCode R"><span><span class="co"># output &lt;-</span></span>
 <span><span class="co">#  summarise_chatgpt_wrapper(</span></span>
 <span><span class="co">#    document_path = "inst/docs_dataverse/5636634.txt",</span></span>
 <span><span class="co">#    openaikey = OPENAI_TOKEN,</span></span>
@@ -154,7 +134,7 @@
 <span><span class="co">#    temperature = 0.7,</span></span>
 <span><span class="co">#    refine_text = REFINE_TEXT</span></span>
 <span><span class="co">#  )</span></span>
-<span><span class="co">#cat(output$output_text)</span></span></code></pre></div>
+<span><span class="co"># cat(output$output_text)</span></span></code></pre></div>
 </div>
 </div>
   </main><aside class="col-md-3"><div class="license">
@@ -168,7 +148,9 @@
 <div class="community">
 <h2 data-toc-skip>Community</h2>
 <ul class="list-unstyled">
+<li><a href="CONTRIBUTING.html">Contributing guide</a></li>
 <li><a href="CODE_OF_CONDUCT.html">Code of conduct</a></li>
+<li><a href="SUPPORT.html">Getting help</a></li>
 </ul>
 </div>
 
