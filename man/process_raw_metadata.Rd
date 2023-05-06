@@ -20,6 +20,6 @@ unique and structured .rda file.
 }
 \examples{
 \dontrun{
-update_metadata()
+process_raw_metadata()
 }
 }

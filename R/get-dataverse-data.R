@@ -129,6 +129,6 @@ get_dataverse_metadata <- function(log_threshold = logger::DEBUG) {
   file.remove(files)
 
   logger::log_info("Downloading Dataverse raw metadata")
-  pars$dataverse$organizations[1:2] %>%
+  pars$dataverse$organizations %>%
     purrr::walk(get_organization_metadata)
 }
