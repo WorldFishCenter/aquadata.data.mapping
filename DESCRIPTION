@@ -16,6 +16,7 @@ License: GPL (>= 3)
 Encoding: UTF-8
 LazyData: true
 Imports: 
+    apexcharter,
     config,
     dataverse,
     dplyr,
@@ -25,10 +26,13 @@ Imports:
     officer,
     pdftools,
     purrr,
+    reactable,
     readr,
     readxl,
     reticulate,
     rlang (>= 0.4.11),
+    shiny,
+    shinythemes,
     stringr,
     usethis
 Depends: 

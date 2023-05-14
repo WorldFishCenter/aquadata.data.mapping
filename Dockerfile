@@ -17,4 +17,7 @@ RUN install2.r --error --skipinstalled \
     stringr \
     purrr \
     logger \
-    usethis
+    usethis \
+    shiny \
+    apexcharter \
+    reactable
