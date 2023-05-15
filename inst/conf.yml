@@ -16,6 +16,18 @@ default:
   dataverse:
     token: !expr Sys.getenv('DATAVERSE_KEY')
     organizations: [AllianceBioversityCIAT, ASTI, CCAFSbaseline, CIAT, IFPRI, RiceResearch, worldfish]
+  app:
+  about:
+    text: |
+      The goal of **aquadata.data.mapping** is to collect metadata within the context aquatic food systems in order to identify data gaps and generate new data in key geographic region: Bangladesh, Cambodia, Ghana, India, Myanmar, Nigeria, Solomon Islands, Timor-Leste and Zambia.
+
+      **aquadata.data.mapping** uses metadata information to download data and elaborate data stories and scientific reports' summaries using AI tools (ChatGPT).
+
+      This repository is part of work package 1 "***AquaData***" of the initiative "***Resilient Aquatic Food Systems for Healthy People and Planet***" (<https://cgspace.cgiar.org/handle/10568/121141> ).
+
+      Further info:
+
+      <https://www.cgiar.org/initiative/15-resilient-aquatic-foods-for-healthy-people-and-planet/>
 
 local:
   openai:

@@ -39,7 +39,6 @@ clean_dataverse_metadata <- function(file_path = NULL) {
 #' process_dataverse_raw()
 #' }
 process_dataverse_raw <- function(log_threshold = logger::DEBUG) {
-
   folder_path <- system.file("dataverse_raw", package = "aquadata.data.mapping", mustWork = TRUE)
   folder_files <- list.files(
     path = folder_path, full.names = TRUE,

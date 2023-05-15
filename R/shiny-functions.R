@@ -59,8 +59,10 @@ jsonify_metadata <- function() {
 #'
 #' @examples
 #' \dontrun{
-#' palette <- c("#440154", "#30678D", "#35B778",
-#'              "#FDE725", "#FCA35D", "#D32F2F", "#67001F")
+#' palette <- c(
+#'   "#440154", "#30678D", "#35B778",
+#'   "#FDE725", "#FCA35D", "#D32F2F", "#67001F"
+#' )
 #' colors <- palette %>% strtrim(width = 7)
 #' dat <- jsonify_metadata()
 #' apex_treemap(series = dat, colors = colors, legend_size = 15)

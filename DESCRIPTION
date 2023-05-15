@@ -20,6 +20,7 @@ Imports:
     config,
     dataverse,
     dplyr,
+    golem,
     janitor,
     logger,
     magrittr,

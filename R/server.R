@@ -1,8 +1,10 @@
-#' The Shiny App Server.
-#' @param input input set by Shiny.
-#' @param output output set by Shiny.
-#' @export
-shiny_server <- function(input, output) {
+#' The application server-side
+#'
+#' @param input,output,session Internal parameters for {shiny}.
+#'     DO NOT REMOVE.
+#' @import shiny
+#' @noRd
+app_server <- function(input, output, session) {
   # Render the plot
   palette <- c(
     "#440154", "#30678D", "#35B778",
@@ -20,7 +22,6 @@ shiny_server <- function(input, output) {
 
   # Render the table
   output$t <- reactable::renderReactable({
-
     # Organize metadata
     tab_dat <-
       aquadata.data.mapping::dataverse_metadata %>%
@@ -53,5 +54,15 @@ shiny_server <- function(input, output) {
       searchable = TRUE,
       highlight = TRUE
     )
+  })
+
+  # Observer to update the processed_text input value
+  shiny::observeEvent(input$file_upload, {
+    req(input$file_upload) # Check if a file is uploaded
+    file <- input$file_upload$datapath # Get the path of the uploaded file
+    text <- readLines(file) # Read the text file
+    # Perform your text processing on the 'text' variable
+    processed_text <- shiny::markdown(text)
+    shiny::updateTextAreaInput(session, "processed_text", value = processed_text)
   })
 }
