@@ -22,4 +22,4 @@ read_config <- function(conf = "default") {
 }
 
 #' @importFrom utils globalVariables
-utils::globalVariables(c("."))
+utils::globalVariables(c(".", "pars"))

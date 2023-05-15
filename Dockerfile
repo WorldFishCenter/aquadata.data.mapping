@@ -20,4 +20,8 @@ RUN install2.r --error --skipinstalled \
     usethis \
     shiny \
     apexcharter \
-    reactable
+    reactable \
+    bslib \
+    tools \
+    golem
+

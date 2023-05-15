@@ -95,3 +95,30 @@ apex_treemap <- function(series = NULL, colors = NULL, legend_size = 15) {
       fillSeriesColor = FALSE
     )
 }
+
+#' Read uploaded file
+#'
+#' This function read uplaoded file from the user. It returns a object based
+#' on the extension of the file. Allowed formats are docx, pdf, txt.
+#'
+#' @param file The uploaded file.
+#'
+#' @return A text.
+#' @export
+#'
+#' @examples
+#' \dontrun{
+#' read_text("my_file.pdf")
+#' }
+read_file <- function(file = NULL) {
+  extension <- tools::file_ext(file)
+
+  if (extension == "docx") {
+    f <- officer::read_docx(file)
+  } else if (extension == "txt") {
+    f <- base::readLines(file)
+  } else if (extension == "pdf") {
+    f <- pdftools::pdf_text(file)
+  }
+  f
+}

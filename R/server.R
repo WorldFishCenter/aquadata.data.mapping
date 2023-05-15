@@ -60,9 +60,9 @@ app_server <- function(input, output, session) {
   shiny::observeEvent(input$file_upload, {
     req(input$file_upload) # Check if a file is uploaded
     file <- input$file_upload$datapath # Get the path of the uploaded file
-    text <- readLines(file) # Read the text file
+    text <- read_file(file) # Read the text file
     # Perform your text processing on the 'text' variable
-    processed_text <- shiny::markdown(text)
+    processed_text <- text
     shiny::updateTextAreaInput(session, "processed_text", value = processed_text)
   })
 }

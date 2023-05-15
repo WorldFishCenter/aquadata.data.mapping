@@ -17,6 +17,7 @@ Encoding: UTF-8
 LazyData: true
 Imports: 
     apexcharter,
+    bslib,
     config,
     dataverse,
     dplyr,
@@ -33,8 +34,8 @@ Imports:
     reticulate,
     rlang (>= 0.4.11),
     shiny,
-    shinythemes,
     stringr,
+    tools,
     usethis
 Depends: 
     R (>= 2.10)

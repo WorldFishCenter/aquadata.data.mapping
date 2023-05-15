@@ -6,7 +6,14 @@
 #' @noRd
 app_ui <- function(request) {
   shiny::fluidPage(
-    theme = shinythemes::shinytheme("yeti"),
+    theme = bslib::bs_theme(
+      version = 5,
+      bg = "#ffffff",
+      fg = "#333333",
+      primary = "#669bbc",
+      secondary = "#dda15e",
+      base_font = bslib::font_google("Montserrat")
+    ),
     shiny::absolutePanel(
       top = 0, right = 0,
       width = 100, height = 30
