@@ -23,5 +23,6 @@ RUN install2.r --error --skipinstalled \
     reactable \
     bslib \
     tools \
-    golem
+    golem \
+    utils
 

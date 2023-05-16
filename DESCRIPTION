@@ -1,7 +1,7 @@
 Package: aquadata.data.mapping
 Type: Package
 Title: What the Package Does (Title Case)
-Version: 2.0.0
+Version: 3.0.0
 Authors@R: 
     c(person(given = "Lorenzo",
              family = "Longobardi",
@@ -36,7 +36,8 @@ Imports:
     shiny,
     stringr,
     tools,
-    usethis
+    usethis,
+    utils
 Depends: 
     R (>= 2.10)
 RoxygenNote: 7.2.3

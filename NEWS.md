@@ -1,3 +1,11 @@
+# aquadata.data.mapping 3.0.0
+
+Integrated a shiny app with the following features:
+
+- Display CGIAR metadata using a treemap from the `apexcharter` library
+- Display an interactive table from the `reactable` library showing metadata
+- Generate stories and summaries from text files using OpenAI api
+
 # aquadata.data.mapping 2.0.0
 
 - The repository gets automatically updated through github actions. The weekly pipeline

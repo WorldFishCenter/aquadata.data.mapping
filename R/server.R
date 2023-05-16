@@ -57,12 +57,44 @@ app_server <- function(input, output, session) {
   })
 
   # Observer to update the processed_text input value
-  shiny::observeEvent(input$file_upload, {
-    req(input$file_upload) # Check if a file is uploaded
-    file <- input$file_upload$datapath # Get the path of the uploaded file
-    text <- read_file(file) # Read the text file
-    # Perform your text processing on the 'text' variable
-    processed_text <- text
-    shiny::updateTextAreaInput(session, "processed_text", value = processed_text)
+  shiny::observeEvent(input$process_text, {
+    prompt <-
+      if (input$prompt == "Story") {
+        pars$openai$refine_prompts$story
+      } else if (input$prompt == "Summary") {
+        pars$openai$refine_prompts$summary
+      }
+
+    if (is.null(input$file_upload)) {
+      shiny::showModal(
+        shiny::modalDialog(
+          title = "Error",
+          "Please upload a file.",
+          easyClose = TRUE
+        )
+      )
+      return() # Exit the observeEvent early if no file is uploaded
+    }
+
+    shiny::withProgress(
+      message = "Processing text...",
+      value = 0,
+      {
+        file <- input$file_upload$datapath # Get the path of the uploaded file
+        text <- read_file(file) # Read the text file
+        # Perform your text processing on the 'text' variable
+        utils::write.table(text, "text.txt")
+        processed_text <-
+          chatgpt_wrapper(
+            document_path = "text.txt",
+            openaikey = pars$openai$token,
+            engine = input$engine,
+            temperature = input$temperature,
+            refine_text = prompt
+          )
+        shiny::updateTextAreaInput(session, "processed_text", value = processed_text$output_text)
+        shiny::setProgress(1) # Set progress to 100% to make it disappear
+      }
+    )
   })
 }
