@@ -7,7 +7,6 @@
 #' @return A dataframe.
 #' @export
 #' @importFrom rlang .data
-#'
 clean_dataverse_metadata <- function(file_path = NULL) {
   readr::read_csv(file_path, show_col_types = FALSE) %>%
     dplyr::rename(
