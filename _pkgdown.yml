@@ -27,6 +27,7 @@ navbar:
 reference:
 - title: All functions
   contents:
+  - '`apex_treemap`'
   - '`chatgpt_wrapper`'
   - '`clean_dataverse_metadata`'
   - '`dataverse_metadata`'
@@ -35,5 +36,9 @@ reference:
   - '`get_dataset_file`'
   - '`get_dataverse_metadata`'
   - '`get_organization_metadata`'
+  - '`jsonify_metadata`'
   - '`process_dataverse_raw`'
   - '`read_config`'
+  - '`read_file`'
+  - '`run_app`'
+  - '`start_fun`'

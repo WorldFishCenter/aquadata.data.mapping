@@ -2,7 +2,7 @@ default:
   openai:
     token: !expr Sys.getenv('OPENAI_KEY')
     refine_prompts:
-      p1: |
+      story: |
        "Your job is to produce a final, extensive sucess-story in the context of food systems, malnutrition and social development\n\n"
        "We have provided an existing summary up to a certain point: {existing_answer}\n"
        "We have the opportunity to refine the existing summary to a final story"
@@ -13,9 +13,35 @@ default:
        "Given the new context, refine the original summary in a final and extensive sucess-story highlighting the most relevant results and providing a concise story' title"
        "Also, only if relevant, provide a concise table (or tables) summarising the most important findings"
        "If the context isn't useful, return the original extensive summary."
+      summary: |
+       "Your job is to produce a final, extensive and detailed summary\n\n"
+       "We have provided an existing summary up to a certain point: {existing_answer}\n"
+       "We have the opportunity to refine the existing summary"
+       "(only if needed) with some more context below.\n"
+       "------------\n"
+       "{text}\n"
+       "------------\n"
+       "Given the new context, refine the original summary highlighting the most relevant information and providing a concise title"
+       "Also, only if relevant, provide a concise table (or tables) summarising the most important findings"
+       "If the context isn't useful, return the original extensive summary."
   dataverse:
     token: !expr Sys.getenv('DATAVERSE_KEY')
     organizations: [AllianceBioversityCIAT, ASTI, CCAFSbaseline, CIAT, IFPRI, RiceResearch, worldfish]
+  app:
+  about:
+    text: |
+      ### Welcome to the CGIAR metadata explorer!
+
+
+      The CGIAR metadata explorer is part of **[aquadata.data.mapping](https://github.com/WorldFishCenter/aquadata.data.mapping)**, a repository developed to to collect metadata within the context aquatic food systems in order to identify data gaps and generate new data in key geographic region: Bangladesh, Cambodia, Ghana, India, Myanmar, Nigeria, Solomon Islands, Timor-Leste and Zambia.
+
+      **aquadata.data.mapping** uses metadata information to download data and elaborate data stories and scientific reports' summaries using AI tools (ChatGPT).
+
+      The repository is part of work package 1 "***AquaData***" of the initiative "***Resilient Aquatic Food Systems for Healthy People and Planet***" (<https://cgspace.cgiar.org/handle/10568/121141> ).
+
+      Further info:
+
+      <https://www.cgiar.org/initiative/15-resilient-aquatic-foods-for-healthy-people-and-planet/>
 
 local:
   openai:

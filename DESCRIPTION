@@ -1,7 +1,7 @@
 Package: aquadata.data.mapping
 Type: Package
 Title: What the Package Does (Title Case)
-Version: 2.0.0
+Version: 3.0.0
 Authors@R: 
     c(person(given = "Lorenzo",
              family = "Longobardi",
@@ -16,21 +16,28 @@ License: GPL (>= 3)
 Encoding: UTF-8
 LazyData: true
 Imports: 
+    apexcharter,
+    bslib,
     config,
     dataverse,
     dplyr,
+    golem,
     janitor,
     logger,
     magrittr,
     officer,
     pdftools,
     purrr,
+    reactable,
     readr,
     readxl,
     reticulate,
     rlang (>= 0.4.11),
+    shiny,
     stringr,
-    usethis
+    tools,
+    usethis,
+    utils
 Depends: 
     R (>= 2.10)
 RoxygenNote: 7.2.3
