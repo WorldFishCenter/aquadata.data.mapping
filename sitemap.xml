@@ -25,6 +25,9 @@
     <loc>https://worldfishcenter.github.io/aquadata.data.mapping/news/index.html</loc>
   </url>
   <url>
+    <loc>https://worldfishcenter.github.io/aquadata.data.mapping/reference/apex_treemap.html</loc>
+  </url>
+  <url>
     <loc>https://worldfishcenter.github.io/aquadata.data.mapping/reference/chatgpt_wrapper.html</loc>
   </url>
   <url>
@@ -52,6 +55,9 @@
     <loc>https://worldfishcenter.github.io/aquadata.data.mapping/reference/index.html</loc>
   </url>
   <url>
+    <loc>https://worldfishcenter.github.io/aquadata.data.mapping/reference/jsonify_metadata.html</loc>
+  </url>
+  <url>
     <loc>https://worldfishcenter.github.io/aquadata.data.mapping/reference/pipe.html</loc>
   </url>
   <url>
@@ -59,6 +65,15 @@
   </url>
   <url>
     <loc>https://worldfishcenter.github.io/aquadata.data.mapping/reference/read_config.html</loc>
+  </url>
+  <url>
+    <loc>https://worldfishcenter.github.io/aquadata.data.mapping/reference/read_file.html</loc>
+  </url>
+  <url>
+    <loc>https://worldfishcenter.github.io/aquadata.data.mapping/reference/run_app.html</loc>
+  </url>
+  <url>
+    <loc>https://worldfishcenter.github.io/aquadata.data.mapping/reference/start_fun.html</loc>
   </url>
   <url>
     <loc>https://worldfishcenter.github.io/aquadata.data.mapping/reference/tidyeval.html</loc>
