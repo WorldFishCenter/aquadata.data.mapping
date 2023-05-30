@@ -24,6 +24,35 @@ default:
        "Given the new context, refine the original summary highlighting the most relevant information and providing a concise title"
        "Also, only if relevant, provide a concise table (or tables) summarising the most important findings"
        "If the context isn't useful, return the original extensive summary."
+      impact_story: |
+       "Your job is to produce a final, extensive sucess-story in the context of food systems, malnutrition and social development\n\n"
+       "We have provided an existing summary up to a certain point: {existing_answer}\n"
+       "We have the opportunity to refine the existing summary to a final story"
+       "(only if needed) with some more context below.\n"
+       "------------\n"
+       "{text}\n"
+       "------------\n"
+       "Given the new context, refine the original summary in a final and extensive sucess-story"
+       "The story must be as long as possible and must follow these sections:
+       "- Short Summary (this section MUST include between 100 and 250 characters, NOT MORE): Give the reader enough information to decide if they want to read or share the story.
+       "- Intervention (this section MUST count more than 1000 characters): It should describe the intervention that generated a positive impact in the context of food systems, malnutrition and social development.
+       "- Impact (this section MUST count more than 1000 characters): It should describe the impact that was observed as a result of the intervention."
+       "- Project description (this section is optional and MUST count less than 600 characters): optional section that provides an overview of the project."
+      baseline_story: |
+       "Your job is to produce a final, extensive sucess-story in the context of food systems, malnutrition and social development\n\n"
+       "We have provided an existing summary up to a certain point: {existing_answer}\n"
+       "We have the opportunity to refine the existing summary to a final story"
+       "(only if needed) with some more context below.\n"
+       "------------\n"
+       "{text}\n"
+       "------------\n"
+       "Given the new context, refine the original summary in a final and extensive sucess-story"
+       "The story must be as long as possible and must follow these sections:
+       "- Short Summary (this section must include between 100 and 250 characters, not more): Give the reader enough information to decide if they want to read or share the story.
+       "- Methods: It should describe the methods used to collect data."
+       "- Project description (this section is optional, write it only if is relevant, must be below 600 characters): optional section that provides an overview of the project."
+
+
   dataverse:
     token: !expr Sys.getenv('DATAVERSE_KEY')
     organizations: [AllianceBioversityCIAT, ASTI, CCAFSbaseline, CIAT, IFPRI, RiceResearch, worldfish]
