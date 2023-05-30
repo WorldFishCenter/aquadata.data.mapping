@@ -44,7 +44,8 @@ app_ui <- function(request) {
           ),
           shiny::fluidRow(
             shiny::column(width = 12, reactable::reactableOutput(("t")))
-          )
+          ),
+          uiOutput("selected_row_details")
         ),
         # Second tab - Text Processing
         shiny::tabPanel(
@@ -61,7 +62,7 @@ app_ui <- function(request) {
           ),
           shiny::fluidRow(
             shiny::column(width = 4, shiny::selectInput("engine", "Select the AI engine", choices = c("gpt-3.5-turbo", "text-davinci-003"))),
-            shiny::column(width = 4, shiny::selectInput("prompt", "Output aim", choices = c("Story", "Summary"))),
+            shiny::column(width = 4, shiny::selectInput("prompt", "Output aim", choices = c("Impact Story", "Baseline Story", "Summary"))),
             shiny::column(width = 4, shiny::sliderInput("temperature", "Select the temperature (creativity)",
               value = 0.5,
               min = 0.1,

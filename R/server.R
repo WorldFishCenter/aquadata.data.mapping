@@ -5,6 +5,7 @@
 #' @import shiny
 #' @noRd
 app_server <- function(input, output, session) {
+  options(shiny.maxRequestSize = 30 * 1024^2)
   # Render the plot
   palette <- c(
     "#440154", "#30678D", "#35B778",
@@ -44,6 +45,7 @@ app_server <- function(input, output, session) {
     # Render table
     reactable::reactable(
       tab_dat,
+      theme = reactablefmtr::espn(),
       # pagination = FALSE,
       # compact = FALSE,
       # borderless = FALSE,
@@ -52,17 +54,63 @@ app_server <- function(input, output, session) {
       sortable = TRUE,
       filterable = TRUE,
       searchable = TRUE,
-      highlight = TRUE
+      highlight = TRUE,
+      selection = "single", # Allow selecting only one row
+      onClick = "select"
+      # detail = function() {
+      #  htmltools::div(
+      #    style = "padding: 1rem",
+      #    reactable(get_dataset_insights(selected_dataset), outlined = TRUE)
+      #  )
+      # }
+    )
+  })
+
+  output$selected_row_details <- renderUI({
+    selected <- reactable::getReactableState("t", "selected")
+    req(selected)
+
+    selected_dataset <-
+      aquadata.data.mapping::dataverse_metadata %>%
+      dplyr::select(
+        Organization = .data$organization,
+        Title = .data$title,
+        Subject = .data$subject,
+        Keyword = .data$keyword_value,
+        doi = .data$dataset_doi
+      ) %>%
+      dplyr::group_by(.data$Title) %>%
+      dplyr::summarise(
+        Organization = dplyr::first(.data$Organization),
+        Subject = dplyr::first(.data$Subject),
+        Keyword = dplyr::first(.data$Keyword),
+        doi = dplyr::first(.data$doi)
+      ) %>%
+      dplyr::select(.data$Organization, dplyr::everything()) %>%
+      dplyr::slice(selected)
+
+    output$insights <- reactable::renderReactable(
+      reactable::reactable(
+        data = get_dataset_insights(selected_dataset),
+        theme = reactablefmtr::espn()
+      )
+    )
+
+    shiny::fluidRow(
+      h2("Selected row details"),
+      shiny::column(width = 12, reactable::reactableOutput(("insights")))
     )
   })
 
   # Observer to update the processed_text input value
   shiny::observeEvent(input$process_text, {
     prompt <-
-      if (input$prompt == "Story") {
-        pars$openai$refine_prompts$story
-      } else if (input$prompt == "Summary") {
+      if (input$prompt == "Summary") {
         pars$openai$refine_prompts$summary
+      } else if (input$prompt == "Impact Story") {
+        pars$openai$refine_prompts$impact_story
+      } else if (input$prompt == "Baseline Story") {
+        pars$openai$refine_prompts$baseline_story
       }
 
     if (is.null(input$file_upload)) {

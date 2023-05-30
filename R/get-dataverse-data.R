@@ -32,7 +32,7 @@ get_dataset <- function(doi = NULL, dataverse_key = NULL) {
 #' It returns an object based on the extension of the file. A dataframe in case of
 #' .csv or .xlsx, a text for .pdf and .docx files.
 #'
-#' @param dataset A dataverse dataset returned from [aquadata.data.mappind::get_dataset].
+#' @param dataset A dataverse dataset returned from [aquadata.data.mapping::get_dataset].
 #' @param file_id The dataverse file id.
 #'
 #' @return An object based on the file extension. A dataframe in case of .csv or .xlsx,
@@ -46,13 +46,18 @@ get_dataset <- function(doi = NULL, dataverse_key = NULL) {
 #' }
 get_dataset_file <- function(dataset = NULL, file_id = NULL) {
   datafile <- dataset %>% dplyr::filter(.data$id == file_id)
-  extension <- magrittr::extract2(datafile, "extension")
-
+  extension <-
+    ifelse(is.null(datafile$originalFormatLabel),
+      datafile$extension,
+      datafile$originalFormatLabel
+    )
   read_fun <- function(extension) {
-    if (extension %in% c("xlsx")) {
+    if (extension %in% "xlsx" | grepl("Excel", extension, fixed = F)) {
       f <- readxl::read_xlsx
-    } else if (extension == "csv") {
+    } else if (extension %in% "csv" | grepl("Comma Separated", extension, fixed = F)) {
       f <- readr::read_csv
+    } else if (extension == "tab") {
+      f <- utils::read.table
     } else if (extension == "docx") {
       f <- officer::read_docx
     } else if (extension == "pdf") {
@@ -60,14 +65,14 @@ get_dataset_file <- function(dataset = NULL, file_id = NULL) {
     }
     f
   }
-
   output <-
     dataverse::get_dataframe_by_id(
       file = file_id,
       server = "dataverse.harvard.edu",
       .f = read_fun(extension),
-      original = F
+      original = T
     )
+  output
 }
 
 #' Download metadata
@@ -130,4 +135,51 @@ get_dataverse_metadata <- function(log_threshold = logger::DEBUG) {
   logger::log_info("Downloading Dataverse raw metadata")
   pars$dataverse$organizations %>%
     purrr::walk(get_organization_metadata)
+}
+
+#' Get dataverse dataset insights
+#'
+#' This function is helpful when exploring the content of a dataverse object
+#' from the the metadata table [aquadata.data.mapping::dataverse_metadata].
+#'
+#' @param selected_dataset A unique dataverse dataset.
+#'
+#' @return A dataframe showing the objects included in the selected dataset.
+#' @export
+#'
+#' @examples
+#' \dontrun{
+#' # Select a random dataverse dataset
+#' dataset <- aquadata.data.mapping::dataverse_metadata %>% dplyr::slice(5)
+#' get_dataverse_metadata(selected_dataset = dataset)
+#' }
+get_dataset_insights <- function(selected_dataset) {
+  dataset <- get_dataset(doi = selected_dataset$doi, dataverse_key = pars$dataverse$token)
+
+  dataset <- if (isTRUE("originalFormatLabel" %in% colnames(dataset))) {
+    dataset %>%
+      dplyr::select(.data$id,
+        `file name` = .data$filename,
+        `filesize MB` = .data$filesize,
+        .data$restricted,
+        `original extension` = .data$originalFormatLabel,
+      ) %>%
+      dplyr::mutate(
+        `filesize MB` = .data$`filesize MB` / 1000000,
+        extension = tools::file_ext(.data$`file name`)
+      )
+  } else {
+    dataset %>%
+      dplyr::select(.data$id,
+        `file name` = .data$filename,
+        `filesize MB` = .data$filesize,
+        .data$restricted
+      ) %>%
+      dplyr::mutate(
+        `filesize MB` = .data$`filesize MB` / 1000000,
+        extension = tools::file_ext(.data$`file name`)
+      )
+  }
+  dataset
+  # get_dataset_file(dataset, id)
 }

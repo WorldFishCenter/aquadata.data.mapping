@@ -114,11 +114,11 @@ read_file <- function(file = NULL) {
   extension <- tools::file_ext(file)
 
   if (extension == "docx") {
-    f <- officer::read_docx(file)
+    f <- readtext::readtext(file = file)$text
   } else if (extension == "txt") {
     f <- base::readLines(file)
   } else if (extension == "pdf") {
-    f <- pdftools::pdf_text(file)
+    f <- readtext::readtext(file = file)$text
   }
   f
 }
