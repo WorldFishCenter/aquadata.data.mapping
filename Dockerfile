@@ -24,5 +24,7 @@ RUN install2.r --error --skipinstalled \
     bslib \
     tools \
     golem \
-    utils
+    utils \
+    readtext \
+    reactablefmtr
 

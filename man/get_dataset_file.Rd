@@ -7,7 +7,7 @@
 get_dataset_file(dataset = NULL, file_id = NULL)
 }
 \arguments{
-\item{dataset}{A dataverse dataset returned from [aquadata.data.mappind::get_dataset].}
+\item{dataset}{A dataverse dataset returned from [aquadata.data.mapping::get_dataset].}
 
 \item{file_id}{The dataverse file id.}
 }
