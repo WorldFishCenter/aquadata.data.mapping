@@ -35,7 +35,7 @@ start_fun <- function(global_pars = TRUE) {
   logger::log_info("Running start_fun")
   if (isTRUE(global_pars)) {
     logger::log_info("Setting up pars as a global variable")
-    pars <<- read_config()
+    pars <<- read_config("local")
   }
   logger::log_info("Finished instructions in start_fun")
 }

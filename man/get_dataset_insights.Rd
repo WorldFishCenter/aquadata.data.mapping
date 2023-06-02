@@ -4,10 +4,12 @@
 \alias{get_dataset_insights}
 \title{Get dataverse dataset insights}
 \usage{
-get_dataset_insights(selected_dataset)
+get_dataset_insights(parent_table = NULL, index = NULL)
 }
 \arguments{
-\item{selected_dataset}{A unique dataverse dataset.}
+\item{parent_table}{A unique dataverse dataset.}
+
+\item{index}{A number indicating the row number of the `parent_table`.}
 }
 \value{
 A dataframe showing the objects included in the selected dataset.
@@ -20,6 +22,9 @@ from the the metadata table [aquadata.data.mapping::dataverse_metadata].
 \dontrun{
 # Select a random dataverse dataset
 dataset <- aquadata.data.mapping::dataverse_metadata \%>\% dplyr::slice(5)
-get_dataverse_metadata(selected_dataset = dataset)
+get_dataverse_metadata(
+  parent_table = aquadata.data.mapping::dataverse_metadata,
+  index = 5
+)
 }
 }

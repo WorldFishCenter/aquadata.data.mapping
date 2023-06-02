@@ -23,32 +23,10 @@ app_server <- function(input, output, session) {
 
   # Render the table
   output$t <- reactable::renderReactable({
-    # Organize metadata
-    tab_dat <-
-      aquadata.data.mapping::dataverse_metadata %>%
-      dplyr::select(
-        Organization = .data$organization,
-        Title = .data$title,
-        Subject = .data$subject,
-        Keyword = .data$keyword_value,
-        doi = .data$dataset_doi
-      ) %>%
-      dplyr::group_by(.data$Title) %>%
-      dplyr::summarise(
-        Organization = dplyr::first(.data$Organization),
-        Subject = dplyr::first(.data$Subject),
-        Keyword = dplyr::first(.data$Keyword),
-        doi = dplyr::first(.data$doi)
-      ) %>%
-      dplyr::select(.data$Organization, dplyr::everything())
-
     # Render table
     reactable::reactable(
-      tab_dat,
+      data = organize_metatab(),
       theme = reactablefmtr::espn(),
-      # pagination = FALSE,
-      # compact = FALSE,
-      # borderless = FALSE,
       striped = TRUE,
       fullWidth = TRUE,
       sortable = TRUE,
@@ -57,11 +35,10 @@ app_server <- function(input, output, session) {
       highlight = TRUE,
       selection = "single", # Allow selecting only one row
       onClick = "select"
-      # detail = function() {
-      #  htmltools::div(
-      #    style = "padding: 1rem",
-      #    reactable(get_dataset_insights(selected_dataset), outlined = TRUE)
-      #  )
+      # detail = function(index) {
+      #  dataset <- get_dataset_insights(tab_dat, index)
+      #  tbl <- reactable(dataset, outlined = TRUE, highlight = TRUE, fullWidth = TRUE)
+      #  htmltools::div(style = list(margin = "12px 45px"), tbl)
       # }
     )
   })
@@ -70,29 +47,12 @@ app_server <- function(input, output, session) {
     selected <- reactable::getReactableState("t", "selected")
     req(selected)
 
-    selected_dataset <-
-      aquadata.data.mapping::dataverse_metadata %>%
-      dplyr::select(
-        Organization = .data$organization,
-        Title = .data$title,
-        Subject = .data$subject,
-        Keyword = .data$keyword_value,
-        doi = .data$dataset_doi
-      ) %>%
-      dplyr::group_by(.data$Title) %>%
-      dplyr::summarise(
-        Organization = dplyr::first(.data$Organization),
-        Subject = dplyr::first(.data$Subject),
-        Keyword = dplyr::first(.data$Keyword),
-        doi = dplyr::first(.data$doi)
-      ) %>%
-      dplyr::select(.data$Organization, dplyr::everything()) %>%
-      dplyr::slice(selected)
-
     output$insights <- reactable::renderReactable(
       reactable::reactable(
-        data = get_dataset_insights(selected_dataset),
-        theme = reactablefmtr::espn()
+        data = get_dataset_insights(parent_table = organize_metatab(), index = selected),
+        theme = reactablefmtr::espn(),
+        selection = "single", # Allow selecting only one row
+        onClick = "select"
       )
     )
 
@@ -101,6 +61,19 @@ app_server <- function(input, output, session) {
       shiny::column(width = 12, reactable::reactableOutput(("insights")))
     )
   })
+
+  # output$selected_row_open <- renderUI({
+
+  # output$content <- renderText(
+  #  get_dataset_file(insights_tab, insights_tab$ID)
+  # )
+
+  # shiny::fluidRow(
+  #  h2("File content"),
+  #  shiny::column(width = 12, textOutput(("content")))
+  # )
+  # })
+
 
   # Observer to update the processed_text input value
   shiny::observeEvent(input$process_text, {

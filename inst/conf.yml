@@ -1,6 +1,7 @@
 default:
   openai:
     token: !expr Sys.getenv('OPENAI_KEY')
+    engines: ['gpt-3.5-turbo', 'text-davinci-003', 'text-davinci-002', 'text-curie-001', 'text-ada-001']
     refine_prompts:
       story: |
        "Your job is to produce a final, extensive sucess-story in the context of food systems, malnutrition and social development\n\n"

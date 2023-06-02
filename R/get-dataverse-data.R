@@ -142,7 +142,8 @@ get_dataverse_metadata <- function(log_threshold = logger::DEBUG) {
 #' This function is helpful when exploring the content of a dataverse object
 #' from the the metadata table [aquadata.data.mapping::dataverse_metadata].
 #'
-#' @param selected_dataset A unique dataverse dataset.
+#' @param parent_table A unique dataverse dataset.
+#' @param index A number indicating the row number of the `parent_table`.
 #'
 #' @return A dataframe showing the objects included in the selected dataset.
 #' @export
@@ -151,9 +152,13 @@ get_dataverse_metadata <- function(log_threshold = logger::DEBUG) {
 #' \dontrun{
 #' # Select a random dataverse dataset
 #' dataset <- aquadata.data.mapping::dataverse_metadata %>% dplyr::slice(5)
-#' get_dataverse_metadata(selected_dataset = dataset)
+#' get_dataverse_metadata(
+#'   parent_table = aquadata.data.mapping::dataverse_metadata,
+#'   index = 5
+#' )
 #' }
-get_dataset_insights <- function(selected_dataset) {
+get_dataset_insights <- function(parent_table = NULL, index = NULL) {
+  selected_dataset <- parent_table %>% dplyr::slice(index)
   dataset <- get_dataset(doi = selected_dataset$doi, dataverse_key = pars$dataverse$token)
 
   dataset <- if (isTRUE("originalFormatLabel" %in% colnames(dataset))) {
@@ -165,7 +170,7 @@ get_dataset_insights <- function(selected_dataset) {
         `original extension` = .data$originalFormatLabel,
       ) %>%
       dplyr::mutate(
-        `filesize MB` = .data$`filesize MB` / 1000000,
+        `filesize MB` = round(.data$`filesize MB` / 1000000, 4),
         extension = tools::file_ext(.data$`file name`)
       )
   } else {

@@ -15,7 +15,11 @@ def summarize_document(document_path, openaikey, engine, temperature, refine_tex
         model_name=engine,
     )
     
-    char_text_splitter = RecursiveCharacterTextSplitter(chunk_size=4000, chunk_overlap=200)
+    char_text_splitter = RecursiveCharacterTextSplitter(
+      chunk_size=1000,
+      chunk_overlap=200,
+      length_function = len)
+      
     docs = char_text_splitter.split_documents(document)
 
     prompt_template = """Write an extensive summary of the following:
