@@ -62,7 +62,9 @@
 <!-- badges: end -->
 <p><img src="reference/figures/aquadata_lg_sticker.png" width="200"></p>
 <p>The goal of <strong>aquadata.data.mapping</strong> is to collect metadata within the context aquatic food systems in order to identify data gaps and generate new data in key geographic region: Bangladesh, Cambodia, Ghana, India, Myanmar, Nigeria, Solomon Islands, Timor-Leste and Zambia.</p>
-<p><strong>aquadata.data.mapping</strong> uses metadata information to download data and elaborate data stories and scientific reports’ summaries using AI tools (ChatGPT).</p>
+<p><img src="reference/figures/metadata_treemap.png" width="800"></p>
+<p><strong>aquadata.data.mapping</strong> uses metadata information to download data and use a Shiny interface to elaborate data summaries, evidence-based stories and scientific reports’ summaries using AI tools, as OpenAI engines GPT-4 and GPT-3.5. It also provides an interface to upload text files to be processed by AI tools</p>
+<p><img src="reference/figures/upload_interface.png" width="800"></p>
 <p>This repository is part of work package 1 “<strong><em>AquaData</em></strong>” of the initiative “<strong><em>Resilient Aquatic Food Systems for Healthy People and Planet</em></strong>” (<a href="https://cgspace.cgiar.org/handle/10568/121141" class="external-link uri">https://cgspace.cgiar.org/handle/10568/121141</a> ).</p>
 <p>Further info:</p>
 <p><a href="https://www.cgiar.org/initiative/15-resilient-aquatic-foods-for-healthy-people-and-planet/" class="external-link uri">https://www.cgiar.org/initiative/15-resilient-aquatic-foods-for-healthy-people-and-planet/</a></p>
@@ -82,16 +84,16 @@
 <div class="sourceCode" id="cb2"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="co"># Summary of dataverse_metadata</span></span>
 <span><span class="fu">dplyr</span><span class="fu">::</span><span class="fu"><a href="https://pillar.r-lib.org/reference/glimpse.html" class="external-link">glimpse</a></span><span class="op">(</span><span class="va">dataverse_metadata</span><span class="op">)</span></span>
-<span><span class="co">#&gt; Rows: 22,273</span></span>
+<span><span class="co">#&gt; Rows: 22,447</span></span>
 <span><span class="co">#&gt; Columns: 9</span></span>
 <span><span class="co">#&gt; $ organization           &lt;chr&gt; "AllianceBioversityCIAT", "AllianceBioversityCI…</span></span>
 <span><span class="co">#&gt; $ dataset_id             &lt;int&gt; 3248318, 3248318, 3248318, 3248318, 3248318, 32…</span></span>
 <span><span class="co">#&gt; $ dataset_doi            &lt;chr&gt; "doi:10.7910/DVN/DAYUIL", "doi:10.7910/DVN/DAYU…</span></span>
 <span><span class="co">#&gt; $ publication_date       &lt;date&gt; 2021-03-11, 2021-03-11, 2021-03-11, 2021-03-11…</span></span>
 <span><span class="co">#&gt; $ title                  &lt;chr&gt; "environmental awareness and attitudes among st…</span></span>
-<span><span class="co">#&gt; $ subject                &lt;chr&gt; "Agricultural Sciences", "Agricultural Sciences…</span></span>
-<span><span class="co">#&gt; $ keyword_value          &lt;chr&gt; "climate change", "climate change adaptation", …</span></span>
-<span><span class="co">#&gt; $ keyword_vocabulary     &lt;chr&gt; "AGROVOC", "AGROVOC", "AGROVOC", NA, "AGROVOC",…</span></span>
+<span><span class="co">#&gt; $ subject                &lt;chr&gt; "Agricultural Sciences", "Earth and Environment…</span></span>
+<span><span class="co">#&gt; $ keyword_value          &lt;chr&gt; "climate change", "climate change", "climate ch…</span></span>
+<span><span class="co">#&gt; $ keyword_vocabulary     &lt;chr&gt; "AGROVOC", "AGROVOC", "AGROVOC", "AGROVOC", "AG…</span></span>
 <span><span class="co">#&gt; $ keyword_vocabulary_uri &lt;chr&gt; "http://aims.fao.org/aos/agrovoc/c_1666", "http…</span></span>
 <span></span>
 <span><span class="co"># CGIAR organizations</span></span>
@@ -104,17 +106,16 @@
 <code class="sourceCode R"><span><span class="va">filtered_metadata</span> <span class="op">&lt;-</span> <span class="fu"><a href="reference/filterby_word.html">filterby_word</a></span><span class="op">(</span>word <span class="op">=</span> <span class="st">"Bangladesh"</span><span class="op">)</span></span>
 <span><span class="fu"><a href="https://rdrr.io/r/utils/head.html" class="external-link">head</a></span><span class="op">(</span><span class="va">filtered_metadata</span><span class="op">)</span></span>
 <span><span class="co">#&gt; # A tibble: 6 × 9</span></span>
-<span><span class="co">#&gt;   organization datase…¹ datas…² publicat…³ title subject keywo…⁴ keywo…⁵ keywo…⁶</span></span>
-<span><span class="co">#&gt;   &lt;chr&gt;           &lt;int&gt; &lt;chr&gt;   &lt;date&gt;     &lt;chr&gt; &lt;chr&gt;   &lt;chr&gt;   &lt;chr&gt;   &lt;chr&gt;  </span></span>
-<span><span class="co">#&gt; 1 ASTI          2693658 doi:10… 2015-11-03 asti… Arts a… bangla… AGROVOC http:/…</span></span>
-<span><span class="co">#&gt; 2 ASTI          2693658 doi:10… 2015-11-03 asti… Social… bangla… AGROVOC http:/…</span></span>
-<span><span class="co">#&gt; 3 ASTI          2693658 doi:10… 2015-11-03 asti… Arts a… south … AGROVOC http:/…</span></span>
-<span><span class="co">#&gt; 4 ASTI          2693658 doi:10… 2015-11-03 asti… Social… south … AGROVOC http:/…</span></span>
-<span><span class="co">#&gt; 5 ASTI          2693658 doi:10… 2015-11-03 asti… Arts a… asia    AGROVOC http:/…</span></span>
-<span><span class="co">#&gt; 6 ASTI          2693658 doi:10… 2015-11-03 asti… Social… asia    AGROVOC http:/…</span></span>
-<span><span class="co">#&gt; # … with abbreviated variable names ¹​dataset_id, ²​dataset_doi,</span></span>
-<span><span class="co">#&gt; #   ³​publication_date, ⁴​keyword_value, ⁵​keyword_vocabulary,</span></span>
-<span><span class="co">#&gt; #   ⁶​keyword_vocabulary_uri</span></span></code></pre></div>
+<span><span class="co">#&gt;   organization dataset_id dataset_doi            publication_date title  subject</span></span>
+<span><span class="co">#&gt;   &lt;chr&gt;             &lt;int&gt; &lt;chr&gt;                  &lt;date&gt;           &lt;chr&gt;  &lt;chr&gt;  </span></span>
+<span><span class="co">#&gt; 1 ASTI            2693658 doi:10.7910/DVN/ZMP4MZ 2015-11-03       asti … Arts a…</span></span>
+<span><span class="co">#&gt; 2 ASTI            2693658 doi:10.7910/DVN/ZMP4MZ 2015-11-03       asti … Social…</span></span>
+<span><span class="co">#&gt; 3 ASTI            2693658 doi:10.7910/DVN/ZMP4MZ 2015-11-03       asti … Arts a…</span></span>
+<span><span class="co">#&gt; 4 ASTI            2693658 doi:10.7910/DVN/ZMP4MZ 2015-11-03       asti … Social…</span></span>
+<span><span class="co">#&gt; 5 ASTI            2693658 doi:10.7910/DVN/ZMP4MZ 2015-11-03       asti … Arts a…</span></span>
+<span><span class="co">#&gt; 6 ASTI            2693658 doi:10.7910/DVN/ZMP4MZ 2015-11-03       asti … Social…</span></span>
+<span><span class="co">#&gt; # ℹ 3 more variables: keyword_value &lt;chr&gt;, keyword_vocabulary &lt;chr&gt;,</span></span>
+<span><span class="co">#&gt; #   keyword_vocabulary_uri &lt;chr&gt;</span></span></code></pre></div>
 </div>
 <div class="section level2">
 <h2 id="download-data">Download Data<a class="anchor" aria-label="anchor" href="#download-data"></a>
@@ -127,7 +128,7 @@
 <p>Use AI tools (ChatGPT) to generate stories from downloaded data.</p>
 <div class="sourceCode" id="cb4"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="co"># output &lt;-</span></span>
-<span><span class="co">#  summarise_chatgpt_wrapper(</span></span>
+<span><span class="co">#  chatgpt_wrapper(</span></span>
 <span><span class="co">#    document_path = "inst/docs_dataverse/5636634.txt",</span></span>
 <span><span class="co">#    openaikey = OPENAI_TOKEN,</span></span>
 <span><span class="co">#    engine = "gpt-3.5-turbo",</span></span>
