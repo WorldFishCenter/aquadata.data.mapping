@@ -118,4 +118,50 @@ app_server <- function(input, output, session) {
       }
     )
   })
+
+  # Define a reactive value to store chat messages
+  chat_messages <- shiny::reactiveValues(messages = character(0))
+
+  # Render the chat interface
+  output$chatbot <- shiny::renderUI({
+    shiny::tagList(
+      shiny::textInput(inputId = "chat_input", label = NULL, value = "", placeholder = "Type your message..."),
+      shiny::div(shiny::verbatimTextOutput("chat_output")),
+      shiny::actionButton(inputId = "send_button", label = "Send")
+    )
+  })
+
+  # Render the chat messages
+  output$chat_output <- shiny::renderText({
+    paste(chat_messages$messages, collapse = "\n")
+  })
+
+  # Observer to handle chatbot messages
+  shiny::observeEvent(input$send_button, {
+    user_input <- input$chat_input
+
+    if (user_input != "") {
+      # User message received, process it
+      chat_messages$messages <- c(chat_messages$messages, paste("You:", user_input))
+
+      # Perform document querying based on user input
+      # Update the chatbot messages accordingly
+
+      # Example implementation
+      if (grepl("documents", user_input, ignore.case = TRUE)) {
+        # Query documents and update chatbot messages
+        documents <- query_documents(user_input)
+        reply <- paste("Bot: Here are the matching documents:", documents)
+        chat_messages$messages <- c(chat_messages$messages, reply)
+      } else {
+        # If the user input doesn't match any known query, provide a default response
+        reply <- "Bot: I'm sorry, but I couldn't understand your request."
+        chat_messages$messages <- c(chat_messages$messages, reply)
+      }
+
+      # Clear the input field
+      shiny::updateTextInput(session, "chat_input", value = "")
+    }
+  })
+
 }

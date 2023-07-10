@@ -42,3 +42,41 @@ chatgpt_wrapper <- function(document_path = NULL,
   )
   return(result)
 }
+
+
+#' Q&A wrapper
+#'
+#' This function is wrapper of LangChain Q&A module for pdfs documents.
+#'
+#' @param document_path The path of the txt document to summarise.
+#' @param openaikey The OpenAI key token.
+#' @param temperature Level of randomness or "creativity" in the generated text (see \url{https://platform.openai.com/docs/api-reference/completions/create}).
+#' @param query_text The query to interact with the document.
+#'
+#' @return A text answer.
+#' @export
+#' @examples
+#' \dontrun{
+#' qa_bot_wrapper(
+#'   document_path = "mypath/dummy_file.pdf",
+#'   openaikey = OPENAI_KEY,
+#'   temperature = 0.7,
+#'   query_text = "What are the most important points of the document?"
+#' )
+#' }
+qa_bot_wrapper <- function(document_path = NULL,
+                           openaikey = NULL,
+                           temperature = 0.5,
+                           query_text = NULL) {
+  python_path <- system.file("python", package = "aquadata.data.mapping")
+  qa_bot_py <- reticulate::import_from_path(
+    module = "qa_bot",
+    path = python_path
+  )
+  py_function <- qa_bot_py$qa_bot
+  result <- py_function(
+    document_path, openaikey,
+    temperature, query_text
+  )
+  return(result$result)
+}

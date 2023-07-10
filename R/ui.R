@@ -77,10 +77,16 @@ app_ui <- function(request) {
           shiny::fluidRow(
             shiny::column(width = 12, shiny::textAreaInput("processed_text",
               label = "",
-              rows = 20,
+              rows = 10,
               width = "100%",
               height = "100%"
             ))
+          ),
+          shiny::fluidRow(
+            shiny::h2("Chat with the document")
+          ),
+          shiny::fluidRow(
+            shiny::column(width = 12, shiny::uiOutput("chatbot"))
           )
         ),
         # Third tab - App information
