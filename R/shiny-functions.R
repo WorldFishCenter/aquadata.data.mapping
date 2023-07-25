@@ -122,3 +122,23 @@ read_file <- function(file = NULL) {
   }
   f
 }
+
+
+organize_metatab <- function(...) {
+  aquadata.data.mapping::dataverse_metadata %>%
+    dplyr::select(
+      Organization = .data$organization,
+      Title = .data$title,
+      Subject = .data$subject,
+      Keyword = .data$keyword_value,
+      doi = .data$dataset_doi
+    ) %>%
+    dplyr::group_by(.data$Title) %>%
+    dplyr::summarise(
+      Organization = dplyr::first(.data$Organization),
+      Subject = dplyr::first(.data$Subject),
+      Keyword = dplyr::first(.data$Keyword),
+      doi = dplyr::first(.data$doi)
+    ) %>%
+    dplyr::select(.data$Organization, dplyr::everything())
+}

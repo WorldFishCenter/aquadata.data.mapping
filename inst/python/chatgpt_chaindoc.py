@@ -1,6 +1,6 @@
 from langchain.document_loaders import UnstructuredFileLoader
 from langchain.chains.summarize import load_summarize_chain
-from langchain import OpenAI
+from langchain.chat_models import ChatOpenAI
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain import PromptTemplate
 
@@ -8,7 +8,7 @@ def summarize_document(document_path, openaikey, engine, temperature, refine_tex
     loader = UnstructuredFileLoader(document_path)
     document = loader.load()
     
-    llm = OpenAI(
+    llm = ChatOpenAI(
         openai_api_key=openaikey,
         temperature=temperature,
         max_tokens=1000,

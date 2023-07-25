@@ -1,6 +1,7 @@
 default:
   openai:
     token: !expr Sys.getenv('OPENAI_KEY')
+    engines: ['gpt-4', 'gpt-3.5-turbo', 'text-davinci-003', 'text-davinci-002']
     refine_prompts:
       story: |
        "Your job is to produce a final, extensive sucess-story in the context of food systems, malnutrition and social development\n\n"
@@ -27,6 +28,12 @@ default:
   dataverse:
     token: !expr Sys.getenv('DATAVERSE_KEY')
     organizations: [AllianceBioversityCIAT, ASTI, CCAFSbaseline, CIAT, IFPRI, RiceResearch, worldfish]
+  quantl:
+    key: !expr Sys.getenv('QUANTL_KEY')
+    indicators: [ER.FSH.AQUA.MT, ER.FSH.CAPT.MT, ER.FSH.PROD.MT, ER.MRN.PTMR.ZS, SH.H2O.BASW.ZS,
+                 SH.H2O.SMDW.ZS, SH.STA.WASH.P5, SH.STA.HYGN.ZS, SN.ITK.SVFI.ZS, IQ.CPA.GNDR.XQ,
+                 EG.CFT.ACCS.ZS, SH.ANM.CHLD.ZS, SN.ITK.DEFC.ZS]
+    countries: [BGD, GHA, IND, KHM, MMR, NGA, SLB, TLS, ZMB]
   app:
   about:
     text: |
@@ -45,7 +52,9 @@ default:
 
 local:
   openai:
-    token: !expr readLines("auth_aquadata/openai-key")
+    token: !expr readLines('auth_aquadata/openai-key')
   dataverse:
     token: !expr readLines('auth_aquadata/dataverse-token')
+  quantl:
+    key: !expr readLines('auth_aquadata/quantl-key')
   seed: !expr readLines('auth_aquadata/seed')
