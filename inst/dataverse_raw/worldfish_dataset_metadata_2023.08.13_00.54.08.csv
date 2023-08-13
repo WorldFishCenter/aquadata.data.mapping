@@ -1155,3 +1155,25 @@ dataset_id,persistentUrl,publicationdate,title,subject,keywordValue,keywordVocab
 7052565,https://doi.org/10.7910/DVN/TV7J27,2023-04-05,GIS database,"Medicine, Health and Life Sciences",collaboration,AGROVOC,http://aims.fao.org/aos/agrovoc/c_fc567bfb
 7052565,https://doi.org/10.7910/DVN/TV7J27,2023-04-05,GIS database,"Medicine, Health and Life Sciences",decision support,AGROVOC,http://aims.fao.org/aos/agrovoc/c_36897
 7166710,https://doi.org/10.7910/DVN/AOOLH4,2023-06-11,Community Based Resource Management (CBRM) Database,Social Sciences,,,
+7280171,https://doi.org/10.7910/DVN/NHROEB,2023-08-06,Comparison of parentage assignment using individual and pooled tissue samples of rohu (Labeo rohita): Data,Agricultural Sciences,single nucleotide polymorphism (snp),,
+7280171,https://doi.org/10.7910/DVN/NHROEB,2023-08-06,Comparison of parentage assignment using individual and pooled tissue samples of rohu (Labeo rohita): Data,Agricultural Sciences,rohu,AGROVOC,http://aims.fao.org/aos/agrovoc/c_34683
+7280171,https://doi.org/10.7910/DVN/NHROEB,2023-08-06,Comparison of parentage assignment using individual and pooled tissue samples of rohu (Labeo rohita): Data,Agricultural Sciences,labeo rohita,AGROVOC,http://aims.fao.org/aos/agrovoc/c_34683
+7280171,https://doi.org/10.7910/DVN/NHROEB,2023-08-06,Comparison of parentage assignment using individual and pooled tissue samples of rohu (Labeo rohita): Data,Agricultural Sciences,decent work and economic growth,,
+7280171,https://doi.org/10.7910/DVN/NHROEB,2023-08-06,Comparison of parentage assignment using individual and pooled tissue samples of rohu (Labeo rohita): Data,Agricultural Sciences,maximum-likelihood parentage assignment,,
+7280171,https://doi.org/10.7910/DVN/NHROEB,2023-08-06,Comparison of parentage assignment using individual and pooled tissue samples of rohu (Labeo rohita): Data,Agricultural Sciences,pooling for individual parentage assignment,,
+7280171,https://doi.org/10.7910/DVN/NHROEB,2023-08-06,Comparison of parentage assignment using individual and pooled tissue samples of rohu (Labeo rohita): Data,Agricultural Sciences,dartseqld,,
+7280505,https://doi.org/10.7910/DVN/PIMQ2E,2023-08-08,Project Participants database of Fish for Livelihoods Activity,"Medicine, Health and Life Sciences",databases,AGROVOC,http://aims.fao.org/aos/agrovoc/c_24833
+7280505,https://doi.org/10.7910/DVN/PIMQ2E,2023-08-08,Project Participants database of Fish for Livelihoods Activity,"Medicine, Health and Life Sciences",participants list,,
+7280505,https://doi.org/10.7910/DVN/PIMQ2E,2023-08-08,Project Participants database of Fish for Livelihoods Activity,"Medicine, Health and Life Sciences",training & workshop,,
+7280505,https://doi.org/10.7910/DVN/PIMQ2E,2023-08-08,Project Participants database of Fish for Livelihoods Activity,"Medicine, Health and Life Sciences",participants demographic and socio-economic database of f4l activity,,
+7280505,https://doi.org/10.7910/DVN/PIMQ2E,2023-08-08,Project Participants database of Fish for Livelihoods Activity,"Medicine, Health and Life Sciences",sosioeconomic,,
+7280505,https://doi.org/10.7910/DVN/PIMQ2E,2023-08-08,Project Participants database of Fish for Livelihoods Activity,Social Sciences,databases,AGROVOC,http://aims.fao.org/aos/agrovoc/c_24833
+7280505,https://doi.org/10.7910/DVN/PIMQ2E,2023-08-08,Project Participants database of Fish for Livelihoods Activity,Social Sciences,participants list,,
+7280505,https://doi.org/10.7910/DVN/PIMQ2E,2023-08-08,Project Participants database of Fish for Livelihoods Activity,Social Sciences,training & workshop,,
+7280505,https://doi.org/10.7910/DVN/PIMQ2E,2023-08-08,Project Participants database of Fish for Livelihoods Activity,Social Sciences,participants demographic and socio-economic database of f4l activity,,
+7280505,https://doi.org/10.7910/DVN/PIMQ2E,2023-08-08,Project Participants database of Fish for Livelihoods Activity,Social Sciences,sosioeconomic,,
+7280509,https://doi.org/10.7910/DVN/5USHCU,2023-08-08,Fish Yield Data from small scale aquaculture farmers from F4L Activity (Year 3),Social Sciences,fish harvesting,AGROVOC,http://aims.fao.org/aos/agrovoc/c_2950
+7280509,https://doi.org/10.7910/DVN/5USHCU,2023-08-08,Fish Yield Data from small scale aquaculture farmers from F4L Activity (Year 3),Social Sciences,small scale farmer,,
+7280509,https://doi.org/10.7910/DVN/5USHCU,2023-08-08,Fish Yield Data from small scale aquaculture farmers from F4L Activity (Year 3),Social Sciences,average fish yield and income,,
+7280509,https://doi.org/10.7910/DVN/5USHCU,2023-08-08,Fish Yield Data from small scale aquaculture farmers from F4L Activity (Year 3),Social Sciences,culturing period,,
+7280509,https://doi.org/10.7910/DVN/5USHCU,2023-08-08,Fish Yield Data from small scale aquaculture farmers from F4L Activity (Year 3),Social Sciences,total income,,
