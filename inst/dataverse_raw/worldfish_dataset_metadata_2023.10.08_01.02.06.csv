@@ -126,12 +126,7 @@ dataset_id,persistentUrl,publicationdate,title,subject,keywordValue,keywordVocab
 3390921,https://doi.org/10.7910/DVN/ODBJ0G,2019-04-29,Private Sector Needs Assessment primary dataset,Social Sciences,Gender & youth,,
 3393452,https://doi.org/10.7910/DVN/GWTPTK,2019-04-03,MYCulture Project - Myanmar,Other,,,
 3422157,https://doi.org/10.7910/DVN/BMNJPS,2019-04-29,Malaita fish catch survey,Other,,,
-3450970,https://doi.org/10.7910/DVN/GA0NTB,2019-06-14,Fish bacterial pathogen genomic data,"Medicine, Health and Life Sciences",Fish,AGROVOC,http://aims.fao.org/aos/agrovoc/c_15903
-3450970,https://doi.org/10.7910/DVN/GA0NTB,2019-06-14,Fish bacterial pathogen genomic data,"Medicine, Health and Life Sciences",bacterial and viral diseases,,
-3450970,https://doi.org/10.7910/DVN/GA0NTB,2019-06-14,Fish bacterial pathogen genomic data,"Medicine, Health and Life Sciences",Diagnostics,,
-3450970,https://doi.org/10.7910/DVN/GA0NTB,2019-06-14,Fish bacterial pathogen genomic data,"Medicine, Health and Life Sciences",Vaccines,AGROVOC,http://aims.fao.org/aos/agrovoc/c_8130
-3450970,https://doi.org/10.7910/DVN/GA0NTB,2019-06-14,Fish bacterial pathogen genomic data,"Medicine, Health and Life Sciences",Artificial Intelligence,AGROVOC,http://aims.fao.org/aos/agrovoc/c_27064
-3450970,https://doi.org/10.7910/DVN/GA0NTB,2019-06-14,Fish bacterial pathogen genomic data,"Medicine, Health and Life Sciences",Bioinformatics,AGROVOC,http://aims.fao.org/aos/agrovoc/c_37958
+3450970,https://doi.org/10.7910/DVN/GA0NTB,2019-06-14,,,,,
 3454988,https://doi.org/10.7910/DVN/YNVJXV,2019-06-25,Replication Data for: Comparison of Technical and Economic Performance of Fresh and Salted Fish Processors in Lake Nasser,Social Sciences,Value addition,,
 3455466,https://doi.org/10.7910/DVN/0K3W7C,2019-06-26,Replication Data for: Catch trend and stock assessment of Hilsa Tenualosa ilisha using digital image measured length-frequency data,"Medicine, Health and Life Sciences",Catch trend,,
 3455466,https://doi.org/10.7910/DVN/0K3W7C,2019-06-26,Replication Data for: Catch trend and stock assessment of Hilsa Tenualosa ilisha using digital image measured length-frequency data,"Medicine, Health and Life Sciences",Stock assessment,AGROVOC,http://aims.fao.org/aos/agrovoc/c_24251
