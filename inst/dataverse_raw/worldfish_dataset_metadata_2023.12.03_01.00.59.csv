@@ -995,13 +995,13 @@ dataset_id,persistentUrl,publicationdate,title,subject,keywordValue,keywordVocab
 6855716,https://doi.org/10.7910/DVN/6HKKEI,2022-12-28,Loan Tracker of the IDEA Project for north-west region (Rajshahi and Rangpur Divisions ) of Bangladesh,Social Sciences,life below water,,
 6855716,https://doi.org/10.7910/DVN/6HKKEI,2022-12-28,Loan Tracker of the IDEA Project for north-west region (Rajshahi and Rangpur Divisions ) of Bangladesh,Social Sciences,loan traker,,
 6855716,https://doi.org/10.7910/DVN/6HKKEI,2022-12-28,Loan Tracker of the IDEA Project for north-west region (Rajshahi and Rangpur Divisions ) of Bangladesh,Social Sciences,bank loans,AGROVOC,http://aims.fao.org/aos/agrovoc/c_28837
-6867595,https://doi.org/10.7910/DVN/SVNV6B,2023-01-04,Dataset on third-generation (G3) rohu dissemination in 2022 from hatcheries and nurseries and adoption by farmers in Bangladesh,Agricultural Sciences,Bangladesh,AGROVOC,http://aims.fao.org/aos/agrovoc/c_810
-6867595,https://doi.org/10.7910/DVN/SVNV6B,2023-01-04,Dataset on third-generation (G3) rohu dissemination in 2022 from hatcheries and nurseries and adoption by farmers in Bangladesh,Agricultural Sciences,farmers,AGROVOC,http://aims.fao.org/aos/agrovoc/c_2805
-6867595,https://doi.org/10.7910/DVN/SVNV6B,2023-01-04,Dataset on third-generation (G3) rohu dissemination in 2022 from hatcheries and nurseries and adoption by farmers in Bangladesh,Agricultural Sciences,strains,AGROVOC,http://aims.fao.org/aos/agrovoc/c_ae97fbc0
-6867595,https://doi.org/10.7910/DVN/SVNV6B,2023-01-04,Dataset on third-generation (G3) rohu dissemination in 2022 from hatcheries and nurseries and adoption by farmers in Bangladesh,Agricultural Sciences,fish,AGROVOC,http://aims.fao.org/aos/agrovoc/c_15903
-6867595,https://doi.org/10.7910/DVN/SVNV6B,2023-01-04,Dataset on third-generation (G3) rohu dissemination in 2022 from hatcheries and nurseries and adoption by farmers in Bangladesh,Agricultural Sciences,carp,AGROVOC,http://aims.fao.org/aos/agrovoc/c_1334
-6867595,https://doi.org/10.7910/DVN/SVNV6B,2023-01-04,Dataset on third-generation (G3) rohu dissemination in 2022 from hatcheries and nurseries and adoption by farmers in Bangladesh,Agricultural Sciences,rohu,AGROVOC,http://aims.fao.org/aos/agrovoc/c_34683
-6867595,https://doi.org/10.7910/DVN/SVNV6B,2023-01-04,Dataset on third-generation (G3) rohu dissemination in 2022 from hatcheries and nurseries and adoption by farmers in Bangladesh,Agricultural Sciences,hatcheries,AGROVOC,http://aims.fao.org/aos/agrovoc/c_3503
+6867595,https://doi.org/10.7910/DVN/SVNV6B,2023-01-04,Dataset on the dissemination of genetically improved carp in Bangladesh,Agricultural Sciences,Bangladesh,AGROVOC,http://aims.fao.org/aos/agrovoc/c_810
+6867595,https://doi.org/10.7910/DVN/SVNV6B,2023-01-04,Dataset on the dissemination of genetically improved carp in Bangladesh,Agricultural Sciences,farmers,AGROVOC,http://aims.fao.org/aos/agrovoc/c_2805
+6867595,https://doi.org/10.7910/DVN/SVNV6B,2023-01-04,Dataset on the dissemination of genetically improved carp in Bangladesh,Agricultural Sciences,strains,AGROVOC,http://aims.fao.org/aos/agrovoc/c_ae97fbc0
+6867595,https://doi.org/10.7910/DVN/SVNV6B,2023-01-04,Dataset on the dissemination of genetically improved carp in Bangladesh,Agricultural Sciences,fish,AGROVOC,http://aims.fao.org/aos/agrovoc/c_15903
+6867595,https://doi.org/10.7910/DVN/SVNV6B,2023-01-04,Dataset on the dissemination of genetically improved carp in Bangladesh,Agricultural Sciences,carp,AGROVOC,http://aims.fao.org/aos/agrovoc/c_1334
+6867595,https://doi.org/10.7910/DVN/SVNV6B,2023-01-04,Dataset on the dissemination of genetically improved carp in Bangladesh,Agricultural Sciences,rohu,AGROVOC,http://aims.fao.org/aos/agrovoc/c_34683
+6867595,https://doi.org/10.7910/DVN/SVNV6B,2023-01-04,Dataset on the dissemination of genetically improved carp in Bangladesh,Agricultural Sciences,hatcheries,AGROVOC,http://aims.fao.org/aos/agrovoc/c_3503
 6877336,https://doi.org/10.7910/DVN/6YO5JY,2023-01-04,WorldFish catla Generation 1 families produced (2022),Agricultural Sciences,selective breeding,AGROVOC,http://aims.fao.org/aos/agrovoc/c_6951
 6877336,https://doi.org/10.7910/DVN/6YO5JY,2023-01-04,WorldFish catla Generation 1 families produced (2022),Agricultural Sciences,labeo rohita,AGROVOC,http://aims.fao.org/aos/agrovoc/c_34683
 6877336,https://doi.org/10.7910/DVN/6YO5JY,2023-01-04,WorldFish catla Generation 1 families produced (2022),Agricultural Sciences,catla,AGROVOC,http://aims.fao.org/aos/agrovoc/c_34434
@@ -1244,3 +1244,7 @@ dataset_id,persistentUrl,publicationdate,title,subject,keywordValue,keywordVocab
 7527287,https://doi.org/10.7910/DVN/EEDK8O,2023-11-06,Rohu 2023 G4 families,Agricultural Sciences,rohu,AGROVOC,http://aims.fao.org/aos/agrovoc/c_34683
 7527287,https://doi.org/10.7910/DVN/EEDK8O,2023-11-06,Rohu 2023 G4 families,Agricultural Sciences,genetically improved farmed fish,,
 7527287,https://doi.org/10.7910/DVN/EEDK8O,2023-11-06,Rohu 2023 G4 families,Agricultural Sciences,fish spawning,,
+7610316,https://doi.org/10.7910/DVN/10BHYX,2023-11-29,Loan Dataset of Feed the Future Bangladesh Aquaculture Activity,Social Sciences,loan,,
+7610316,https://doi.org/10.7910/DVN/10BHYX,2023-11-29,Loan Dataset of Feed the Future Bangladesh Aquaculture Activity,Social Sciences,aquaculture farmers,AGROVOC,http://aims.fao.org/aos/agrovoc/c_83ca3d44
+7610316,https://doi.org/10.7910/DVN/10BHYX,2023-11-29,Loan Dataset of Feed the Future Bangladesh Aquaculture Activity,Social Sciences,access to finance (a2f) services,,
+7610316,https://doi.org/10.7910/DVN/10BHYX,2023-11-29,Loan Dataset of Feed the Future Bangladesh Aquaculture Activity,Social Sciences,farm loans,,
