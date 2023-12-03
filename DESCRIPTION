@@ -1,6 +1,6 @@
 Package: aquadata.data.mapping
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Collect and analyse metadata within the context aquatic food systems
 Version: 3.0.0
 Authors@R: 
     c(person(given = "Lorenzo",
