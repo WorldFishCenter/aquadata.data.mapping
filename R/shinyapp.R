@@ -36,6 +36,7 @@ start_fun <- function(global_pars = TRUE) {
   if (isTRUE(global_pars)) {
     logger::log_info("Setting up pars as a global variable")
     pars <<- read_config("local")
+    Quandl::Quandl.api_key(pars$quantl$key)
   }
   logger::log_info("Finished instructions in start_fun")
 }

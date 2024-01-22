@@ -3,7 +3,9 @@ from PyPDF2 import PdfReader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.embeddings.openai import OpenAIEmbeddings
 from langchain.vectorstores import FAISS, Chroma
-from langchain.llms import OpenAI
+from langchain.chat_models import ChatOpenAI
+from langchain.callbacks.streaming_stdout import StreamingStdOutCallbackHandler
+
 
 def qa_bot(document_path, openaikey, temperature, query_text):
     reader = PdfReader(document_path)
@@ -15,7 +17,7 @@ def qa_bot(document_path, openaikey, temperature, query_text):
             raw_text += text
 
     text_splitter = RecursiveCharacterTextSplitter(
-        chunk_size=750,
+        chunk_size=1000,
         chunk_overlap=40,
         length_function=len
     )
@@ -26,9 +28,14 @@ def qa_bot(document_path, openaikey, temperature, query_text):
     docsearch = FAISS.from_texts(texts, embeddings)
     
     retriever = docsearch.as_retriever(search_type="similarity", search_kwargs={"k":2})
+    llm=ChatOpenAI(openai_api_key=openaikey,temperature = temperature)
+    
     # create a chain to answer questions 
     qa = RetrievalQA.from_chain_type(
-    llm=OpenAI(openai_api_key=openaikey, temperature = temperature), chain_type="refine", retriever=retriever)
+      llm=llm,
+      chain_type="refine",
+      retriever=retriever)
+      
     query = query_text
     result = qa({"query": query})
     return result

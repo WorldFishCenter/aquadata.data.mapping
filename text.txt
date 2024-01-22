@@ -1,0 +1,681 @@
+"x"
+"1" "See discussions, stats, and author profiles for this publication at: https://www.researchgate.net/publication/51881190
+
+
+
+Isometric size-scaling of metabolic rate and the size abundance distribution
+of phytoplankton
+
+Article in Proceedings of the Royal Society B · December 2011
+DOI: 10.1098/rspb.2011.2257 · Source: PubMed
+
+
+
+
+CITATIONS                                                                                               READS
+
+86                                                                                                      214
+
+
+4 authors, including:
+
+             María Huete-Ortega                                                                                   Pedro Cermeño
+             Oroboros Instruments                                                                                 Institute of Marine Sciences, Spanish National Research Council
+             60 PUBLICATIONS 1,184 CITATIONS                                                                      124 PUBLICATIONS 3,696 CITATIONS
+
+                SEE PROFILE                                                                                          SEE PROFILE
+
+
+
+             Emilio Maranon
+             University of Vigo
+             189 PUBLICATIONS 8,689 CITATIONS
+
+                SEE PROFILE
+
+
+
+
+ All content following this page was uploaded by María Huete-Ortega on 21 May 2014.
+
+ The user has requested enhancement of the downloaded file.
+
+                                                                                             Proc. R. Soc. B (2012) 279, 1815–1823
+                                                                                                        doi:10.1098/rspb.2011.2257
+                                                                                                 Published online 14 December 2011
+
+
+              Isometric size-scaling of metabolic rate
+                and the size abundance distribution
+                         of phytoplankton
+          Marı́a Huete-Ortega1,*, Pedro Cermeño1, Alejandra Calvo-Dı́az2,†
+                               and Emilio Marañón1
+               1
+                   Departamento de Ecologı́a y Biologı́a Animal, Universidad de Vigo, Campus Lagoas-Marcosende,
+                                                           36310 Vigo, Spain
+                      2
+                       Instituto Español de Oceanografı́a, Centro Oceanográfico de Xixón, 33212 Xixón, Spain
+        The relationship between phytoplankton cell size and abundance has long been known to follow regular,
+        predictable patterns in near steady-state ecosystems, but its origin has remained elusive. To explore the
+        linkage between the size-scaling of metabolic rate and the size abundance distribution of natural phyto-
+        plankton communities, we determined simultaneously phytoplankton carbon fixation rates and cell
+        abundance across a cell volume range of over six orders of magnitude in tropical and subtropical
+        waters of the Atlantic Ocean. We found an approximately isometric relationship between carbon fixation
+        rate and cell size (mean slope value: 1.16; range: 1.03– 1.32), negating the idea that Kleiber’s law is appli-
+        cable to unicellular autotrophic protists. On the basis of the scaling of individual resource use with cell
+        size, we predicted a reciprocal relationship between the size-scalings of phytoplankton metabolic rate
+        and abundance. This prediction was confirmed by the observed slopes of the relationship between phy-
+        toplankton abundance and cell size, which have a mean value of 21.15 (range: 21.29 to 20.97),
+        indicating that the size abundance distribution largely results from the size-scaling of metabolic rate.
+        Our results imply that the total energy processed by carbon fixation is constant along the phytoplankton
+        size spectrum in near steady-state marine ecosystems.
+             Keywords: phytoplankton size abundance distribution; metabolism; energy use; Kleiber’s law;
+                                         open ocean; carbon fixation rate
+
+
+
+1. INTRODUCTION                                                         mass, the resulting mass-specific rate becomes independent
+The size of organisms is a fundamental property that                    of cell size for organisms spanning more than eight orders
+influences individual-level metabolism, community struc-                of magnitude in size; that is, by analogy with terrestrial
+ture and ecosystem functioning [1,2]. Metabolic rates                   vertebrates, elephants in the microbial world may grow as
+such as carbon fixation, nutrient acquisition or respiration            fast as mice do. The only existing determinations of
+are related to body size by a power function of the form,               the size-scaling of phytoplankton metabolic rate in natural
+M ¼ c V d, where M is a metabolic rate, c is a taxon-related            conditions were obtained by combining independent
+constant, V is organism size and d is the size-scaling expo-            measurements carried out in many sampling sites [7,10].
+nent, which commonly takes a value of approximately 3/4                 However, concurrent determinations of the scaling relation-
+[2]. If logarithms are taken, the power function yields the             ship between phytoplankton metabolic rate and cell size in
+linear relationship, log M ¼ log c þ d log V, where d is the            the field (e.g. in discrete plankton samples of a specific
+slope value. Given the pervasiveness of this allometric                 geographical location) are still unavailable, and therefore
+relationship across taxonomic guilds, trophic levels and                the variability in the size-scaling exponent is unknown.
+biomes, it is generally referred to as Kleiber’s law [1,3].                 Phytoplankton size abundance distribution plays a fun-
+    Although previous studies have reported on the applica-             damental role in pelagic ecosystems as it determines the
+bility of Kleiber’s law to marine and freshwater protists               trophic organization of plankton communities and, hence,
+[4–6], currently the extent to which this law holds for uni-            the biogeochemical functioning of the ecosystem [11,12].
+cellular organisms is controversial. Recent evidence shows              The relationship between phytoplankton abundance and
+that carbon fixation and respiration rates in eukaryotic                cell size in aquatic ecosystems follows a power function,
+unicells scales to cell size with an exponent approximately             N ¼ a V b, where N is the cell density and a is the intercept
+1 [7–9]. Normalizing these metabolic rates to cell carbon               of the resulting linear regression. The size-scaling exponent,
+                                                                        b, is a synthetic descriptor of community size structure [2]
+                                                                        and generally takes values between 21.3 and 20.6. The
+* Author for correspondence (mhuete@uvigo.es).
+†
+                                                                        value of the size-scaling exponent is strongly related to
+  Present addresses: Department of Biological Oceanography, Royal       ecosystem’s productivity. Unproductive ecosystems charac-
+Netherlands Institute for Sea Research (NIOZ), 1790 AB Den Burg,
+The Netherlands; Department of Marine Biology, University of            teristic of subtropical, oligotrophic regions show steeper
+Vienna, 1090 Vienna, Austria.                                           slopes (21.3 to 21.1) [13,14], whereas in coastal, highly
+Electronic supplementary material is available at http://dx.doi.org/    productive ecosystems, the slopes become less negative
+10.1098/rspb.2011.2257 or via http://rspb.royalsocietypublishing.org.   (20.8 to 20.6), as a result of the increased relative
+
+Received 27 October 2011
+Accepted 21 November 2011                                           1815                       This journal is q 2011 The Royal Society
+
+1816    M. Huete-Ortega et al.       Metabolic scaling and abundance
+
+abundance of larger cells [7,15,16]. Despite this connection
+between ecosystem’s productivity and size structure, the
+origin of the actual values of the size-scaling exponent for                     30° N
+phytoplankton cell abundance is still unclear.
+   The size abundance distribution of organisms within a
+given ecosystem can be explained as a function of the                                                                         3
+requirements for limiting resources by the individuals
+[17,18]. For instance, the relationship between population
+                                                                                 15° N
+density and body mass in plants can be derived from the
+size-scaling of individual resource use such that smaller
+individuals with lower requirements will attain higher abun-                                                                  1
+
+
+
+
+                                                                                                                                  chl a (mg L–1)
+dances than larger individuals [18]. In the present study, we
+
+
+
+
+                                                                      latitude
+use the carbon fixation rate as a proxy for metabolic rate and
+resource use in phytoplankton. We hypothesize that in a                            0°
+nutrient-limited ecosystem, the size-scaling of individual
+carbon fixation rate controls the size abundance distribution                                                                 0.3
+of phytoplankton communities. To test this hypothesis, we
+analyse concurrently the size-scaling of carbon fixation
+rate per cell and cell abundance in the tropical and subtro-                     15° S
+pical Atlantic Ocean, a nutrient-impoverished and relatively
+stable ecosystem close to the steady-state. Our main objec-
+                                                                                                                              0.1
+tives are (i) to determine, in discrete samples of natural
+phytoplankton, the scaling relationship between metabolic
+rate and cell size and (ii) to explore the linkage between                       30° S
+the size-scaling of metabolic rate and the size distribution
+of phytoplankton abundance.
+                                                                                         36° W    24° W       12° W
+                                                                                                 longitude
+2. METHODS
+                                                                    Figure 1. Location of the sampling stations superimposed on
+(a) Sampling, hydrography, irradiance and nutrients
+                                                                    a map of the climatological mean surface chlorophyll a con-
+We sampled 17 stations during a cruise carried out in               centration for the September – November period of the years
+November–December 2007 in the tropical and subtropical              2002–2008 in the Atlantic Ocean. Ocean colour data are
+Atlantic Ocean (figure 1) on board R/V Hespérides. At each         from MODIS Aqua (9 km).
+sampling station, water column hydrography was characterized
+as described in Huete-Ortega et al. [19]. Sampling was con-
+ducted before dawn, and different water subsamples were             (c) Phytoplankton cell size and abundance
+collected from the Niskin bottles to determine nutrient concen-     The methods used for determining phytoplankton cell size and
+tration, phytoplankton biomass and abundance, chlorophyll a         abundance have been described in Huete-Ortega et al. [19]. To
+(chl a) concentration and primary production. Nanomolar             summarize, the abundance of pico- (less than 2 mm in equival-
+nitrate concentration was determined with a segmented-flow          ent spherical diameter, ESD) and small nanophytoplankton
+automatic analyser (Technichon/Bran Luebbe), following              (2–5 mm in ESD) was determined by flow cytometry using a
+the method of Raimbault et al. [20]. The nitracline depth           FACSCalibur flow cytometer (Becton Dickinson), with a laser
+was defined as the depth below which nitrate concentration          emitting at 488 nm in frozen samples (4 ml). An empirical cali-
+was equal to or lower than 0.5 mM.                                  bration between relative side scatter (SSCrel) and cell diameter
+                                                                    (D) following Zubkov et al. [22] was used to estimate the individ-
+                                                                    ual cell biovolume (V ) of picophytoplankton cells. For the small
+(b) Size-fractionated carbon fixation rate                          nanophytoplankton, V was estimated using a calibration curve
+Photosynthetic carbon fixation rates were measured with the         that relates the light scattering signal (forward scatter, FSC) to
+14
+   C-uptake technique (for additional details, see Huete-           cell biovolume estimated by image analysis [23].
+Ortega et al. [19]). One litre polycarbonate bottles (one               Large nano- (5–20 mm in ESD) and micro- (greater than
+dark and three transparent bottles) were filled with surface        20 mm in ESD) phytoplankton were determined by image
+(5 m) sea water from each station and, after inoculation            analysis under an inverted microscope. With the aim of increas-
+with approximately 100 Bq NaH14CO3, they were incubated             ing the number of large-sized cells sampled, we used two
+for 6– 9 h in on-deck flow-through incubators. At the end of        replicates of 2 l of sea water were analysed following the
+the incubation, water samples were sequentially filtered            method of Utermöhl [24] and using an Olympus IX50 inver-
+through 40 mm net filters and 20, 10, 5, 3, 2, 0.8 and              ted microscope (more details in Huete-Ortega et al. [19] and
+0.2 mm polycarbonate filters under low vacuum pressure              Zubkov et al. [22]). Cell volume was calculated using the
+(less than 6.7 mPa). To ensure an adequate representation           geometric shapes recommended in Olenina et al. [25].
+of larger cells, for 40, 20, 10 and 5 mm filters, the whole con-
+tents of the 1 l bottles was filtered, whereas in the case of the   (d) Scaling relationship between abundance
+3, 2, 0.8 and 0.2 mm filters, only 500 ml were filtered. Sub-       and cell size
+sequently, filters were processed to determine the carbon           To determine the scaling relationship between abundance
+fixation rate of each size class following the procedures           and cell size, size classes were established on an octave
+described by Marañón et al. [21].                                 (log2) scale of biovolume, and total cell abundance was
+
+Proc. R. Soc. B (2012)
+
+                                                                Metabolic scaling and abundance     M. Huete-Ortega et al.       1817
+
+calculated for each size class by adding the abundance of all          size-scaling relationship was improved by increasing substan-
+cells included in it. Considering that analytical subranges of         tially the number of size fractions for which carbon fixation
+cell size for flow cytometry and image analysis were approxi-          rates were estimated (from 3–4 to 8). Also, the 1 l incubations
+mately 0.5–30 mm ESD and 9 –80 mm ESD, respectively,                   used for the estimation of carbon fixation rates contrasted with
+phytoplankton cell abundances from both flow cytometry                 the 75–125 ml sample volumes commonly used, thus allowing
+and microscopy image analysis were coupled for each                    a better representation of the metabolic rates of larger cells.
+sample in order to obtain a single size-scaling relationship           In addition, the combination of flow cytometry and image
+for the abundance of the whole autotrophic plankton com-               analysis enabled us to cover the whole phytoplankton size
+munity, from small cyanobacteria to large dinoflagellates              range, from the smallest cyanobacteria to the largest diatoms.
+and diatoms [23,26]. The maximum number of size clas-                  Finally, the potential underestimation of large-sized phyto-
+ses found was 24, ranging from 0.5 to 80 mm in ESD.                    plankton abundance was also avoided by increasing the
+Afterwards, the log10 of total abundance was plotted against           sample volume used for image analysis (typically 125 ml) to 2 l.
+the log10 of the lower limit of the corresponding octave size
+class (nominal size) in order to obtain a linear relationship
+[15,27]. Given that methodological error was present in both           3. RESULTS
+variables, the regression slope and the intercept of each              (a) General oceanographic conditions
+size-scaling relationship were calculated using a model II             During the cruise, high incident irradiance, warm surface
+regression analysis by the reduced major-axis (r.m.a) method           temperature, strong stratification (as evidenced in the low
+[28]. Ninety-five per cent confidence intervals (CIs) for the          values of the Brunt –Väisälä frequency) and low nutrient
+regression parameters were calculated by bootstrapping over            concentration in the upper mixed layer (UML) were
+cases (2000 repetitions) using the RMA software designed by            found throughout the tropical and subtropical Atlantic
+the San Diego University. When a comparison between slope              Ocean (see electronic supplementary material, table S1
+values was necessary, Student’s t-test following the Clarke            and a detailed analysis of hydrographic conditions in
+method was used [29].                                                  Huete-Ortega et al. [19]). The influence of the equatorial
+                                                                       upwelling could be observed between 178 N and 58 S,
+(e) Scaling relationship between carbon fixation                       where a shallower nitracline depth was found and nitrate
+rate and cell size                                                     concentrations in the UML increased, although without
+With the aim of determining the size-scaling of photosynthetic         exceeding 0.2 mmol l21 [33]. Nutrient-limited conditions
+carbon fixation rate, total cell abundance was calculated for          thus prevailed throughout the cruise, and limiting nutrients
+those size classes for which the size-fractionated carbon fixation     were supplied to the euphotic layer through small and
+rate had been previously obtained (0.2, 0.8, 2, 3, 5, 10, 20 and       relatively continuous diffusive fluxes [19]. On the basis of
+greater than 40 mm ESD). The size-fractionated carbon                  these general oceanographic conditions observed through-
+fixation rate measured on each size class was divided by               out the studied region, a situation close to the steady-state
+the total cell abundance in that size class, thus obtaining the        can be assumed, in which nutrients enter the euphotic
+cell-specific carbon fixation rate for each size class. Then           zone at a slow rate and are continuously consumed by
+the log10 of the cell-specific carbon fixation rate was plotted        the phytoplankton, so that nutrient concentration never
+against the log10 of the corresponding abundance-weighed               increases markedly.
+mean cell size in each size class in order to get a linear relation-
+ship [7]. The model II slope and intercept for the carbon              (b) Size-scaling of carbon fixation rate
+fixation versus cell size relationship were calculated using the       Figure 2a shows an example of the scaling relationship
+r.m.a method [28], and the 95% CI for the regression para-             between cell-specific carbon fixation rate and cell size
+meters were calculated by bootstrapping over cases (2000               for a particular community of phytoplankton in the sub-
+repetitions). The comparison between the obtained slope                tropical Atlantic Ocean. For the whole dataset, the
+values and the 3/4 value of Kleiber’s law was conducted by             size-scaling parameters for cell-specific carbon fixation
+the Student’s t-test following the Clarke method [29].                 rate exhibited little variability (figure 3a), with slope
+                                                                       values consistently close to, or higher than, 1 (range
+(f) Methodological considerations                                      from 1.03 to 1.32; electronic supplementary material,
+Although the size-scaling of phytoplankton carbon fixation has         table S2). These slopes were found to be significantly
+been determined previously in both culture experiments [30]            higher than 0.75 but, with few exceptions, statisti-
+and field studies [7,10], to the best of our knowledge this is         cally indistinguishable from 1 (Student’s t-test p-values
+the first time that the size-scaling of carbon fixation is deter-      always less than 0.01, electronic supplementary material,
+mined in natural phytoplankton communities with a high                 table S2). When the size-scaling slopes from all exper-
+level of accuracy in terms of number of size classes and               iments were averaged, the resulting mean slope was 1.16,
+sample volume used. The small volume of 14C incubations                indicating a slightly superlinear relationship between
+(75–125 ml) normally used for determining primary pro-                 metabolic rate and cell size. This overall, mean slope
+duction in the ocean can result in the undersampling of larger         value implies that a fourfold increase in cell size would be
+cells, particularly in those ecosystems where they are in lower        associated with a fivefold increase in cell-specific carbon
+abundance, such as the oligotrophic gyres [31]. As a result,           fixation rate. This finding was supported by the parallel
+estimated carbon fixation rates for the large size fractions may       observation of a nearly isometric relationship between
+be underestimated. In the present study, we applied several            intracellular chl a content and cell size (see in electronic
+modifications in sampling design in order to minimize the              supplementary material, figure S3). It is expected that
+underestimation of the abundance and carbon fixation rates             slope values would be even higher than those reported
+of larger cells in the oligotrophic Atlantic Ocean. Specifically,      here if the cell size was expressed as carbon units rather
+compared with previous studies [7,32], the accuracy of the             than in cell volume, because the power relationship
+
+Proc. R. Soc. B (2012)
+
+1818    M. Huete-Ortega et al.                                                  Metabolic scaling and abundance
+
+         (a)                                              4                                                                                                 6
+                                                                                                                  (b)
+                                                                d = 1.15                                                                                                                             b = –1.29
+          log10 carbon fixation rate (pg C h–1 cell–1)    3                                                                                                 5
+
+
+
+
+                                                                                                                  log10 total cell abundance (cell mL–1)
+                                                                c = –2.47                                                                                                                             a = 3.61
+                                                          2     r2 = 0.99                                                                                   4
+                                                                                                                                                                                                     r2 = 0.98
+                                                          1                                                                                                 3
+                                                          0                                                                                                 2
+                                                         –1                                                                                                 1
+                                                         –2                                                                                                 0
+                                                         –3                                                                                                –1
+                                                         –4                                                                                                –2
+                                                         –5                                                                                                –3
+                                                         –6                                                                                                –4
+                                                           –2    –1     0      1        2     3       4   5   6                                              –2   –1   0      1        2     3       4     5     6
+                                                                            log10   cell size (mm3)                                                                        log10   cell size (mm3)
+
+Figure 2. Example of the log – log relationship between (a) cell-specific carbon fixation rate and cell size and (b) total cell abun-
+dance and cell size for surface phytoplankton collected at 14.438 N, 28.718 W. d and b are the slope values of the model II
+regression line, and c and a the corresponding intercept values.
+
+
+
+between cell carbon biomass and cell volume often shows                                                                            regarded as a proxy for the flow of metabolic energy along
+an exponent smaller than 1 (see review in [34]).                                                                                   the phytoplankton size spectrum. We found that in most
+   We assessed the validity of the obtained scaling relation-                                                                      cases the regression was not statistically significant; so no
+ships between carbon fixation rate and cell size by                                                                                size-scaling slopes could be estimated. This result indicates
+comparing the cell-specific rates predicted for different                                                                          that total energy use by phytoplankton is largely independent
+size classes with species-specific rates reported in the litera-                                                                   of cell size in the oligotrophic Atlantic Ocean.
+ture and rates estimated in previous size-scaling analysis of
+phytoplankton photosynthesis. The mean carbon fixation
+rates determined from our size-scaling relationships for                                                                           4. DISCUSSION
+small species such as Prochlorococcus spp. and Synechococcus                                                                       (a) Size-scaling of phytoplankton metabolic rate
+spp. (approx. 4  1024 pg C cell21 h21 and approx. 1.3                                                                            Metabolic rate has long been assumed to follow a 3/4-power
+1023 pg C cell21 h21, respectively), as well as those                                                                              relationship with body size in all organisms [1,3,38]. Studies
+obtained for 2 mm ESD picoeukaryotes (approx. 2                                                                                   using literature data of metabolic rates had confirmed
+1022 pg C cell21 h21) and 20 mm ESD microphyto-                                                                                    the applicability of the 3/4-power rule for photosynthetic
+plankton (approx. 58 pg C cell21 h21), were all within the                                                                         organisms from the smallest unicellular algae to the largest
+range of previous measurements reported for both single                                                                            trees [39,40]. Yet, several experimental studies, focused
+species and certain cell size classes in natural phytoplankton                                                                     on unicellular organisms, have recently reported an iso-
+assemblages [7,35–37].                                                                                                             metric size-scaling relationship for heat production,
+                                                                                                                                   respiration and carbon fixation [7–10]. In the present
+                                                                                                                                   study, all the slopes were significantly higher than the
+(c) Size-scaling of phytoplankton total abundance                                                                                  expected value of 3/4, thus constituting another report
+We observed a consistent, highly significant, inverse linear                                                                       negating the universal applicability of Kleiber’s law
+relationship between phytoplankton total abundance and                                                                             [41–43]. This observation implies that biomass-specific
+cell size (see figure 2b for an example of a typical cell size –                                                                   carbon fixation rates of large phytoplankton not only are
+abundance relationship). Throughout the tropical and                                                                               higher than expected for their cell size, but can also be
+subtropical Atlantic Ocean, a high amount of the variabil-                                                                         even higher than those of smaller species.
+ity in total phytoplankton abundance was explained by                                                                                 The isometric relationship between respiration and cell
+cell size, as r 2 values were always larger than 0.91. The                                                                         size observed in heterotrophic protists has been interpreted
+slope of the cell size –abundance relationships ranged                                                                             as a result of the linear increase in the total volume of mito-
+between 20.97 and 21.29 (see figure 3b and in electronic                                                                           chondria with cell size [9]. Although a similar reasoning
+supplementary material, table S2 for regression para-                                                                              could be applied to the packing of chloroplasts in eukary-
+meters), with a resulting mean slope of 21.15. These                                                                               otic photoautotrophs, photosynthetic carbon fixation is
+steep slope values coincide with those previously reported                                                                         ultimately constrained by light absorption and nutrient dif-
+for open ocean, oligotrophic ecosystems [7,13,14].                                                                                 fusion into the cell, which are both negatively influenced by
+                                                                                                                                   increasing cell size through the package effect and changes
+(d) Size-scaling of phytoplankton total energy use                                                                                 in the surface-to-volume ratio [30,44,45]. Therefore, we
+Figure 3c shows the scaling relationship between total                                                                             hypothesize that other physiological and/or ecological strat-
+carbon fixation per unit volume and cell size for each phyto-                                                                      egies in addition to those proposed for respiratory rates in
+plankton community analysed. This relationship can be                                                                              unicellular protists must be invoked to explain the isometric
+
+Proc. R. Soc. B (2012)
+
+                                                                                                                                                       Metabolic scaling and abundance                                                  M. Huete-Ortega et al.     1819
+
+           (a)                                             4                                                                                                     (b)                                       6
+                                                                    mean slope = 1.16 (±0.09)                                                                                                                                   mean slope = –1.15 (±0.09)
+
+
+           log10 carbon fixation rate (pg C h–1 cell–1)
+                                                           3                                                                                                                                               5
+
+
+
+
+                                                                                                                                                                 log10 total cell abundance (cell mL–1)
+                                                           2                                                                                                                                               4
+                                                           1                                                                                                                                               3
+                                                           0                                                                                                                                               2
+                                                          –1                                                                                                                                               1
+                                                          –2                                                                                                                                               0
+                                                          –3                                                                                                                                              –1
+                                                          –4                                                                                                                                              –2
+                                                          –5                                                                                                                                              –3
+                                                          –6                                                                                                                                              –4
+                                                               –2    –1    0      1                        2                             3    4    5      6                                                    –2   –1   0      1        2     3       4   5   6
+                                                                               log10   cell size (mm3)                                                                                                                       log10   cell size (mm3)
+
+                                                                                         (c)                                         6
+                                                                                         log10 carbon fixation rate (pg C L–1 h–1)
+
+
+
+
+                                                                                                                                     5
+
+
+                                                                                                                                     4
+
+
+                                                                                                                                     3
+
+
+                                                                                                                                     2
+
+
+                                                                                                                                     1
+
+
+                                                                                                                                     0
+                                                                                                                                         –2   –1   0      1                         2                          3    4    5      6
+                                                                                                                                                       log10   cell size (mm3)
+
+Figure 3. Best fit to data for the log–log relationships between (a) cell-specific carbon fixation rate and cell size, (b) total cell abun-
+dance and cell size as well as (c) total carbon fixation rate per unit volume and cell size in all samples obtained during the cruise.
+Regression parameters for each size-scaling relationship are detailed electronic supplementary material, table S2. Slope values in
+(a) and (b) refer to the mean (+s.d.) slope for each type of size-scaling relationship, which was obtained by averaging the size-scaling
+slopes from all the experiments.
+
+
+
+scaling relationship between phytoplankton carbon fixation                                                                                                          (b) Linking the size-scaling of phytoplankton
+rate and cell size.                                                                                                                                                 metabolism and abundance
+    Microalgal species must maximize their resource acqui-                                                                                                          The size abundance distribution of phytoplankton commu-
+sition and assimilation rates while minimizing loss rates in                                                                                                        nities in near steady-state ecosystems can be explained as a
+order to survive in aquatic pelagic ecosystems [46]. Thus,                                                                                                          function of the supply rate (R) of limiting nutrients and the
+the size-scaling relationships in phytoplankton might                                                                                                               rate of nutrient use per individual (Q), so that N ¼ R/Q
+have evolved, in part, as a consequence of adaptation                                                                                                               [18,55]. Given that photosynthetic carbon fixation in sur-
+processes that involved the acquisition of taxa-specific                                                                                                            face phytoplankton of low latitudes, where incident
+physiological strategies by species in certain size classes                                                                                                         irradiance is high, is largely dependent on nutrient avail-
+[47]. For instance, a number of structural and biophysical                                                                                                          ability, we can use the analysis of its scaling along the size
+features of large phytoplankton may counterbalance their                                                                                                            spectrum to assess the size-scaling of nutrient use (Q) by
+geometric constraints on resources acquisition, which                                                                                                               phytoplankton. Thus, we take d, the slope of the scaling
+otherwise favour small cells when resources are limiting                                                                                                            relationship between cell-specific carbon fixation rate and
+[45,48]. These traits include the possession of intracellular                                                                                                       cell size, as the size-scaling exponent for the individual
+vacuoles to increase nutrient storage capacity [47,49],                                                                                                             rate of nutrient use, so that Q a V d. Larger cells have
+changes in cell shape [50,51], the use of non-limiting sub-                                                                                                         higher nutrient requirements (or metabolic rates) and
+strates to increase cell size without increasing nutrient                                                                                                           thus, for a given amount of limiting nutrients, will attain
+requirements [52], the ability to migrate vertically in the                                                                                                         lower population densities than their smaller counterparts.
+water column [53] and the establishment of associations                                                                                                             Therefore, assuming that limiting nutrients were equally
+with nitrogen fixers [54].                                                                                                                                          available along the phytoplankton size spectrum (R a V 0),
+
+Proc. R. Soc. B (2012)
+
+1820                                                M. Huete-Ortega et al.        Metabolic scaling and abundance
+
+   slopes of the size-scaling of total abundance   –0.95                                                      the size-scalings of carbon fixation rate per indivi-
+                                                                                                              dual (metabolic rate) and cell abundance (mean
+                                                   –1.00                                                      slope values in figure 3a,b, respectively, Q a V 1.16 and
+                                                                                                              N a V 21.15) would yield the invariance with respect to
+                                                   –1.05
+                                                                                                              the cell size of the total energy use by phytoplankton, as
+                                                   –1.10
+                                                                                                              EU a V 1.1621.15 ¼ V 0.01. As we can see in figure 3c, no
+                                                                                                              significant regression relationships were found between
+                                                   –1.15                                                      phytoplankton total carbon fixation rates and cell size
+                                                                                                              throughout the study region, thus confirming that in an
+                                                   –1.20                                                      open ocean, near steady-state ecosystem such as the cen-
+                                                                                                              tral tropical and subtropical Atlantic Ocean, total energy
+                                                   –1.25                                                      processed by phytoplankton metabolism is the same in
+                                                                                                              all of the size spectrum. This conclusion contrasts with
+                                                   –1.30
+                                                                                                              that of Li et al. [56], who hypothesized a dominance of
+                                                   –1.35                                                      total energy use by small phytoplankton in oligotrophic
+                                                       0.95 1.00 1.05 1.10 1.15 1.20 1.25 1.30 1.35           oceanic regions. However, this study assumed that phyto-
+                                                       slopes of the size-scaling of carbon fixation rate     plankton metabolic rate follows a 3/4-power relationship
+                                                                                                              with cell size, without conducting any in situ measure-
+Figure 4. Relationship between the slopes of the size-scaling of                                              ments of size-fractionated phytoplankton metabolic
+cell-specific carbon fixation rate (CF) and total cell abundance                                              rates. The observed invariance of the total energy use
+(TA) obtained for the tropical and subtropical Atlantic Ocean                                                 along the size spectrum implies that, contrary to con-
+(see electronic supplementary material, table S2 for more
+                                                                                                              ventional wisdom, primary production of large-sized
+details). The model II regression line is: ‘TA slope ¼ 0.13
+                                                                                                              phytoplankton is largely equal to that estimated for smal-
+(20.53, 0.85)—1.09 (21.70, 20.55) CF slope’ (r 2 ¼ 0.20,
+p-value ¼ 0.078, n ¼ 17), with 95% confidence intervals for                                                   ler cells in the oligotrophic, near steady-state ecosystems
+each regression parameter given between brackets. Note that                                                   of the open ocean. This result may be explained by the
+the size-scaling slopes for both variables range between 1 and                                                methodological improvements carried out in the present
+1.3 in absolute values, indicating reciprocity between the                                                    study, as it seems that the small-volume incubations com-
+size-scaling of abundance and metabolic rate.                                                                 monly conducted for estimating open ocean primary
+                                                                                                              production might be underestimating the carbon fixation
+                                                                                                              rates of larger fractions (see electronic supplementary
+we predict that the size-scaling exponent for cell abun-                                                      material, figure S4). If confirmed, the underestimation
+dance, b, will take the same value as the size-scaling                                                        observed and the subsequent size-independence of total
+exponent of carbon fixation (metabolic rate), but with                                                        energy use can have important implications for global
+opposite sign, as N a V 0/V d ¼ V 2d; a situation that is                                                     carbon budgets, including the balance between photosyn-
+referred as the reciprocal size-scaling of metabolic rate                                                     thesis and mesopelagic respiration [57].
+and abundance. On average, in our study the slope of the                                                          The conceptual linkage between the size-scaling of
+relationship between carbon fixation rate per individual                                                      metabolic rate and the size abundance distribution
+and cell size was 1.16 (figure 3a). Then, according to the                                                    of phytoplankton communities explored here is valid only
+earlier mentioned model, the size-scaling relationship of                                                     in near steady-state marine ecosystems, where nutrients
+phytoplankton abundance is predicted to take a slope of                                                       enter the euphotic layer through small and relatively con-
+21.16, which is strikingly similar to 21.15 (Student’s                                                        tinuous diffusive fluxes from below the thermocline, and
+t-test p-value , 0.01), the mean slope of all the scaling                                                     metabolic rates are nutrient-limited [18]. In these settings,
+relationships between abundance and cell size obtained                                                        the availability of limiting nutrients will be uniformly dis-
+throughout the study region (figure 3b). This reciprocal                                                      tributed along the size spectrum; so all individuals within
+relationship is also supported by the negative relationship                                                   a given size class will have equal access to their correspond-
+found between the size-scaling slopes of cell-specific                                                        ing limiting nutrient and will grow until reaching the cell
+carbon fixation rate and total abundance (p-value ¼                                                           abundance that corresponds to their rate of nutrient use,
+0.078, r 2 ¼ 0.20, figure 4). We thus conclude that over                                                      in turn determined by their cell size. This explains the see-
+broad scales the size-scaling of phytoplankton abundance                                                      mingly paradoxical fact that, while larger cells have higher
+in open ocean ecosystems near to steady-state, with                                                           biomass-specific carbon fixation rates, they attain lower
+slopes typically ranging between 21 and 21.3, can be                                                          abundances than their smaller counterparts, rather than
+explained as a direct consequence of the size-scaling of                                                      dominating the phytoplankton community. In this sense,
+phytoplankton metabolic rate.                                                                                 higher biomass-specific carbon fixation rates of large phyto-
+    The simultaneous knowledge of the size-scaling of                                                         plankton imply higher nutrient requirements and thus, in
+phytoplankton metabolism and cell abundance allows us                                                         near steady-state marine ecosystems, the limited amount
+to study the flow of energy along the size spectrum [7].                                                      of nutrients will have to be shared by a smaller number of
+Damuth’s theory states that the total energy used by a                                                        larger cells. Other processes such as size-differential grazing
+given species population per unit area (EU) can be                                                            pressure by zooplankton [58] may affect the regular
+assessed by multiplying the average energy use per indi-                                                      patterns in size abundance distribution of marine phyto-
+vidual (or resource use, Q) and the abundance of the                                                          plankton, by controlling phytoplankton abundances along
+individuals (N ) [17]. Even though in the present study                                                       the size spectrum and preventing the development of
+there was no differentiation of species composition, in                                                       blooms of certain phytoplankton size groups. However, in
+practice each size class was an assemblage of species.                                                        marine ecosystems near to steady-state, grazing pressure
+Accordingly, the reciprocal relationship found between                                                        is higher on small phytoplankton and the losses of smaller
+
+Proc. R. Soc. B (2012)
+
+                                                              Metabolic scaling and abundance     M. Huete-Ortega et al.       1821
+
+cells may be compensated by the higher sedimentation                 of Science and Innovation through grants CTM2004-05174-
+rates experienced by larger cells [11,46,59], resulting in a         C02 (Trichodesmium and N2 fixation in the tropical Atlantic)
+broad cell size-independence of loss processes. Further-             and CTM2008-03699 (Macroecological patterns in marine
+                                                                     phytoplankton) to E.M.
+more, it has been hypothesized that resource competition
+between phytoplankton species of different size should
+lead to the dominance of phytoplankton community by
+                                                                     REFERENCES
+the single size that requires the lowest resource concen-             1 Peters, R. H. 1983 The ecological implications of body size,
+tration to grow [47,48]. However, here we assume that,                  1st edn. Cambridge, UK: Cambridge University Press.
+given that different phytoplankton species have different             2 Marquet, P. A., Quiñones, R. A., Abades, S., Labra, F.,
+nutrient requirements and phytoplankton taxonomic com-                  Tognelli, M., Arim, M. & Rivadeneira, M. 2005 Scaling
+position changes with cell size [60,61], the nature of the              and power-laws in ecological systems. J. Exp. Biol. 208,
+limiting nutrient may vary along the size spectrum. This                1749–1769. (doi:10.1242/jeb.01588)
+fact, together with the effect of dispersion and episodic             3 Kleiber, M. 1947 Body size and metabolic rate. Physiol.
+changes in resource supply, may prevent the establishment               Rev. 27, 511 –541.
+of competitive exclusion between different size classes.              4 Taguchi, S. 1976 Relationship between photosynthesis
+Therefore, the overall slope of the size–abundance spec-                and cell size of marine diatoms. J. Phycol. 12, 185 –189.
+                                                                        (doi:10.1111/j.1529-8817.1976.tb00499.x)
+trum will be ultimately determined by the rate of nutrient
+                                                                      5 Nielsen, S. L. & Sand-Jensen, K. 1990 Allometric scaling
+supply and its use by phytoplankton, while the concurrent               of maximal photosynthetic growth rate to surface/volume
+influence along the size spectrum of other ecological                   ratio. Limnol. Oceanogr. 35, 177–181. (doi:10.4319/lo.
+mechanisms contributes to the observed variability                      1990.35.1.0177)
+among the abundance size-scaling relationships around                 6 López-Urrutia, A., San Martin, E., Harris, R. P. &
+an average isometric scaling.                                           Irigoien, X. 2006 Scaling the metabolic balance of the
+                                                                        oceans. Proc. Natl Acad. Sci. USA 103, 8739– 8744.
+                                                                        (doi:10.1073/pnas.0601137103)
+5. CONCLUSIONS                                                        7 Marañón, E., Cermeño, P., Rodrı́guez, J., Zubkov, M. V. &
+                                                                        Harris, H. P. 2007 Scaling of phytoplankton photosyn-
+We have confirmed, using in situ measurements of photo-
+                                                                        thesis and cell size in the ocean. Limnol. Oceanogr. 52,
+synthetic carbon fixation in local, natural assemblages,                2190–2198. (doi:10.4319/lo.2007.52.5.2190)
+that the 3/4-power law is not applicable to phytoplankton             8 Johnson, M. D., Völker, J., Moeller, H. V., Laws, E.,
+metabolism in the field, thus negating the universality of              Breslauer, K. J. & Falkowski, P. G. 2009 Universal constant
+Kleiber’s rule. The isometric size-scaling of phytoplankton             for heat production in protists. Proc. Natl Acad. Sci. USA
+carbon fixation is likely to result from taxa-specific physio-          106, 6696–6699. (doi:10.1073/pnas.0902005106)
+logical strategies of larger species, which allow them to             9 DeLong, J. P., Okie, J. G., Moses, M. E., Sibly, R. M. &
+overcome the size-related constraints on resource uptake                Brown, J. H. 2010 Shifts in metabolic scaling, production,
+and use. The inverse power–law relationship between                     and efficiency across major evolutionary transitions of life.
+phytoplankton abundance and cell size, with exponents                   Proc. Natl Acad. Sci. USA 107, 12 941–12 945. (doi:10.
+typically between 21 and 21.3, is a well-established prop-              1073/pnas.1007783107)
+                                                                     10 Marañón, E. 2008 Inter-specific scaling of phytoplankton
+erty of near steady-state open ocean ecosystems; yet, its
+                                                                        production and cell size in natural ecosystems. J. Plankton
+origin has remained elusive. The concurrent analysis of                 Res. 30, 157–163. (doi:10.1093/plankt/fbm087)
+the relationship between cell size and phytoplankton abun-           11 Kiørboe, T. 1993 Turbulence, phytoplankton cell size,
+dance and photosynthetic carbon fixation rate suggests that             and the structure of pelagic food webs. Adv. Mar. Biol.
+the observed size abundance distribution in these eco-                  29, 1–72. (doi:10.1016/S0065-2881(08)60129-7)
+systems arises as a direct result of the size-scaling of             12 Legendre, L. & Rassoulzadegan, F. 1996 Food-web
+metabolic rate. As a consequence of the reciprocal relation-            mediated export of biogenic carbon in oceans: hydrodyn-
+ship found between the size-scalings of metabolic rate per              amic control. Mar. Ecol. Prog. Ser. 145, 179–193.
+individual and cell abundance, total energy use by phyto-               (doi:10.3354/meps145179)
+plankton metabolism is invariant along the size spectrum             13 Cavender-Bares, K., Rinaldo, A. & Chisholm, S. W. 2001
+                                                                        Microbial size spectra from natural and nutrient enriched
+in the tropical and subtropical Atlantic Ocean. From a bio-
+                                                                        ecosystems. Limnol. Oceanogr. 46, 778– 789. (doi:10.
+geochemical standpoint, this invariance highlights the                  4319/lo.2001.46.4.0778)
+importance of large phytoplankton productivity in oligo-             14 Cermeño, P. & Figueiras, F. G. 2008 Species richness and
+trophic, near steady-state ecosystems of the open ocean,                cell-size distribution: the size structure of phytoplankton
+where the role of this size class in carbon budgets has                 communities. Mar. Ecol. Prog. Ser. 357, 79–85. (doi:10.
+been so far undervalued.                                                3354/meps07293)
+                                                                     15 Reul, A., Rodrı́guez, V., Jiménez-Gómez, F., Blanco,
+We thank J. Escánez and F. J. Domı́nguez for the nutrient data         J. M., Bautista, B., Sarhan, T., Guerrero, F., Ruı́z, J. &
+and L. Dı́az and P. Chouciño for their support in the analysis of
+                                                                        Garcı́a-Lafuente, J. 2005 Variability in the spatio-
+flow cytometry and chl a samples, respectively. We are also
+grateful to D. López-Sandoval for her help with figure 1. We           temporal distribution and size-structure of phytoplankton
+acknowledge the support of the officers and crew of the R/V             across an upwelling area in the NW-Alboran Sea,
+Hespérides, as well as the staff of the Marine Technology Unit         (W-Mediterranean). Cont. Shelf Res. 25, 589–608.
+(UTM), during the work at sea. Comments from two                        (doi:10.1016/j.csr.2004.09.016)
+anonymous reviewers are also gratefully acknowledged.                16 Huete-Ortega, M., Marañón, E., Varela, M. & Bode, A.
+M.H.-O. and A.C.-D. were supported by undergraduate                     2010 General patterns in the size scaling of phytoplankton
+fellowships from the Spanish Ministry of Education. P.C.                abundance in coastal waters during a 10-year time series.
+was supported by Marie Curie Outgoing International                     J. Plankton Res. 32, 1–14. (doi:10.1093/plankt/fbp104)
+Fellowship within the 6th European Community framework               17 Damuth, J. 1981 Population density and body size in mam-
+Programme. This research was funded by Spanish Ministry                 mals. Nature 290, 699–700. (doi:10.1038/290699a0)
+
+Proc. R. Soc. B (2012)
+
+1822    M. Huete-Ortega et al.       Metabolic scaling and abundance
+
+18 Enquist, B. J., Brown, J. H. & West, G. B. 1998 Allo-                other protist plankton. Limnol. Oceanogr. 45, 569 –579.
+   metric scaling of plant energetics and population                    (doi:10.4319/lo.2000.45.3.0569)
+   density. Nature 395, 163 –165. (doi:10.1038/25977)                35 Rivkin, R. B. & Seliger, H. H. 1981 Liquid scintillation
+19 Huete-Ortega, M., Calvo-Dı́az, A., Graña, R., Mouriño-             counting for 14C uptake of single algal cells isolated
+   Carballido, B. & Marañón, E. 2011 Effect of environ-               from natural. Limnol. Oceanogr. 26, 780–785. (doi:10.
+   mental forcing on the biomass, production and growth                 4319/lo.1981.26.4.0780)
+   rate of size-fractionated phytoplankton in the central            36 Li, W. K. W. 1994 Primary production of prochlorophy-
+   Atlantic Ocean. J. Mar. Syst. 88, 203–213. (doi:10.                  tes, cyanobacteria, and eucaryotic ultraphytoplankton:
+   1016/j.jmarsys.2011.04.007)                                          measurements from flow cytometry sorting. Limnol.
+20 Raimbault, P., Rodier, M. & Taupier-Letage, I. 1988 Size             Oceanogr. 39, 169–175. (doi:10.4319/lo.1994.39.1.0169)
+   fraction of phytoplankton in the Ligurian Sea and the             37 Jardillier, L., Zubkov, M. V., Pearman, J. & Scanlan, D. J.
+   Algerian Basin (Mediterranean Sea): size distribution                2010 Significant CO2 fixation by small prymnesio-
+   versus total concentration. Mar. Microb. Food-Webs 3, 1–7.           phytes in the subtropical and tropical northeast Atlantic
+21 Marañón, E., Holligan, P. M., Barciela, R., González, N.,         Ocean. ISME J. 4, 1180–1192. (doi:10.1038/ismej.
+   Mouriño, B., Pazó, M. J. & Varela, M. 2001 Patterns of             2010.36)
+   phytoplankton size-structure and productivity in contrast-        38 West, G. B., Brown, J. H. & Enquist, B. J. 1997 A general
+   ing open ocean environments. Mar. Ecol. Prog. Ser. 216,              model for the origin of allometric scaling laws in biology.
+   43–56. (doi:10.3354/meps216043)                                      Science 276, 122–126. (doi:10.1126/science.276.5309.
+22 Zubkov, M. V., Sleigh, M. A., Tarran, G. A., Burkill,                122)
+   P. H. & Leakey, R. J. G. 1998 Picoplanktonic community            39 Niklas, K. J. 1994 Plant allometry, the scaling of form and
+   structure on an Atlantic transect from 508 N to 508 S.               process. Chicago, IL: The University of Chicago Press.
+   Deep-Sea Res. I 45, 1339 –1355. (doi:10.1016/j.csr.               40 Niklas, K. J. & Enquist, B. J. 2001 Invariant scaling
+   2004.09.016)                                                         relationships for interspecific plant biomass production
+23 Rodrı́guez, J., Blanco, J. M., Jiménez, F., Echevarrı́a, F.,        rates and body size. Proc. Natl Acad. Sci. USA 98,
+   Gil, J., Rodrı́guez, V., Ruı́z, J., Bautista, B. & Guerrero, F.      2922–2927. (doi:10.1073/pnas.041590298)
+   1998 Patterns in the size structure of the phytoplankton          41 Dodds, P. S., Rothman, D. H. & Weitz, J. S. 2001 Re-
+   community in the deep fluorescence maximum of the                    examination of the ‘3/4-law’ of metabolism. J. Theor.
+   Alboran Sea (southwestern Mediterranean). Deep-Sea                   Biol. 209, 9 –27. (doi:10.1006/jtbi.2000.2238)
+   Res. I 45, 1577–1593. (doi:10.1016/S0967-0637(98)                 42 Bokma, F. 2004 Evidence against universal metabolic
+   00030-2)                                                             allometry. Func. Ecol. 18, 184 –187. (doi:10.1111/j.
+24 Lund, J. W. G., Kipling, C. & Le Cren, E. D. 1958 The                0269-8463.2004.00817.x)
+   inverted microscope method of estimating algal numbers            43 Isaac, N. J. B. & Carbone, C. 2010 Why are metabolic
+   and the statistical basis of estimations by counting.                scaling exponents so controversial? Quantifying variance
+   Hydrobiologia 11, 143 –170. (doi:10.1007/BF00007865)                 and testing hypothesis. Ecol. Lett. 13, 728 –735. (doi:10.
+25 Olenina, I. et al. 2006 Biovolumes and size-classes of phy-          1111/j.1461-0248.2010.01461.x)
+   toplankton in the Baltic Sea. In Baltic Sea Environment           44 Finkel, Z. V., Irwin, A. J. & Schofield, O. 2004 Resource
+   Proceedings, vol. 106, pp. 144. Helsinki: Helsinki Commis-           limitation alters the 3/4 size scaling of metabolic rates in
+   sion and Baltic Marine Environment Commission.                       phytoplankton. Mar. Ecol. Prog. Ser. 273, 269 –279.
+26 Rodrı́guez, J., Jiménez-Gómez, F., Blanco, J. M. &                 (doi:10.3354/meps273269)
+   Figueroa, F. L. 2002 Physical gradients and spatial varia-        45 Raven, J. A. 1998 The twelfth Tansley Lecture. Small
+   bility of the size structure and composition of                      is beautiful: the picophytoplankton. Func. Ecol. 12,
+   phytoplankton in the Gerlache Strait (Antarctica).                   503 –513. (doi:10.1046/j.1365-2435.1998.00233.x)
+   Deep-Sea Res. II 49, 693–706. (doi:10.1016/S0967-                 46 Sunda, W. G. & Hardison, D. R. 2010 Evolutionary
+   0645(01)00119-9)                                                     trade-offs among nutrient acquisition, cell size, and
+27 Blanco, J. M., Echevarrı́a, F. & Garcı́a, C. M. 1994 Deal-           grazing defense in marine phytoplankton ecosystem stab-
+   ing with size spectra: some conceptual and mathematical              ility. Mar. Ecol. Prog. Ser. 401, 63–76. (doi:10.3354/
+   problems. Sci. Mar. 58, 17– 29.                                      meps08390)
+28 Laws, E. A. & Archie, J. W. 1981 Appropriate use of               47 Verdy, A., Follows, M. & Flierl, G. 2009 Optimal phyto-
+   regression analysis in marine biology. Mar. Biol. 65,                plankton cell size in an allometric model. Mar. Ecol. Prog.
+   13–16. (doi:10.1007/BF00397062)                                      Ser. 379, 1–12. (doi:10.3354/meps07909)
+29 Clarke, M. R. B. 1980 The reduced major axis of a                 48 Thingstad, T. F. & Sakshaug, E. 1990 Control of phyto-
+   bivariate sample. Biometrika 67, 441– 446. (doi:10.                  plankton in nutrient recycling ecosystems. Theory and
+   1093/biomet/67.2.441)                                                terminology. Mar. Ecol. Prog. Ser. 63, 261 –272. (doi:10.
+30 Finkel, Z. V. 2001 Light absorption and size scaling of              3354/meps063261)
+   light-limited metabolism in marine diatoms. Limnol.               49 Stolte, W. & Riegman, R. 1995 Effect of phytoplankton
+   Oceanogr. 46, 86–94. (doi:10.4319/lo.2001.46.1.0086)                 cell size on transient-state nitrate and ammonium
+31 Goldman, J. C. 1993 Potential role of large oceanic                  uptake kinetics. Microbiology 141, 1221–1229. (doi:10.
+   diatoms in new primary production. Deep-Sea Res. I 40,               1099/13500872-141-5-1221)
+   159 –168. (doi:10.1016/0967-0637(93)90059-C)                      50 Chisholm, S. W. 1992 Phytoplankton size. In Primary
+32 Cermeño, P., Marañón, E., Rodrı́guez, J. & Fernández, E.         productivity and biogeochemical cycles in the sea (eds P. G.
+   2005 Size-dependence of coastal phytoplankton photo-                 Falkowski & A. D. Woodhead), pp. 213 –236.
+   synthesis under vertical mixing conditions. J. Plankton              New York, NY: Plenum Press.
+   Res. 27, 473–483. (doi:10.1093/plankt/fbi021)                     51 Naselli-Flores, L., Padisak, J. & Albay, M. 2007 Shape
+33 Fernández, A., Mouriño-Carballido, B., Bode, A.,                   and size in phytoplankton ecology: do they matter?
+   Varela, M. & Marañón, E. 2010 Latitudinal distribution             Hydrobiologia 578, 157–161. (doi:10.1007/s10750-006-
+   of Trichodesmium spp. and N2 fixation in the Atlantic                2815-z)
+   Ocean. Biogeosciences 7, 3167–3176. (doi:10.5194/bg-7-            52 Thingstad, T. F., Øvreås, L., Egge, J. K., Løvdal, T. &
+   3167-2010)                                                           Heldal, M. 2005 Use of non-limiting substrates to
+34 Menden-Deuer, S. & Lessard, E. J. 2000 Carbon to                     increase size; a generic strategy to simultaneously opti-
+   volume relationships for dinoflagellate, diatoms, and                mize uptake and minimize predation in pelagic
+
+Proc. R. Soc. B (2012)
+
+                                                           Metabolic scaling and abundance   M. Huete-Ortega et al.    1823
+
+        osmotrophs? Ecol. Lett. 8, 675 –682. (doi:10.1111/j.        ecosystem stability. Ecology 85, 1811–1813. (doi:10.
+        1461-0248.2005.00768.x)                                     1890/03-0693)
+     53 Villareal, T. A., Joseph, L. & Brzezinski, M. A. 1999    57 del Giorgio, P. A. & Duarte, C. M. 2002 Respiration in
+        Biological and chemical characteristics of the giant        the open ocean. Nature 420, 379 –384. (doi:10.1038/
+        diatom Ethmodiscus (Bacillariophyceae) in the central       nature01165)
+        North Pacific gyre. J. Plankton Res. 35, 896–902.        58 Armstrong, R. A. 1999 Stable model structures for repre-
+        (doi:10.1046/j.1529-8817.1999.3550896.x)                    senting biogeochemical diversity and size spectra in
+     54 Foster, R. A., Kuypers, M. M. M., Vagner, T., Paerl,        plankton communities. J. Plankton Res. 21, 445–464.
+        R. W., Musar, N. & Zehr, J. P. 2011 Nitrogen fixation       (doi:10.1093/plankt/21.3.445)
+        and transfer in open ocean diatom-cyanobacterial         59 Thingstad, T. F. 1998 A theoretical approach to structur-
+        symbioses. ISME J. 5, 1484–1493. (doi:10.1038/ismej.        ing mechanisms in the pelagic food web. Hydrobiologia
+        2011.26)                                                    363, 59– 72. (doi:10.1023/A:1003146310365)
+     55 Irwin, A. J., Finkel, Z. V., Schofield, O. M. E. &       60 Finkel, Z., Beardall, J., Flynn, K. J., Quigg, A., Rees,
+        Falkowski, P. G. 2006 Scaling-up from nutrient physi-       T. A. V. & Raven, J. 2010 Phytoplankton in a changing
+        ology to the size-structure of phytoplankton                world: cell size and elemental stoichiometry. J. Plankton
+        communities. J. Plankton Res. 28, 459–471. (doi:10.         Res. 32, 119–137. (doi:10.1093/plankt/fbp098)
+        1093/plankt/fbi148)                                      61 Arrigo, K. R. 2005 Marine microorganisms and global
+     56 Li, B.-L., Gorshkov, V. G. & Makarieva, A. 2004 Energy      nutrient cycles. Nature 437, 349 –355. (doi:10.1038/
+        partitioning between different-sized organisms and          nature04159)
+
+
+
+
+     Proc. R. Soc. B (2012)
+
+
+View publication stats
+"

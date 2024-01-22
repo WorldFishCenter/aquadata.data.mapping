@@ -46,7 +46,36 @@ app_ui <- function(request) {
             shiny::column(width = 12, reactable::reactableOutput(("t")))
           ),
           uiOutput("selected_row_details")
-          # uiOutput("selected_row_open")
+        ),
+        shiny::tabPanel(
+          "Country indicators",
+          shiny::fluidRow(
+            shiny::column(
+              width = 12,
+              shiny::h2("Explore country indicators"),
+              shiny::p("Explore and compare coutry development indicators")
+            )
+          ),
+          shiny::fluidRow(
+            shiny::selectInput("indicator",
+              label = tags$div(style = c("font-weight: bolder"), "Select indicator"),
+              choices = aquadata.data.mapping::wb_indicators$indicator_name,
+              width = "40%"
+            )
+          ),
+          shiny::fluidRow(
+            shiny::selectInput("country",
+              label = tags$div(style = c("font-weight: bolder"), "Select country"),
+              choices = dplyr::filter(aquadata.data.mapping::wb_country_codes, .data$country_code %in% pars$quantl$countries) %>% magrittr::extract2("country_name"),
+              multiple = T,
+              selected = "India"
+            ),
+            shiny::sliderInput(inputId = "year", "Year:", min = 1970, max = 2021, step = 1, value = 2021, sep = "")
+          ),
+          shiny::fluidRow(
+            shiny::column(width = 6, apexcharter::apexchartOutput("c1", height = "60vh")),
+            shiny::column(width = 6, leaflet::leafletOutput("map"), height = "60vh"),
+          )
         ),
         # Second tab - Text Processing
         shiny::tabPanel(
@@ -83,11 +112,11 @@ app_ui <- function(request) {
             ))
           ),
           shiny::fluidRow(
-            shiny::h2("Chat with the document")
+            shiny::h2("Chat with the document"),
+            shiny::column(width = 12, shiny::textInput("user_query", "Ask a question:")),
+            shiny::column(width = 3, shiny::actionButton("send_query", "Send")),
+            shiny::column(width = 12, shiny::uiOutput("chatbot_response"))
           ),
-          shiny::fluidRow(
-            shiny::column(width = 12, shiny::uiOutput("chatbot"))
-          )
         ),
         # Third tab - App information
         shiny::tabPanel(

@@ -16,9 +16,15 @@ context aquatic food systems in order to identify data gaps and generate
 new data in key geographic region: Bangladesh, Cambodia, Ghana, India,
 Myanmar, Nigeria, Solomon Islands, Timor-Leste and Zambia.
 
+<img src="man/figures/metadata_treemap.png" width="800" />
+
 **aquadata.data.mapping** uses metadata information to download data and
-elaborate data stories and scientific reports’ summaries using AI tools
-(ChatGPT).
+use a Shiny interface to elaborate data summaries, evidence-based
+stories and scientific reports’ summaries using AI tools, as OpenAI
+engines GPT-4 and GPT-3.5. It also provides an interface to upload text
+files to be processed by AI tools
+
+<img src="man/figures/upload_interface.png" width="800" />
 
 This repository is part of work package 1 “***AquaData***” of the
 initiative “***Resilient Aquatic Food Systems for Healthy People and

@@ -11,6 +11,8 @@ app_server <- function(input, output, session) {
     "#440154", "#30678D", "#35B778",
     "#FDE725", "#FCA35D", "#D32F2F", "#67001F"
   )
+  # Render the plot in the "Explore metadata" tab
+  palette <- c("#440154", "#30678D", "#35B778", "#FDE725", "#FCA35D", "#D32F2F", "#67001F")
   colors <- palette %>% strtrim(width = 7)
   dat <- jsonify_metadata()
   output$p <- apexcharter::renderApexchart({
@@ -21,6 +23,7 @@ app_server <- function(input, output, session) {
     )
   })
 
+  # Render the table
   # Render the table
   output$t <- reactable::renderReactable({
     # Render table
@@ -62,6 +65,13 @@ app_server <- function(input, output, session) {
     )
   })
 
+  shiny::fluidRow(
+    shiny::h2("Chat with the document"),
+    shiny::column(width = 12, shiny::textInput("user_query", "Ask a question:")),
+    shiny::column(width = 3, shiny::actionButton("send_query", "Send")),
+    shiny::column(width = 12, shiny::uiOutput("chatbot_response"))
+  )
+
   # output$selected_row_open <- renderUI({
 
   # output$content <- renderText(
@@ -74,6 +84,101 @@ app_server <- function(input, output, session) {
   # )
   # })
 
+  # Render the plots and table in the "Country indicators" tab
+  wb_dat <- reactive({
+    countries <- aquadata.data.mapping::wb_country_codes %>%
+      dplyr::filter(.data$country_name %in% c(input$country)) %>%
+      magrittr::extract2("country_code")
+    indicator <- aquadata.data.mapping::wb_indicators %>%
+      dplyr::filter(.data$indicator_name %in% input$indicator) %>%
+      magrittr::extract2("series_id")
+
+    Quandl::Quandl.datatable("WB/DATA",
+      series_id = indicator,
+      country_code = countries
+    ) %>%
+      dplyr::arrange(.data$year)
+  })
+
+  output$c1 <- apexcharter::renderApexchart({
+    apexcharter::apex(wb_dat(),
+      type = "area",
+      mapping = apexcharter::aes(x = .data$year, y = .data$value, group = .data$country_name)
+    ) %>%
+      apexcharter::ax_chart(
+        toolbar = list(show = FALSE),
+        animations = list(
+          enabled = TRUE,
+          speed = 800,
+          animateGradually = list(enabled = TRUE)
+        ),
+        selection = list(enabled = FALSE),
+        zoom = list(enabled = FALSE)
+      ) %>%
+      apexcharter::ax_xaxis(tickAmount = 15)
+  })
+
+
+  wb_dat2 <- reactive({
+    indicator <- aquadata.data.mapping::wb_indicators %>%
+      dplyr::filter(.data$indicator_name == input$indicator) %>%
+      magrittr::extract2("series_id")
+
+    dat <-
+      Quandl::Quandl.datatable("WB/DATA",
+        series_id = indicator,
+        country_code = pars$quantl$countries
+      ) %>%
+      dplyr::rename(name_long = country_name)
+
+    dat %>% dplyr::filter(.data$year == input$year)
+  })
+
+  output$map <- leaflet::renderLeaflet({
+    # Filter data based on inputs
+    data <- wb_dat2()
+
+    leafdat <-
+      rnaturalearth::ne_countries(scale = "medium", returnclass = "sf") %>%
+      merge(data, by = "name_long") %>%
+      dplyr::select(name_long, year, value, geometry)
+
+    Popup <- paste0(
+      "<strong>Country: </strong>",
+      leafdat$name_long,
+      "<br><strong> Indicator value: </strong>",
+      round(leafdat$value, 2)
+    )
+
+    # color
+    mypalette <- leaflet::colorNumeric(
+      palette = "viridis",
+      domain = dat$value,
+      na.color = "transparent",
+      reverse = F
+    )
+
+    # Create leaflet map
+    leaflet::leaflet(leafdat) %>%
+      leaflet::setView(lng = 80, lat = 8, zoom = 2) %>%
+      leaflet::addProviderTiles("CartoDB.Positron") %>%
+      leaflet::addPolygons(
+        fillColor = ~ mypalette(value),
+        fillOpacity = 0.7,
+        color = "black",
+        weight = 2.5,
+        popup = Popup
+      ) %>%
+      leaflet::addLegend(
+        pal = mypalette,
+        # labFormat = label_format,
+        bins = 5,
+        values = ~value,
+        className = "panel panel-default",
+        # title = leg_title,
+        position = "bottomright"
+      )
+  })
 
   # Observer to update the processed_text input value
   shiny::observeEvent(input$process_text, {
@@ -119,49 +224,34 @@ app_server <- function(input, output, session) {
     )
   })
 
-  # Define a reactive value to store chat messages
-  chat_messages <- shiny::reactiveValues(messages = character(0))
 
-  # Render the chat interface
-  output$chatbot <- shiny::renderUI({
-    shiny::tagList(
-      shiny::textInput(inputId = "chat_input", label = NULL, value = "", placeholder = "Type your message..."),
-      shiny::div(shiny::verbatimTextOutput("chat_output")),
-      shiny::actionButton(inputId = "send_button", label = "Send")
-    )
-  })
-
-  # Render the chat messages
-  output$chat_output <- shiny::renderText({
-    paste(chat_messages$messages, collapse = "\n")
-  })
-
-  # Observer to handle chatbot messages
-  shiny::observeEvent(input$send_button, {
-    user_input <- input$chat_input
-
-    if (user_input != "") {
-      # User message received, process it
-      chat_messages$messages <- c(chat_messages$messages, paste("You:", user_input))
-
-      # Perform document querying based on user input
-      # Update the chatbot messages accordingly
-
-      # Example implementation
-      if (grepl("documents", user_input, ignore.case = TRUE)) {
-        # Query documents and update chatbot messages
-        documents <- query_documents(user_input)
-        reply <- paste("Bot: Here are the matching documents:", documents)
-        chat_messages$messages <- c(chat_messages$messages, reply)
-      } else {
-        # If the user input doesn't match any known query, provide a default response
-        reply <- "Bot: I'm sorry, but I couldn't understand your request."
-        chat_messages$messages <- c(chat_messages$messages, reply)
-      }
-
-      # Clear the input field
-      shiny::updateTextInput(session, "chat_input", value = "")
+  # Observer for the chatbot interaction
+  shiny::observeEvent(input$send_query, {
+    if (is.null(input$user_query) || input$user_query == "") {
+      shiny::showModal(
+        shiny::modalDialog(
+          title = "Error",
+          "Please enter a question.",
+          easyClose = TRUE
+        )
+      )
+      return() # Exit the observeEvent early if no question is entered
     }
-  })
 
+    # Call the chatbot function
+    chatbot_answer <- qa_bot_wrapper(
+      document_path = input$file_upload$datapath, # Add document_path if needed
+      openaikey = pars$openai$token, # Add your OpenAI key here if needed
+      temperature = input$temperature, # You can adjust this if needed
+      query_text = input$user_query
+    )
+
+    # Update the UI with the chatbot's answer
+    output$chatbot_response <- shiny::renderUI({
+      shiny::wellPanel(
+        shiny::h4("Chatbot Response:"),
+        shiny::p(shiny::markdown(chatbot_answer))
+      )
+    })
+  })
 }
