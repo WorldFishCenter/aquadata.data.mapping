@@ -15947,7 +15947,22 @@ dataset_id,persistentUrl,publicationdate,title,subject,keywordValue,keywordVocab
 7510617,https://doi.org/10.7910/DVN/WWMN6H,2023-10-27,Food Security Simulator – Nigeria,Social Sciences,AFRICA SOUTH OF SAHARA,AGROVOC,http://aims.fao.org/aos/agrovoc/c_166
 7510617,https://doi.org/10.7910/DVN/WWMN6H,2023-10-27,Food Security Simulator – Nigeria,Agricultural Sciences,AFRICA,AGROVOC,http://aims.fao.org/aos/agrovoc/c_165
 7510617,https://doi.org/10.7910/DVN/WWMN6H,2023-10-27,Food Security Simulator – Nigeria,Social Sciences,AFRICA,AGROVOC,http://aims.fao.org/aos/agrovoc/c_165
-7580768,https://doi.org/10.7910/DVN/FWWLLG,2023-11-21,,,,,
+7580768,https://doi.org/10.7910/DVN/FWWLLG,2023-11-21,Women's Empowerment Metric for National Statistical Systems (WEMNS),Agricultural Sciences,women's empowerment,AGROVOC,http://aims.fao.org/aos/agrovoc/c_f1c72537
+7580768,https://doi.org/10.7910/DVN/FWWLLG,2023-11-21,Women's Empowerment Metric for National Statistical Systems (WEMNS),Social Sciences,women's empowerment,AGROVOC,http://aims.fao.org/aos/agrovoc/c_f1c72537
+7580768,https://doi.org/10.7910/DVN/FWWLLG,2023-11-21,Women's Empowerment Metric for National Statistical Systems (WEMNS),Agricultural Sciences,equality,AGROVOC,http://aims.fao.org/aos/agrovoc/c_f5c30cf9
+7580768,https://doi.org/10.7910/DVN/FWWLLG,2023-11-21,Women's Empowerment Metric for National Statistical Systems (WEMNS),Social Sciences,equality,AGROVOC,http://aims.fao.org/aos/agrovoc/c_f5c30cf9
+7580768,https://doi.org/10.7910/DVN/FWWLLG,2023-11-21,Women's Empowerment Metric for National Statistical Systems (WEMNS),Agricultural Sciences,leadership,AGROVOC,http://aims.fao.org/aos/agrovoc/c_4236
+7580768,https://doi.org/10.7910/DVN/FWWLLG,2023-11-21,Women's Empowerment Metric for National Statistical Systems (WEMNS),Social Sciences,leadership,AGROVOC,http://aims.fao.org/aos/agrovoc/c_4236
+7580768,https://doi.org/10.7910/DVN/FWWLLG,2023-11-21,Women's Empowerment Metric for National Statistical Systems (WEMNS),Agricultural Sciences,legal rights,AGROVOC,http://aims.fao.org/aos/agrovoc/c_28722
+7580768,https://doi.org/10.7910/DVN/FWWLLG,2023-11-21,Women's Empowerment Metric for National Statistical Systems (WEMNS),Social Sciences,legal rights,AGROVOC,http://aims.fao.org/aos/agrovoc/c_28722
+7580768,https://doi.org/10.7910/DVN/FWWLLG,2023-11-21,Women's Empowerment Metric for National Statistical Systems (WEMNS),Agricultural Sciences,ownership,AGROVOC,http://aims.fao.org/aos/agrovoc/c_5466
+7580768,https://doi.org/10.7910/DVN/FWWLLG,2023-11-21,Women's Empowerment Metric for National Statistical Systems (WEMNS),Social Sciences,ownership,AGROVOC,http://aims.fao.org/aos/agrovoc/c_5466
+7580768,https://doi.org/10.7910/DVN/FWWLLG,2023-11-21,Women's Empowerment Metric for National Statistical Systems (WEMNS),Agricultural Sciences,decision making,AGROVOC,http://aims.fao.org/aos/agrovoc/c_2147
+7580768,https://doi.org/10.7910/DVN/FWWLLG,2023-11-21,Women's Empowerment Metric for National Statistical Systems (WEMNS),Social Sciences,decision making,AGROVOC,http://aims.fao.org/aos/agrovoc/c_2147
+7580768,https://doi.org/10.7910/DVN/FWWLLG,2023-11-21,Women's Empowerment Metric for National Statistical Systems (WEMNS),Agricultural Sciences,information and communication technologies,AGROVOC,http://aims.fao.org/aos/agrovoc/c_9000083
+7580768,https://doi.org/10.7910/DVN/FWWLLG,2023-11-21,Women's Empowerment Metric for National Statistical Systems (WEMNS),Social Sciences,information and communication technologies,AGROVOC,http://aims.fao.org/aos/agrovoc/c_9000083
+7580768,https://doi.org/10.7910/DVN/FWWLLG,2023-11-21,Women's Empowerment Metric for National Statistical Systems (WEMNS),Agricultural Sciences,sexual violence,AGROVOC,http://aims.fao.org/aos/agrovoc/c_715c970a
+7580768,https://doi.org/10.7910/DVN/FWWLLG,2023-11-21,Women's Empowerment Metric for National Statistical Systems (WEMNS),Social Sciences,sexual violence,AGROVOC,http://aims.fao.org/aos/agrovoc/c_715c970a
 7672348,https://doi.org/10.7910/DVN/NYTIMZ,2023-12-20,"Strengthen PSNP4 Institutions and Resilience (SPIR), Ethiopia: Baseline Survey",Agricultural Sciences,baseline data,AGROVOC,http://aims.fao.org/aos/agrovoc/c_d6483026
 7672348,https://doi.org/10.7910/DVN/NYTIMZ,2023-12-20,"Strengthen PSNP4 Institutions and Resilience (SPIR), Ethiopia: Baseline Survey",Social Sciences,baseline data,AGROVOC,http://aims.fao.org/aos/agrovoc/c_d6483026
 7672348,https://doi.org/10.7910/DVN/NYTIMZ,2023-12-20,"Strengthen PSNP4 Institutions and Resilience (SPIR), Ethiopia: Baseline Survey",Agricultural Sciences,social protection,AGROVOC,http://aims.fao.org/aos/agrovoc/c_89ba3619
@@ -16096,3 +16111,31 @@ dataset_id,persistentUrl,publicationdate,title,subject,keywordValue,keywordVocab
 8103367,https://doi.org/10.7910/DVN/095UBP,2024-01-19,2021 Social Accounting Matrix for Nigeria,Social Sciences,AFRICA SOUTH OF SAHARA,AGROVOC,http://aims.fao.org/aos/agrovoc/c_166
 8103367,https://doi.org/10.7910/DVN/095UBP,2024-01-19,2021 Social Accounting Matrix for Nigeria,Agricultural Sciences,AFRICA,AGROVOC,http://aims.fao.org/aos/agrovoc/c_165
 8103367,https://doi.org/10.7910/DVN/095UBP,2024-01-19,2021 Social Accounting Matrix for Nigeria,Social Sciences,AFRICA,AGROVOC,http://aims.fao.org/aos/agrovoc/c_165
+8134988,https://doi.org/10.7910/DVN/H75AJW,2024-01-31,"Myanmar Household Welfare Survey (MHWS), Round 5",Agricultural Sciences,welfare,AGROVOC,http://aims.fao.org/aos/agrovoc/c_331043
+8134988,https://doi.org/10.7910/DVN/H75AJW,2024-01-31,"Myanmar Household Welfare Survey (MHWS), Round 5",Social Sciences,welfare,AGROVOC,http://aims.fao.org/aos/agrovoc/c_331043
+8134988,https://doi.org/10.7910/DVN/H75AJW,2024-01-31,"Myanmar Household Welfare Survey (MHWS), Round 5",Agricultural Sciences,households,AGROVOC,http://aims.fao.org/aos/agrovoc/c_3676
+8134988,https://doi.org/10.7910/DVN/H75AJW,2024-01-31,"Myanmar Household Welfare Survey (MHWS), Round 5",Social Sciences,households,AGROVOC,http://aims.fao.org/aos/agrovoc/c_3676
+8134988,https://doi.org/10.7910/DVN/H75AJW,2024-01-31,"Myanmar Household Welfare Survey (MHWS), Round 5",Agricultural Sciences,livelihoods,AGROVOC,http://aims.fao.org/aos/agrovoc/c_1374498089962
+8134988,https://doi.org/10.7910/DVN/H75AJW,2024-01-31,"Myanmar Household Welfare Survey (MHWS), Round 5",Social Sciences,livelihoods,AGROVOC,http://aims.fao.org/aos/agrovoc/c_1374498089962
+8134988,https://doi.org/10.7910/DVN/H75AJW,2024-01-31,"Myanmar Household Welfare Survey (MHWS), Round 5",Agricultural Sciences,assets,AGROVOC,http://aims.fao.org/aos/agrovoc/c_677
+8134988,https://doi.org/10.7910/DVN/H75AJW,2024-01-31,"Myanmar Household Welfare Survey (MHWS), Round 5",Social Sciences,assets,AGROVOC,http://aims.fao.org/aos/agrovoc/c_677
+8134988,https://doi.org/10.7910/DVN/H75AJW,2024-01-31,"Myanmar Household Welfare Survey (MHWS), Round 5",Agricultural Sciences,employment,AGROVOC,http://aims.fao.org/aos/agrovoc/c_2550
+8134988,https://doi.org/10.7910/DVN/H75AJW,2024-01-31,"Myanmar Household Welfare Survey (MHWS), Round 5",Social Sciences,employment,AGROVOC,http://aims.fao.org/aos/agrovoc/c_2550
+8134988,https://doi.org/10.7910/DVN/H75AJW,2024-01-31,"Myanmar Household Welfare Survey (MHWS), Round 5",Agricultural Sciences,food insecurity,AGROVOC,http://aims.fao.org/aos/agrovoc/c_c8ca1426
+8134988,https://doi.org/10.7910/DVN/H75AJW,2024-01-31,"Myanmar Household Welfare Survey (MHWS), Round 5",Social Sciences,food insecurity,AGROVOC,http://aims.fao.org/aos/agrovoc/c_c8ca1426
+8134988,https://doi.org/10.7910/DVN/H75AJW,2024-01-31,"Myanmar Household Welfare Survey (MHWS), Round 5",Agricultural Sciences,diet,AGROVOC,http://aims.fao.org/aos/agrovoc/c_2261
+8134988,https://doi.org/10.7910/DVN/H75AJW,2024-01-31,"Myanmar Household Welfare Survey (MHWS), Round 5",Social Sciences,diet,AGROVOC,http://aims.fao.org/aos/agrovoc/c_2261
+8134988,https://doi.org/10.7910/DVN/H75AJW,2024-01-31,"Myanmar Household Welfare Survey (MHWS), Round 5",Agricultural Sciences,social welfare,AGROVOC,http://aims.fao.org/aos/agrovoc/c_7137
+8134988,https://doi.org/10.7910/DVN/H75AJW,2024-01-31,"Myanmar Household Welfare Survey (MHWS), Round 5",Social Sciences,social welfare,AGROVOC,http://aims.fao.org/aos/agrovoc/c_7137
+8134988,https://doi.org/10.7910/DVN/H75AJW,2024-01-31,"Myanmar Household Welfare Survey (MHWS), Round 5",Agricultural Sciences,migration,AGROVOC,http://aims.fao.org/aos/agrovoc/c_4822
+8134988,https://doi.org/10.7910/DVN/H75AJW,2024-01-31,"Myanmar Household Welfare Survey (MHWS), Round 5",Social Sciences,migration,AGROVOC,http://aims.fao.org/aos/agrovoc/c_4822
+8134988,https://doi.org/10.7910/DVN/H75AJW,2024-01-31,"Myanmar Household Welfare Survey (MHWS), Round 5",Agricultural Sciences,shock,AGROVOC,http://aims.fao.org/aos/agrovoc/c_36490
+8134988,https://doi.org/10.7910/DVN/H75AJW,2024-01-31,"Myanmar Household Welfare Survey (MHWS), Round 5",Social Sciences,shock,AGROVOC,http://aims.fao.org/aos/agrovoc/c_36490
+8134988,https://doi.org/10.7910/DVN/H75AJW,2024-01-31,"Myanmar Household Welfare Survey (MHWS), Round 5",Agricultural Sciences,MYANMAR,AGROVOC,http://aims.fao.org/aos/agrovoc/c_1155
+8134988,https://doi.org/10.7910/DVN/H75AJW,2024-01-31,"Myanmar Household Welfare Survey (MHWS), Round 5",Social Sciences,MYANMAR,AGROVOC,http://aims.fao.org/aos/agrovoc/c_1155
+8134988,https://doi.org/10.7910/DVN/H75AJW,2024-01-31,"Myanmar Household Welfare Survey (MHWS), Round 5",Agricultural Sciences,BURMA,AGROVOC,http://aims.fao.org/aos/agrovoc/c_1155
+8134988,https://doi.org/10.7910/DVN/H75AJW,2024-01-31,"Myanmar Household Welfare Survey (MHWS), Round 5",Social Sciences,BURMA,AGROVOC,http://aims.fao.org/aos/agrovoc/c_1155
+8134988,https://doi.org/10.7910/DVN/H75AJW,2024-01-31,"Myanmar Household Welfare Survey (MHWS), Round 5",Agricultural Sciences,SOUTHEAST ASIA,AGROVOC,http://aims.fao.org/aos/agrovoc/c_7260
+8134988,https://doi.org/10.7910/DVN/H75AJW,2024-01-31,"Myanmar Household Welfare Survey (MHWS), Round 5",Social Sciences,SOUTHEAST ASIA,AGROVOC,http://aims.fao.org/aos/agrovoc/c_7260
+8134988,https://doi.org/10.7910/DVN/H75AJW,2024-01-31,"Myanmar Household Welfare Survey (MHWS), Round 5",Agricultural Sciences,ASIA,AGROVOC,http://aims.fao.org/aos/agrovoc/c_666
+8134988,https://doi.org/10.7910/DVN/H75AJW,2024-01-31,"Myanmar Household Welfare Survey (MHWS), Round 5",Social Sciences,ASIA,AGROVOC,http://aims.fao.org/aos/agrovoc/c_666

@@ -1359,3 +1359,19 @@ dataset_id,persistentUrl,publicationdate,title,subject,keywordValue,keywordVocab
 8134787,https://doi.org/10.7910/DVN/EE0OIQ,2024-01-23,Gap analyses of information recorded in FishBase (and SeaLifeBase) for 12 countries,Other,fish species,,
 8134787,https://doi.org/10.7910/DVN/EE0OIQ,2024-01-23,Gap analyses of information recorded in FishBase (and SeaLifeBase) for 12 countries,Other,fish population,,
 8134787,https://doi.org/10.7910/DVN/EE0OIQ,2024-01-23,Gap analyses of information recorded in FishBase (and SeaLifeBase) for 12 countries,Other,trophic ecology,,
+8147210,https://doi.org/10.7910/DVN/YLWW5Y,2024-02-01,Project Level Women’s Empowerment in Fisheries Index (PRO-WEFI) Tanzania data set,Social Sciences,gender,AGROVOC,http://aims.fao.org/aos/agrovoc/c_34835
+8147210,https://doi.org/10.7910/DVN/YLWW5Y,2024-02-01,Project Level Women’s Empowerment in Fisheries Index (PRO-WEFI) Tanzania data set,Social Sciences,women,AGROVOC,http://aims.fao.org/aos/agrovoc/c_8420
+8147210,https://doi.org/10.7910/DVN/YLWW5Y,2024-02-01,Project Level Women’s Empowerment in Fisheries Index (PRO-WEFI) Tanzania data set,Social Sciences,empowerment,AGROVOC,http://aims.fao.org/aos/agrovoc/c_37872
+8147210,https://doi.org/10.7910/DVN/YLWW5Y,2024-02-01,Project Level Women’s Empowerment in Fisheries Index (PRO-WEFI) Tanzania data set,Social Sciences,women empowerment,,
+8147216,https://doi.org/10.7910/DVN/YWWFI6,2024-02-01,Kenya Climate Change Project dataset,Earth and Environmental Sciences,adaptation,AGROVOC,http://aims.fao.org/aos/agrovoc/c_117
+8147216,https://doi.org/10.7910/DVN/YWWFI6,2024-02-01,Kenya Climate Change Project dataset,Earth and Environmental Sciences,climate change,AGROVOC,http://aims.fao.org/aos/agrovoc/c_1666
+8147216,https://doi.org/10.7910/DVN/YWWFI6,2024-02-01,Kenya Climate Change Project dataset,Earth and Environmental Sciences,vulnerability,AGROVOC,http://aims.fao.org/aos/agrovoc/c_306b9cc8
+8147216,https://doi.org/10.7910/DVN/YWWFI6,2024-02-01,Kenya Climate Change Project dataset,Earth and Environmental Sciences,gender equality,AGROVOC,http://aims.fao.org/aos/agrovoc/c_03ae1678
+8147216,https://doi.org/10.7910/DVN/YWWFI6,2024-02-01,Kenya Climate Change Project dataset,Earth and Environmental Sciences,lake victoria,AGROVOC,http://aims.fao.org/aos/agrovoc/c_29726
+8147216,https://doi.org/10.7910/DVN/YWWFI6,2024-02-01,Kenya Climate Change Project dataset,Earth and Environmental Sciences,fisherfolks,,
+8147216,https://doi.org/10.7910/DVN/YWWFI6,2024-02-01,Kenya Climate Change Project dataset,Social Sciences,adaptation,AGROVOC,http://aims.fao.org/aos/agrovoc/c_117
+8147216,https://doi.org/10.7910/DVN/YWWFI6,2024-02-01,Kenya Climate Change Project dataset,Social Sciences,climate change,AGROVOC,http://aims.fao.org/aos/agrovoc/c_1666
+8147216,https://doi.org/10.7910/DVN/YWWFI6,2024-02-01,Kenya Climate Change Project dataset,Social Sciences,vulnerability,AGROVOC,http://aims.fao.org/aos/agrovoc/c_306b9cc8
+8147216,https://doi.org/10.7910/DVN/YWWFI6,2024-02-01,Kenya Climate Change Project dataset,Social Sciences,gender equality,AGROVOC,http://aims.fao.org/aos/agrovoc/c_03ae1678
+8147216,https://doi.org/10.7910/DVN/YWWFI6,2024-02-01,Kenya Climate Change Project dataset,Social Sciences,lake victoria,AGROVOC,http://aims.fao.org/aos/agrovoc/c_29726
+8147216,https://doi.org/10.7910/DVN/YWWFI6,2024-02-01,Kenya Climate Change Project dataset,Social Sciences,fisherfolks,,
