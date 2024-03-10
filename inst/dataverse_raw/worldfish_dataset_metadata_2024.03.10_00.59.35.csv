@@ -1381,3 +1381,11 @@ dataset_id,persistentUrl,publicationdate,title,subject,keywordValue,keywordVocab
 8546723,https://doi.org/10.7910/DVN/ZJTRGZ,2024-02-16,A-WEFI Kenya Aquaculture Value Chain Data,Social Sciences,profit,AGROVOC,http://aims.fao.org/aos/agrovoc/c_6213
 8546723,https://doi.org/10.7910/DVN/ZJTRGZ,2024-02-16,A-WEFI Kenya Aquaculture Value Chain Data,Social Sciences,value chain,,
 8546723,https://doi.org/10.7910/DVN/ZJTRGZ,2024-02-16,A-WEFI Kenya Aquaculture Value Chain Data,Social Sciences,woman's empowerment,,
+8943867,https://doi.org/10.7910/DVN/IQXBDI,2024-03-05,Dataset for the Climate-Hotspots Gender Impact Assessment,Agricultural Sciences,aquaculture,AGROVOC,http://aims.fao.org/aos/agrovoc/c_550
+8943867,https://doi.org/10.7910/DVN/IQXBDI,2024-03-05,Dataset for the Climate-Hotspots Gender Impact Assessment,Social Sciences,aquaculture,AGROVOC,http://aims.fao.org/aos/agrovoc/c_550
+8943867,https://doi.org/10.7910/DVN/IQXBDI,2024-03-05,Dataset for the Climate-Hotspots Gender Impact Assessment,Agricultural Sciences,climate,AGROVOC,http://aims.fao.org/aos/agrovoc/c_1665
+8943867,https://doi.org/10.7910/DVN/IQXBDI,2024-03-05,Dataset for the Climate-Hotspots Gender Impact Assessment,Social Sciences,climate,AGROVOC,http://aims.fao.org/aos/agrovoc/c_1665
+8943867,https://doi.org/10.7910/DVN/IQXBDI,2024-03-05,Dataset for the Climate-Hotspots Gender Impact Assessment,Agricultural Sciences,zambia,AGROVOC,http://aims.fao.org/aos/agrovoc/c_8501
+8943867,https://doi.org/10.7910/DVN/IQXBDI,2024-03-05,Dataset for the Climate-Hotspots Gender Impact Assessment,Social Sciences,zambia,AGROVOC,http://aims.fao.org/aos/agrovoc/c_8501
+8943867,https://doi.org/10.7910/DVN/IQXBDI,2024-03-05,Dataset for the Climate-Hotspots Gender Impact Assessment,Agricultural Sciences,adoption and impact assessment,,
+8943867,https://doi.org/10.7910/DVN/IQXBDI,2024-03-05,Dataset for the Climate-Hotspots Gender Impact Assessment,Social Sciences,adoption and impact assessment,,
