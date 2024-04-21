@@ -16501,17 +16501,421 @@ dataset_id,persistentUrl,publicationdate,title,subject,keywordValue,keywordVocab
 9650027,https://doi.org/10.7910/DVN/LGN0M8,2024-04-02,Preferences Over Joint vs. Individual Asset Rights,Social Sciences,survey methods,AGROVOC,http://aims.fao.org/aos/agrovoc/c_330972
 9650027,https://doi.org/10.7910/DVN/LGN0M8,2024-04-02,Preferences Over Joint vs. Individual Asset Rights,Social Sciences,households,AGROVOC,http://aims.fao.org/aos/agrovoc/c_3676
 9650027,https://doi.org/10.7910/DVN/LGN0M8,2024-04-02,Preferences Over Joint vs. Individual Asset Rights,Social Sciences,AFRICA SOUTH OF SAHARA,AGROVOC,http://aims.fao.org/aos/agrovoc/c_166
-10094351,https://doi.org/10.7910/DVN/SWPENT,2024-04-12,Global Spatially-Disaggregated Crop Production Statistics Data for 2020 Version 1.0.0,Agricultural Sciences,spatial analysis,AGROVOC,http://aims.fao.org/aos/agrovoc/c_40da9d3b
-10094351,https://doi.org/10.7910/DVN/SWPENT,2024-04-12,Global Spatially-Disaggregated Crop Production Statistics Data for 2020 Version 1.0.0,Agricultural Sciences,crop production,AGROVOC,http://aims.fao.org/aos/agrovoc/c_5976
-10094351,https://doi.org/10.7910/DVN/SWPENT,2024-04-12,Global Spatially-Disaggregated Crop Production Statistics Data for 2020 Version 1.0.0,Agricultural Sciences,agricultural development,AGROVOC,http://aims.fao.org/aos/agrovoc/c_199
-10094351,https://doi.org/10.7910/DVN/SWPENT,2024-04-12,Global Spatially-Disaggregated Crop Production Statistics Data for 2020 Version 1.0.0,Agricultural Sciences,geographical information systems,AGROVOC,http://aims.fao.org/aos/agrovoc/c_35131
-10094351,https://doi.org/10.7910/DVN/SWPENT,2024-04-12,Global Spatially-Disaggregated Crop Production Statistics Data for 2020 Version 1.0.0,Agricultural Sciences,data processing,AGROVOC,http://aims.fao.org/aos/agrovoc/c_10289
-10094351,https://doi.org/10.7910/DVN/SWPENT,2024-04-12,Global Spatially-Disaggregated Crop Production Statistics Data for 2020 Version 1.0.0,Agricultural Sciences,spatial distribution,AGROVOC,http://aims.fao.org/aos/agrovoc/c_36230
-10094351,https://doi.org/10.7910/DVN/SWPENT,2024-04-12,Global Spatially-Disaggregated Crop Production Statistics Data for 2020 Version 1.0.0,Agricultural Sciences,spatial database,AGROVOC,http://aims.fao.org/aos/agrovoc/c_9000154
-10094351,https://doi.org/10.7910/DVN/SWPENT,2024-04-12,Global Spatially-Disaggregated Crop Production Statistics Data for 2020 Version 1.0.0,Social Sciences,spatial analysis,AGROVOC,http://aims.fao.org/aos/agrovoc/c_40da9d3b
-10094351,https://doi.org/10.7910/DVN/SWPENT,2024-04-12,Global Spatially-Disaggregated Crop Production Statistics Data for 2020 Version 1.0.0,Social Sciences,crop production,AGROVOC,http://aims.fao.org/aos/agrovoc/c_5976
-10094351,https://doi.org/10.7910/DVN/SWPENT,2024-04-12,Global Spatially-Disaggregated Crop Production Statistics Data for 2020 Version 1.0.0,Social Sciences,agricultural development,AGROVOC,http://aims.fao.org/aos/agrovoc/c_199
-10094351,https://doi.org/10.7910/DVN/SWPENT,2024-04-12,Global Spatially-Disaggregated Crop Production Statistics Data for 2020 Version 1.0.0,Social Sciences,geographical information systems,AGROVOC,http://aims.fao.org/aos/agrovoc/c_35131
-10094351,https://doi.org/10.7910/DVN/SWPENT,2024-04-12,Global Spatially-Disaggregated Crop Production Statistics Data for 2020 Version 1.0.0,Social Sciences,data processing,AGROVOC,http://aims.fao.org/aos/agrovoc/c_10289
-10094351,https://doi.org/10.7910/DVN/SWPENT,2024-04-12,Global Spatially-Disaggregated Crop Production Statistics Data for 2020 Version 1.0.0,Social Sciences,spatial distribution,AGROVOC,http://aims.fao.org/aos/agrovoc/c_36230
-10094351,https://doi.org/10.7910/DVN/SWPENT,2024-04-12,Global Spatially-Disaggregated Crop Production Statistics Data for 2020 Version 1.0.0,Social Sciences,spatial database,AGROVOC,http://aims.fao.org/aos/agrovoc/c_9000154
+9650034,https://doi.org/10.7910/DVN/HJFRRC,2024-04-15,Asset Rights Upon Marriage Dissolution,Agricultural Sciences,gender equality,AGROVOC,http://aims.fao.org/aos/agrovoc/c_03ae1678
+9650034,https://doi.org/10.7910/DVN/HJFRRC,2024-04-15,Asset Rights Upon Marriage Dissolution,Agricultural Sciences,women,AGROVOC,http://aims.fao.org/aos/agrovoc/c_8420
+9650034,https://doi.org/10.7910/DVN/HJFRRC,2024-04-15,Asset Rights Upon Marriage Dissolution,Agricultural Sciences,assets,AGROVOC,http://aims.fao.org/aos/agrovoc/c_677
+9650034,https://doi.org/10.7910/DVN/HJFRRC,2024-04-15,Asset Rights Upon Marriage Dissolution,Agricultural Sciences,ownership,AGROVOC,http://aims.fao.org/aos/agrovoc/c_5466
+9650034,https://doi.org/10.7910/DVN/HJFRRC,2024-04-15,Asset Rights Upon Marriage Dissolution,Agricultural Sciences,women's empowerment,AGROVOC,http://aims.fao.org/aos/agrovoc/c_f1c72537
+9650034,https://doi.org/10.7910/DVN/HJFRRC,2024-04-15,Asset Rights Upon Marriage Dissolution,Agricultural Sciences,land rights,AGROVOC,http://aims.fao.org/aos/agrovoc/c_37898
+9650034,https://doi.org/10.7910/DVN/HJFRRC,2024-04-15,Asset Rights Upon Marriage Dissolution,Agricultural Sciences,property rights,AGROVOC,http://aims.fao.org/aos/agrovoc/c_37942
+9650034,https://doi.org/10.7910/DVN/HJFRRC,2024-04-15,Asset Rights Upon Marriage Dissolution,Agricultural Sciences,agricultural land,AGROVOC,http://aims.fao.org/aos/agrovoc/c_2808
+9650034,https://doi.org/10.7910/DVN/HJFRRC,2024-04-15,Asset Rights Upon Marriage Dissolution,Agricultural Sciences,livestock,AGROVOC,http://aims.fao.org/aos/agrovoc/c_4397
+9650034,https://doi.org/10.7910/DVN/HJFRRC,2024-04-15,Asset Rights Upon Marriage Dissolution,Agricultural Sciences,marriage,AGROVOC,http://aims.fao.org/aos/agrovoc/c_4629
+9650034,https://doi.org/10.7910/DVN/HJFRRC,2024-04-15,Asset Rights Upon Marriage Dissolution,Agricultural Sciences,divorce,AGROVOC,http://aims.fao.org/aos/agrovoc/c_cb47f3da
+9650034,https://doi.org/10.7910/DVN/HJFRRC,2024-04-15,Asset Rights Upon Marriage Dissolution,Agricultural Sciences,data collection,AGROVOC,http://aims.fao.org/aos/agrovoc/c_2128
+9650034,https://doi.org/10.7910/DVN/HJFRRC,2024-04-15,Asset Rights Upon Marriage Dissolution,Agricultural Sciences,research,AGROVOC,http://aims.fao.org/aos/agrovoc/c_6513
+9650034,https://doi.org/10.7910/DVN/HJFRRC,2024-04-15,Asset Rights Upon Marriage Dissolution,Agricultural Sciences,survey methods,AGROVOC,http://aims.fao.org/aos/agrovoc/c_330972
+9650034,https://doi.org/10.7910/DVN/HJFRRC,2024-04-15,Asset Rights Upon Marriage Dissolution,Agricultural Sciences,households,AGROVOC,http://aims.fao.org/aos/agrovoc/c_3676
+9650034,https://doi.org/10.7910/DVN/HJFRRC,2024-04-15,Asset Rights Upon Marriage Dissolution,Agricultural Sciences,AFRICA SOUTH OF SAHARA,AGROVOC,http://aims.fao.org/aos/agrovoc/c_166
+9650034,https://doi.org/10.7910/DVN/HJFRRC,2024-04-15,Asset Rights Upon Marriage Dissolution,Social Sciences,gender equality,AGROVOC,http://aims.fao.org/aos/agrovoc/c_03ae1678
+9650034,https://doi.org/10.7910/DVN/HJFRRC,2024-04-15,Asset Rights Upon Marriage Dissolution,Social Sciences,women,AGROVOC,http://aims.fao.org/aos/agrovoc/c_8420
+9650034,https://doi.org/10.7910/DVN/HJFRRC,2024-04-15,Asset Rights Upon Marriage Dissolution,Social Sciences,assets,AGROVOC,http://aims.fao.org/aos/agrovoc/c_677
+9650034,https://doi.org/10.7910/DVN/HJFRRC,2024-04-15,Asset Rights Upon Marriage Dissolution,Social Sciences,ownership,AGROVOC,http://aims.fao.org/aos/agrovoc/c_5466
+9650034,https://doi.org/10.7910/DVN/HJFRRC,2024-04-15,Asset Rights Upon Marriage Dissolution,Social Sciences,women's empowerment,AGROVOC,http://aims.fao.org/aos/agrovoc/c_f1c72537
+9650034,https://doi.org/10.7910/DVN/HJFRRC,2024-04-15,Asset Rights Upon Marriage Dissolution,Social Sciences,land rights,AGROVOC,http://aims.fao.org/aos/agrovoc/c_37898
+9650034,https://doi.org/10.7910/DVN/HJFRRC,2024-04-15,Asset Rights Upon Marriage Dissolution,Social Sciences,property rights,AGROVOC,http://aims.fao.org/aos/agrovoc/c_37942
+9650034,https://doi.org/10.7910/DVN/HJFRRC,2024-04-15,Asset Rights Upon Marriage Dissolution,Social Sciences,agricultural land,AGROVOC,http://aims.fao.org/aos/agrovoc/c_2808
+9650034,https://doi.org/10.7910/DVN/HJFRRC,2024-04-15,Asset Rights Upon Marriage Dissolution,Social Sciences,livestock,AGROVOC,http://aims.fao.org/aos/agrovoc/c_4397
+9650034,https://doi.org/10.7910/DVN/HJFRRC,2024-04-15,Asset Rights Upon Marriage Dissolution,Social Sciences,marriage,AGROVOC,http://aims.fao.org/aos/agrovoc/c_4629
+9650034,https://doi.org/10.7910/DVN/HJFRRC,2024-04-15,Asset Rights Upon Marriage Dissolution,Social Sciences,divorce,AGROVOC,http://aims.fao.org/aos/agrovoc/c_cb47f3da
+9650034,https://doi.org/10.7910/DVN/HJFRRC,2024-04-15,Asset Rights Upon Marriage Dissolution,Social Sciences,data collection,AGROVOC,http://aims.fao.org/aos/agrovoc/c_2128
+9650034,https://doi.org/10.7910/DVN/HJFRRC,2024-04-15,Asset Rights Upon Marriage Dissolution,Social Sciences,research,AGROVOC,http://aims.fao.org/aos/agrovoc/c_6513
+9650034,https://doi.org/10.7910/DVN/HJFRRC,2024-04-15,Asset Rights Upon Marriage Dissolution,Social Sciences,survey methods,AGROVOC,http://aims.fao.org/aos/agrovoc/c_330972
+9650034,https://doi.org/10.7910/DVN/HJFRRC,2024-04-15,Asset Rights Upon Marriage Dissolution,Social Sciences,households,AGROVOC,http://aims.fao.org/aos/agrovoc/c_3676
+9650034,https://doi.org/10.7910/DVN/HJFRRC,2024-04-15,Asset Rights Upon Marriage Dissolution,Social Sciences,AFRICA SOUTH OF SAHARA,AGROVOC,http://aims.fao.org/aos/agrovoc/c_166
+9650038,https://doi.org/10.7910/DVN/VM4PJY,2024-04-15,Understanding the Meanings of Ownership,Agricultural Sciences,gender equality,AGROVOC,http://aims.fao.org/aos/agrovoc/c_03ae1678
+9650038,https://doi.org/10.7910/DVN/VM4PJY,2024-04-15,Understanding the Meanings of Ownership,Agricultural Sciences,women,AGROVOC,http://aims.fao.org/aos/agrovoc/c_8420
+9650038,https://doi.org/10.7910/DVN/VM4PJY,2024-04-15,Understanding the Meanings of Ownership,Agricultural Sciences,assets,AGROVOC,http://aims.fao.org/aos/agrovoc/c_677
+9650038,https://doi.org/10.7910/DVN/VM4PJY,2024-04-15,Understanding the Meanings of Ownership,Agricultural Sciences,ownership,AGROVOC,http://aims.fao.org/aos/agrovoc/c_5466
+9650038,https://doi.org/10.7910/DVN/VM4PJY,2024-04-15,Understanding the Meanings of Ownership,Agricultural Sciences,women's empowerment,AGROVOC,http://aims.fao.org/aos/agrovoc/c_f1c72537
+9650038,https://doi.org/10.7910/DVN/VM4PJY,2024-04-15,Understanding the Meanings of Ownership,Agricultural Sciences,property rights,AGROVOC,http://aims.fao.org/aos/agrovoc/c_37942
+9650038,https://doi.org/10.7910/DVN/VM4PJY,2024-04-15,Understanding the Meanings of Ownership,Agricultural Sciences,data collection,AGROVOC,http://aims.fao.org/aos/agrovoc/c_2128
+9650038,https://doi.org/10.7910/DVN/VM4PJY,2024-04-15,Understanding the Meanings of Ownership,Agricultural Sciences,research,AGROVOC,http://aims.fao.org/aos/agrovoc/c_6513
+9650038,https://doi.org/10.7910/DVN/VM4PJY,2024-04-15,Understanding the Meanings of Ownership,Agricultural Sciences,survey methods,AGROVOC,http://aims.fao.org/aos/agrovoc/c_330972
+9650038,https://doi.org/10.7910/DVN/VM4PJY,2024-04-15,Understanding the Meanings of Ownership,Agricultural Sciences,households,AGROVOC,http://aims.fao.org/aos/agrovoc/c_3676
+9650038,https://doi.org/10.7910/DVN/VM4PJY,2024-04-15,Understanding the Meanings of Ownership,Agricultural Sciences,AFRICA SOUTH OF SAHARA,AGROVOC,http://aims.fao.org/aos/agrovoc/c_166
+9650038,https://doi.org/10.7910/DVN/VM4PJY,2024-04-15,Understanding the Meanings of Ownership,Social Sciences,gender equality,AGROVOC,http://aims.fao.org/aos/agrovoc/c_03ae1678
+9650038,https://doi.org/10.7910/DVN/VM4PJY,2024-04-15,Understanding the Meanings of Ownership,Social Sciences,women,AGROVOC,http://aims.fao.org/aos/agrovoc/c_8420
+9650038,https://doi.org/10.7910/DVN/VM4PJY,2024-04-15,Understanding the Meanings of Ownership,Social Sciences,assets,AGROVOC,http://aims.fao.org/aos/agrovoc/c_677
+9650038,https://doi.org/10.7910/DVN/VM4PJY,2024-04-15,Understanding the Meanings of Ownership,Social Sciences,ownership,AGROVOC,http://aims.fao.org/aos/agrovoc/c_5466
+9650038,https://doi.org/10.7910/DVN/VM4PJY,2024-04-15,Understanding the Meanings of Ownership,Social Sciences,women's empowerment,AGROVOC,http://aims.fao.org/aos/agrovoc/c_f1c72537
+9650038,https://doi.org/10.7910/DVN/VM4PJY,2024-04-15,Understanding the Meanings of Ownership,Social Sciences,property rights,AGROVOC,http://aims.fao.org/aos/agrovoc/c_37942
+9650038,https://doi.org/10.7910/DVN/VM4PJY,2024-04-15,Understanding the Meanings of Ownership,Social Sciences,data collection,AGROVOC,http://aims.fao.org/aos/agrovoc/c_2128
+9650038,https://doi.org/10.7910/DVN/VM4PJY,2024-04-15,Understanding the Meanings of Ownership,Social Sciences,research,AGROVOC,http://aims.fao.org/aos/agrovoc/c_6513
+9650038,https://doi.org/10.7910/DVN/VM4PJY,2024-04-15,Understanding the Meanings of Ownership,Social Sciences,survey methods,AGROVOC,http://aims.fao.org/aos/agrovoc/c_330972
+9650038,https://doi.org/10.7910/DVN/VM4PJY,2024-04-15,Understanding the Meanings of Ownership,Social Sciences,households,AGROVOC,http://aims.fao.org/aos/agrovoc/c_3676
+9650038,https://doi.org/10.7910/DVN/VM4PJY,2024-04-15,Understanding the Meanings of Ownership,Social Sciences,AFRICA SOUTH OF SAHARA,AGROVOC,http://aims.fao.org/aos/agrovoc/c_166
+9650040,https://doi.org/10.7910/DVN/1WKIYN,2024-04-15,Enumerator Characteristics and Reporting Bias,Agricultural Sciences,gender equality,AGROVOC,http://aims.fao.org/aos/agrovoc/c_03ae1678
+9650040,https://doi.org/10.7910/DVN/1WKIYN,2024-04-15,Enumerator Characteristics and Reporting Bias,Agricultural Sciences,women,AGROVOC,http://aims.fao.org/aos/agrovoc/c_8420
+9650040,https://doi.org/10.7910/DVN/1WKIYN,2024-04-15,Enumerator Characteristics and Reporting Bias,Agricultural Sciences,women's empowerment,AGROVOC,http://aims.fao.org/aos/agrovoc/c_f1c72537
+9650040,https://doi.org/10.7910/DVN/1WKIYN,2024-04-15,Enumerator Characteristics and Reporting Bias,Agricultural Sciences,data collection,AGROVOC,http://aims.fao.org/aos/agrovoc/c_2128
+9650040,https://doi.org/10.7910/DVN/1WKIYN,2024-04-15,Enumerator Characteristics and Reporting Bias,Agricultural Sciences,research,AGROVOC,http://aims.fao.org/aos/agrovoc/c_6513
+9650040,https://doi.org/10.7910/DVN/1WKIYN,2024-04-15,Enumerator Characteristics and Reporting Bias,Agricultural Sciences,survey methods,AGROVOC,http://aims.fao.org/aos/agrovoc/c_330972
+9650040,https://doi.org/10.7910/DVN/1WKIYN,2024-04-15,Enumerator Characteristics and Reporting Bias,Agricultural Sciences,households,AGROVOC,http://aims.fao.org/aos/agrovoc/c_3676
+9650040,https://doi.org/10.7910/DVN/1WKIYN,2024-04-15,Enumerator Characteristics and Reporting Bias,Agricultural Sciences,AFRICA SOUTH OF SAHARA,AGROVOC,http://aims.fao.org/aos/agrovoc/c_166
+9650040,https://doi.org/10.7910/DVN/1WKIYN,2024-04-15,Enumerator Characteristics and Reporting Bias,Social Sciences,gender equality,AGROVOC,http://aims.fao.org/aos/agrovoc/c_03ae1678
+9650040,https://doi.org/10.7910/DVN/1WKIYN,2024-04-15,Enumerator Characteristics and Reporting Bias,Social Sciences,women,AGROVOC,http://aims.fao.org/aos/agrovoc/c_8420
+9650040,https://doi.org/10.7910/DVN/1WKIYN,2024-04-15,Enumerator Characteristics and Reporting Bias,Social Sciences,women's empowerment,AGROVOC,http://aims.fao.org/aos/agrovoc/c_f1c72537
+9650040,https://doi.org/10.7910/DVN/1WKIYN,2024-04-15,Enumerator Characteristics and Reporting Bias,Social Sciences,data collection,AGROVOC,http://aims.fao.org/aos/agrovoc/c_2128
+9650040,https://doi.org/10.7910/DVN/1WKIYN,2024-04-15,Enumerator Characteristics and Reporting Bias,Social Sciences,research,AGROVOC,http://aims.fao.org/aos/agrovoc/c_6513
+9650040,https://doi.org/10.7910/DVN/1WKIYN,2024-04-15,Enumerator Characteristics and Reporting Bias,Social Sciences,survey methods,AGROVOC,http://aims.fao.org/aos/agrovoc/c_330972
+9650040,https://doi.org/10.7910/DVN/1WKIYN,2024-04-15,Enumerator Characteristics and Reporting Bias,Social Sciences,households,AGROVOC,http://aims.fao.org/aos/agrovoc/c_3676
+9650040,https://doi.org/10.7910/DVN/1WKIYN,2024-04-15,Enumerator Characteristics and Reporting Bias,Social Sciences,AFRICA SOUTH OF SAHARA,AGROVOC,http://aims.fao.org/aos/agrovoc/c_166
+9650042,https://doi.org/10.7910/DVN/LY4OZN,2024-04-15,Intra-personal Conflict Strategies,Agricultural Sciences,gender equality,AGROVOC,http://aims.fao.org/aos/agrovoc/c_03ae1678
+9650042,https://doi.org/10.7910/DVN/LY4OZN,2024-04-15,Intra-personal Conflict Strategies,Agricultural Sciences,women,AGROVOC,http://aims.fao.org/aos/agrovoc/c_8420
+9650042,https://doi.org/10.7910/DVN/LY4OZN,2024-04-15,Intra-personal Conflict Strategies,Agricultural Sciences,women's empowerment,AGROVOC,http://aims.fao.org/aos/agrovoc/c_f1c72537
+9650042,https://doi.org/10.7910/DVN/LY4OZN,2024-04-15,Intra-personal Conflict Strategies,Agricultural Sciences,conflicts,AGROVOC,https://agrovoc.fao.org/browse/agrovoc/en/page/c_73599179
+9650042,https://doi.org/10.7910/DVN/LY4OZN,2024-04-15,Intra-personal Conflict Strategies,Agricultural Sciences,data collection,AGROVOC,http://aims.fao.org/aos/agrovoc/c_2128
+9650042,https://doi.org/10.7910/DVN/LY4OZN,2024-04-15,Intra-personal Conflict Strategies,Agricultural Sciences,research,AGROVOC,http://aims.fao.org/aos/agrovoc/c_6513
+9650042,https://doi.org/10.7910/DVN/LY4OZN,2024-04-15,Intra-personal Conflict Strategies,Agricultural Sciences,survey methods,AGROVOC,http://aims.fao.org/aos/agrovoc/c_330972
+9650042,https://doi.org/10.7910/DVN/LY4OZN,2024-04-15,Intra-personal Conflict Strategies,Agricultural Sciences,households,AGROVOC,http://aims.fao.org/aos/agrovoc/c_3676
+9650042,https://doi.org/10.7910/DVN/LY4OZN,2024-04-15,Intra-personal Conflict Strategies,Agricultural Sciences,AFRICA SOUTH OF SAHARA,AGROVOC,http://aims.fao.org/aos/agrovoc/c_166
+9650042,https://doi.org/10.7910/DVN/LY4OZN,2024-04-15,Intra-personal Conflict Strategies,Social Sciences,gender equality,AGROVOC,http://aims.fao.org/aos/agrovoc/c_03ae1678
+9650042,https://doi.org/10.7910/DVN/LY4OZN,2024-04-15,Intra-personal Conflict Strategies,Social Sciences,women,AGROVOC,http://aims.fao.org/aos/agrovoc/c_8420
+9650042,https://doi.org/10.7910/DVN/LY4OZN,2024-04-15,Intra-personal Conflict Strategies,Social Sciences,women's empowerment,AGROVOC,http://aims.fao.org/aos/agrovoc/c_f1c72537
+9650042,https://doi.org/10.7910/DVN/LY4OZN,2024-04-15,Intra-personal Conflict Strategies,Social Sciences,conflicts,AGROVOC,https://agrovoc.fao.org/browse/agrovoc/en/page/c_73599179
+9650042,https://doi.org/10.7910/DVN/LY4OZN,2024-04-15,Intra-personal Conflict Strategies,Social Sciences,data collection,AGROVOC,http://aims.fao.org/aos/agrovoc/c_2128
+9650042,https://doi.org/10.7910/DVN/LY4OZN,2024-04-15,Intra-personal Conflict Strategies,Social Sciences,research,AGROVOC,http://aims.fao.org/aos/agrovoc/c_6513
+9650042,https://doi.org/10.7910/DVN/LY4OZN,2024-04-15,Intra-personal Conflict Strategies,Social Sciences,survey methods,AGROVOC,http://aims.fao.org/aos/agrovoc/c_330972
+9650042,https://doi.org/10.7910/DVN/LY4OZN,2024-04-15,Intra-personal Conflict Strategies,Social Sciences,households,AGROVOC,http://aims.fao.org/aos/agrovoc/c_3676
+9650042,https://doi.org/10.7910/DVN/LY4OZN,2024-04-15,Intra-personal Conflict Strategies,Social Sciences,AFRICA SOUTH OF SAHARA,AGROVOC,http://aims.fao.org/aos/agrovoc/c_166
+9650043,https://doi.org/10.7910/DVN/ECYU6B,2024-04-15,Resistance and Backlash,Agricultural Sciences,gender equality,AGROVOC,http://aims.fao.org/aos/agrovoc/c_03ae1678
+9650043,https://doi.org/10.7910/DVN/ECYU6B,2024-04-15,Resistance and Backlash,Agricultural Sciences,women,AGROVOC,http://aims.fao.org/aos/agrovoc/c_8420
+9650043,https://doi.org/10.7910/DVN/ECYU6B,2024-04-15,Resistance and Backlash,Agricultural Sciences,women's empowerment,AGROVOC,http://aims.fao.org/aos/agrovoc/c_f1c72537
+9650043,https://doi.org/10.7910/DVN/ECYU6B,2024-04-15,Resistance and Backlash,Agricultural Sciences,property rights,AGROVOC,http://aims.fao.org/aos/agrovoc/c_37942
+9650043,https://doi.org/10.7910/DVN/ECYU6B,2024-04-15,Resistance and Backlash,Agricultural Sciences,data collection,AGROVOC,http://aims.fao.org/aos/agrovoc/c_2128
+9650043,https://doi.org/10.7910/DVN/ECYU6B,2024-04-15,Resistance and Backlash,Agricultural Sciences,research,AGROVOC,http://aims.fao.org/aos/agrovoc/c_6513
+9650043,https://doi.org/10.7910/DVN/ECYU6B,2024-04-15,Resistance and Backlash,Agricultural Sciences,survey methods,AGROVOC,http://aims.fao.org/aos/agrovoc/c_330972
+9650043,https://doi.org/10.7910/DVN/ECYU6B,2024-04-15,Resistance and Backlash,Agricultural Sciences,households,AGROVOC,http://aims.fao.org/aos/agrovoc/c_3676
+9650043,https://doi.org/10.7910/DVN/ECYU6B,2024-04-15,Resistance and Backlash,Agricultural Sciences,AFRICA SOUTH OF SAHARA,AGROVOC,http://aims.fao.org/aos/agrovoc/c_166
+9650043,https://doi.org/10.7910/DVN/ECYU6B,2024-04-15,Resistance and Backlash,Social Sciences,gender equality,AGROVOC,http://aims.fao.org/aos/agrovoc/c_03ae1678
+9650043,https://doi.org/10.7910/DVN/ECYU6B,2024-04-15,Resistance and Backlash,Social Sciences,women,AGROVOC,http://aims.fao.org/aos/agrovoc/c_8420
+9650043,https://doi.org/10.7910/DVN/ECYU6B,2024-04-15,Resistance and Backlash,Social Sciences,women's empowerment,AGROVOC,http://aims.fao.org/aos/agrovoc/c_f1c72537
+9650043,https://doi.org/10.7910/DVN/ECYU6B,2024-04-15,Resistance and Backlash,Social Sciences,property rights,AGROVOC,http://aims.fao.org/aos/agrovoc/c_37942
+9650043,https://doi.org/10.7910/DVN/ECYU6B,2024-04-15,Resistance and Backlash,Social Sciences,data collection,AGROVOC,http://aims.fao.org/aos/agrovoc/c_2128
+9650043,https://doi.org/10.7910/DVN/ECYU6B,2024-04-15,Resistance and Backlash,Social Sciences,research,AGROVOC,http://aims.fao.org/aos/agrovoc/c_6513
+9650043,https://doi.org/10.7910/DVN/ECYU6B,2024-04-15,Resistance and Backlash,Social Sciences,survey methods,AGROVOC,http://aims.fao.org/aos/agrovoc/c_330972
+9650043,https://doi.org/10.7910/DVN/ECYU6B,2024-04-15,Resistance and Backlash,Social Sciences,households,AGROVOC,http://aims.fao.org/aos/agrovoc/c_3676
+9650043,https://doi.org/10.7910/DVN/ECYU6B,2024-04-15,Resistance and Backlash,Social Sciences,AFRICA SOUTH OF SAHARA,AGROVOC,http://aims.fao.org/aos/agrovoc/c_166
+9650045,https://doi.org/10.7910/DVN/M6F0UX,2024-04-15,Preferences Over Decision-Making,Agricultural Sciences,gender equality,AGROVOC,http://aims.fao.org/aos/agrovoc/c_03ae1678
+9650045,https://doi.org/10.7910/DVN/M6F0UX,2024-04-15,Preferences Over Decision-Making,Agricultural Sciences,women,AGROVOC,http://aims.fao.org/aos/agrovoc/c_8420
+9650045,https://doi.org/10.7910/DVN/M6F0UX,2024-04-15,Preferences Over Decision-Making,Agricultural Sciences,assets,AGROVOC,http://aims.fao.org/aos/agrovoc/c_677
+9650045,https://doi.org/10.7910/DVN/M6F0UX,2024-04-15,Preferences Over Decision-Making,Agricultural Sciences,ownership,AGROVOC,http://aims.fao.org/aos/agrovoc/c_5466
+9650045,https://doi.org/10.7910/DVN/M6F0UX,2024-04-15,Preferences Over Decision-Making,Agricultural Sciences,women's empowerment,AGROVOC,http://aims.fao.org/aos/agrovoc/c_f1c72537
+9650045,https://doi.org/10.7910/DVN/M6F0UX,2024-04-15,Preferences Over Decision-Making,Agricultural Sciences,property rights,AGROVOC,http://aims.fao.org/aos/agrovoc/c_37942
+9650045,https://doi.org/10.7910/DVN/M6F0UX,2024-04-15,Preferences Over Decision-Making,Agricultural Sciences,data collection,AGROVOC,http://aims.fao.org/aos/agrovoc/c_2128
+9650045,https://doi.org/10.7910/DVN/M6F0UX,2024-04-15,Preferences Over Decision-Making,Agricultural Sciences,research,AGROVOC,http://aims.fao.org/aos/agrovoc/c_6513
+9650045,https://doi.org/10.7910/DVN/M6F0UX,2024-04-15,Preferences Over Decision-Making,Agricultural Sciences,survey methods,AGROVOC,http://aims.fao.org/aos/agrovoc/c_330972
+9650045,https://doi.org/10.7910/DVN/M6F0UX,2024-04-15,Preferences Over Decision-Making,Agricultural Sciences,households,AGROVOC,http://aims.fao.org/aos/agrovoc/c_3676
+9650045,https://doi.org/10.7910/DVN/M6F0UX,2024-04-15,Preferences Over Decision-Making,Agricultural Sciences,AFRICA SOUTH OF SAHARA,AGROVOC,http://aims.fao.org/aos/agrovoc/c_166
+9650045,https://doi.org/10.7910/DVN/M6F0UX,2024-04-15,Preferences Over Decision-Making,Social Sciences,gender equality,AGROVOC,http://aims.fao.org/aos/agrovoc/c_03ae1678
+9650045,https://doi.org/10.7910/DVN/M6F0UX,2024-04-15,Preferences Over Decision-Making,Social Sciences,women,AGROVOC,http://aims.fao.org/aos/agrovoc/c_8420
+9650045,https://doi.org/10.7910/DVN/M6F0UX,2024-04-15,Preferences Over Decision-Making,Social Sciences,assets,AGROVOC,http://aims.fao.org/aos/agrovoc/c_677
+9650045,https://doi.org/10.7910/DVN/M6F0UX,2024-04-15,Preferences Over Decision-Making,Social Sciences,ownership,AGROVOC,http://aims.fao.org/aos/agrovoc/c_5466
+9650045,https://doi.org/10.7910/DVN/M6F0UX,2024-04-15,Preferences Over Decision-Making,Social Sciences,women's empowerment,AGROVOC,http://aims.fao.org/aos/agrovoc/c_f1c72537
+9650045,https://doi.org/10.7910/DVN/M6F0UX,2024-04-15,Preferences Over Decision-Making,Social Sciences,property rights,AGROVOC,http://aims.fao.org/aos/agrovoc/c_37942
+9650045,https://doi.org/10.7910/DVN/M6F0UX,2024-04-15,Preferences Over Decision-Making,Social Sciences,data collection,AGROVOC,http://aims.fao.org/aos/agrovoc/c_2128
+9650045,https://doi.org/10.7910/DVN/M6F0UX,2024-04-15,Preferences Over Decision-Making,Social Sciences,research,AGROVOC,http://aims.fao.org/aos/agrovoc/c_6513
+9650045,https://doi.org/10.7910/DVN/M6F0UX,2024-04-15,Preferences Over Decision-Making,Social Sciences,survey methods,AGROVOC,http://aims.fao.org/aos/agrovoc/c_330972
+9650045,https://doi.org/10.7910/DVN/M6F0UX,2024-04-15,Preferences Over Decision-Making,Social Sciences,households,AGROVOC,http://aims.fao.org/aos/agrovoc/c_3676
+9650045,https://doi.org/10.7910/DVN/M6F0UX,2024-04-15,Preferences Over Decision-Making,Social Sciences,AFRICA SOUTH OF SAHARA,AGROVOC,http://aims.fao.org/aos/agrovoc/c_166
+9650047,https://doi.org/10.7910/DVN/3XWMDV,2024-04-15,Goal-Setting Capacity Scale,Agricultural Sciences,gender equality,AGROVOC,http://aims.fao.org/aos/agrovoc/c_03ae1678
+9650047,https://doi.org/10.7910/DVN/3XWMDV,2024-04-15,Goal-Setting Capacity Scale,Agricultural Sciences,women,AGROVOC,http://aims.fao.org/aos/agrovoc/c_8420
+9650047,https://doi.org/10.7910/DVN/3XWMDV,2024-04-15,Goal-Setting Capacity Scale,Agricultural Sciences,women's empowerment,AGROVOC,http://aims.fao.org/aos/agrovoc/c_f1c72537
+9650047,https://doi.org/10.7910/DVN/3XWMDV,2024-04-15,Goal-Setting Capacity Scale,Agricultural Sciences,capacity assessment,AGROVOC,http://aims.fao.org/aos/agrovoc/c_1cc34327
+9650047,https://doi.org/10.7910/DVN/3XWMDV,2024-04-15,Goal-Setting Capacity Scale,Agricultural Sciences,data collection,AGROVOC,http://aims.fao.org/aos/agrovoc/c_2128
+9650047,https://doi.org/10.7910/DVN/3XWMDV,2024-04-15,Goal-Setting Capacity Scale,Agricultural Sciences,research,AGROVOC,http://aims.fao.org/aos/agrovoc/c_6513
+9650047,https://doi.org/10.7910/DVN/3XWMDV,2024-04-15,Goal-Setting Capacity Scale,Agricultural Sciences,survey methods,AGROVOC,http://aims.fao.org/aos/agrovoc/c_330972
+9650047,https://doi.org/10.7910/DVN/3XWMDV,2024-04-15,Goal-Setting Capacity Scale,Agricultural Sciences,households,AGROVOC,http://aims.fao.org/aos/agrovoc/c_3676
+9650047,https://doi.org/10.7910/DVN/3XWMDV,2024-04-15,Goal-Setting Capacity Scale,Agricultural Sciences,AFRICA SOUTH OF SAHARA,AGROVOC,http://aims.fao.org/aos/agrovoc/c_166
+9650047,https://doi.org/10.7910/DVN/3XWMDV,2024-04-15,Goal-Setting Capacity Scale,Social Sciences,gender equality,AGROVOC,http://aims.fao.org/aos/agrovoc/c_03ae1678
+9650047,https://doi.org/10.7910/DVN/3XWMDV,2024-04-15,Goal-Setting Capacity Scale,Social Sciences,women,AGROVOC,http://aims.fao.org/aos/agrovoc/c_8420
+9650047,https://doi.org/10.7910/DVN/3XWMDV,2024-04-15,Goal-Setting Capacity Scale,Social Sciences,women's empowerment,AGROVOC,http://aims.fao.org/aos/agrovoc/c_f1c72537
+9650047,https://doi.org/10.7910/DVN/3XWMDV,2024-04-15,Goal-Setting Capacity Scale,Social Sciences,capacity assessment,AGROVOC,http://aims.fao.org/aos/agrovoc/c_1cc34327
+9650047,https://doi.org/10.7910/DVN/3XWMDV,2024-04-15,Goal-Setting Capacity Scale,Social Sciences,data collection,AGROVOC,http://aims.fao.org/aos/agrovoc/c_2128
+9650047,https://doi.org/10.7910/DVN/3XWMDV,2024-04-15,Goal-Setting Capacity Scale,Social Sciences,research,AGROVOC,http://aims.fao.org/aos/agrovoc/c_6513
+9650047,https://doi.org/10.7910/DVN/3XWMDV,2024-04-15,Goal-Setting Capacity Scale,Social Sciences,survey methods,AGROVOC,http://aims.fao.org/aos/agrovoc/c_330972
+9650047,https://doi.org/10.7910/DVN/3XWMDV,2024-04-15,Goal-Setting Capacity Scale,Social Sciences,households,AGROVOC,http://aims.fao.org/aos/agrovoc/c_3676
+9650047,https://doi.org/10.7910/DVN/3XWMDV,2024-04-15,Goal-Setting Capacity Scale,Social Sciences,AFRICA SOUTH OF SAHARA,AGROVOC,http://aims.fao.org/aos/agrovoc/c_166
+9650049,https://doi.org/10.7910/DVN/MFE7GR,2024-04-15,Asset Control and Benefits Scale,Agricultural Sciences,gender equality,AGROVOC,http://aims.fao.org/aos/agrovoc/c_03ae1678
+9650049,https://doi.org/10.7910/DVN/MFE7GR,2024-04-15,Asset Control and Benefits Scale,Agricultural Sciences,women,AGROVOC,http://aims.fao.org/aos/agrovoc/c_8420
+9650049,https://doi.org/10.7910/DVN/MFE7GR,2024-04-15,Asset Control and Benefits Scale,Agricultural Sciences,assets,AGROVOC,http://aims.fao.org/aos/agrovoc/c_677
+9650049,https://doi.org/10.7910/DVN/MFE7GR,2024-04-15,Asset Control and Benefits Scale,Agricultural Sciences,ownership,AGROVOC,http://aims.fao.org/aos/agrovoc/c_5466
+9650049,https://doi.org/10.7910/DVN/MFE7GR,2024-04-15,Asset Control and Benefits Scale,Agricultural Sciences,women's empowerment,AGROVOC,http://aims.fao.org/aos/agrovoc/c_f1c72537
+9650049,https://doi.org/10.7910/DVN/MFE7GR,2024-04-15,Asset Control and Benefits Scale,Agricultural Sciences,data collection,AGROVOC,http://aims.fao.org/aos/agrovoc/c_2128
+9650049,https://doi.org/10.7910/DVN/MFE7GR,2024-04-15,Asset Control and Benefits Scale,Agricultural Sciences,research,AGROVOC,http://aims.fao.org/aos/agrovoc/c_6513
+9650049,https://doi.org/10.7910/DVN/MFE7GR,2024-04-15,Asset Control and Benefits Scale,Agricultural Sciences,survey methods,AGROVOC,http://aims.fao.org/aos/agrovoc/c_330972
+9650049,https://doi.org/10.7910/DVN/MFE7GR,2024-04-15,Asset Control and Benefits Scale,Agricultural Sciences,households,AGROVOC,http://aims.fao.org/aos/agrovoc/c_3676
+9650049,https://doi.org/10.7910/DVN/MFE7GR,2024-04-15,Asset Control and Benefits Scale,Agricultural Sciences,AFRICA SOUTH OF SAHARA,AGROVOC,http://aims.fao.org/aos/agrovoc/c_166
+9650049,https://doi.org/10.7910/DVN/MFE7GR,2024-04-15,Asset Control and Benefits Scale,Social Sciences,gender equality,AGROVOC,http://aims.fao.org/aos/agrovoc/c_03ae1678
+9650049,https://doi.org/10.7910/DVN/MFE7GR,2024-04-15,Asset Control and Benefits Scale,Social Sciences,women,AGROVOC,http://aims.fao.org/aos/agrovoc/c_8420
+9650049,https://doi.org/10.7910/DVN/MFE7GR,2024-04-15,Asset Control and Benefits Scale,Social Sciences,assets,AGROVOC,http://aims.fao.org/aos/agrovoc/c_677
+9650049,https://doi.org/10.7910/DVN/MFE7GR,2024-04-15,Asset Control and Benefits Scale,Social Sciences,ownership,AGROVOC,http://aims.fao.org/aos/agrovoc/c_5466
+9650049,https://doi.org/10.7910/DVN/MFE7GR,2024-04-15,Asset Control and Benefits Scale,Social Sciences,women's empowerment,AGROVOC,http://aims.fao.org/aos/agrovoc/c_f1c72537
+9650049,https://doi.org/10.7910/DVN/MFE7GR,2024-04-15,Asset Control and Benefits Scale,Social Sciences,data collection,AGROVOC,http://aims.fao.org/aos/agrovoc/c_2128
+9650049,https://doi.org/10.7910/DVN/MFE7GR,2024-04-15,Asset Control and Benefits Scale,Social Sciences,research,AGROVOC,http://aims.fao.org/aos/agrovoc/c_6513
+9650049,https://doi.org/10.7910/DVN/MFE7GR,2024-04-15,Asset Control and Benefits Scale,Social Sciences,survey methods,AGROVOC,http://aims.fao.org/aos/agrovoc/c_330972
+9650049,https://doi.org/10.7910/DVN/MFE7GR,2024-04-15,Asset Control and Benefits Scale,Social Sciences,households,AGROVOC,http://aims.fao.org/aos/agrovoc/c_3676
+9650049,https://doi.org/10.7910/DVN/MFE7GR,2024-04-15,Asset Control and Benefits Scale,Social Sciences,AFRICA SOUTH OF SAHARA,AGROVOC,http://aims.fao.org/aos/agrovoc/c_166
+10058524,https://doi.org/10.7910/DVN/4BASAU,2024-04-15,Rights when Land is Owned Jointly,Agricultural Sciences,gender equality,AGROVOC,http://aims.fao.org/aos/agrovoc/c_03ae1678
+10058524,https://doi.org/10.7910/DVN/4BASAU,2024-04-15,Rights when Land is Owned Jointly,Agricultural Sciences,women,AGROVOC,http://aims.fao.org/aos/agrovoc/c_8420
+10058524,https://doi.org/10.7910/DVN/4BASAU,2024-04-15,Rights when Land is Owned Jointly,Agricultural Sciences,assets,AGROVOC,http://aims.fao.org/aos/agrovoc/c_677
+10058524,https://doi.org/10.7910/DVN/4BASAU,2024-04-15,Rights when Land is Owned Jointly,Agricultural Sciences,ownership,AGROVOC,http://aims.fao.org/aos/agrovoc/c_5466
+10058524,https://doi.org/10.7910/DVN/4BASAU,2024-04-15,Rights when Land is Owned Jointly,Agricultural Sciences,women's empowerment,AGROVOC,http://aims.fao.org/aos/agrovoc/c_f1c72537
+10058524,https://doi.org/10.7910/DVN/4BASAU,2024-04-15,Rights when Land is Owned Jointly,Agricultural Sciences,property rights,AGROVOC,http://aims.fao.org/aos/agrovoc/c_37942
+10058524,https://doi.org/10.7910/DVN/4BASAU,2024-04-15,Rights when Land is Owned Jointly,Agricultural Sciences,data collection,AGROVOC,http://aims.fao.org/aos/agrovoc/c_2128
+10058524,https://doi.org/10.7910/DVN/4BASAU,2024-04-15,Rights when Land is Owned Jointly,Agricultural Sciences,research,AGROVOC,http://aims.fao.org/aos/agrovoc/c_6513
+10058524,https://doi.org/10.7910/DVN/4BASAU,2024-04-15,Rights when Land is Owned Jointly,Agricultural Sciences,survey methods,AGROVOC,http://aims.fao.org/aos/agrovoc/c_330972
+10058524,https://doi.org/10.7910/DVN/4BASAU,2024-04-15,Rights when Land is Owned Jointly,Agricultural Sciences,households,AGROVOC,http://aims.fao.org/aos/agrovoc/c_3676
+10058524,https://doi.org/10.7910/DVN/4BASAU,2024-04-15,Rights when Land is Owned Jointly,Agricultural Sciences,AFRICA SOUTH OF SAHARA,AGROVOC,http://aims.fao.org/aos/agrovoc/c_166
+10058524,https://doi.org/10.7910/DVN/4BASAU,2024-04-15,Rights when Land is Owned Jointly,Social Sciences,gender equality,AGROVOC,http://aims.fao.org/aos/agrovoc/c_03ae1678
+10058524,https://doi.org/10.7910/DVN/4BASAU,2024-04-15,Rights when Land is Owned Jointly,Social Sciences,women,AGROVOC,http://aims.fao.org/aos/agrovoc/c_8420
+10058524,https://doi.org/10.7910/DVN/4BASAU,2024-04-15,Rights when Land is Owned Jointly,Social Sciences,assets,AGROVOC,http://aims.fao.org/aos/agrovoc/c_677
+10058524,https://doi.org/10.7910/DVN/4BASAU,2024-04-15,Rights when Land is Owned Jointly,Social Sciences,ownership,AGROVOC,http://aims.fao.org/aos/agrovoc/c_5466
+10058524,https://doi.org/10.7910/DVN/4BASAU,2024-04-15,Rights when Land is Owned Jointly,Social Sciences,women's empowerment,AGROVOC,http://aims.fao.org/aos/agrovoc/c_f1c72537
+10058524,https://doi.org/10.7910/DVN/4BASAU,2024-04-15,Rights when Land is Owned Jointly,Social Sciences,property rights,AGROVOC,http://aims.fao.org/aos/agrovoc/c_37942
+10058524,https://doi.org/10.7910/DVN/4BASAU,2024-04-15,Rights when Land is Owned Jointly,Social Sciences,data collection,AGROVOC,http://aims.fao.org/aos/agrovoc/c_2128
+10058524,https://doi.org/10.7910/DVN/4BASAU,2024-04-15,Rights when Land is Owned Jointly,Social Sciences,research,AGROVOC,http://aims.fao.org/aos/agrovoc/c_6513
+10058524,https://doi.org/10.7910/DVN/4BASAU,2024-04-15,Rights when Land is Owned Jointly,Social Sciences,survey methods,AGROVOC,http://aims.fao.org/aos/agrovoc/c_330972
+10058524,https://doi.org/10.7910/DVN/4BASAU,2024-04-15,Rights when Land is Owned Jointly,Social Sciences,households,AGROVOC,http://aims.fao.org/aos/agrovoc/c_3676
+10058524,https://doi.org/10.7910/DVN/4BASAU,2024-04-15,Rights when Land is Owned Jointly,Social Sciences,AFRICA SOUTH OF SAHARA,AGROVOC,http://aims.fao.org/aos/agrovoc/c_166
+10064649,https://doi.org/10.7910/DVN/XYEYKK,2024-04-15,Bandwidth Depletion,Agricultural Sciences,gender equality,AGROVOC,http://aims.fao.org/aos/agrovoc/c_03ae1678
+10064649,https://doi.org/10.7910/DVN/XYEYKK,2024-04-15,Bandwidth Depletion,Agricultural Sciences,women,AGROVOC,http://aims.fao.org/aos/agrovoc/c_8420
+10064649,https://doi.org/10.7910/DVN/XYEYKK,2024-04-15,Bandwidth Depletion,Agricultural Sciences,women's empowerment,AGROVOC,http://aims.fao.org/aos/agrovoc/c_f1c72537
+10064649,https://doi.org/10.7910/DVN/XYEYKK,2024-04-15,Bandwidth Depletion,Agricultural Sciences,decision making,AGROVOC,http://aims.fao.org/aos/agrovoc/c_2147
+10064649,https://doi.org/10.7910/DVN/XYEYKK,2024-04-15,Bandwidth Depletion,Agricultural Sciences,data collection,AGROVOC,http://aims.fao.org/aos/agrovoc/c_2128
+10064649,https://doi.org/10.7910/DVN/XYEYKK,2024-04-15,Bandwidth Depletion,Agricultural Sciences,research,AGROVOC,http://aims.fao.org/aos/agrovoc/c_6513
+10064649,https://doi.org/10.7910/DVN/XYEYKK,2024-04-15,Bandwidth Depletion,Agricultural Sciences,survey methods,AGROVOC,http://aims.fao.org/aos/agrovoc/c_330972
+10064649,https://doi.org/10.7910/DVN/XYEYKK,2024-04-15,Bandwidth Depletion,Agricultural Sciences,households,AGROVOC,http://aims.fao.org/aos/agrovoc/c_3676
+10064649,https://doi.org/10.7910/DVN/XYEYKK,2024-04-15,Bandwidth Depletion,Agricultural Sciences,AFRICA SOUTH OF SAHARA,AGROVOC,http://aims.fao.org/aos/agrovoc/c_166
+10064649,https://doi.org/10.7910/DVN/XYEYKK,2024-04-15,Bandwidth Depletion,Social Sciences,gender equality,AGROVOC,http://aims.fao.org/aos/agrovoc/c_03ae1678
+10064649,https://doi.org/10.7910/DVN/XYEYKK,2024-04-15,Bandwidth Depletion,Social Sciences,women,AGROVOC,http://aims.fao.org/aos/agrovoc/c_8420
+10064649,https://doi.org/10.7910/DVN/XYEYKK,2024-04-15,Bandwidth Depletion,Social Sciences,women's empowerment,AGROVOC,http://aims.fao.org/aos/agrovoc/c_f1c72537
+10064649,https://doi.org/10.7910/DVN/XYEYKK,2024-04-15,Bandwidth Depletion,Social Sciences,decision making,AGROVOC,http://aims.fao.org/aos/agrovoc/c_2147
+10064649,https://doi.org/10.7910/DVN/XYEYKK,2024-04-15,Bandwidth Depletion,Social Sciences,data collection,AGROVOC,http://aims.fao.org/aos/agrovoc/c_2128
+10064649,https://doi.org/10.7910/DVN/XYEYKK,2024-04-15,Bandwidth Depletion,Social Sciences,research,AGROVOC,http://aims.fao.org/aos/agrovoc/c_6513
+10064649,https://doi.org/10.7910/DVN/XYEYKK,2024-04-15,Bandwidth Depletion,Social Sciences,survey methods,AGROVOC,http://aims.fao.org/aos/agrovoc/c_330972
+10064649,https://doi.org/10.7910/DVN/XYEYKK,2024-04-15,Bandwidth Depletion,Social Sciences,households,AGROVOC,http://aims.fao.org/aos/agrovoc/c_3676
+10064649,https://doi.org/10.7910/DVN/XYEYKK,2024-04-15,Bandwidth Depletion,Social Sciences,AFRICA SOUTH OF SAHARA,AGROVOC,http://aims.fao.org/aos/agrovoc/c_166
+10064650,https://doi.org/10.7910/DVN/ZTWQAL,2024-04-15,Unpacking Joint Decision-making,Agricultural Sciences,gender equality,AGROVOC,http://aims.fao.org/aos/agrovoc/c_03ae1678
+10064650,https://doi.org/10.7910/DVN/ZTWQAL,2024-04-15,Unpacking Joint Decision-making,Agricultural Sciences,women,AGROVOC,http://aims.fao.org/aos/agrovoc/c_8420
+10064650,https://doi.org/10.7910/DVN/ZTWQAL,2024-04-15,Unpacking Joint Decision-making,Agricultural Sciences,decision making,AGROVOC,http://aims.fao.org/aos/agrovoc/c_2147
+10064650,https://doi.org/10.7910/DVN/ZTWQAL,2024-04-15,Unpacking Joint Decision-making,Agricultural Sciences,women's empowerment,AGROVOC,http://aims.fao.org/aos/agrovoc/c_f1c72537
+10064650,https://doi.org/10.7910/DVN/ZTWQAL,2024-04-15,Unpacking Joint Decision-making,Agricultural Sciences,data collection,AGROVOC,http://aims.fao.org/aos/agrovoc/c_2128
+10064650,https://doi.org/10.7910/DVN/ZTWQAL,2024-04-15,Unpacking Joint Decision-making,Agricultural Sciences,research,AGROVOC,http://aims.fao.org/aos/agrovoc/c_6513
+10064650,https://doi.org/10.7910/DVN/ZTWQAL,2024-04-15,Unpacking Joint Decision-making,Agricultural Sciences,survey methods,AGROVOC,http://aims.fao.org/aos/agrovoc/c_330972
+10064650,https://doi.org/10.7910/DVN/ZTWQAL,2024-04-15,Unpacking Joint Decision-making,Agricultural Sciences,households,AGROVOC,http://aims.fao.org/aos/agrovoc/c_3676
+10064650,https://doi.org/10.7910/DVN/ZTWQAL,2024-04-15,Unpacking Joint Decision-making,Agricultural Sciences,AFRICA SOUTH OF SAHARA,AGROVOC,http://aims.fao.org/aos/agrovoc/c_166
+10064650,https://doi.org/10.7910/DVN/ZTWQAL,2024-04-15,Unpacking Joint Decision-making,Social Sciences,gender equality,AGROVOC,http://aims.fao.org/aos/agrovoc/c_03ae1678
+10064650,https://doi.org/10.7910/DVN/ZTWQAL,2024-04-15,Unpacking Joint Decision-making,Social Sciences,women,AGROVOC,http://aims.fao.org/aos/agrovoc/c_8420
+10064650,https://doi.org/10.7910/DVN/ZTWQAL,2024-04-15,Unpacking Joint Decision-making,Social Sciences,decision making,AGROVOC,http://aims.fao.org/aos/agrovoc/c_2147
+10064650,https://doi.org/10.7910/DVN/ZTWQAL,2024-04-15,Unpacking Joint Decision-making,Social Sciences,women's empowerment,AGROVOC,http://aims.fao.org/aos/agrovoc/c_f1c72537
+10064650,https://doi.org/10.7910/DVN/ZTWQAL,2024-04-15,Unpacking Joint Decision-making,Social Sciences,data collection,AGROVOC,http://aims.fao.org/aos/agrovoc/c_2128
+10064650,https://doi.org/10.7910/DVN/ZTWQAL,2024-04-15,Unpacking Joint Decision-making,Social Sciences,research,AGROVOC,http://aims.fao.org/aos/agrovoc/c_6513
+10064650,https://doi.org/10.7910/DVN/ZTWQAL,2024-04-15,Unpacking Joint Decision-making,Social Sciences,survey methods,AGROVOC,http://aims.fao.org/aos/agrovoc/c_330972
+10064650,https://doi.org/10.7910/DVN/ZTWQAL,2024-04-15,Unpacking Joint Decision-making,Social Sciences,households,AGROVOC,http://aims.fao.org/aos/agrovoc/c_3676
+10064650,https://doi.org/10.7910/DVN/ZTWQAL,2024-04-15,Unpacking Joint Decision-making,Social Sciences,AFRICA SOUTH OF SAHARA,AGROVOC,http://aims.fao.org/aos/agrovoc/c_166
+10086758,https://doi.org/10.7910/DVN/IXQ7KW,2024-04-16,Algorithmic Assessment of Agency,Agricultural Sciences,gender equality,AGROVOC,http://aims.fao.org/aos/agrovoc/c_03ae1678
+10086758,https://doi.org/10.7910/DVN/IXQ7KW,2024-04-16,Algorithmic Assessment of Agency,Agricultural Sciences,women,AGROVOC,http://aims.fao.org/aos/agrovoc/c_8420
+10086758,https://doi.org/10.7910/DVN/IXQ7KW,2024-04-16,Algorithmic Assessment of Agency,Agricultural Sciences,women's empowerment,,http://aims.fao.org/aos/agrovoc/c_f1c72537
+10086758,https://doi.org/10.7910/DVN/IXQ7KW,2024-04-16,Algorithmic Assessment of Agency,Agricultural Sciences,data collection,,http://aims.fao.org/aos/agrovoc/c_2128
+10086758,https://doi.org/10.7910/DVN/IXQ7KW,2024-04-16,Algorithmic Assessment of Agency,Agricultural Sciences,research,AGROVOC,http://aims.fao.org/aos/agrovoc/c_6513
+10086758,https://doi.org/10.7910/DVN/IXQ7KW,2024-04-16,Algorithmic Assessment of Agency,Agricultural Sciences,survey methods,AGROVOC,http://aims.fao.org/aos/agrovoc/c_330972
+10086758,https://doi.org/10.7910/DVN/IXQ7KW,2024-04-16,Algorithmic Assessment of Agency,Agricultural Sciences,households,AGROVOC,http://aims.fao.org/aos/agrovoc/c_3676
+10086758,https://doi.org/10.7910/DVN/IXQ7KW,2024-04-16,Algorithmic Assessment of Agency,Agricultural Sciences,AFRICA SOUTH OF SAHARA,AGROVOC,http://aims.fao.org/aos/agrovoc/c_166
+10086758,https://doi.org/10.7910/DVN/IXQ7KW,2024-04-16,Algorithmic Assessment of Agency,Social Sciences,gender equality,AGROVOC,http://aims.fao.org/aos/agrovoc/c_03ae1678
+10086758,https://doi.org/10.7910/DVN/IXQ7KW,2024-04-16,Algorithmic Assessment of Agency,Social Sciences,women,AGROVOC,http://aims.fao.org/aos/agrovoc/c_8420
+10086758,https://doi.org/10.7910/DVN/IXQ7KW,2024-04-16,Algorithmic Assessment of Agency,Social Sciences,women's empowerment,,http://aims.fao.org/aos/agrovoc/c_f1c72537
+10086758,https://doi.org/10.7910/DVN/IXQ7KW,2024-04-16,Algorithmic Assessment of Agency,Social Sciences,data collection,,http://aims.fao.org/aos/agrovoc/c_2128
+10086758,https://doi.org/10.7910/DVN/IXQ7KW,2024-04-16,Algorithmic Assessment of Agency,Social Sciences,research,AGROVOC,http://aims.fao.org/aos/agrovoc/c_6513
+10086758,https://doi.org/10.7910/DVN/IXQ7KW,2024-04-16,Algorithmic Assessment of Agency,Social Sciences,survey methods,AGROVOC,http://aims.fao.org/aos/agrovoc/c_330972
+10086758,https://doi.org/10.7910/DVN/IXQ7KW,2024-04-16,Algorithmic Assessment of Agency,Social Sciences,households,AGROVOC,http://aims.fao.org/aos/agrovoc/c_3676
+10086758,https://doi.org/10.7910/DVN/IXQ7KW,2024-04-16,Algorithmic Assessment of Agency,Social Sciences,AFRICA SOUTH OF SAHARA,AGROVOC,http://aims.fao.org/aos/agrovoc/c_166
+10086759,https://doi.org/10.7910/DVN/M9SQSS,2024-04-18,Motivational Autonomy and Internalized Norms,Agricultural Sciences,gender equality,AGROVOC,http://aims.fao.org/aos/agrovoc/c_03ae1678
+10086759,https://doi.org/10.7910/DVN/M9SQSS,2024-04-18,Motivational Autonomy and Internalized Norms,Agricultural Sciences,women,AGROVOC,http://aims.fao.org/aos/agrovoc/c_8420
+10086759,https://doi.org/10.7910/DVN/M9SQSS,2024-04-18,Motivational Autonomy and Internalized Norms,Agricultural Sciences,women's empowerment,AGROVOC,http://aims.fao.org/aos/agrovoc/c_f1c72537
+10086759,https://doi.org/10.7910/DVN/M9SQSS,2024-04-18,Motivational Autonomy and Internalized Norms,Agricultural Sciences,motivation,AGROVOC,http://aims.fao.org/aos/agrovoc/c_4953
+10086759,https://doi.org/10.7910/DVN/M9SQSS,2024-04-18,Motivational Autonomy and Internalized Norms,Agricultural Sciences,data collection,AGROVOC,http://aims.fao.org/aos/agrovoc/c_2128
+10086759,https://doi.org/10.7910/DVN/M9SQSS,2024-04-18,Motivational Autonomy and Internalized Norms,Agricultural Sciences,research,AGROVOC,http://aims.fao.org/aos/agrovoc/c_6513
+10086759,https://doi.org/10.7910/DVN/M9SQSS,2024-04-18,Motivational Autonomy and Internalized Norms,Agricultural Sciences,survey methods,AGROVOC,http://aims.fao.org/aos/agrovoc/c_330972
+10086759,https://doi.org/10.7910/DVN/M9SQSS,2024-04-18,Motivational Autonomy and Internalized Norms,Agricultural Sciences,households,AGROVOC,http://aims.fao.org/aos/agrovoc/c_3676
+10086759,https://doi.org/10.7910/DVN/M9SQSS,2024-04-18,Motivational Autonomy and Internalized Norms,Agricultural Sciences,AFRICA SOUTH OF SAHARA,AGROVOC,http://aims.fao.org/aos/agrovoc/c_166
+10086759,https://doi.org/10.7910/DVN/M9SQSS,2024-04-18,Motivational Autonomy and Internalized Norms,Social Sciences,gender equality,AGROVOC,http://aims.fao.org/aos/agrovoc/c_03ae1678
+10086759,https://doi.org/10.7910/DVN/M9SQSS,2024-04-18,Motivational Autonomy and Internalized Norms,Social Sciences,women,AGROVOC,http://aims.fao.org/aos/agrovoc/c_8420
+10086759,https://doi.org/10.7910/DVN/M9SQSS,2024-04-18,Motivational Autonomy and Internalized Norms,Social Sciences,women's empowerment,AGROVOC,http://aims.fao.org/aos/agrovoc/c_f1c72537
+10086759,https://doi.org/10.7910/DVN/M9SQSS,2024-04-18,Motivational Autonomy and Internalized Norms,Social Sciences,motivation,AGROVOC,http://aims.fao.org/aos/agrovoc/c_4953
+10086759,https://doi.org/10.7910/DVN/M9SQSS,2024-04-18,Motivational Autonomy and Internalized Norms,Social Sciences,data collection,AGROVOC,http://aims.fao.org/aos/agrovoc/c_2128
+10086759,https://doi.org/10.7910/DVN/M9SQSS,2024-04-18,Motivational Autonomy and Internalized Norms,Social Sciences,research,AGROVOC,http://aims.fao.org/aos/agrovoc/c_6513
+10086759,https://doi.org/10.7910/DVN/M9SQSS,2024-04-18,Motivational Autonomy and Internalized Norms,Social Sciences,survey methods,AGROVOC,http://aims.fao.org/aos/agrovoc/c_330972
+10086759,https://doi.org/10.7910/DVN/M9SQSS,2024-04-18,Motivational Autonomy and Internalized Norms,Social Sciences,households,AGROVOC,http://aims.fao.org/aos/agrovoc/c_3676
+10086759,https://doi.org/10.7910/DVN/M9SQSS,2024-04-18,Motivational Autonomy and Internalized Norms,Social Sciences,AFRICA SOUTH OF SAHARA,AGROVOC,http://aims.fao.org/aos/agrovoc/c_166
+10094351,https://doi.org/10.7910/DVN/SWPENT,2024-04-12,Global Spatially-Disaggregated Crop Production Statistics Data for 2020 Version 1.0,Agricultural Sciences,spatial analysis,AGROVOC,http://aims.fao.org/aos/agrovoc/c_40da9d3b
+10094351,https://doi.org/10.7910/DVN/SWPENT,2024-04-12,Global Spatially-Disaggregated Crop Production Statistics Data for 2020 Version 1.0,Agricultural Sciences,crop production,AGROVOC,http://aims.fao.org/aos/agrovoc/c_5976
+10094351,https://doi.org/10.7910/DVN/SWPENT,2024-04-12,Global Spatially-Disaggregated Crop Production Statistics Data for 2020 Version 1.0,Agricultural Sciences,agricultural development,AGROVOC,http://aims.fao.org/aos/agrovoc/c_199
+10094351,https://doi.org/10.7910/DVN/SWPENT,2024-04-12,Global Spatially-Disaggregated Crop Production Statistics Data for 2020 Version 1.0,Agricultural Sciences,geographical information systems,AGROVOC,http://aims.fao.org/aos/agrovoc/c_35131
+10094351,https://doi.org/10.7910/DVN/SWPENT,2024-04-12,Global Spatially-Disaggregated Crop Production Statistics Data for 2020 Version 1.0,Agricultural Sciences,data processing,AGROVOC,http://aims.fao.org/aos/agrovoc/c_10289
+10094351,https://doi.org/10.7910/DVN/SWPENT,2024-04-12,Global Spatially-Disaggregated Crop Production Statistics Data for 2020 Version 1.0,Agricultural Sciences,spatial distribution,AGROVOC,http://aims.fao.org/aos/agrovoc/c_36230
+10094351,https://doi.org/10.7910/DVN/SWPENT,2024-04-12,Global Spatially-Disaggregated Crop Production Statistics Data for 2020 Version 1.0,Agricultural Sciences,spatial database,AGROVOC,http://aims.fao.org/aos/agrovoc/c_9000154
+10094351,https://doi.org/10.7910/DVN/SWPENT,2024-04-12,Global Spatially-Disaggregated Crop Production Statistics Data for 2020 Version 1.0,Social Sciences,spatial analysis,AGROVOC,http://aims.fao.org/aos/agrovoc/c_40da9d3b
+10094351,https://doi.org/10.7910/DVN/SWPENT,2024-04-12,Global Spatially-Disaggregated Crop Production Statistics Data for 2020 Version 1.0,Social Sciences,crop production,AGROVOC,http://aims.fao.org/aos/agrovoc/c_5976
+10094351,https://doi.org/10.7910/DVN/SWPENT,2024-04-12,Global Spatially-Disaggregated Crop Production Statistics Data for 2020 Version 1.0,Social Sciences,agricultural development,AGROVOC,http://aims.fao.org/aos/agrovoc/c_199
+10094351,https://doi.org/10.7910/DVN/SWPENT,2024-04-12,Global Spatially-Disaggregated Crop Production Statistics Data for 2020 Version 1.0,Social Sciences,geographical information systems,AGROVOC,http://aims.fao.org/aos/agrovoc/c_35131
+10094351,https://doi.org/10.7910/DVN/SWPENT,2024-04-12,Global Spatially-Disaggregated Crop Production Statistics Data for 2020 Version 1.0,Social Sciences,data processing,AGROVOC,http://aims.fao.org/aos/agrovoc/c_10289
+10094351,https://doi.org/10.7910/DVN/SWPENT,2024-04-12,Global Spatially-Disaggregated Crop Production Statistics Data for 2020 Version 1.0,Social Sciences,spatial distribution,AGROVOC,http://aims.fao.org/aos/agrovoc/c_36230
+10094351,https://doi.org/10.7910/DVN/SWPENT,2024-04-12,Global Spatially-Disaggregated Crop Production Statistics Data for 2020 Version 1.0,Social Sciences,spatial database,AGROVOC,http://aims.fao.org/aos/agrovoc/c_9000154
+10118412,https://doi.org/10.7910/DVN/Y5JWAI,2024-04-16,Gender and Occupation: Automatic Cognition Test,Agricultural Sciences,gender equality,AGROVOC,http://aims.fao.org/aos/agrovoc/c_03ae1678
+10118412,https://doi.org/10.7910/DVN/Y5JWAI,2024-04-16,Gender and Occupation: Automatic Cognition Test,Agricultural Sciences,women,AGROVOC,http://aims.fao.org/aos/agrovoc/c_8420
+10118412,https://doi.org/10.7910/DVN/Y5JWAI,2024-04-16,Gender and Occupation: Automatic Cognition Test,Agricultural Sciences,women's empowerment,AGROVOC,http://aims.fao.org/aos/agrovoc/c_f1c72537
+10118412,https://doi.org/10.7910/DVN/Y5JWAI,2024-04-16,Gender and Occupation: Automatic Cognition Test,Agricultural Sciences,occupation,AGROVOC,http://aims.fao.org/aos/agrovoc/c_9044ce39
+10118412,https://doi.org/10.7910/DVN/Y5JWAI,2024-04-16,Gender and Occupation: Automatic Cognition Test,Agricultural Sciences,data collection,AGROVOC,http://aims.fao.org/aos/agrovoc/c_2128
+10118412,https://doi.org/10.7910/DVN/Y5JWAI,2024-04-16,Gender and Occupation: Automatic Cognition Test,Agricultural Sciences,research,AGROVOC,http://aims.fao.org/aos/agrovoc/c_6513
+10118412,https://doi.org/10.7910/DVN/Y5JWAI,2024-04-16,Gender and Occupation: Automatic Cognition Test,Agricultural Sciences,survey methods,AGROVOC,http://aims.fao.org/aos/agrovoc/c_330972
+10118412,https://doi.org/10.7910/DVN/Y5JWAI,2024-04-16,Gender and Occupation: Automatic Cognition Test,Agricultural Sciences,households,AGROVOC,http://aims.fao.org/aos/agrovoc/c_3676
+10118412,https://doi.org/10.7910/DVN/Y5JWAI,2024-04-16,Gender and Occupation: Automatic Cognition Test,Agricultural Sciences,AFRICA SOUTH OF SAHARA,AGROVOC,http://aims.fao.org/aos/agrovoc/c_166
+10118412,https://doi.org/10.7910/DVN/Y5JWAI,2024-04-16,Gender and Occupation: Automatic Cognition Test,Social Sciences,gender equality,AGROVOC,http://aims.fao.org/aos/agrovoc/c_03ae1678
+10118412,https://doi.org/10.7910/DVN/Y5JWAI,2024-04-16,Gender and Occupation: Automatic Cognition Test,Social Sciences,women,AGROVOC,http://aims.fao.org/aos/agrovoc/c_8420
+10118412,https://doi.org/10.7910/DVN/Y5JWAI,2024-04-16,Gender and Occupation: Automatic Cognition Test,Social Sciences,women's empowerment,AGROVOC,http://aims.fao.org/aos/agrovoc/c_f1c72537
+10118412,https://doi.org/10.7910/DVN/Y5JWAI,2024-04-16,Gender and Occupation: Automatic Cognition Test,Social Sciences,occupation,AGROVOC,http://aims.fao.org/aos/agrovoc/c_9044ce39
+10118412,https://doi.org/10.7910/DVN/Y5JWAI,2024-04-16,Gender and Occupation: Automatic Cognition Test,Social Sciences,data collection,AGROVOC,http://aims.fao.org/aos/agrovoc/c_2128
+10118412,https://doi.org/10.7910/DVN/Y5JWAI,2024-04-16,Gender and Occupation: Automatic Cognition Test,Social Sciences,research,AGROVOC,http://aims.fao.org/aos/agrovoc/c_6513
+10118412,https://doi.org/10.7910/DVN/Y5JWAI,2024-04-16,Gender and Occupation: Automatic Cognition Test,Social Sciences,survey methods,AGROVOC,http://aims.fao.org/aos/agrovoc/c_330972
+10118412,https://doi.org/10.7910/DVN/Y5JWAI,2024-04-16,Gender and Occupation: Automatic Cognition Test,Social Sciences,households,AGROVOC,http://aims.fao.org/aos/agrovoc/c_3676
+10118412,https://doi.org/10.7910/DVN/Y5JWAI,2024-04-16,Gender and Occupation: Automatic Cognition Test,Social Sciences,AFRICA SOUTH OF SAHARA,AGROVOC,http://aims.fao.org/aos/agrovoc/c_166
+10118413,https://doi.org/10.7910/DVN/TEJRWT,2024-04-16,Valuation of Time and Money,Agricultural Sciences,gender equality,AGROVOC,http://aims.fao.org/aos/agrovoc/c_03ae1678
+10118413,https://doi.org/10.7910/DVN/TEJRWT,2024-04-16,Valuation of Time and Money,Agricultural Sciences,women,AGROVOC,http://aims.fao.org/aos/agrovoc/c_8420
+10118413,https://doi.org/10.7910/DVN/TEJRWT,2024-04-16,Valuation of Time and Money,Agricultural Sciences,women's empowerment,AGROVOC,http://aims.fao.org/aos/agrovoc/c_f1c72537
+10118413,https://doi.org/10.7910/DVN/TEJRWT,2024-04-16,Valuation of Time and Money,Agricultural Sciences,data collection,AGROVOC,http://aims.fao.org/aos/agrovoc/c_2128
+10118413,https://doi.org/10.7910/DVN/TEJRWT,2024-04-16,Valuation of Time and Money,Agricultural Sciences,research,AGROVOC,http://aims.fao.org/aos/agrovoc/c_6513
+10118413,https://doi.org/10.7910/DVN/TEJRWT,2024-04-16,Valuation of Time and Money,Agricultural Sciences,survey methods,AGROVOC,http://aims.fao.org/aos/agrovoc/c_330972
+10118413,https://doi.org/10.7910/DVN/TEJRWT,2024-04-16,Valuation of Time and Money,Agricultural Sciences,households,AGROVOC,http://aims.fao.org/aos/agrovoc/c_3676
+10118413,https://doi.org/10.7910/DVN/TEJRWT,2024-04-16,Valuation of Time and Money,Agricultural Sciences,AFRICA SOUTH OF SAHARA,AGROVOC,http://aims.fao.org/aos/agrovoc/c_166
+10118413,https://doi.org/10.7910/DVN/TEJRWT,2024-04-16,Valuation of Time and Money,Social Sciences,gender equality,AGROVOC,http://aims.fao.org/aos/agrovoc/c_03ae1678
+10118413,https://doi.org/10.7910/DVN/TEJRWT,2024-04-16,Valuation of Time and Money,Social Sciences,women,AGROVOC,http://aims.fao.org/aos/agrovoc/c_8420
+10118413,https://doi.org/10.7910/DVN/TEJRWT,2024-04-16,Valuation of Time and Money,Social Sciences,women's empowerment,AGROVOC,http://aims.fao.org/aos/agrovoc/c_f1c72537
+10118413,https://doi.org/10.7910/DVN/TEJRWT,2024-04-16,Valuation of Time and Money,Social Sciences,data collection,AGROVOC,http://aims.fao.org/aos/agrovoc/c_2128
+10118413,https://doi.org/10.7910/DVN/TEJRWT,2024-04-16,Valuation of Time and Money,Social Sciences,research,AGROVOC,http://aims.fao.org/aos/agrovoc/c_6513
+10118413,https://doi.org/10.7910/DVN/TEJRWT,2024-04-16,Valuation of Time and Money,Social Sciences,survey methods,AGROVOC,http://aims.fao.org/aos/agrovoc/c_330972
+10118413,https://doi.org/10.7910/DVN/TEJRWT,2024-04-16,Valuation of Time and Money,Social Sciences,households,AGROVOC,http://aims.fao.org/aos/agrovoc/c_3676
+10118413,https://doi.org/10.7910/DVN/TEJRWT,2024-04-16,Valuation of Time and Money,Social Sciences,AFRICA SOUTH OF SAHARA,AGROVOC,http://aims.fao.org/aos/agrovoc/c_166
+10118414,https://doi.org/10.7910/DVN/EZ2BJF,2024-04-16,Gender Inequality: Critical Consciousness Scale,Agricultural Sciences,gender equality,AGROVOC,http://aims.fao.org/aos/agrovoc/c_03ae1678
+10118414,https://doi.org/10.7910/DVN/EZ2BJF,2024-04-16,Gender Inequality: Critical Consciousness Scale,Agricultural Sciences,women,AGROVOC,http://aims.fao.org/aos/agrovoc/c_8420
+10118414,https://doi.org/10.7910/DVN/EZ2BJF,2024-04-16,Gender Inequality: Critical Consciousness Scale,Agricultural Sciences,women's empowerment,AGROVOC,http://aims.fao.org/aos/agrovoc/c_f1c72537
+10118414,https://doi.org/10.7910/DVN/EZ2BJF,2024-04-16,Gender Inequality: Critical Consciousness Scale,Agricultural Sciences,data collection,AGROVOC,http://aims.fao.org/aos/agrovoc/c_2128
+10118414,https://doi.org/10.7910/DVN/EZ2BJF,2024-04-16,Gender Inequality: Critical Consciousness Scale,Agricultural Sciences,research,AGROVOC,http://aims.fao.org/aos/agrovoc/c_6513
+10118414,https://doi.org/10.7910/DVN/EZ2BJF,2024-04-16,Gender Inequality: Critical Consciousness Scale,Agricultural Sciences,survey methods,AGROVOC,http://aims.fao.org/aos/agrovoc/c_330972
+10118414,https://doi.org/10.7910/DVN/EZ2BJF,2024-04-16,Gender Inequality: Critical Consciousness Scale,Agricultural Sciences,households,AGROVOC,http://aims.fao.org/aos/agrovoc/c_3676
+10118414,https://doi.org/10.7910/DVN/EZ2BJF,2024-04-16,Gender Inequality: Critical Consciousness Scale,Agricultural Sciences,AFRICA SOUTH OF SAHARA,AGROVOC,http://aims.fao.org/aos/agrovoc/c_166
+10118414,https://doi.org/10.7910/DVN/EZ2BJF,2024-04-16,Gender Inequality: Critical Consciousness Scale,Social Sciences,gender equality,AGROVOC,http://aims.fao.org/aos/agrovoc/c_03ae1678
+10118414,https://doi.org/10.7910/DVN/EZ2BJF,2024-04-16,Gender Inequality: Critical Consciousness Scale,Social Sciences,women,AGROVOC,http://aims.fao.org/aos/agrovoc/c_8420
+10118414,https://doi.org/10.7910/DVN/EZ2BJF,2024-04-16,Gender Inequality: Critical Consciousness Scale,Social Sciences,women's empowerment,AGROVOC,http://aims.fao.org/aos/agrovoc/c_f1c72537
+10118414,https://doi.org/10.7910/DVN/EZ2BJF,2024-04-16,Gender Inequality: Critical Consciousness Scale,Social Sciences,data collection,AGROVOC,http://aims.fao.org/aos/agrovoc/c_2128
+10118414,https://doi.org/10.7910/DVN/EZ2BJF,2024-04-16,Gender Inequality: Critical Consciousness Scale,Social Sciences,research,AGROVOC,http://aims.fao.org/aos/agrovoc/c_6513
+10118414,https://doi.org/10.7910/DVN/EZ2BJF,2024-04-16,Gender Inequality: Critical Consciousness Scale,Social Sciences,survey methods,AGROVOC,http://aims.fao.org/aos/agrovoc/c_330972
+10118414,https://doi.org/10.7910/DVN/EZ2BJF,2024-04-16,Gender Inequality: Critical Consciousness Scale,Social Sciences,households,AGROVOC,http://aims.fao.org/aos/agrovoc/c_3676
+10118414,https://doi.org/10.7910/DVN/EZ2BJF,2024-04-16,Gender Inequality: Critical Consciousness Scale,Social Sciences,AFRICA SOUTH OF SAHARA,AGROVOC,http://aims.fao.org/aos/agrovoc/c_166
+10118416,https://doi.org/10.7910/DVN/FSKWIY,2024-04-16,Agricultural Self-efficacy Scale,Agricultural Sciences,gender equality,AGROVOC,http://aims.fao.org/aos/agrovoc/c_03ae1678
+10118416,https://doi.org/10.7910/DVN/FSKWIY,2024-04-16,Agricultural Self-efficacy Scale,Agricultural Sciences,women,AGROVOC,http://aims.fao.org/aos/agrovoc/c_8420
+10118416,https://doi.org/10.7910/DVN/FSKWIY,2024-04-16,Agricultural Self-efficacy Scale,Agricultural Sciences,women's empowerment,AGROVOC,http://aims.fao.org/aos/agrovoc/c_f1c72537
+10118416,https://doi.org/10.7910/DVN/FSKWIY,2024-04-16,Agricultural Self-efficacy Scale,Agricultural Sciences,agriculture,AGROVOC,http://aims.fao.org/aos/agrovoc/c_203
+10118416,https://doi.org/10.7910/DVN/FSKWIY,2024-04-16,Agricultural Self-efficacy Scale,Agricultural Sciences,efficiency,AGROVOC,http://aims.fao.org/aos/agrovoc/c_2491
+10118416,https://doi.org/10.7910/DVN/FSKWIY,2024-04-16,Agricultural Self-efficacy Scale,Agricultural Sciences,data collection,AGROVOC,http://aims.fao.org/aos/agrovoc/c_2128
+10118416,https://doi.org/10.7910/DVN/FSKWIY,2024-04-16,Agricultural Self-efficacy Scale,Agricultural Sciences,research,AGROVOC,http://aims.fao.org/aos/agrovoc/c_6513
+10118416,https://doi.org/10.7910/DVN/FSKWIY,2024-04-16,Agricultural Self-efficacy Scale,Agricultural Sciences,survey methods,AGROVOC,http://aims.fao.org/aos/agrovoc/c_330972
+10118416,https://doi.org/10.7910/DVN/FSKWIY,2024-04-16,Agricultural Self-efficacy Scale,Agricultural Sciences,households,AGROVOC,http://aims.fao.org/aos/agrovoc/c_3676
+10118416,https://doi.org/10.7910/DVN/FSKWIY,2024-04-16,Agricultural Self-efficacy Scale,Agricultural Sciences,AFRICA SOUTH OF SAHARA,AGROVOC,http://aims.fao.org/aos/agrovoc/c_166
+10118416,https://doi.org/10.7910/DVN/FSKWIY,2024-04-16,Agricultural Self-efficacy Scale,Social Sciences,gender equality,AGROVOC,http://aims.fao.org/aos/agrovoc/c_03ae1678
+10118416,https://doi.org/10.7910/DVN/FSKWIY,2024-04-16,Agricultural Self-efficacy Scale,Social Sciences,women,AGROVOC,http://aims.fao.org/aos/agrovoc/c_8420
+10118416,https://doi.org/10.7910/DVN/FSKWIY,2024-04-16,Agricultural Self-efficacy Scale,Social Sciences,women's empowerment,AGROVOC,http://aims.fao.org/aos/agrovoc/c_f1c72537
+10118416,https://doi.org/10.7910/DVN/FSKWIY,2024-04-16,Agricultural Self-efficacy Scale,Social Sciences,agriculture,AGROVOC,http://aims.fao.org/aos/agrovoc/c_203
+10118416,https://doi.org/10.7910/DVN/FSKWIY,2024-04-16,Agricultural Self-efficacy Scale,Social Sciences,efficiency,AGROVOC,http://aims.fao.org/aos/agrovoc/c_2491
+10118416,https://doi.org/10.7910/DVN/FSKWIY,2024-04-16,Agricultural Self-efficacy Scale,Social Sciences,data collection,AGROVOC,http://aims.fao.org/aos/agrovoc/c_2128
+10118416,https://doi.org/10.7910/DVN/FSKWIY,2024-04-16,Agricultural Self-efficacy Scale,Social Sciences,research,AGROVOC,http://aims.fao.org/aos/agrovoc/c_6513
+10118416,https://doi.org/10.7910/DVN/FSKWIY,2024-04-16,Agricultural Self-efficacy Scale,Social Sciences,survey methods,AGROVOC,http://aims.fao.org/aos/agrovoc/c_330972
+10118416,https://doi.org/10.7910/DVN/FSKWIY,2024-04-16,Agricultural Self-efficacy Scale,Social Sciences,households,AGROVOC,http://aims.fao.org/aos/agrovoc/c_3676
+10118416,https://doi.org/10.7910/DVN/FSKWIY,2024-04-16,Agricultural Self-efficacy Scale,Social Sciences,AFRICA SOUTH OF SAHARA,AGROVOC,http://aims.fao.org/aos/agrovoc/c_166
+10118418,https://doi.org/10.7910/DVN/NHWJSJ,2024-04-18,Collective Agency,Agricultural Sciences,gender equality,AGROVOC,http://aims.fao.org/aos/agrovoc/c_03ae1678
+10118418,https://doi.org/10.7910/DVN/NHWJSJ,2024-04-18,Collective Agency,Agricultural Sciences,women,AGROVOC,http://aims.fao.org/aos/agrovoc/c_8420
+10118418,https://doi.org/10.7910/DVN/NHWJSJ,2024-04-18,Collective Agency,Agricultural Sciences,women's empowerment,AGROVOC,http://aims.fao.org/aos/agrovoc/c_f1c72537
+10118418,https://doi.org/10.7910/DVN/NHWJSJ,2024-04-18,Collective Agency,Agricultural Sciences,collective action,AGROVOC,http://aims.fao.org/aos/agrovoc/c_f473e8ce
+10118418,https://doi.org/10.7910/DVN/NHWJSJ,2024-04-18,Collective Agency,Agricultural Sciences,efficiency,AGROVOC,http://aims.fao.org/aos/agrovoc/c_2491
+10118418,https://doi.org/10.7910/DVN/NHWJSJ,2024-04-18,Collective Agency,Agricultural Sciences,data collection,AGROVOC,http://aims.fao.org/aos/agrovoc/c_2128
+10118418,https://doi.org/10.7910/DVN/NHWJSJ,2024-04-18,Collective Agency,Agricultural Sciences,research,AGROVOC,http://aims.fao.org/aos/agrovoc/c_6513
+10118418,https://doi.org/10.7910/DVN/NHWJSJ,2024-04-18,Collective Agency,Agricultural Sciences,survey methods,AGROVOC,http://aims.fao.org/aos/agrovoc/c_330972
+10118418,https://doi.org/10.7910/DVN/NHWJSJ,2024-04-18,Collective Agency,Agricultural Sciences,households,AGROVOC,http://aims.fao.org/aos/agrovoc/c_3676
+10118418,https://doi.org/10.7910/DVN/NHWJSJ,2024-04-18,Collective Agency,Agricultural Sciences,AFRICA SOUTH OF SAHARA,AGROVOC,http://aims.fao.org/aos/agrovoc/c_166
+10118418,https://doi.org/10.7910/DVN/NHWJSJ,2024-04-18,Collective Agency,Social Sciences,gender equality,AGROVOC,http://aims.fao.org/aos/agrovoc/c_03ae1678
+10118418,https://doi.org/10.7910/DVN/NHWJSJ,2024-04-18,Collective Agency,Social Sciences,women,AGROVOC,http://aims.fao.org/aos/agrovoc/c_8420
+10118418,https://doi.org/10.7910/DVN/NHWJSJ,2024-04-18,Collective Agency,Social Sciences,women's empowerment,AGROVOC,http://aims.fao.org/aos/agrovoc/c_f1c72537
+10118418,https://doi.org/10.7910/DVN/NHWJSJ,2024-04-18,Collective Agency,Social Sciences,collective action,AGROVOC,http://aims.fao.org/aos/agrovoc/c_f473e8ce
+10118418,https://doi.org/10.7910/DVN/NHWJSJ,2024-04-18,Collective Agency,Social Sciences,efficiency,AGROVOC,http://aims.fao.org/aos/agrovoc/c_2491
+10118418,https://doi.org/10.7910/DVN/NHWJSJ,2024-04-18,Collective Agency,Social Sciences,data collection,AGROVOC,http://aims.fao.org/aos/agrovoc/c_2128
+10118418,https://doi.org/10.7910/DVN/NHWJSJ,2024-04-18,Collective Agency,Social Sciences,research,AGROVOC,http://aims.fao.org/aos/agrovoc/c_6513
+10118418,https://doi.org/10.7910/DVN/NHWJSJ,2024-04-18,Collective Agency,Social Sciences,survey methods,AGROVOC,http://aims.fao.org/aos/agrovoc/c_330972
+10118418,https://doi.org/10.7910/DVN/NHWJSJ,2024-04-18,Collective Agency,Social Sciences,households,AGROVOC,http://aims.fao.org/aos/agrovoc/c_3676
+10118418,https://doi.org/10.7910/DVN/NHWJSJ,2024-04-18,Collective Agency,Social Sciences,AFRICA SOUTH OF SAHARA,AGROVOC,http://aims.fao.org/aos/agrovoc/c_166
+10118419,https://doi.org/10.7910/DVN/IDCTVE,2024-04-16,Short-form Locus of Control Scale,Agricultural Sciences,gender equality,AGROVOC,http://aims.fao.org/aos/agrovoc/c_03ae1678
+10118419,https://doi.org/10.7910/DVN/IDCTVE,2024-04-16,Short-form Locus of Control Scale,Agricultural Sciences,women,AGROVOC,http://aims.fao.org/aos/agrovoc/c_8420
+10118419,https://doi.org/10.7910/DVN/IDCTVE,2024-04-16,Short-form Locus of Control Scale,Agricultural Sciences,women's empowerment,AGROVOC,http://aims.fao.org/aos/agrovoc/c_f1c72537
+10118419,https://doi.org/10.7910/DVN/IDCTVE,2024-04-16,Short-form Locus of Control Scale,Agricultural Sciences,control systems,AGROVOC,http://aims.fao.org/aos/agrovoc/c_31862
+10118419,https://doi.org/10.7910/DVN/IDCTVE,2024-04-16,Short-form Locus of Control Scale,Agricultural Sciences,data collection,AGROVOC,http://aims.fao.org/aos/agrovoc/c_2128
+10118419,https://doi.org/10.7910/DVN/IDCTVE,2024-04-16,Short-form Locus of Control Scale,Agricultural Sciences,research,AGROVOC,http://aims.fao.org/aos/agrovoc/c_6513
+10118419,https://doi.org/10.7910/DVN/IDCTVE,2024-04-16,Short-form Locus of Control Scale,Agricultural Sciences,survey methods,AGROVOC,http://aims.fao.org/aos/agrovoc/c_330972
+10118419,https://doi.org/10.7910/DVN/IDCTVE,2024-04-16,Short-form Locus of Control Scale,Agricultural Sciences,households,AGROVOC,http://aims.fao.org/aos/agrovoc/c_3676
+10118419,https://doi.org/10.7910/DVN/IDCTVE,2024-04-16,Short-form Locus of Control Scale,Agricultural Sciences,AFRICA SOUTH OF SAHARA,AGROVOC,http://aims.fao.org/aos/agrovoc/c_166
+10118419,https://doi.org/10.7910/DVN/IDCTVE,2024-04-16,Short-form Locus of Control Scale,Social Sciences,gender equality,AGROVOC,http://aims.fao.org/aos/agrovoc/c_03ae1678
+10118419,https://doi.org/10.7910/DVN/IDCTVE,2024-04-16,Short-form Locus of Control Scale,Social Sciences,women,AGROVOC,http://aims.fao.org/aos/agrovoc/c_8420
+10118419,https://doi.org/10.7910/DVN/IDCTVE,2024-04-16,Short-form Locus of Control Scale,Social Sciences,women's empowerment,AGROVOC,http://aims.fao.org/aos/agrovoc/c_f1c72537
+10118419,https://doi.org/10.7910/DVN/IDCTVE,2024-04-16,Short-form Locus of Control Scale,Social Sciences,control systems,AGROVOC,http://aims.fao.org/aos/agrovoc/c_31862
+10118419,https://doi.org/10.7910/DVN/IDCTVE,2024-04-16,Short-form Locus of Control Scale,Social Sciences,data collection,AGROVOC,http://aims.fao.org/aos/agrovoc/c_2128
+10118419,https://doi.org/10.7910/DVN/IDCTVE,2024-04-16,Short-form Locus of Control Scale,Social Sciences,research,AGROVOC,http://aims.fao.org/aos/agrovoc/c_6513
+10118419,https://doi.org/10.7910/DVN/IDCTVE,2024-04-16,Short-form Locus of Control Scale,Social Sciences,survey methods,AGROVOC,http://aims.fao.org/aos/agrovoc/c_330972
+10118419,https://doi.org/10.7910/DVN/IDCTVE,2024-04-16,Short-form Locus of Control Scale,Social Sciences,households,AGROVOC,http://aims.fao.org/aos/agrovoc/c_3676
+10118419,https://doi.org/10.7910/DVN/IDCTVE,2024-04-16,Short-form Locus of Control Scale,Social Sciences,AFRICA SOUTH OF SAHARA,AGROVOC,http://aims.fao.org/aos/agrovoc/c_166
+10118420,https://doi.org/10.7910/DVN/FPQUCV,2024-04-18,Cognitive Labor,Agricultural Sciences,gender equality,AGROVOC,http://aims.fao.org/aos/agrovoc/c_03ae1678
+10118420,https://doi.org/10.7910/DVN/FPQUCV,2024-04-18,Cognitive Labor,Agricultural Sciences,women,AGROVOC,http://aims.fao.org/aos/agrovoc/c_8420
+10118420,https://doi.org/10.7910/DVN/FPQUCV,2024-04-18,Cognitive Labor,Agricultural Sciences,women's empowerment,AGROVOC,http://aims.fao.org/aos/agrovoc/c_f1c72537
+10118420,https://doi.org/10.7910/DVN/FPQUCV,2024-04-18,Cognitive Labor,Agricultural Sciences,labor,AGROVOC,http://aims.fao.org/aos/agrovoc/c_4128
+10118420,https://doi.org/10.7910/DVN/FPQUCV,2024-04-18,Cognitive Labor,Agricultural Sciences,data collection,AGROVOC,http://aims.fao.org/aos/agrovoc/c_2128
+10118420,https://doi.org/10.7910/DVN/FPQUCV,2024-04-18,Cognitive Labor,Agricultural Sciences,research,AGROVOC,http://aims.fao.org/aos/agrovoc/c_6513
+10118420,https://doi.org/10.7910/DVN/FPQUCV,2024-04-18,Cognitive Labor,Agricultural Sciences,survey methods,AGROVOC,http://aims.fao.org/aos/agrovoc/c_330972
+10118420,https://doi.org/10.7910/DVN/FPQUCV,2024-04-18,Cognitive Labor,Agricultural Sciences,households,AGROVOC,http://aims.fao.org/aos/agrovoc/c_3676
+10118420,https://doi.org/10.7910/DVN/FPQUCV,2024-04-18,Cognitive Labor,Agricultural Sciences,AFRICA SOUTH OF SAHARA,AGROVOC,http://aims.fao.org/aos/agrovoc/c_166
+10118420,https://doi.org/10.7910/DVN/FPQUCV,2024-04-18,Cognitive Labor,Social Sciences,gender equality,AGROVOC,http://aims.fao.org/aos/agrovoc/c_03ae1678
+10118420,https://doi.org/10.7910/DVN/FPQUCV,2024-04-18,Cognitive Labor,Social Sciences,women,AGROVOC,http://aims.fao.org/aos/agrovoc/c_8420
+10118420,https://doi.org/10.7910/DVN/FPQUCV,2024-04-18,Cognitive Labor,Social Sciences,women's empowerment,AGROVOC,http://aims.fao.org/aos/agrovoc/c_f1c72537
+10118420,https://doi.org/10.7910/DVN/FPQUCV,2024-04-18,Cognitive Labor,Social Sciences,labor,AGROVOC,http://aims.fao.org/aos/agrovoc/c_4128
+10118420,https://doi.org/10.7910/DVN/FPQUCV,2024-04-18,Cognitive Labor,Social Sciences,data collection,AGROVOC,http://aims.fao.org/aos/agrovoc/c_2128
+10118420,https://doi.org/10.7910/DVN/FPQUCV,2024-04-18,Cognitive Labor,Social Sciences,research,AGROVOC,http://aims.fao.org/aos/agrovoc/c_6513
+10118420,https://doi.org/10.7910/DVN/FPQUCV,2024-04-18,Cognitive Labor,Social Sciences,survey methods,AGROVOC,http://aims.fao.org/aos/agrovoc/c_330972
+10118420,https://doi.org/10.7910/DVN/FPQUCV,2024-04-18,Cognitive Labor,Social Sciences,households,AGROVOC,http://aims.fao.org/aos/agrovoc/c_3676
+10118420,https://doi.org/10.7910/DVN/FPQUCV,2024-04-18,Cognitive Labor,Social Sciences,AFRICA SOUTH OF SAHARA,AGROVOC,http://aims.fao.org/aos/agrovoc/c_166
+10118421,https://doi.org/10.7910/DVN/KKJBLW,2024-04-18,Time-use Agency,Agricultural Sciences,gender equality,AGROVOC,http://aims.fao.org/aos/agrovoc/c_03ae1678
+10118421,https://doi.org/10.7910/DVN/KKJBLW,2024-04-18,Time-use Agency,Agricultural Sciences,women,AGROVOC,http://aims.fao.org/aos/agrovoc/c_8420
+10118421,https://doi.org/10.7910/DVN/KKJBLW,2024-04-18,Time-use Agency,Agricultural Sciences,women's empowerment,AGROVOC,http://aims.fao.org/aos/agrovoc/c_f1c72537
+10118421,https://doi.org/10.7910/DVN/KKJBLW,2024-04-18,Time-use Agency,Agricultural Sciences,time,AGROVOC,http://aims.fao.org/aos/agrovoc/c_7778
+10118421,https://doi.org/10.7910/DVN/KKJBLW,2024-04-18,Time-use Agency,Agricultural Sciences,time use patterns,AGROVOC,http://aims.fao.org/aos/agrovoc/c_aa3a1b63
+10118421,https://doi.org/10.7910/DVN/KKJBLW,2024-04-18,Time-use Agency,Agricultural Sciences,data collection,AGROVOC,http://aims.fao.org/aos/agrovoc/c_2128
+10118421,https://doi.org/10.7910/DVN/KKJBLW,2024-04-18,Time-use Agency,Agricultural Sciences,research,AGROVOC,http://aims.fao.org/aos/agrovoc/c_6513
+10118421,https://doi.org/10.7910/DVN/KKJBLW,2024-04-18,Time-use Agency,Agricultural Sciences,survey methods,AGROVOC,http://aims.fao.org/aos/agrovoc/c_330972
+10118421,https://doi.org/10.7910/DVN/KKJBLW,2024-04-18,Time-use Agency,Agricultural Sciences,households,AGROVOC,http://aims.fao.org/aos/agrovoc/c_3676
+10118421,https://doi.org/10.7910/DVN/KKJBLW,2024-04-18,Time-use Agency,Agricultural Sciences,AFRICA SOUTH OF SAHARA,AGROVOC,http://aims.fao.org/aos/agrovoc/c_166
+10118421,https://doi.org/10.7910/DVN/KKJBLW,2024-04-18,Time-use Agency,Social Sciences,gender equality,AGROVOC,http://aims.fao.org/aos/agrovoc/c_03ae1678
+10118421,https://doi.org/10.7910/DVN/KKJBLW,2024-04-18,Time-use Agency,Social Sciences,women,AGROVOC,http://aims.fao.org/aos/agrovoc/c_8420
+10118421,https://doi.org/10.7910/DVN/KKJBLW,2024-04-18,Time-use Agency,Social Sciences,women's empowerment,AGROVOC,http://aims.fao.org/aos/agrovoc/c_f1c72537
+10118421,https://doi.org/10.7910/DVN/KKJBLW,2024-04-18,Time-use Agency,Social Sciences,time,AGROVOC,http://aims.fao.org/aos/agrovoc/c_7778
+10118421,https://doi.org/10.7910/DVN/KKJBLW,2024-04-18,Time-use Agency,Social Sciences,time use patterns,AGROVOC,http://aims.fao.org/aos/agrovoc/c_aa3a1b63
+10118421,https://doi.org/10.7910/DVN/KKJBLW,2024-04-18,Time-use Agency,Social Sciences,data collection,AGROVOC,http://aims.fao.org/aos/agrovoc/c_2128
+10118421,https://doi.org/10.7910/DVN/KKJBLW,2024-04-18,Time-use Agency,Social Sciences,research,AGROVOC,http://aims.fao.org/aos/agrovoc/c_6513
+10118421,https://doi.org/10.7910/DVN/KKJBLW,2024-04-18,Time-use Agency,Social Sciences,survey methods,AGROVOC,http://aims.fao.org/aos/agrovoc/c_330972
+10118421,https://doi.org/10.7910/DVN/KKJBLW,2024-04-18,Time-use Agency,Social Sciences,households,AGROVOC,http://aims.fao.org/aos/agrovoc/c_3676
+10118421,https://doi.org/10.7910/DVN/KKJBLW,2024-04-18,Time-use Agency,Social Sciences,AFRICA SOUTH OF SAHARA,AGROVOC,http://aims.fao.org/aos/agrovoc/c_166
