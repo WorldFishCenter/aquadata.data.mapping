@@ -16889,6 +16889,24 @@ dataset_id,persistentUrl,publicationdate,title,subject,keywordValue,keywordVocab
 10118416,https://doi.org/10.7910/DVN/FSKWIY,2024-04-16,Agricultural Self-efficacy Scale,Social Sciences,households,AGROVOC,http://aims.fao.org/aos/agrovoc/c_3676
 10118416,https://doi.org/10.7910/DVN/FSKWIY,2024-04-16,Agricultural Self-efficacy Scale,Agricultural Sciences,AFRICA SOUTH OF SAHARA,AGROVOC,http://aims.fao.org/aos/agrovoc/c_166
 10118416,https://doi.org/10.7910/DVN/FSKWIY,2024-04-16,Agricultural Self-efficacy Scale,Social Sciences,AFRICA SOUTH OF SAHARA,AGROVOC,http://aims.fao.org/aos/agrovoc/c_166
+10118417,https://doi.org/10.7910/DVN/KVKUS4,2024-04-29,Generalized Livelihoods Self-efficacy Scale,Agricultural Sciences,gender equality,AGROVOC,http://aims.fao.org/aos/agrovoc/c_03ae1678
+10118417,https://doi.org/10.7910/DVN/KVKUS4,2024-04-29,Generalized Livelihoods Self-efficacy Scale,Social Sciences,gender equality,AGROVOC,http://aims.fao.org/aos/agrovoc/c_03ae1678
+10118417,https://doi.org/10.7910/DVN/KVKUS4,2024-04-29,Generalized Livelihoods Self-efficacy Scale,Agricultural Sciences,women,AGROVOC,http://aims.fao.org/aos/agrovoc/c_8420
+10118417,https://doi.org/10.7910/DVN/KVKUS4,2024-04-29,Generalized Livelihoods Self-efficacy Scale,Social Sciences,women,AGROVOC,http://aims.fao.org/aos/agrovoc/c_8420
+10118417,https://doi.org/10.7910/DVN/KVKUS4,2024-04-29,Generalized Livelihoods Self-efficacy Scale,Agricultural Sciences,women's empowerment,AGROVOC,http://aims.fao.org/aos/agrovoc/c_f1c72537
+10118417,https://doi.org/10.7910/DVN/KVKUS4,2024-04-29,Generalized Livelihoods Self-efficacy Scale,Social Sciences,women's empowerment,AGROVOC,http://aims.fao.org/aos/agrovoc/c_f1c72537
+10118417,https://doi.org/10.7910/DVN/KVKUS4,2024-04-29,Generalized Livelihoods Self-efficacy Scale,Agricultural Sciences,efficiency,AGROVOC,http://aims.fao.org/aos/agrovoc/c_2491
+10118417,https://doi.org/10.7910/DVN/KVKUS4,2024-04-29,Generalized Livelihoods Self-efficacy Scale,Social Sciences,efficiency,AGROVOC,http://aims.fao.org/aos/agrovoc/c_2491
+10118417,https://doi.org/10.7910/DVN/KVKUS4,2024-04-29,Generalized Livelihoods Self-efficacy Scale,Agricultural Sciences,data collection,AGROVOC,http://aims.fao.org/aos/agrovoc/c_2128
+10118417,https://doi.org/10.7910/DVN/KVKUS4,2024-04-29,Generalized Livelihoods Self-efficacy Scale,Social Sciences,data collection,AGROVOC,http://aims.fao.org/aos/agrovoc/c_2128
+10118417,https://doi.org/10.7910/DVN/KVKUS4,2024-04-29,Generalized Livelihoods Self-efficacy Scale,Agricultural Sciences,research,AGROVOC,http://aims.fao.org/aos/agrovoc/c_6513
+10118417,https://doi.org/10.7910/DVN/KVKUS4,2024-04-29,Generalized Livelihoods Self-efficacy Scale,Social Sciences,research,AGROVOC,http://aims.fao.org/aos/agrovoc/c_6513
+10118417,https://doi.org/10.7910/DVN/KVKUS4,2024-04-29,Generalized Livelihoods Self-efficacy Scale,Agricultural Sciences,survey methods,AGROVOC,http://aims.fao.org/aos/agrovoc/c_330972
+10118417,https://doi.org/10.7910/DVN/KVKUS4,2024-04-29,Generalized Livelihoods Self-efficacy Scale,Social Sciences,survey methods,AGROVOC,http://aims.fao.org/aos/agrovoc/c_330972
+10118417,https://doi.org/10.7910/DVN/KVKUS4,2024-04-29,Generalized Livelihoods Self-efficacy Scale,Agricultural Sciences,households,AGROVOC,http://aims.fao.org/aos/agrovoc/c_3676
+10118417,https://doi.org/10.7910/DVN/KVKUS4,2024-04-29,Generalized Livelihoods Self-efficacy Scale,Social Sciences,households,AGROVOC,http://aims.fao.org/aos/agrovoc/c_3676
+10118417,https://doi.org/10.7910/DVN/KVKUS4,2024-04-29,Generalized Livelihoods Self-efficacy Scale,Agricultural Sciences,AFRICA SOUTH OF SAHARA,AGROVOC,http://aims.fao.org/aos/agrovoc/c_166
+10118417,https://doi.org/10.7910/DVN/KVKUS4,2024-04-29,Generalized Livelihoods Self-efficacy Scale,Social Sciences,AFRICA SOUTH OF SAHARA,AGROVOC,http://aims.fao.org/aos/agrovoc/c_166
 10118418,https://doi.org/10.7910/DVN/NHWJSJ,2024-04-18,Collective Agency,Agricultural Sciences,gender equality,AGROVOC,http://aims.fao.org/aos/agrovoc/c_03ae1678
 10118418,https://doi.org/10.7910/DVN/NHWJSJ,2024-04-18,Collective Agency,Social Sciences,gender equality,AGROVOC,http://aims.fao.org/aos/agrovoc/c_03ae1678
 10118418,https://doi.org/10.7910/DVN/NHWJSJ,2024-04-18,Collective Agency,Agricultural Sciences,women,AGROVOC,http://aims.fao.org/aos/agrovoc/c_8420
@@ -16965,3 +16983,53 @@ dataset_id,persistentUrl,publicationdate,title,subject,keywordValue,keywordVocab
 10118421,https://doi.org/10.7910/DVN/KKJBLW,2024-04-18,Time-use Agency,Social Sciences,households,AGROVOC,http://aims.fao.org/aos/agrovoc/c_3676
 10118421,https://doi.org/10.7910/DVN/KKJBLW,2024-04-18,Time-use Agency,Agricultural Sciences,AFRICA SOUTH OF SAHARA,AGROVOC,http://aims.fao.org/aos/agrovoc/c_166
 10118421,https://doi.org/10.7910/DVN/KKJBLW,2024-04-18,Time-use Agency,Social Sciences,AFRICA SOUTH OF SAHARA,AGROVOC,http://aims.fao.org/aos/agrovoc/c_166
+10141984,https://doi.org/10.7910/DVN/CVKOPF,2024-05-01,"Myanmar Household Welfare Survey (MHWS), Round 6",Agricultural Sciences,welfare,AGROVOC,http://aims.fao.org/aos/agrovoc/c_331043
+10141984,https://doi.org/10.7910/DVN/CVKOPF,2024-05-01,"Myanmar Household Welfare Survey (MHWS), Round 6",Social Sciences,welfare,AGROVOC,http://aims.fao.org/aos/agrovoc/c_331043
+10141984,https://doi.org/10.7910/DVN/CVKOPF,2024-05-01,"Myanmar Household Welfare Survey (MHWS), Round 6",Agricultural Sciences,households,AGROVOC,http://aims.fao.org/aos/agrovoc/c_3676
+10141984,https://doi.org/10.7910/DVN/CVKOPF,2024-05-01,"Myanmar Household Welfare Survey (MHWS), Round 6",Social Sciences,households,AGROVOC,http://aims.fao.org/aos/agrovoc/c_3676
+10141984,https://doi.org/10.7910/DVN/CVKOPF,2024-05-01,"Myanmar Household Welfare Survey (MHWS), Round 6",Agricultural Sciences,livelihoods,AGROVOC,http://aims.fao.org/aos/agrovoc/c_1374498089962
+10141984,https://doi.org/10.7910/DVN/CVKOPF,2024-05-01,"Myanmar Household Welfare Survey (MHWS), Round 6",Social Sciences,livelihoods,AGROVOC,http://aims.fao.org/aos/agrovoc/c_1374498089962
+10141984,https://doi.org/10.7910/DVN/CVKOPF,2024-05-01,"Myanmar Household Welfare Survey (MHWS), Round 6",Agricultural Sciences,assets,AGROVOC,http://aims.fao.org/aos/agrovoc/c_677
+10141984,https://doi.org/10.7910/DVN/CVKOPF,2024-05-01,"Myanmar Household Welfare Survey (MHWS), Round 6",Social Sciences,assets,AGROVOC,http://aims.fao.org/aos/agrovoc/c_677
+10141984,https://doi.org/10.7910/DVN/CVKOPF,2024-05-01,"Myanmar Household Welfare Survey (MHWS), Round 6",Agricultural Sciences,employment,AGROVOC,http://aims.fao.org/aos/agrovoc/c_2550
+10141984,https://doi.org/10.7910/DVN/CVKOPF,2024-05-01,"Myanmar Household Welfare Survey (MHWS), Round 6",Social Sciences,employment,AGROVOC,http://aims.fao.org/aos/agrovoc/c_2550
+10141984,https://doi.org/10.7910/DVN/CVKOPF,2024-05-01,"Myanmar Household Welfare Survey (MHWS), Round 6",Agricultural Sciences,food insecurity,AGROVOC,http://aims.fao.org/aos/agrovoc/c_c8ca1426
+10141984,https://doi.org/10.7910/DVN/CVKOPF,2024-05-01,"Myanmar Household Welfare Survey (MHWS), Round 6",Social Sciences,food insecurity,AGROVOC,http://aims.fao.org/aos/agrovoc/c_c8ca1426
+10141984,https://doi.org/10.7910/DVN/CVKOPF,2024-05-01,"Myanmar Household Welfare Survey (MHWS), Round 6",Agricultural Sciences,diet,AGROVOC,http://aims.fao.org/aos/agrovoc/c_2261
+10141984,https://doi.org/10.7910/DVN/CVKOPF,2024-05-01,"Myanmar Household Welfare Survey (MHWS), Round 6",Social Sciences,diet,AGROVOC,http://aims.fao.org/aos/agrovoc/c_2261
+10141984,https://doi.org/10.7910/DVN/CVKOPF,2024-05-01,"Myanmar Household Welfare Survey (MHWS), Round 6",Agricultural Sciences,social welfare,AGROVOC,http://aims.fao.org/aos/agrovoc/c_7137
+10141984,https://doi.org/10.7910/DVN/CVKOPF,2024-05-01,"Myanmar Household Welfare Survey (MHWS), Round 6",Social Sciences,social welfare,AGROVOC,http://aims.fao.org/aos/agrovoc/c_7137
+10141984,https://doi.org/10.7910/DVN/CVKOPF,2024-05-01,"Myanmar Household Welfare Survey (MHWS), Round 6",Agricultural Sciences,migration,AGROVOC,http://aims.fao.org/aos/agrovoc/c_4822
+10141984,https://doi.org/10.7910/DVN/CVKOPF,2024-05-01,"Myanmar Household Welfare Survey (MHWS), Round 6",Social Sciences,migration,AGROVOC,http://aims.fao.org/aos/agrovoc/c_4822
+10141984,https://doi.org/10.7910/DVN/CVKOPF,2024-05-01,"Myanmar Household Welfare Survey (MHWS), Round 6",Agricultural Sciences,shock,AGROVOC,http://aims.fao.org/aos/agrovoc/c_36490
+10141984,https://doi.org/10.7910/DVN/CVKOPF,2024-05-01,"Myanmar Household Welfare Survey (MHWS), Round 6",Social Sciences,shock,AGROVOC,http://aims.fao.org/aos/agrovoc/c_36490
+10141984,https://doi.org/10.7910/DVN/CVKOPF,2024-05-01,"Myanmar Household Welfare Survey (MHWS), Round 6",Agricultural Sciences,MYANMAR,AGROVOC,http://aims.fao.org/aos/agrovoc/c_1155
+10141984,https://doi.org/10.7910/DVN/CVKOPF,2024-05-01,"Myanmar Household Welfare Survey (MHWS), Round 6",Social Sciences,MYANMAR,AGROVOC,http://aims.fao.org/aos/agrovoc/c_1155
+10141984,https://doi.org/10.7910/DVN/CVKOPF,2024-05-01,"Myanmar Household Welfare Survey (MHWS), Round 6",Agricultural Sciences,BURMA,AGROVOC,http://aims.fao.org/aos/agrovoc/c_1155
+10141984,https://doi.org/10.7910/DVN/CVKOPF,2024-05-01,"Myanmar Household Welfare Survey (MHWS), Round 6",Social Sciences,BURMA,AGROVOC,http://aims.fao.org/aos/agrovoc/c_1155
+10141984,https://doi.org/10.7910/DVN/CVKOPF,2024-05-01,"Myanmar Household Welfare Survey (MHWS), Round 6",Agricultural Sciences,SOUTHEAST ASIA,AGROVOC,http://aims.fao.org/aos/agrovoc/c_7260
+10141984,https://doi.org/10.7910/DVN/CVKOPF,2024-05-01,"Myanmar Household Welfare Survey (MHWS), Round 6",Social Sciences,SOUTHEAST ASIA,AGROVOC,http://aims.fao.org/aos/agrovoc/c_7260
+10141984,https://doi.org/10.7910/DVN/CVKOPF,2024-05-01,"Myanmar Household Welfare Survey (MHWS), Round 6",Agricultural Sciences,ASIA,AGROVOC,http://aims.fao.org/aos/agrovoc/c_666
+10141984,https://doi.org/10.7910/DVN/CVKOPF,2024-05-01,"Myanmar Household Welfare Survey (MHWS), Round 6",Social Sciences,ASIA,AGROVOC,http://aims.fao.org/aos/agrovoc/c_666
+10162146,https://doi.org/10.7910/DVN/3XTADK,2024-05-03,2019 Social Accounting Matrix for Colombia,Agricultural Sciences,social accounting matrix,STW Thesaurus for Economics,http://zbw.eu/stw/descriptor/19237-2
+10162146,https://doi.org/10.7910/DVN/3XTADK,2024-05-03,2019 Social Accounting Matrix for Colombia,Social Sciences,social accounting matrix,STW Thesaurus for Economics,http://zbw.eu/stw/descriptor/19237-2
+10162146,https://doi.org/10.7910/DVN/3XTADK,2024-05-03,2019 Social Accounting Matrix for Colombia,Agricultural Sciences,national accounting,AGROVOC,http://aims.fao.org/aos/agrovoc/c_5076
+10162146,https://doi.org/10.7910/DVN/3XTADK,2024-05-03,2019 Social Accounting Matrix for Colombia,Social Sciences,national accounting,AGROVOC,http://aims.fao.org/aos/agrovoc/c_5076
+10162146,https://doi.org/10.7910/DVN/3XTADK,2024-05-03,2019 Social Accounting Matrix for Colombia,Agricultural Sciences,household consumption,AGROVOC,http://aims.fao.org/aos/agrovoc/c_3674
+10162146,https://doi.org/10.7910/DVN/3XTADK,2024-05-03,2019 Social Accounting Matrix for Colombia,Social Sciences,household consumption,AGROVOC,http://aims.fao.org/aos/agrovoc/c_3674
+10162146,https://doi.org/10.7910/DVN/3XTADK,2024-05-03,2019 Social Accounting Matrix for Colombia,Agricultural Sciences,household expenditure,AGROVOC,http://aims.fao.org/aos/agrovoc/c_3675
+10162146,https://doi.org/10.7910/DVN/3XTADK,2024-05-03,2019 Social Accounting Matrix for Colombia,Social Sciences,household expenditure,AGROVOC,http://aims.fao.org/aos/agrovoc/c_3675
+10162146,https://doi.org/10.7910/DVN/3XTADK,2024-05-03,2019 Social Accounting Matrix for Colombia,Agricultural Sciences,economic indicators,AGROVOC,http://aims.fao.org/aos/agrovoc/c_15501
+10162146,https://doi.org/10.7910/DVN/3XTADK,2024-05-03,2019 Social Accounting Matrix for Colombia,Social Sciences,economic indicators,AGROVOC,http://aims.fao.org/aos/agrovoc/c_15501
+10162146,https://doi.org/10.7910/DVN/3XTADK,2024-05-03,2019 Social Accounting Matrix for Colombia,Agricultural Sciences,labor,AGROVOC,http://aims.fao.org/aos/agrovoc/c_4128
+10162146,https://doi.org/10.7910/DVN/3XTADK,2024-05-03,2019 Social Accounting Matrix for Colombia,Social Sciences,labor,AGROVOC,http://aims.fao.org/aos/agrovoc/c_4128
+10162146,https://doi.org/10.7910/DVN/3XTADK,2024-05-03,2019 Social Accounting Matrix for Colombia,Agricultural Sciences,sex-disaggregated data,AGROVOC,http://aims.fao.org/aos/agrovoc/c_9000148
+10162146,https://doi.org/10.7910/DVN/3XTADK,2024-05-03,2019 Social Accounting Matrix for Colombia,Social Sciences,sex-disaggregated data,AGROVOC,http://aims.fao.org/aos/agrovoc/c_9000148
+10162146,https://doi.org/10.7910/DVN/3XTADK,2024-05-03,2019 Social Accounting Matrix for Colombia,Agricultural Sciences,COLOMBIA,AGROVOC,http://aims.fao.org/aos/agrovoc/c_1767
+10162146,https://doi.org/10.7910/DVN/3XTADK,2024-05-03,2019 Social Accounting Matrix for Colombia,Social Sciences,COLOMBIA,AGROVOC,http://aims.fao.org/aos/agrovoc/c_1767
+10162146,https://doi.org/10.7910/DVN/3XTADK,2024-05-03,2019 Social Accounting Matrix for Colombia,Agricultural Sciences,SOUTH AMERICA,AGROVOC,http://aims.fao.org/aos/agrovoc/c_7253
+10162146,https://doi.org/10.7910/DVN/3XTADK,2024-05-03,2019 Social Accounting Matrix for Colombia,Social Sciences,SOUTH AMERICA,AGROVOC,http://aims.fao.org/aos/agrovoc/c_7253
+10162146,https://doi.org/10.7910/DVN/3XTADK,2024-05-03,2019 Social Accounting Matrix for Colombia,Agricultural Sciences,LATIN AMERICA AND THE CARIBBEAN,AGROVOC,http://aims.fao.org/aos/agrovoc/c_dd6a2441
+10162146,https://doi.org/10.7910/DVN/3XTADK,2024-05-03,2019 Social Accounting Matrix for Colombia,Social Sciences,LATIN AMERICA AND THE CARIBBEAN,AGROVOC,http://aims.fao.org/aos/agrovoc/c_dd6a2441
+10162146,https://doi.org/10.7910/DVN/3XTADK,2024-05-03,2019 Social Accounting Matrix for Colombia,Agricultural Sciences,AMERICAS,AGROVOC,http://aims.fao.org/aos/agrovoc/c_335
+10162146,https://doi.org/10.7910/DVN/3XTADK,2024-05-03,2019 Social Accounting Matrix for Colombia,Social Sciences,AMERICAS,AGROVOC,http://aims.fao.org/aos/agrovoc/c_335
