@@ -20,9 +20,8 @@ RUN apt-get update && \
     pip3 install --upgrade pip
 
 # Install pandas
-RUN pip3 install pandas
-RUN pip3 install ssl
-RUN pip3 install certifi
+RUN pip3 install --upgrade pip && \
+    pip3 install pandas ssl certifi
 
 
 # Install imports
