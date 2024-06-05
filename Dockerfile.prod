@@ -21,6 +21,9 @@ RUN apt-get update && \
 
 # Install pandas
 RUN pip3 install pandas
+RUN pip3 install ssl
+RUN pip3 install certifi
+
 
 # Install imports
 RUN install2.r --error --skipinstalled \
