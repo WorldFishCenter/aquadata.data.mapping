@@ -7,9 +7,10 @@ import pandas as pd
 import sys
 import time
 from urllib.request import urlopen, Request
+import ssl
+import certifi
 
 def get_dataverse_metadata(organization):
-
     server = 'https://dataverse.harvard.edu'
     alias = organization
 
@@ -19,27 +20,33 @@ def get_dataverse_metadata(organization):
     # Get ID of given dataverse alias
     url = '%s/api/dataverses/%s' % (server, alias)
     req = Request(url, headers={'User-Agent': 'Mozilla/5.0'})
-    data = json.loads(urlopen(req).read())
+
+    # Create an SSL context that uses certifi's CA bundle
+    context = ssl.create_default_context(cafile=certifi.where())
+
+    # Open the URL with the custom SSL context
+    response = urlopen(req, context=context)
+    data = json.loads(response.read())
     parent_dataverse_id = data['data']['id']
-    dataverse_ids = [parent_dataverse_id]
 
     # Get IDs of any dataverses within the given dataverse
+    dataverse_ids = [parent_dataverse_id]
     print('\nGetting dataverse IDs in %s:' % (alias))
 
     for dataverse_id in dataverse_ids:
-
         # As a progress indicator, print a dot each time a row is written
         sys.stdout.write('.')
         sys.stdout.flush()
 
         url = '%s/api/dataverses/%s/contents' % (server, dataverse_id)
         req = Request(url, headers={'User-Agent': 'Mozilla/5.0'})
-        data = json.loads(urlopen(req).read())
+        data = json.loads(urlopen(req, context=context).read())
 
         for i in data['data']:
             if i['type'] == 'dataverse':
                 dataverse_id = i['id']
                 dataverse_ids.extend([dataverse_id])
+
     print('\n\nFound 1 dataverse and %s subdataverses' % (len(dataverse_ids) - 1))
 
     # Get PIDs of all datasets within each of the dataverses
@@ -49,7 +56,7 @@ def get_dataverse_metadata(organization):
     for dataverse_id in dataverse_ids:
         url = '%s/api/dataverses/%s/contents' % (server, dataverse_id)
         req = Request(url, headers={'User-Agent': 'Mozilla/5.0'})
-        data = json.loads(urlopen(req).read())
+        data = json.loads(urlopen(req, context=context).read())
 
         for i in data['data']:
             if i['type'] == 'dataset':
@@ -71,14 +78,12 @@ def get_dataverse_metadata(organization):
     os.mkdir(json_metadata_directory)
 
     # Get the JSON metadata for each dataset_pid
-
     print('\nDownloading JSON metadata files for each dataset')
 
     # Reset count variable for tracking progress
     count = 0
 
     for dataset_pid in dataset_pids:
-
         # Remove any trailing spaces from pid
         dataset_pid = dataset_pid.rstrip()
 
@@ -88,10 +93,9 @@ def get_dataverse_metadata(organization):
         filename = '%s/%s.json' % (json_metadata_directory, filename_pid)
 
         # Get JSON metadata of the dataset_pid
-        url = '%s/api/datasets/:persistentId?persistentId=%s' % (
-            server, dataset_pid)
+        url = '%s/api/datasets/:persistentId?persistentId=%s' % (server, dataset_pid)
         req = Request(url, headers={'User-Agent': 'Mozilla/5.0'})
-        data = json.loads(urlopen(req).read())
+        data = json.loads(urlopen(req, context=context).read())
 
         # Write the JSON metadata to the new file
         with open(filename, mode='w') as f:
@@ -110,27 +114,20 @@ def get_dataverse_metadata(organization):
     csv_files_directory = 'csv_files_%s' % (current_time)
     os.mkdir(csv_files_directory)
 
-    # Parse JSON files to write dataset DOI and publication date metadata to a
-    # CSV file
-
-    # Add path of csv file to filename variable
-    basic_metadata_csv = '%s/basic_metadata_%s.csv' % (
-        csv_files_directory, current_time)
+    # Parse JSON files to write dataset DOI and publication date metadata to a CSV file
+    basic_metadata_csv = '%s/basic_metadata_%s.csv' % (csv_files_directory, current_time)
 
     with open(basic_metadata_csv, mode='w') as metadatafile:
-        metadatafile = csv.writer(
-            metadatafile, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
+        metadatawriter = csv.writer(metadatafile, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
         # Create header row
-        metadatafile.writerow(['dataset_id', 'persistentUrl', 'publicationdate'])
+        metadatawriter.writerow(['dataset_id', 'persistentUrl', 'publicationdate'])
 
     print('Getting dataset DOI and publication date metadata:')
 
     # For each JSON file in the folder of JSON files
     for file in glob.glob(os.path.join(json_metadata_directory, '*.json')):
-
         # Open each file in read mode
         with open(file, 'r') as f1:
-
             # Copy content to dataset_metadata variable
             dataset_metadata = f1.read()
 
@@ -144,245 +141,117 @@ def get_dataverse_metadata(organization):
 
         # In the csv file, add rows for each field value
         with open(basic_metadata_csv, mode='a') as metadatafile:
-
-            # Convert all characters to utf-8
-            def to_utf8(lst):
-                return [unicode(elem).encode('utf-8') for elem in lst]
-
-            metadatafile = csv.writer(
-                metadatafile,
-                delimiter=',',
-                quotechar='"',
-                quoting=csv.QUOTE_MINIMAL)
-
+            metadatawriter = csv.writer(metadatafile, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
             # Write new row
-            metadatafile.writerow([dataset_id, persistentUrl, publicationDate])
+            metadatawriter.writerow([dataset_id, persistentUrl, publicationDate])
 
         # As a progress indicator, print a dot each time a row is written
         sys.stdout.write('.')
         sys.stdout.flush()
 
-    print('\nFinished writing dataset DOI and publication date metadata to %s' %
-          (csv_files_directory))
+    print('\nFinished writing dataset DOI and publication date metadata to %s' % (csv_files_directory))
 
     # Parse JSON files to write dataset title and subject metadata to CSVs files
-
-    # Save list of fieldnames
     primativefields = ['title', 'subject']
 
     for fieldname in primativefields:
-
-        # Store path of csv file to filename variable
         filename = '%s/%s_%s.csv' % (csv_files_directory, fieldname, current_time)
 
         with open(filename, mode='w') as metadatafile:
-            metadatafile = csv.writer(
-                metadatafile,
-                delimiter=',',
-                quotechar='"',
-                quoting=csv.QUOTE_MINIMAL)
-
-            # Create header row
-            metadatafile.writerow(['dataset_id', 'persistentUrl', fieldname])
+            metadatawriter = csv.writer(metadatafile, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
+            metadatawriter.writerow(['dataset_id', 'persistentUrl', fieldname])
 
         print('\nGetting %s metadata:' % (fieldname))
 
         parseerrordatasets = []
 
-        # For each file in a folder of json files
         for file in glob.glob(os.path.join(json_metadata_directory, '*.json')):
-
-            # Open each file in read mode
             with open(file, 'r') as f1:
-
-                # Copy content to dataset_metadata variable
                 dataset_metadata = f1.read()
-
-                # Overwrite variable with content as a python dict
                 dataset_metadata = json.loads(dataset_metadata)
 
-                if (dataset_metadata['status'] == 'OK') and (
-                        'latestVersion' in dataset_metadata['data']):
+            if (dataset_metadata['status'] == 'OK') and ('latestVersion' in dataset_metadata['data']):
+                dataset_id = str(dataset_metadata['data']['id'])
 
-                    # Save the dataset id of each dataset
-                    dataset_id = str(dataset_metadata['data']['id'])
-
-                    # Couple each field value with the dataset_id and write as a
-                    # row to subjects.csv
-                    for fields in dataset_metadata['data']['latestVersion']['metadataBlocks']['citation']['fields']:
-                        if fields['typeName'] == fieldname:
-                            value = fields['value']
-
-                            # If value is a string, it's a field that doesn't allow
-                            # multiple values
-                            if isinstance(value, str):
+                for fields in dataset_metadata['data']['latestVersion']['metadataBlocks']['citation']['fields']:
+                    if fields['typeName'] == fieldname:
+                        value = fields['value']
+                        if isinstance(value, str):
+                            persistentUrl = dataset_metadata['data']['persistentUrl']
+                            with open(filename, mode='a') as metadatafile:
+                                metadatawriter = csv.writer(metadatafile, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
+                                metadatawriter.writerow([dataset_id, persistentUrl, value])
+                                sys.stdout.write('.')
+                                sys.stdout.flush()
+                        elif isinstance(value, list):
+                            for v in value:
                                 persistentUrl = dataset_metadata['data']['persistentUrl']
-                                dataset_id = str(dataset_metadata['data']['id'])
-
                                 with open(filename, mode='a') as metadatafile:
-
-                                    # Convert all characters to utf-8 to avoid
-                                    # encoding errors when writing to the csv file
-                                    def to_utf8(lst):
-                                        return [
-                                            unicode(elem).encode('utf-8') for elem in lst]
-
-                                    metadatafile = csv.writer(
-                                        metadatafile, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
-
-                                    # Write new row
-                                    metadatafile.writerow(
-                                        [dataset_id, persistentUrl, value])
-
-                                    # As a progress indicator, print a dot each
-                                    # time a row is written
+                                    metadatawriter = csv.writer(metadatafile, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
+                                    metadatawriter.writerow([dataset_id, persistentUrl, v])
                                     sys.stdout.write('.')
                                     sys.stdout.flush()
+            else:
+                parseerrordatasets.append(file)
 
-                            # If value is a list, it's a field that allows multiple
-                            # values
-                            elif isinstance(value, list):
-                                for value in fields['value']:
-                                    persistentUrl = dataset_metadata['data']['persistentUrl']
-                                    with open(filename, mode='a') as metadatafile:
-
-                                        # Convert all characters to utf-8 to avoid
-                                        # encoding errors when writing to the csv
-                                        # file
-                                        def to_utf8(lst):
-                                            return [
-                                                unicode(elem).encode('utf-8') for elem in lst]
-
-                                        metadatafile = csv.writer(
-                                            metadatafile, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
-
-                                        # Write new row
-                                        metadatafile.writerow(
-                                            [dataset_id, persistentUrl, value])
-
-                                        # As a progress indicator, print a dot each
-                                        # time a row is written
-                                        sys.stdout.write('.')
-                                        sys.stdout.flush()
-                else:
-                    parseerrordatasets.append(file)
-
-    print('\nFinished writing title and subject metadata to %s' %
-          (csv_files_directory))
+        print('\nFinished writing %s metadata to %s' % (fieldname, csv_files_directory))
 
     if parseerrordatasets:
         parseerrordatasets = set(parseerrordatasets)
-        print(
-            '\nThe following %s JSON file(s) could not be parsed. It/they may be draft or deaccessioned dataset(s):' %
-            (len(parseerrordatasets)))
+        print('\nThe following %s JSON file(s) could not be parsed. It/they may be draft or deaccessioned dataset(s):' % (len(parseerrordatasets)))
         print(*parseerrordatasets, sep='\n')
 
     # Parse JSON files to write dataset keywords to a CSV file
-
-    # Enter database name of the parent compound field, e.g. dsDescription
     parent_compound_field = 'keyword'
-
-    # Enter database names of the parent compound field's subfields, e.g.
-    # 'dsDescriptionValue', 'dsDescriptionDate'
     subfields = ['keywordValue', 'keywordVocabulary', 'keywordVocabularyURI']
 
-
-    def getsubfields(parent_compound_field, subfield):
+    def getsubfields(dataset_metadata, parent_compound_field, index, subfield):
         try:
             for fields in dataset_metadata['data']['latestVersion']['metadataBlocks']['citation']['fields']:
-                # Find compound name
                 if fields['typeName'] == parent_compound_field:
-                    # Find value in subfield
                     subfield = fields['value'][index][subfield]['value']
         except KeyError:
             subfield = ''
         return subfield
 
+    filename = '%s/%s_%s.csv' % (csv_files_directory, parent_compound_field, current_time)
 
-    # Store path of csv file to filename variable
-    filename = '%s/%s_%s.csv' % (csv_files_directory,
-                                 parent_compound_field, current_time)
-
-    # Create column names for the header row
     ids = ['dataset_id', 'persistentUrl']
     header_row = ids + subfields
 
     with open(filename, mode='w') as metadatafile:
-        metadatafile = csv.writer(
-            metadatafile, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
-        # Create header row
-        metadatafile.writerow(header_row)
+        metadatawriter = csv.writer(metadatafile, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
+        metadatawriter.writerow(header_row)
 
     print('\nGetting keyword metadata:')
 
     parseerrordatasets = []
 
-    # For each file in a folder of json files
     for file in glob.glob(os.path.join(json_metadata_directory, '*.json')):
-
-        # Open each file in read mode
         with open(file, 'r') as f1:
-
-            # Copy content to dataset_metadata variable
             dataset_metadata = f1.read()
-
-            # Overwrite variable with content as a python dict
             dataset_metadata = json.loads(dataset_metadata)
 
-        if (dataset_metadata['status'] == 'OK') and (
-                'latestVersion' in dataset_metadata['data']):
-
-            # Count number of the given compound fields
+        if (dataset_metadata['status'] == 'OK') and ('latestVersion' in dataset_metadata['data']):
             for fields in dataset_metadata['data']['latestVersion']['metadataBlocks']['citation']['fields']:
-                # Find compound name
                 if fields['typeName'] == parent_compound_field:
                     total = len(fields['value'])
-
-                    # If there are compound fields
                     if total:
                         index = 0
                         condition = True
-
-                        while (condition):
-
-                            # Save the dataset id of each dataset
+                        while condition:
                             dataset_id = str(dataset_metadata['data']['id'])
-
-                            # Save the identifier of each dataset
                             persistentUrl = dataset_metadata['data']['persistentUrl']
-
-                            # Save subfield values to variables
+                            row_variables = [dataset_id, persistentUrl]
                             for subfield in subfields:
-                                globals()[subfield] = getsubfields(
-                                    parent_compound_field, subfield)
-
-                            # Append fields to the csv file
+                                row_variables.append(getsubfields(dataset_metadata, parent_compound_field, index, subfield))
                             with open(filename, mode='a') as metadatafile:
-
-                                # Create list of variables
-                                row_variables = [dataset_id, persistentUrl]
-                                for subfield in subfields:
-                                    row_variables.append(globals()[subfield])
-
-                                # Convert all characters to utf-8
-                                def to_utf8(lst):
-                                    return [unicode(elem).encode('utf-8')
-                                            for elem in lst]
-
-                                metadatafile = csv.writer(
-                                    metadatafile, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
-
-                                # Write new row using list of variables
-                                metadatafile.writerow(row_variables)
-
-                                # As a progress indicator, print a dot each time a
-                                # row is written
+                                metadatawriter = csv.writer(metadatafile, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
+                                metadatawriter.writerow(row_variables)
                                 sys.stdout.write('.')
                                 sys.stdout.flush()
-
                             index += 1
                             condition = index < total
-
         else:
             parseerrordatasets.append(file)
 
@@ -390,39 +259,25 @@ def get_dataverse_metadata(organization):
 
     if parseerrordatasets:
         parseerrordatasets = set(parseerrordatasets)
-        print(
-            '\nThe following %s JSON file(s) could not be parsed. It/they may be draft or deaccessioned dataset(s):' %
-            (len(parseerrordatasets)))
+        print('\nThe following %s JSON file(s) could not be parsed. It/they may be draft or deaccessioned dataset(s):' % (len(parseerrordatasets)))
         print(*parseerrordatasets, sep='\n')
 
     # Create CSV of all metadata by joining CSV files in the csv_files folder
-
-    # Create csv file in the directory that the user selected
     filename = 'inst/dataverse_raw/%s_dataset_metadata_%s.csv' % (alias, current_time)
 
-    # Save directory paths to each csv file as a list and save in 'all_tables'
-    # variable
     all_tables = glob.glob(os.path.join(csv_files_directory, '*.csv'))
 
-    # Create a dataframe of each csv file in the 'all-tables' list
     dataframes = [pd.read_csv(table, sep=',') for table in all_tables]
 
-    # For each dataframe, set the indexes (or the common columns across the
-    # dataframes to join on)
     for dataframe in dataframes:
         dataframe.set_index(['dataset_id', 'persistentUrl'], inplace=True)
 
     print('\nMerging metadata files in %s' % (csv_files_directory))
 
-    # Merge all dataframes and save to the 'merged' variable
     merged = reduce(lambda left, right: left.join(right, how='outer'), dataframes)
 
-    # Reorder columns (not including the index columns dataset_id and
-    # persistentUrl)
-    merged = merged[['publicationdate', 'title', 'subject',
-                     'keywordValue', 'keywordVocabulary', 'keywordVocabularyURI']]
+    merged = merged[['publicationdate', 'title', 'subject', 'keywordValue', 'keywordVocabulary', 'keywordVocabularyURI']]
 
-    # Export merged dataframe to a csv file
     merged.to_csv(filename)
 
     print('CSV file with all metadata created at %s' % (filename))
