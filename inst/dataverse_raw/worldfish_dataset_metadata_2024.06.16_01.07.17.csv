@@ -1439,3 +1439,15 @@ dataset_id,persistentUrl,publicationdate,title,subject,keywordValue,keywordVocab
 10256173,https://doi.org/10.7910/DVN/LRLWWQ,2024-06-04,"Qualitative data on IDEA Couples training participants, aquaculture training participants and  landless women's group aq",Agricultural Sciences,gender,AGROVOC,http://aims.fao.org/aos/agrovoc/c_34835
 10256173,https://doi.org/10.7910/DVN/LRLWWQ,2024-06-04,"Qualitative data on IDEA Couples training participants, aquaculture training participants and  landless women's group aq",Agricultural Sciences,knowledge,AGROVOC,http://aims.fao.org/aos/agrovoc/c_105df063
 10256173,https://doi.org/10.7910/DVN/LRLWWQ,2024-06-04,"Qualitative data on IDEA Couples training participants, aquaculture training participants and  landless women's group aq",Agricultural Sciences,dynamics,AGROVOC,http://aims.fao.org/aos/agrovoc/c_330860
+10274169,https://doi.org/10.7910/DVN/MOHMN0,2024-06-13,Peskaas Impact Assessment Dataset,Agricultural Sciences,livelihoods,AGROVOC,http://aims.fao.org/aos/agrovoc/c_1374498089962
+10274169,https://doi.org/10.7910/DVN/MOHMN0,2024-06-13,Peskaas Impact Assessment Dataset,Social Sciences,livelihoods,AGROVOC,http://aims.fao.org/aos/agrovoc/c_1374498089962
+10274169,https://doi.org/10.7910/DVN/MOHMN0,2024-06-13,Peskaas Impact Assessment Dataset,Agricultural Sciences,resources management,,
+10274169,https://doi.org/10.7910/DVN/MOHMN0,2024-06-13,Peskaas Impact Assessment Dataset,Social Sciences,resources management,,
+10274169,https://doi.org/10.7910/DVN/MOHMN0,2024-06-13,Peskaas Impact Assessment Dataset,Agricultural Sciences,fisheries management,,
+10274169,https://doi.org/10.7910/DVN/MOHMN0,2024-06-13,Peskaas Impact Assessment Dataset,Social Sciences,fisheries management,,
+10274169,https://doi.org/10.7910/DVN/MOHMN0,2024-06-13,Peskaas Impact Assessment Dataset,Agricultural Sciences,fishing communities,AGROVOC,http://aims.fao.org/aos/agrovoc/c_331405
+10274169,https://doi.org/10.7910/DVN/MOHMN0,2024-06-13,Peskaas Impact Assessment Dataset,Social Sciences,fishing communities,AGROVOC,http://aims.fao.org/aos/agrovoc/c_331405
+10274169,https://doi.org/10.7910/DVN/MOHMN0,2024-06-13,Peskaas Impact Assessment Dataset,Agricultural Sciences,real-time,,
+10274169,https://doi.org/10.7910/DVN/MOHMN0,2024-06-13,Peskaas Impact Assessment Dataset,Social Sciences,real-time,,
+10274169,https://doi.org/10.7910/DVN/MOHMN0,2024-06-13,Peskaas Impact Assessment Dataset,Agricultural Sciences,fisheries monitoring,,
+10274169,https://doi.org/10.7910/DVN/MOHMN0,2024-06-13,Peskaas Impact Assessment Dataset,Social Sciences,fisheries monitoring,,
