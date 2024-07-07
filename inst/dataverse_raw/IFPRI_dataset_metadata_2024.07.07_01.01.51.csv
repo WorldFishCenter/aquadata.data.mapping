@@ -17051,4 +17051,45 @@ dataset_id,persistentUrl,publicationdate,title,subject,keywordValue,keywordVocab
 10162146,https://doi.org/10.7910/DVN/3XTADK,2024-05-03,2019 Social Accounting Matrix for Colombia,Social Sciences,LATIN AMERICA AND THE CARIBBEAN,AGROVOC,http://aims.fao.org/aos/agrovoc/c_dd6a2441
 10162146,https://doi.org/10.7910/DVN/3XTADK,2024-05-03,2019 Social Accounting Matrix for Colombia,Agricultural Sciences,AMERICAS,AGROVOC,http://aims.fao.org/aos/agrovoc/c_335
 10162146,https://doi.org/10.7910/DVN/3XTADK,2024-05-03,2019 Social Accounting Matrix for Colombia,Social Sciences,AMERICAS,AGROVOC,http://aims.fao.org/aos/agrovoc/c_335
-10162147,https://doi.org/10.7910/DVN/74YWV2,2024-05-10,,,,,
+10162147,https://doi.org/10.7910/DVN/74YWV2,2024-05-10,2018 Social Accounting Matrix for Indian State Odisha,Agricultural Sciences,social accounting matrix,AGROVOC,http://zbw.eu/stw/descriptor/19237-2
+10162147,https://doi.org/10.7910/DVN/74YWV2,2024-05-10,2018 Social Accounting Matrix for Indian State Odisha,Social Sciences,social accounting matrix,AGROVOC,http://zbw.eu/stw/descriptor/19237-2
+10162147,https://doi.org/10.7910/DVN/74YWV2,2024-05-10,2018 Social Accounting Matrix for Indian State Odisha,Agricultural Sciences,national accounting,AGROVOC,http://aims.fao.org/aos/agrovoc/c_5076
+10162147,https://doi.org/10.7910/DVN/74YWV2,2024-05-10,2018 Social Accounting Matrix for Indian State Odisha,Social Sciences,national accounting,AGROVOC,http://aims.fao.org/aos/agrovoc/c_5076
+10162147,https://doi.org/10.7910/DVN/74YWV2,2024-05-10,2018 Social Accounting Matrix for Indian State Odisha,Agricultural Sciences,household consumption,AGROVOC,http://aims.fao.org/aos/agrovoc/c_3674
+10162147,https://doi.org/10.7910/DVN/74YWV2,2024-05-10,2018 Social Accounting Matrix for Indian State Odisha,Social Sciences,household consumption,AGROVOC,http://aims.fao.org/aos/agrovoc/c_3674
+10162147,https://doi.org/10.7910/DVN/74YWV2,2024-05-10,2018 Social Accounting Matrix for Indian State Odisha,Agricultural Sciences,household expenditure,AGROVOC,http://aims.fao.org/aos/agrovoc/c_3675
+10162147,https://doi.org/10.7910/DVN/74YWV2,2024-05-10,2018 Social Accounting Matrix for Indian State Odisha,Social Sciences,household expenditure,AGROVOC,http://aims.fao.org/aos/agrovoc/c_3675
+10162147,https://doi.org/10.7910/DVN/74YWV2,2024-05-10,2018 Social Accounting Matrix for Indian State Odisha,Agricultural Sciences,economic indicators,AGROVOC,http://aims.fao.org/aos/agrovoc/c_15501
+10162147,https://doi.org/10.7910/DVN/74YWV2,2024-05-10,2018 Social Accounting Matrix for Indian State Odisha,Social Sciences,economic indicators,AGROVOC,http://aims.fao.org/aos/agrovoc/c_15501
+10162147,https://doi.org/10.7910/DVN/74YWV2,2024-05-10,2018 Social Accounting Matrix for Indian State Odisha,Agricultural Sciences,labor,AGROVOC,http://aims.fao.org/aos/agrovoc/c_4128
+10162147,https://doi.org/10.7910/DVN/74YWV2,2024-05-10,2018 Social Accounting Matrix for Indian State Odisha,Social Sciences,labor,AGROVOC,http://aims.fao.org/aos/agrovoc/c_4128
+10162147,https://doi.org/10.7910/DVN/74YWV2,2024-05-10,2018 Social Accounting Matrix for Indian State Odisha,Agricultural Sciences,sex-disaggregated data,AGROVOC,http://aims.fao.org/aos/agrovoc/c_9000148
+10162147,https://doi.org/10.7910/DVN/74YWV2,2024-05-10,2018 Social Accounting Matrix for Indian State Odisha,Social Sciences,sex-disaggregated data,AGROVOC,http://aims.fao.org/aos/agrovoc/c_9000148
+10162147,https://doi.org/10.7910/DVN/74YWV2,2024-05-10,2018 Social Accounting Matrix for Indian State Odisha,Agricultural Sciences,ODISHA,,
+10162147,https://doi.org/10.7910/DVN/74YWV2,2024-05-10,2018 Social Accounting Matrix for Indian State Odisha,Social Sciences,ODISHA,,
+10162147,https://doi.org/10.7910/DVN/74YWV2,2024-05-10,2018 Social Accounting Matrix for Indian State Odisha,Agricultural Sciences,INDIA,AGROVOC,http://aims.fao.org/aos/agrovoc/c_3825
+10162147,https://doi.org/10.7910/DVN/74YWV2,2024-05-10,2018 Social Accounting Matrix for Indian State Odisha,Social Sciences,INDIA,AGROVOC,http://aims.fao.org/aos/agrovoc/c_3825
+10162147,https://doi.org/10.7910/DVN/74YWV2,2024-05-10,2018 Social Accounting Matrix for Indian State Odisha,Agricultural Sciences,SOUTH ASIA,AGROVOC,http://aims.fao.org/aos/agrovoc/c_29172
+10162147,https://doi.org/10.7910/DVN/74YWV2,2024-05-10,2018 Social Accounting Matrix for Indian State Odisha,Social Sciences,SOUTH ASIA,AGROVOC,http://aims.fao.org/aos/agrovoc/c_29172
+10162147,https://doi.org/10.7910/DVN/74YWV2,2024-05-10,2018 Social Accounting Matrix for Indian State Odisha,Agricultural Sciences,ASIA,AGROVOC,http://aims.fao.org/aos/agrovoc/c_666
+10162147,https://doi.org/10.7910/DVN/74YWV2,2024-05-10,2018 Social Accounting Matrix for Indian State Odisha,Social Sciences,ASIA,AGROVOC,http://aims.fao.org/aos/agrovoc/c_666
+10290207,https://doi.org/10.7910/DVN/IWQUU4,2024-07-03,"Myanmar Agricultural Performance Survey (MAPS), Round 4",Agricultural Sciences,agriculture,AGROVOC,http://aims.fao.org/aos/agrovoc/c_203
+10290207,https://doi.org/10.7910/DVN/IWQUU4,2024-07-03,"Myanmar Agricultural Performance Survey (MAPS), Round 4",Social Sciences,agriculture,AGROVOC,http://aims.fao.org/aos/agrovoc/c_203
+10290207,https://doi.org/10.7910/DVN/IWQUU4,2024-07-03,"Myanmar Agricultural Performance Survey (MAPS), Round 4",Agricultural Sciences,farm management,AGROVOC,http://aims.fao.org/aos/agrovoc/c_2799
+10290207,https://doi.org/10.7910/DVN/IWQUU4,2024-07-03,"Myanmar Agricultural Performance Survey (MAPS), Round 4",Social Sciences,farm management,AGROVOC,http://aims.fao.org/aos/agrovoc/c_2799
+10290207,https://doi.org/10.7910/DVN/IWQUU4,2024-07-03,"Myanmar Agricultural Performance Survey (MAPS), Round 4",Agricultural Sciences,agricultural prices,AGROVOC,http://aims.fao.org/aos/agrovoc/c_8677
+10290207,https://doi.org/10.7910/DVN/IWQUU4,2024-07-03,"Myanmar Agricultural Performance Survey (MAPS), Round 4",Social Sciences,agricultural prices,AGROVOC,http://aims.fao.org/aos/agrovoc/c_8677
+10290207,https://doi.org/10.7910/DVN/IWQUU4,2024-07-03,"Myanmar Agricultural Performance Survey (MAPS), Round 4",Agricultural Sciences,marketing,AGROVOC,http://aims.fao.org/aos/agrovoc/c_4620
+10290207,https://doi.org/10.7910/DVN/IWQUU4,2024-07-03,"Myanmar Agricultural Performance Survey (MAPS), Round 4",Social Sciences,marketing,AGROVOC,http://aims.fao.org/aos/agrovoc/c_4620
+10290207,https://doi.org/10.7910/DVN/IWQUU4,2024-07-03,"Myanmar Agricultural Performance Survey (MAPS), Round 4",Agricultural Sciences,producer prices,AGROVOC,http://aims.fao.org/aos/agrovoc/c_6198
+10290207,https://doi.org/10.7910/DVN/IWQUU4,2024-07-03,"Myanmar Agricultural Performance Survey (MAPS), Round 4",Social Sciences,producer prices,AGROVOC,http://aims.fao.org/aos/agrovoc/c_6198
+10290207,https://doi.org/10.7910/DVN/IWQUU4,2024-07-03,"Myanmar Agricultural Performance Survey (MAPS), Round 4",Agricultural Sciences,weather data,AGROVOC,http://aims.fao.org/aos/agrovoc/c_29564
+10290207,https://doi.org/10.7910/DVN/IWQUU4,2024-07-03,"Myanmar Agricultural Performance Survey (MAPS), Round 4",Social Sciences,weather data,AGROVOC,http://aims.fao.org/aos/agrovoc/c_29564
+10290207,https://doi.org/10.7910/DVN/IWQUU4,2024-07-03,"Myanmar Agricultural Performance Survey (MAPS), Round 4",Agricultural Sciences,MYANMAR,AGROVOC,http://aims.fao.org/aos/agrovoc/c_1155
+10290207,https://doi.org/10.7910/DVN/IWQUU4,2024-07-03,"Myanmar Agricultural Performance Survey (MAPS), Round 4",Social Sciences,MYANMAR,AGROVOC,http://aims.fao.org/aos/agrovoc/c_1155
+10290207,https://doi.org/10.7910/DVN/IWQUU4,2024-07-03,"Myanmar Agricultural Performance Survey (MAPS), Round 4",Agricultural Sciences,BURMA,AGROVOC,http://aims.fao.org/aos/agrovoc/c_1155
+10290207,https://doi.org/10.7910/DVN/IWQUU4,2024-07-03,"Myanmar Agricultural Performance Survey (MAPS), Round 4",Social Sciences,BURMA,AGROVOC,http://aims.fao.org/aos/agrovoc/c_1155
+10290207,https://doi.org/10.7910/DVN/IWQUU4,2024-07-03,"Myanmar Agricultural Performance Survey (MAPS), Round 4",Agricultural Sciences,SOUTHEAST ASIA,AGROVOC,http://aims.fao.org/aos/agrovoc/c_7260
+10290207,https://doi.org/10.7910/DVN/IWQUU4,2024-07-03,"Myanmar Agricultural Performance Survey (MAPS), Round 4",Social Sciences,SOUTHEAST ASIA,AGROVOC,http://aims.fao.org/aos/agrovoc/c_7260
+10290207,https://doi.org/10.7910/DVN/IWQUU4,2024-07-03,"Myanmar Agricultural Performance Survey (MAPS), Round 4",Agricultural Sciences,ASIA,AGROVOC,http://aims.fao.org/aos/agrovoc/c_666
+10290207,https://doi.org/10.7910/DVN/IWQUU4,2024-07-03,"Myanmar Agricultural Performance Survey (MAPS), Round 4",Social Sciences,ASIA,AGROVOC,http://aims.fao.org/aos/agrovoc/c_666
