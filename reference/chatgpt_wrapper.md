@@ -1,0 +1,65 @@
+# Summarise document using LangChain and ChatGPT
+
+This function is a R wrapper of \`chatgpt_chaindoc.py\`, a python script
+function aimed to elaborate large text documents using LangChain and
+ChatGPT. \`chatgpt_chaindoc.py\` uses the refine chain method to
+elaborate the text (see
+<https://langchain.readthedocs.io/en/latest/modules/indexes/chain_examples/summarize.html#the-refine-chain>
+for details).
+
+## Usage
+
+``` r
+chatgpt_wrapper(
+  document_path = NULL,
+  openaikey = NULL,
+  engine = "gpt-3.5-turbo",
+  temperature = 0.5,
+  refine_text = NULL
+)
+```
+
+## Arguments
+
+- document_path:
+
+  The path of the txt document to summarise.
+
+- openaikey:
+
+  The OpenAI key token.
+
+- engine:
+
+  ChatGPT model (see <https://platform.openai.com/docs/models>).
+
+- temperature:
+
+  Level of randomness or "creativity" in the generated text (see
+  <https://platform.openai.com/docs/api-reference/completions/create>).
+
+- refine_text:
+
+  A text useful to refine the original prompt (see
+  <https://langchain.readthedocs.io/en/latest/modules/indexes/chain_examples/summarize.html#the-refine-chain>
+  for details).
+
+## Value
+
+A summarised text.
+
+## Examples
+
+``` r
+if (FALSE) { # \dontrun{
+output <-
+  summarise_chatgpt_wrapper(
+    document_path = "inst/docs_dataverse/5636634.txt",
+    openaikey = OPENAI_KEY,
+    engine = "gpt-3.5-turbo",
+    temperature = 0.7,
+    refine_text = pars$openai$refine_prompts$p1
+  )
+cat(output$output_text)
+} # }
+```

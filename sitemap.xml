@@ -1,81 +1,29 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>https://worldfishcenter.github.io/aquadata.data.mapping/404.html</loc>
-  </url>
-  <url>
-    <loc>https://worldfishcenter.github.io/aquadata.data.mapping/CODE_OF_CONDUCT.html</loc>
-  </url>
-  <url>
-    <loc>https://worldfishcenter.github.io/aquadata.data.mapping/CONTRIBUTING.html</loc>
-  </url>
-  <url>
-    <loc>https://worldfishcenter.github.io/aquadata.data.mapping/LICENSE.html</loc>
-  </url>
-  <url>
-    <loc>https://worldfishcenter.github.io/aquadata.data.mapping/SUPPORT.html</loc>
-  </url>
-  <url>
-    <loc>https://worldfishcenter.github.io/aquadata.data.mapping/authors.html</loc>
-  </url>
-  <url>
-    <loc>https://worldfishcenter.github.io/aquadata.data.mapping/index.html</loc>
-  </url>
-  <url>
-    <loc>https://worldfishcenter.github.io/aquadata.data.mapping/news/index.html</loc>
-  </url>
-  <url>
-    <loc>https://worldfishcenter.github.io/aquadata.data.mapping/reference/apex_treemap.html</loc>
-  </url>
-  <url>
-    <loc>https://worldfishcenter.github.io/aquadata.data.mapping/reference/chatgpt_wrapper.html</loc>
-  </url>
-  <url>
-    <loc>https://worldfishcenter.github.io/aquadata.data.mapping/reference/clean_dataverse_metadata.html</loc>
-  </url>
-  <url>
-    <loc>https://worldfishcenter.github.io/aquadata.data.mapping/reference/dataverse_metadata.html</loc>
-  </url>
-  <url>
-    <loc>https://worldfishcenter.github.io/aquadata.data.mapping/reference/filterby_word.html</loc>
-  </url>
-  <url>
-    <loc>https://worldfishcenter.github.io/aquadata.data.mapping/reference/get_dataset.html</loc>
-  </url>
-  <url>
-    <loc>https://worldfishcenter.github.io/aquadata.data.mapping/reference/get_dataset_file.html</loc>
-  </url>
-  <url>
-    <loc>https://worldfishcenter.github.io/aquadata.data.mapping/reference/get_dataverse_metadata.html</loc>
-  </url>
-  <url>
-    <loc>https://worldfishcenter.github.io/aquadata.data.mapping/reference/get_organization_metadata.html</loc>
-  </url>
-  <url>
-    <loc>https://worldfishcenter.github.io/aquadata.data.mapping/reference/index.html</loc>
-  </url>
-  <url>
-    <loc>https://worldfishcenter.github.io/aquadata.data.mapping/reference/jsonify_metadata.html</loc>
-  </url>
-  <url>
-    <loc>https://worldfishcenter.github.io/aquadata.data.mapping/reference/pipe.html</loc>
-  </url>
-  <url>
-    <loc>https://worldfishcenter.github.io/aquadata.data.mapping/reference/process_dataverse_raw.html</loc>
-  </url>
-  <url>
-    <loc>https://worldfishcenter.github.io/aquadata.data.mapping/reference/read_config.html</loc>
-  </url>
-  <url>
-    <loc>https://worldfishcenter.github.io/aquadata.data.mapping/reference/read_file.html</loc>
-  </url>
-  <url>
-    <loc>https://worldfishcenter.github.io/aquadata.data.mapping/reference/run_app.html</loc>
-  </url>
-  <url>
-    <loc>https://worldfishcenter.github.io/aquadata.data.mapping/reference/start_fun.html</loc>
-  </url>
-  <url>
-    <loc>https://worldfishcenter.github.io/aquadata.data.mapping/reference/tidyeval.html</loc>
-  </url>
+<urlset xmlns = 'http://www.sitemaps.org/schemas/sitemap/0.9'>
+<url><loc>https://worldfishcenter.github.io/aquadata.data.mapping/404.html</loc></url>
+<url><loc>https://worldfishcenter.github.io/aquadata.data.mapping/CODE_OF_CONDUCT.html</loc></url>
+<url><loc>https://worldfishcenter.github.io/aquadata.data.mapping/CONTRIBUTING.html</loc></url>
+<url><loc>https://worldfishcenter.github.io/aquadata.data.mapping/LICENSE.html</loc></url>
+<url><loc>https://worldfishcenter.github.io/aquadata.data.mapping/SUPPORT.html</loc></url>
+<url><loc>https://worldfishcenter.github.io/aquadata.data.mapping/authors.html</loc></url>
+<url><loc>https://worldfishcenter.github.io/aquadata.data.mapping/index.html</loc></url>
+<url><loc>https://worldfishcenter.github.io/aquadata.data.mapping/news/index.html</loc></url>
+<url><loc>https://worldfishcenter.github.io/aquadata.data.mapping/reference/apex_treemap.html</loc></url>
+<url><loc>https://worldfishcenter.github.io/aquadata.data.mapping/reference/chatgpt_wrapper.html</loc></url>
+<url><loc>https://worldfishcenter.github.io/aquadata.data.mapping/reference/clean_dataverse_metadata.html</loc></url>
+<url><loc>https://worldfishcenter.github.io/aquadata.data.mapping/reference/dataverse_metadata.html</loc></url>
+<url><loc>https://worldfishcenter.github.io/aquadata.data.mapping/reference/filterby_word.html</loc></url>
+<url><loc>https://worldfishcenter.github.io/aquadata.data.mapping/reference/get_dataset.html</loc></url>
+<url><loc>https://worldfishcenter.github.io/aquadata.data.mapping/reference/get_dataset_file.html</loc></url>
+<url><loc>https://worldfishcenter.github.io/aquadata.data.mapping/reference/get_dataverse_metadata.html</loc></url>
+<url><loc>https://worldfishcenter.github.io/aquadata.data.mapping/reference/get_organization_metadata.html</loc></url>
+<url><loc>https://worldfishcenter.github.io/aquadata.data.mapping/reference/index.html</loc></url>
+<url><loc>https://worldfishcenter.github.io/aquadata.data.mapping/reference/jsonify_metadata.html</loc></url>
+<url><loc>https://worldfishcenter.github.io/aquadata.data.mapping/reference/pipe.html</loc></url>
+<url><loc>https://worldfishcenter.github.io/aquadata.data.mapping/reference/process_dataverse_raw.html</loc></url>
+<url><loc>https://worldfishcenter.github.io/aquadata.data.mapping/reference/read_config.html</loc></url>
+<url><loc>https://worldfishcenter.github.io/aquadata.data.mapping/reference/read_file.html</loc></url>
+<url><loc>https://worldfishcenter.github.io/aquadata.data.mapping/reference/run_app.html</loc></url>
+<url><loc>https://worldfishcenter.github.io/aquadata.data.mapping/reference/start_fun.html</loc></url>
+<url><loc>https://worldfishcenter.github.io/aquadata.data.mapping/reference/tidyeval.html</loc></url>
 </urlset>
+
