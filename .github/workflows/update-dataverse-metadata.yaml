@@ -61,7 +61,7 @@ jobs:
         run: Rscript -e 'aquadata.data.mapping::process_dataverse_raw()'
       - name: Pull changes from previuous job
         run: |
-          git config --global user.email "lorenzo.longobardi@gmail.com.com"
+          git config --global user.email "lorenzo.longobardi@gmail.com"
           git config --global user.name "langbart"
           git pull
       - name: Commit changes package data

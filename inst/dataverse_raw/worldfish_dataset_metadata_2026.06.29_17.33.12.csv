@@ -202,14 +202,14 @@ dataset_id,persistentUrl,publicationdate,title,subject,keywordValue,keywordVocab
 3723247,https://doi.org/10.7910/DVN/LXKSIR,2020-02-13,Replication Data for: Egypt 2019 - Tilapia epidemiology and health economics survey dataset,Social Sciences,Tilapia,AGROVOC,http://aims.fao.org/aos/agrovoc/c_32720
 3723247,https://doi.org/10.7910/DVN/LXKSIR,2020-02-13,Replication Data for: Egypt 2019 - Tilapia epidemiology and health economics survey dataset,Social Sciences,Health economics,,
 3723247,https://doi.org/10.7910/DVN/LXKSIR,2020-02-13,Replication Data for: Egypt 2019 - Tilapia epidemiology and health economics survey dataset,Social Sciences,Disease outbreaks,AGROVOC,http://aims.fao.org/aos/agrovoc/c_2614
-3743631,https://doi.org/10.7910/DVN/TVGIJJ,2020-03-04,Replication Data for: PeskAAS - National Fisheries Monitoring System of Timor-Leste,"Medicine, Health and Life Sciences",Fish,AGROVOC,http://aims.fao.org/aos/agrovoc/c_15903
-3743631,https://doi.org/10.7910/DVN/TVGIJJ,2020-03-04,Replication Data for: PeskAAS - National Fisheries Monitoring System of Timor-Leste,"Medicine, Health and Life Sciences",Fisheries,AGROVOC,http://aims.fao.org/aos/agrovoc/c_2934
-3743631,https://doi.org/10.7910/DVN/TVGIJJ,2020-03-04,Replication Data for: PeskAAS - National Fisheries Monitoring System of Timor-Leste,"Medicine, Health and Life Sciences",Monitoring,AGROVOC,http://aims.fao.org/aos/agrovoc/c_4911
-3743631,https://doi.org/10.7910/DVN/TVGIJJ,2020-03-04,Replication Data for: PeskAAS - National Fisheries Monitoring System of Timor-Leste,"Medicine, Health and Life Sciences",Management,AGROVOC,http://aims.fao.org/aos/agrovoc/c_16086
-3743631,https://doi.org/10.7910/DVN/TVGIJJ,2020-03-04,Replication Data for: PeskAAS - National Fisheries Monitoring System of Timor-Leste,"Medicine, Health and Life Sciences",Production,AGROVOC,http://aims.fao.org/aos/agrovoc/c_6200
-3743631,https://doi.org/10.7910/DVN/TVGIJJ,2020-03-04,Replication Data for: PeskAAS - National Fisheries Monitoring System of Timor-Leste,"Medicine, Health and Life Sciences",Digital,AGROVOC,http://aims.fao.org/aos/agrovoc/c_4b2d7f85
-3743631,https://doi.org/10.7910/DVN/TVGIJJ,2020-03-04,Replication Data for: PeskAAS - National Fisheries Monitoring System of Timor-Leste,"Medicine, Health and Life Sciences",Pipeline,,
-3743631,https://doi.org/10.7910/DVN/TVGIJJ,2020-03-04,Replication Data for: PeskAAS - National Fisheries Monitoring System of Timor-Leste,"Medicine, Health and Life Sciences",Automated analytics,,
+3743631,https://doi.org/10.7910/DVN/TVGIJJ,2020-03-04,PeskAAS - National Fisheries Monitoring System of Timor-Leste,"Medicine, Health and Life Sciences",Fish,AGROVOC,http://aims.fao.org/aos/agrovoc/c_15903
+3743631,https://doi.org/10.7910/DVN/TVGIJJ,2020-03-04,PeskAAS - National Fisheries Monitoring System of Timor-Leste,"Medicine, Health and Life Sciences",Fisheries,AGROVOC,http://aims.fao.org/aos/agrovoc/c_2934
+3743631,https://doi.org/10.7910/DVN/TVGIJJ,2020-03-04,PeskAAS - National Fisheries Monitoring System of Timor-Leste,"Medicine, Health and Life Sciences",Monitoring,AGROVOC,http://aims.fao.org/aos/agrovoc/c_4911
+3743631,https://doi.org/10.7910/DVN/TVGIJJ,2020-03-04,PeskAAS - National Fisheries Monitoring System of Timor-Leste,"Medicine, Health and Life Sciences",Management,AGROVOC,http://aims.fao.org/aos/agrovoc/c_16086
+3743631,https://doi.org/10.7910/DVN/TVGIJJ,2020-03-04,PeskAAS - National Fisheries Monitoring System of Timor-Leste,"Medicine, Health and Life Sciences",Production,AGROVOC,http://aims.fao.org/aos/agrovoc/c_6200
+3743631,https://doi.org/10.7910/DVN/TVGIJJ,2020-03-04,PeskAAS - National Fisheries Monitoring System of Timor-Leste,"Medicine, Health and Life Sciences",Digital,AGROVOC,http://aims.fao.org/aos/agrovoc/c_4b2d7f85
+3743631,https://doi.org/10.7910/DVN/TVGIJJ,2020-03-04,PeskAAS - National Fisheries Monitoring System of Timor-Leste,"Medicine, Health and Life Sciences",Pipeline,,
+3743631,https://doi.org/10.7910/DVN/TVGIJJ,2020-03-04,PeskAAS - National Fisheries Monitoring System of Timor-Leste,"Medicine, Health and Life Sciences",Automated analytics,,
 3769058,https://doi.org/10.7910/DVN/UCSIDM,2020-03-17,"Replication Data for: Why are cluster farmers adopting more aquaculture technologies and practices? The role of trust and interaction within shrimp farmers' networks in the Mekong Delta, Vietnam",Social Sciences,Vietnam,AGROVOC,http://aims.fao.org/aos/agrovoc/c_8227
 3769058,https://doi.org/10.7910/DVN/UCSIDM,2020-03-17,"Replication Data for: Why are cluster farmers adopting more aquaculture technologies and practices? The role of trust and interaction within shrimp farmers' networks in the Mekong Delta, Vietnam",Social Sciences,Adoption,,
 3769058,https://doi.org/10.7910/DVN/UCSIDM,2020-03-17,"Replication Data for: Why are cluster farmers adopting more aquaculture technologies and practices? The role of trust and interaction within shrimp farmers' networks in the Mekong Delta, Vietnam",Social Sciences,Risk,AGROVOC,http://aims.fao.org/aos/agrovoc/c_6612
@@ -1098,12 +1098,7 @@ dataset_id,persistentUrl,publicationdate,title,subject,keywordValue,keywordVocab
 6899961,https://doi.org/10.7910/DVN/XJCD0Z,2023-01-19,Dataset from the Reference Ponds for the Design of an aquaculture Climate Information Advisory Tool,Earth and Environmental Sciences,"gender equality, youth and social inclusion",,
 6905294,https://doi.org/10.7910/DVN/FWD3HQ,2023-01-25,Baseline characterization of aquaculture systems and livelihoods in Kwara – Nigeria. Grow Out Farmers dataset,Social Sciences,livelihoods,AGROVOC,http://aims.fao.org/aos/agrovoc/c_1374498089962
 6905294,https://doi.org/10.7910/DVN/FWD3HQ,2023-01-25,Baseline characterization of aquaculture systems and livelihoods in Kwara – Nigeria. Grow Out Farmers dataset,Social Sciences,fish farmers,,
-6905294,https://doi.org/10.7910/DVN/FWD3HQ,2023-01-25,Baseline characterization of aquaculture systems and livelihoods in Kwara – Nigeria. Grow Out Farmers dataset,Social Sciences,kobotoolbox,,
-6905294,https://doi.org/10.7910/DVN/FWD3HQ,2023-01-25,Baseline characterization of aquaculture systems and livelihoods in Kwara – Nigeria. Grow Out Farmers dataset,Social Sciences,aquaculture systems,AGROVOC,http://aims.fao.org/aos/agrovoc/c_448881b5
-6905294,https://doi.org/10.7910/DVN/FWD3HQ,2023-01-25,Baseline characterization of aquaculture systems and livelihoods in Kwara – Nigeria. Grow Out Farmers dataset,Social Sciences,no poverty,,
 6905294,https://doi.org/10.7910/DVN/FWD3HQ,2023-01-25,Baseline characterization of aquaculture systems and livelihoods in Kwara – Nigeria. Grow Out Farmers dataset,Social Sciences,life below water,,
-6905294,https://doi.org/10.7910/DVN/FWD3HQ,2023-01-25,Baseline characterization of aquaculture systems and livelihoods in Kwara – Nigeria. Grow Out Farmers dataset,Social Sciences,environmental health and biodiversity,,
-6905294,https://doi.org/10.7910/DVN/FWD3HQ,2023-01-25,Baseline characterization of aquaculture systems and livelihoods in Kwara – Nigeria. Grow Out Farmers dataset,Social Sciences,"poverty reduction, livelihoods and jobs",,
 6905299,https://doi.org/10.7910/DVN/X9G3JQ,2023-01-25,Baseline characterization of aquaculture systems and livelihoods in Kwara – Nigeria. Hatcheries dataset,Social Sciences,livelihood,AGROVOC,http://aims.fao.org/aos/agrovoc/c_1374498089962
 6905299,https://doi.org/10.7910/DVN/X9G3JQ,2023-01-25,Baseline characterization of aquaculture systems and livelihoods in Kwara – Nigeria. Hatcheries dataset,Social Sciences,hatchery operators,,
 6905299,https://doi.org/10.7910/DVN/X9G3JQ,2023-01-25,Baseline characterization of aquaculture systems and livelihoods in Kwara – Nigeria. Hatcheries dataset,Social Sciences,aquaculture systems,AGROVOC,http://aims.fao.org/aos/agrovoc/c_448881b5
@@ -1499,16 +1494,526 @@ dataset_id,persistentUrl,publicationdate,title,subject,keywordValue,keywordVocab
 10363811,https://doi.org/10.7910/DVN/S3FPM1,2024-07-04,Artemia instar 1 Fatty Acid Methyl Ester (FAME) analysis,Agricultural Sciences,shrimp,,
 10363811,https://doi.org/10.7910/DVN/S3FPM1,2024-07-04,Artemia instar 1 Fatty Acid Methyl Ester (FAME) analysis,Agricultural Sciences,live feed for fish and shrimp,,
 10363811,https://doi.org/10.7910/DVN/S3FPM1,2024-07-04,Artemia instar 1 Fatty Acid Methyl Ester (FAME) analysis,Agricultural Sciences,live feeds,AGROVOC,http://aims.fao.org/aos/agrovoc/c_389db4ab
+10409745,https://doi.org/10.7910/DVN/Z9G3TW,2024-07-31,TILAPIA AQUACULTURE CHARACTERIZATION STUDY INDIA,Social Sciences,aquaculture,AGROVOC,http://aims.fao.org/aos/agrovoc/c_550
 10409745,https://doi.org/10.7910/DVN/Z9G3TW,2024-07-31,TILAPIA AQUACULTURE CHARACTERIZATION STUDY INDIA,Social Sciences,food security,AGROVOC,http://aims.fao.org/aos/agrovoc/c_10967
 10409745,https://doi.org/10.7910/DVN/Z9G3TW,2024-07-31,TILAPIA AQUACULTURE CHARACTERIZATION STUDY INDIA,Social Sciences,poverty,AGROVOC,http://aims.fao.org/aos/agrovoc/c_6151
 10409745,https://doi.org/10.7910/DVN/Z9G3TW,2024-07-31,TILAPIA AQUACULTURE CHARACTERIZATION STUDY INDIA,Social Sciences,livelihoods characterization,,
 10409745,https://doi.org/10.7910/DVN/Z9G3TW,2024-07-31,TILAPIA AQUACULTURE CHARACTERIZATION STUDY INDIA,Social Sciences,tilapia,AGROVOC,http://aims.fao.org/aos/agrovoc/c_32720
-10409745,https://doi.org/10.7910/DVN/Z9G3TW,2024-07-31,TILAPIA AQUACULTURE CHARACTERIZATION STUDY INDIA,Social Sciences,aquaculture;,,
 10428754,https://doi.org/10.7910/DVN/IKVVES,2024-08-08,"Baseline (Scoping) Study, Dataset",Agricultural Sciences,aquaculture,AGROVOC,http://aims.fao.org/aos/agrovoc/c_550
 10428754,https://doi.org/10.7910/DVN/IKVVES,2024-08-08,"Baseline (Scoping) Study, Dataset",Agricultural Sciences,renewable energy,AGROVOC,http://aims.fao.org/aos/agrovoc/c_25719
+10428754,https://doi.org/10.7910/DVN/IKVVES,2024-08-08,"Baseline (Scoping) Study, Dataset",Agricultural Sciences,dataset,,
 10428754,https://doi.org/10.7910/DVN/IKVVES,2024-08-08,"Baseline (Scoping) Study, Dataset",Agricultural Sciences,baseline study,,
-10428754,https://doi.org/10.7910/DVN/IKVVES,2024-08-08,"Baseline (Scoping) Study, Dataset",Agricultural Sciences,datasets,,
 10428754,https://doi.org/10.7910/DVN/IKVVES,2024-08-08,"Baseline (Scoping) Study, Dataset",Social Sciences,aquaculture,AGROVOC,http://aims.fao.org/aos/agrovoc/c_550
 10428754,https://doi.org/10.7910/DVN/IKVVES,2024-08-08,"Baseline (Scoping) Study, Dataset",Social Sciences,renewable energy,AGROVOC,http://aims.fao.org/aos/agrovoc/c_25719
+10428754,https://doi.org/10.7910/DVN/IKVVES,2024-08-08,"Baseline (Scoping) Study, Dataset",Social Sciences,dataset,,
 10428754,https://doi.org/10.7910/DVN/IKVVES,2024-08-08,"Baseline (Scoping) Study, Dataset",Social Sciences,baseline study,,
-10428754,https://doi.org/10.7910/DVN/IKVVES,2024-08-08,"Baseline (Scoping) Study, Dataset",Social Sciences,datasets,,
+10573798,https://doi.org/10.7910/DVN/EWQSCK,2024-10-01,WorldFish catla carp families 2024,Agricultural Sciences,catla catla,,
+10573798,https://doi.org/10.7910/DVN/EWQSCK,2024-10-01,WorldFish catla carp families 2024,Agricultural Sciences,worldfish carp genetic improvement program,,
+10591687,https://doi.org/10.7910/DVN/9BN8Y8,2024-10-06,List of Artemia and Aquaculture Technologies Adopted Farmers Till 31 July 2024,Agricultural Sciences,aquaculture,AGROVOC,http://aims.fao.org/aos/agrovoc/c_550
+10591687,https://doi.org/10.7910/DVN/9BN8Y8,2024-10-06,List of Artemia and Aquaculture Technologies Adopted Farmers Till 31 July 2024,Agricultural Sciences,fish,AGROVOC,http://aims.fao.org/aos/agrovoc/c_15903
+10591687,https://doi.org/10.7910/DVN/9BN8Y8,2024-10-06,List of Artemia and Aquaculture Technologies Adopted Farmers Till 31 July 2024,Agricultural Sciences,shrimp,,
+10591687,https://doi.org/10.7910/DVN/9BN8Y8,2024-10-06,List of Artemia and Aquaculture Technologies Adopted Farmers Till 31 July 2024,Agricultural Sciences,artemia,AGROVOC,http://aims.fao.org/aos/agrovoc/c_16224
+10591687,https://doi.org/10.7910/DVN/9BN8Y8,2024-10-06,List of Artemia and Aquaculture Technologies Adopted Farmers Till 31 July 2024,Agricultural Sciences,crab,,
+10591687,https://doi.org/10.7910/DVN/9BN8Y8,2024-10-06,List of Artemia and Aquaculture Technologies Adopted Farmers Till 31 July 2024,Agricultural Sciences,farmers database,,
+10620232,https://doi.org/10.7910/DVN/LG7LNC,2024-10-16,Zambia Data Gap Study Expert Interviews,Agricultural Sciences,aquaculture,AGROVOC,http://aims.fao.org/aos/agrovoc/c_550
+10620232,https://doi.org/10.7910/DVN/LG7LNC,2024-10-16,Zambia Data Gap Study Expert Interviews,Agricultural Sciences,fisheries,AGROVOC,http://aims.fao.org/aos/agrovoc/c_2934
+10620232,https://doi.org/10.7910/DVN/LG7LNC,2024-10-16,Zambia Data Gap Study Expert Interviews,Agricultural Sciences,knowledge gaps,,
+10620232,https://doi.org/10.7910/DVN/LG7LNC,2024-10-16,Zambia Data Gap Study Expert Interviews,Social Sciences,aquaculture,AGROVOC,http://aims.fao.org/aos/agrovoc/c_550
+10620232,https://doi.org/10.7910/DVN/LG7LNC,2024-10-16,Zambia Data Gap Study Expert Interviews,Social Sciences,fisheries,AGROVOC,http://aims.fao.org/aos/agrovoc/c_2934
+10620232,https://doi.org/10.7910/DVN/LG7LNC,2024-10-16,Zambia Data Gap Study Expert Interviews,Social Sciences,knowledge gaps,,
+10620239,https://doi.org/10.7910/DVN/LHHWJU,2024-10-16,Bangladesh Data Gap Study Expert Interviews,Agricultural Sciences,aquaculture,AGROVOC,http://aims.fao.org/aos/agrovoc/c_550
+10620239,https://doi.org/10.7910/DVN/LHHWJU,2024-10-16,Bangladesh Data Gap Study Expert Interviews,Agricultural Sciences,fisheries,AGROVOC,http://aims.fao.org/aos/agrovoc/c_2934
+10620239,https://doi.org/10.7910/DVN/LHHWJU,2024-10-16,Bangladesh Data Gap Study Expert Interviews,Agricultural Sciences,knowledge gaps,,
+10620239,https://doi.org/10.7910/DVN/LHHWJU,2024-10-16,Bangladesh Data Gap Study Expert Interviews,Social Sciences,aquaculture,AGROVOC,http://aims.fao.org/aos/agrovoc/c_550
+10620239,https://doi.org/10.7910/DVN/LHHWJU,2024-10-16,Bangladesh Data Gap Study Expert Interviews,Social Sciences,fisheries,AGROVOC,http://aims.fao.org/aos/agrovoc/c_2934
+10620239,https://doi.org/10.7910/DVN/LHHWJU,2024-10-16,Bangladesh Data Gap Study Expert Interviews,Social Sciences,knowledge gaps,,
+10624872,https://doi.org/10.7910/DVN/FQEHK9,2024-10-18,Dataset  - Socio-economic impact assessment of G3 Rohu dissemination in Bangladesh,Social Sciences,aquaculture,AGROVOC,http://aims.fao.org/aos/agrovoc/c_550
+10624872,https://doi.org/10.7910/DVN/FQEHK9,2024-10-18,Dataset  - Socio-economic impact assessment of G3 Rohu dissemination in Bangladesh,Social Sciences,socio-economic assessment,,
+10624872,https://doi.org/10.7910/DVN/FQEHK9,2024-10-18,Dataset  - Socio-economic impact assessment of G3 Rohu dissemination in Bangladesh,Social Sciences,g3 rohu,,
+10627248,https://doi.org/10.7910/DVN/7J29HD,2024-10-19,SADC_PROFISHBLUE _ The Digital Fisheries Information System (FIS) Zambia Survey data set,Agricultural Sciences,fisheries,AGROVOC,http://aims.fao.org/aos/agrovoc/c_2934
+10627248,https://doi.org/10.7910/DVN/7J29HD,2024-10-19,SADC_PROFISHBLUE _ The Digital Fisheries Information System (FIS) Zambia Survey data set,Agricultural Sciences,climate chnage,,
+10627248,https://doi.org/10.7910/DVN/7J29HD,2024-10-19,SADC_PROFISHBLUE _ The Digital Fisheries Information System (FIS) Zambia Survey data set,Agricultural Sciences,digital information system,,
+10627248,https://doi.org/10.7910/DVN/7J29HD,2024-10-19,SADC_PROFISHBLUE _ The Digital Fisheries Information System (FIS) Zambia Survey data set,Social Sciences,fisheries,AGROVOC,http://aims.fao.org/aos/agrovoc/c_2934
+10627248,https://doi.org/10.7910/DVN/7J29HD,2024-10-19,SADC_PROFISHBLUE _ The Digital Fisheries Information System (FIS) Zambia Survey data set,Social Sciences,climate chnage,,
+10627248,https://doi.org/10.7910/DVN/7J29HD,2024-10-19,SADC_PROFISHBLUE _ The Digital Fisheries Information System (FIS) Zambia Survey data set,Social Sciences,digital information system,,
+10627280,https://doi.org/10.7910/DVN/R8RAMM,2024-10-19,On-Farm Aquaculture Productivity and Economic Performance Data,Agricultural Sciences,public-private partnerships,AGROVOC,http://aims.fao.org/aos/agrovoc/c_5c380cd6
+10627280,https://doi.org/10.7910/DVN/R8RAMM,2024-10-19,On-Farm Aquaculture Productivity and Economic Performance Data,Agricultural Sciences,fish,AGROVOC,http://aims.fao.org/aos/agrovoc/c_15903
+10627280,https://doi.org/10.7910/DVN/R8RAMM,2024-10-19,On-Farm Aquaculture Productivity and Economic Performance Data,Agricultural Sciences,genetically improved farmed tilapia,,
+10627280,https://doi.org/10.7910/DVN/R8RAMM,2024-10-19,On-Farm Aquaculture Productivity and Economic Performance Data,Agricultural Sciences,aquaculture development,AGROVOC,http://aims.fao.org/aos/agrovoc/c_15d43fe3
+10627280,https://doi.org/10.7910/DVN/R8RAMM,2024-10-19,On-Farm Aquaculture Productivity and Economic Performance Data,Agricultural Sciences,participatory on-farm trial,,
+10627314,https://doi.org/10.7910/DVN/0VB42V,2024-10-19,Performance and cost-benefit analysis data for three hatcheries operating as businesses in Timor-Leste.,Agricultural Sciences,economic analysis,AGROVOC,http://aims.fao.org/aos/agrovoc/c_2469
+10627314,https://doi.org/10.7910/DVN/0VB42V,2024-10-19,Performance and cost-benefit analysis data for three hatcheries operating as businesses in Timor-Leste.,Agricultural Sciences,monosex tilapia seed,,
+10627314,https://doi.org/10.7910/DVN/0VB42V,2024-10-19,Performance and cost-benefit analysis data for three hatcheries operating as businesses in Timor-Leste.,Agricultural Sciences,grow-out farmers,,
+10627314,https://doi.org/10.7910/DVN/0VB42V,2024-10-19,Performance and cost-benefit analysis data for three hatcheries operating as businesses in Timor-Leste.,Agricultural Sciences,inland farming systems,,
+10627314,https://doi.org/10.7910/DVN/0VB42V,2024-10-19,Performance and cost-benefit analysis data for three hatcheries operating as businesses in Timor-Leste.,Agricultural Sciences,ppp hotel hatcheries,,
+10706987,https://doi.org/10.7910/DVN/X9N8NP,2024-11-18,Baseline characterization of the practices and use of fish feed ingredients among fish farmers in Zambia,Agricultural Sciences,africa,AGROVOC,http://aims.fao.org/aos/agrovoc/c_165
+10706987,https://doi.org/10.7910/DVN/X9N8NP,2024-11-18,Baseline characterization of the practices and use of fish feed ingredients among fish farmers in Zambia,Agricultural Sciences,small scale aquaculture,,
+10706987,https://doi.org/10.7910/DVN/X9N8NP,2024-11-18,Baseline characterization of the practices and use of fish feed ingredients among fish farmers in Zambia,Agricultural Sciences,fish-farmers,,
+10706987,https://doi.org/10.7910/DVN/X9N8NP,2024-11-18,Baseline characterization of the practices and use of fish feed ingredients among fish farmers in Zambia,Agricultural Sciences,socio-economic surveys,,
+10706987,https://doi.org/10.7910/DVN/X9N8NP,2024-11-18,Baseline characterization of the practices and use of fish feed ingredients among fish farmers in Zambia,Agricultural Sciences,feed ingredients,,
+10706987,https://doi.org/10.7910/DVN/X9N8NP,2024-11-18,Baseline characterization of the practices and use of fish feed ingredients among fish farmers in Zambia,Social Sciences,africa,AGROVOC,http://aims.fao.org/aos/agrovoc/c_165
+10706987,https://doi.org/10.7910/DVN/X9N8NP,2024-11-18,Baseline characterization of the practices and use of fish feed ingredients among fish farmers in Zambia,Social Sciences,small scale aquaculture,,
+10706987,https://doi.org/10.7910/DVN/X9N8NP,2024-11-18,Baseline characterization of the practices and use of fish feed ingredients among fish farmers in Zambia,Social Sciences,fish-farmers,,
+10706987,https://doi.org/10.7910/DVN/X9N8NP,2024-11-18,Baseline characterization of the practices and use of fish feed ingredients among fish farmers in Zambia,Social Sciences,socio-economic surveys,,
+10706987,https://doi.org/10.7910/DVN/X9N8NP,2024-11-18,Baseline characterization of the practices and use of fish feed ingredients among fish farmers in Zambia,Social Sciences,feed ingredients,,
+10706989,https://doi.org/10.7910/DVN/TZCGIO,2024-11-18,Baseline characterization of the  practices and use of local feed ingredients among processors in Zambia,Agricultural Sciences,sustainability,AGROVOC,http://aims.fao.org/aos/agrovoc/c_33560
+10706989,https://doi.org/10.7910/DVN/TZCGIO,2024-11-18,Baseline characterization of the  practices and use of local feed ingredients among processors in Zambia,Agricultural Sciences,africa,AGROVOC,http://aims.fao.org/aos/agrovoc/c_165
+10706989,https://doi.org/10.7910/DVN/TZCGIO,2024-11-18,Baseline characterization of the  practices and use of local feed ingredients among processors in Zambia,Agricultural Sciences,use of local feed ingredients,,
+10706989,https://doi.org/10.7910/DVN/TZCGIO,2024-11-18,Baseline characterization of the  practices and use of local feed ingredients among processors in Zambia,Agricultural Sciences,processors,,
+10706989,https://doi.org/10.7910/DVN/TZCGIO,2024-11-18,Baseline characterization of the  practices and use of local feed ingredients among processors in Zambia,Agricultural Sciences,local ingredients,,
+10706991,https://doi.org/10.7910/DVN/CVFLP1,2024-11-18,Baseline characterization of the practices and use of fish feed ingredients among fish farmers processors in Nigeria,Agricultural Sciences,africa,AGROVOC,http://aims.fao.org/aos/agrovoc/c_165
+10706991,https://doi.org/10.7910/DVN/CVFLP1,2024-11-18,Baseline characterization of the practices and use of fish feed ingredients among fish farmers processors in Nigeria,Agricultural Sciences,household survey,,
+10706991,https://doi.org/10.7910/DVN/CVFLP1,2024-11-18,Baseline characterization of the practices and use of fish feed ingredients among fish farmers processors in Nigeria,Agricultural Sciences,small scale aquaculture,,
+10706991,https://doi.org/10.7910/DVN/CVFLP1,2024-11-18,Baseline characterization of the practices and use of fish feed ingredients among fish farmers processors in Nigeria,Agricultural Sciences,local feed ingredients,,
+10706991,https://doi.org/10.7910/DVN/CVFLP1,2024-11-18,Baseline characterization of the practices and use of fish feed ingredients among fish farmers processors in Nigeria,Social Sciences,africa,AGROVOC,http://aims.fao.org/aos/agrovoc/c_165
+10706991,https://doi.org/10.7910/DVN/CVFLP1,2024-11-18,Baseline characterization of the practices and use of fish feed ingredients among fish farmers processors in Nigeria,Social Sciences,household survey,,
+10706991,https://doi.org/10.7910/DVN/CVFLP1,2024-11-18,Baseline characterization of the practices and use of fish feed ingredients among fish farmers processors in Nigeria,Social Sciences,small scale aquaculture,,
+10706991,https://doi.org/10.7910/DVN/CVFLP1,2024-11-18,Baseline characterization of the practices and use of fish feed ingredients among fish farmers processors in Nigeria,Social Sciences,local feed ingredients,,
+10709681,https://doi.org/10.7910/DVN/0GK3H6,2024-11-19,Baseline characterization of the practices and use of fish feed ingredients among feed ingredient processors in Nigeria,Agricultural Sciences,aquaculture,AGROVOC,http://aims.fao.org/aos/agrovoc/c_550
+10709681,https://doi.org/10.7910/DVN/0GK3H6,2024-11-19,Baseline characterization of the practices and use of fish feed ingredients among feed ingredient processors in Nigeria,Agricultural Sciences,africa,AGROVOC,http://aims.fao.org/aos/agrovoc/c_165
+10709681,https://doi.org/10.7910/DVN/0GK3H6,2024-11-19,Baseline characterization of the practices and use of fish feed ingredients among feed ingredient processors in Nigeria,Agricultural Sciences,fish feed processors,,
+10709681,https://doi.org/10.7910/DVN/0GK3H6,2024-11-19,Baseline characterization of the practices and use of fish feed ingredients among feed ingredient processors in Nigeria,Agricultural Sciences,local feed ingredients,,
+10709681,https://doi.org/10.7910/DVN/0GK3H6,2024-11-19,Baseline characterization of the practices and use of fish feed ingredients among feed ingredient processors in Nigeria,Social Sciences,aquaculture,AGROVOC,http://aims.fao.org/aos/agrovoc/c_550
+10709681,https://doi.org/10.7910/DVN/0GK3H6,2024-11-19,Baseline characterization of the practices and use of fish feed ingredients among feed ingredient processors in Nigeria,Social Sciences,africa,AGROVOC,http://aims.fao.org/aos/agrovoc/c_165
+10709681,https://doi.org/10.7910/DVN/0GK3H6,2024-11-19,Baseline characterization of the practices and use of fish feed ingredients among feed ingredient processors in Nigeria,Social Sciences,fish feed processors,,
+10709681,https://doi.org/10.7910/DVN/0GK3H6,2024-11-19,Baseline characterization of the practices and use of fish feed ingredients among feed ingredient processors in Nigeria,Social Sciences,local feed ingredients,,
+10719436,https://doi.org/10.7910/DVN/V2HVL7,2024-11-21,List of Artemia Demonstration farmers,Agricultural Sciences,aquaculture,AGROVOC,http://aims.fao.org/aos/agrovoc/c_550
+10719436,https://doi.org/10.7910/DVN/V2HVL7,2024-11-21,List of Artemia Demonstration farmers,Agricultural Sciences,artemia farmers,,
+10719436,https://doi.org/10.7910/DVN/V2HVL7,2024-11-21,List of Artemia Demonstration farmers,Agricultural Sciences,salt culture,,
+10719440,https://doi.org/10.7910/DVN/1ZEQJJ,2024-11-21,"Production of Genetically Improved Farmed Tilapia (GIFT) strain of Nile Tilapia (Oreochromis niloticus), Growth Line, Generation 19 (G19)",Agricultural Sciences,gift strain,,
+10719440,https://doi.org/10.7910/DVN/1ZEQJJ,2024-11-21,"Production of Genetically Improved Farmed Tilapia (GIFT) strain of Nile Tilapia (Oreochromis niloticus), Growth Line, Generation 19 (G19)",Agricultural Sciences,genetically improved farmed tilapia (gift),,
+10719440,https://doi.org/10.7910/DVN/1ZEQJJ,2024-11-21,"Production of Genetically Improved Farmed Tilapia (GIFT) strain of Nile Tilapia (Oreochromis niloticus), Growth Line, Generation 19 (G19)",Agricultural Sciences,2024,,
+10719440,https://doi.org/10.7910/DVN/1ZEQJJ,2024-11-21,"Production of Genetically Improved Farmed Tilapia (GIFT) strain of Nile Tilapia (Oreochromis niloticus), Growth Line, Generation 19 (G19)",Agricultural Sciences,growth line,,
+10719440,https://doi.org/10.7910/DVN/1ZEQJJ,2024-11-21,"Production of Genetically Improved Farmed Tilapia (GIFT) strain of Nile Tilapia (Oreochromis niloticus), Growth Line, Generation 19 (G19)",Agricultural Sciences,production data,AGROVOC,http://aims.fao.org/aos/agrovoc/c_32548
+10719440,https://doi.org/10.7910/DVN/1ZEQJJ,2024-11-21,"Production of Genetically Improved Farmed Tilapia (GIFT) strain of Nile Tilapia (Oreochromis niloticus), Growth Line, Generation 19 (G19)",Agricultural Sciences,gift penang,,
+10719440,https://doi.org/10.7910/DVN/1ZEQJJ,2024-11-21,"Production of Genetically Improved Farmed Tilapia (GIFT) strain of Nile Tilapia (Oreochromis niloticus), Growth Line, Generation 19 (G19)",Agricultural Sciences,gift g19 growth,,
+10723737,https://doi.org/10.7910/DVN/NIKE3D,2024-11-22,Project participant database- Year 5,Agricultural Sciences,ssa list,,
+10723737,https://doi.org/10.7910/DVN/NIKE3D,2024-11-22,Project participant database- Year 5,Agricultural Sciences,demographic information,,
+10723737,https://doi.org/10.7910/DVN/NIKE3D,2024-11-22,Project participant database- Year 5,Agricultural Sciences,pond data,,
+10731690,https://doi.org/10.7910/DVN/KEVEYP,2024-11-26,GIFT TiLV Generation 20 (GIFT TiLV G20) production data,Agricultural Sciences,improved tilapia strains,,
+10731690,https://doi.org/10.7910/DVN/KEVEYP,2024-11-26,GIFT TiLV Generation 20 (GIFT TiLV G20) production data,Agricultural Sciences,genetically improved farmed tilapia (gift),,
+10731690,https://doi.org/10.7910/DVN/KEVEYP,2024-11-26,GIFT TiLV Generation 20 (GIFT TiLV G20) production data,Agricultural Sciences,tilapia lake virus (tilv) line,AGROVOC,
+10731690,https://doi.org/10.7910/DVN/KEVEYP,2024-11-26,GIFT TiLV Generation 20 (GIFT TiLV G20) production data,Agricultural Sciences,g20 tilv,,
+10731690,https://doi.org/10.7910/DVN/KEVEYP,2024-11-26,GIFT TiLV Generation 20 (GIFT TiLV G20) production data,Agricultural Sciences,third selection of tilv,,
+10773699,https://doi.org/10.7910/DVN/IGKCNP,2024-12-11,SADC_PROFISHBLUE _ The Digital Fisheries Information System (FIS) Malawi Survey data set,Social Sciences,climate-change,,
+10773699,https://doi.org/10.7910/DVN/IGKCNP,2024-12-11,SADC_PROFISHBLUE _ The Digital Fisheries Information System (FIS) Malawi Survey data set,Social Sciences,aquaculture and fisheries,,
+10773699,https://doi.org/10.7910/DVN/IGKCNP,2024-12-11,SADC_PROFISHBLUE _ The Digital Fisheries Information System (FIS) Malawi Survey data set,Social Sciences,digital fisheries information,,
+10783432,https://doi.org/10.7910/DVN/YETK9X,2024-12-16,Trait Preference Coefficients that scale economic weights,Agricultural Sciences,trait preference,,
+10783432,https://doi.org/10.7910/DVN/YETK9X,2024-12-16,Trait Preference Coefficients that scale economic weights,Agricultural Sciences,tilapia,AGROVOC,http://aims.fao.org/aos/agrovoc/c_32720
+10783432,https://doi.org/10.7910/DVN/YETK9X,2024-12-16,Trait Preference Coefficients that scale economic weights,Agricultural Sciences,typology analysis,,
+10783432,https://doi.org/10.7910/DVN/YETK9X,2024-12-16,Trait Preference Coefficients that scale economic weights,Agricultural Sciences,loading factors,,
+10783432,https://doi.org/10.7910/DVN/YETK9X,2024-12-16,Trait Preference Coefficients that scale economic weights,Agricultural Sciences,food conversion ratio,,
+10783432,https://doi.org/10.7910/DVN/YETK9X,2024-12-16,Trait Preference Coefficients that scale economic weights,Agricultural Sciences,fish mortality,,
+10783435,https://doi.org/10.7910/DVN/FOHWTK,2024-12-16,Prediction of resistance to TiLV in the selection of parents for G20,Agricultural Sciences,single nucleotide polymorphism (snp),,
+10783435,https://doi.org/10.7910/DVN/FOHWTK,2024-12-16,Prediction of resistance to TiLV in the selection of parents for G20,Agricultural Sciences,genetic improvement,AGROVOC,http://aims.fao.org/aos/agrovoc/c_11119
+10783435,https://doi.org/10.7910/DVN/FOHWTK,2024-12-16,Prediction of resistance to TiLV in the selection of parents for G20,Agricultural Sciences,tilapia,AGROVOC,http://aims.fao.org/aos/agrovoc/c_32720
+10783435,https://doi.org/10.7910/DVN/FOHWTK,2024-12-16,Prediction of resistance to TiLV in the selection of parents for G20,Agricultural Sciences,gift strain,,
+10783435,https://doi.org/10.7910/DVN/FOHWTK,2024-12-16,Prediction of resistance to TiLV in the selection of parents for G20,Agricultural Sciences,tilapia lake virus (tilv),,
+10783435,https://doi.org/10.7910/DVN/FOHWTK,2024-12-16,Prediction of resistance to TiLV in the selection of parents for G20,Agricultural Sciences,estimated breeding value (ebv),,
+10783435,https://doi.org/10.7910/DVN/FOHWTK,2024-12-16,Prediction of resistance to TiLV in the selection of parents for G20,Agricultural Sciences,tilv genotypes,,
+10788708,https://doi.org/10.7910/DVN/JKINSS,2024-12-18,Genetically Improved Abbassa Nile Tilapia (GIANT) strain Generation 18 data,Agricultural Sciences,nile tilapia,AGROVOC,http://aims.fao.org/aos/agrovoc/c_34687
+10788708,https://doi.org/10.7910/DVN/JKINSS,2024-12-18,Genetically Improved Abbassa Nile Tilapia (GIANT) strain Generation 18 data,Agricultural Sciences,estimated breeding value (ebv),,
+10788708,https://doi.org/10.7910/DVN/JKINSS,2024-12-18,Genetically Improved Abbassa Nile Tilapia (GIANT) strain Generation 18 data,Agricultural Sciences,fish spawning,,
+10788708,https://doi.org/10.7910/DVN/JKINSS,2024-12-18,Genetically Improved Abbassa Nile Tilapia (GIANT) strain Generation 18 data,Agricultural Sciences,genetically improved abbassa strain,,
+10788708,https://doi.org/10.7910/DVN/JKINSS,2024-12-18,Genetically Improved Abbassa Nile Tilapia (GIANT) strain Generation 18 data,Agricultural Sciences,giant g18,,
+10788708,https://doi.org/10.7910/DVN/JKINSS,2024-12-18,Genetically Improved Abbassa Nile Tilapia (GIANT) strain Generation 18 data,Agricultural Sciences,abbassa gidp,,
+10788708,https://doi.org/10.7910/DVN/JKINSS,2024-12-18,Genetically Improved Abbassa Nile Tilapia (GIANT) strain Generation 18 data,"Medicine, Health and Life Sciences",nile tilapia,AGROVOC,http://aims.fao.org/aos/agrovoc/c_34687
+10788708,https://doi.org/10.7910/DVN/JKINSS,2024-12-18,Genetically Improved Abbassa Nile Tilapia (GIANT) strain Generation 18 data,"Medicine, Health and Life Sciences",estimated breeding value (ebv),,
+10788708,https://doi.org/10.7910/DVN/JKINSS,2024-12-18,Genetically Improved Abbassa Nile Tilapia (GIANT) strain Generation 18 data,"Medicine, Health and Life Sciences",fish spawning,,
+10788708,https://doi.org/10.7910/DVN/JKINSS,2024-12-18,Genetically Improved Abbassa Nile Tilapia (GIANT) strain Generation 18 data,"Medicine, Health and Life Sciences",genetically improved abbassa strain,,
+10788708,https://doi.org/10.7910/DVN/JKINSS,2024-12-18,Genetically Improved Abbassa Nile Tilapia (GIANT) strain Generation 18 data,"Medicine, Health and Life Sciences",giant g18,,
+10788708,https://doi.org/10.7910/DVN/JKINSS,2024-12-18,Genetically Improved Abbassa Nile Tilapia (GIANT) strain Generation 18 data,"Medicine, Health and Life Sciences",abbassa gidp,,
+10796841,https://doi.org/10.7910/DVN/OBIFXT,2024-12-23,One Health Initiative: Agrovet Shop Survey Dataset,Agricultural Sciences,aquamedicines,,
+10796841,https://doi.org/10.7910/DVN/OBIFXT,2024-12-23,One Health Initiative: Agrovet Shop Survey Dataset,Agricultural Sciences,agrovet shop survey,,
+10796848,https://doi.org/10.7910/DVN/EJF326,2024-12-23,Dataset for Aquaculture Characterization in Kenya,Agricultural Sciences,aquaculture,AGROVOC,http://aims.fao.org/aos/agrovoc/c_550
+10796848,https://doi.org/10.7910/DVN/EJF326,2024-12-23,Dataset for Aquaculture Characterization in Kenya,Agricultural Sciences,kenya,AGROVOC,http://aims.fao.org/aos/agrovoc/c_4086
+10796848,https://doi.org/10.7910/DVN/EJF326,2024-12-23,Dataset for Aquaculture Characterization in Kenya,Agricultural Sciences,characterization,AGROVOC,http://aims.fao.org/aos/agrovoc/c_7f818cf2
+10796848,https://doi.org/10.7910/DVN/EJF326,2024-12-23,Dataset for Aquaculture Characterization in Kenya,Agricultural Sciences,tilapia and catfish aquaculture,,
+10796848,https://doi.org/10.7910/DVN/EJF326,2024-12-23,Dataset for Aquaculture Characterization in Kenya,Agricultural Sciences,land ownership,AGROVOC,http://aims.fao.org/aos/agrovoc/c_28718
+10796848,https://doi.org/10.7910/DVN/EJF326,2024-12-23,Dataset for Aquaculture Characterization in Kenya,Agricultural Sciences,fish,AGROVOC,http://aims.fao.org/aos/agrovoc/c_15903http://aims.fao.org/aos/agrovoc/c_15903
+10796848,https://doi.org/10.7910/DVN/EJF326,2024-12-23,Dataset for Aquaculture Characterization in Kenya,Agricultural Sciences,gender survey,AGROVOC,http://aims.fao.org/aos/agrovoc/c_34835
+10796848,https://doi.org/10.7910/DVN/EJF326,2024-12-23,Dataset for Aquaculture Characterization in Kenya,Agricultural Sciences,livestocks,AGROVOC,http://aims.fao.org/aos/agrovoc/c_4397
+10796848,https://doi.org/10.7910/DVN/EJF326,2024-12-23,Dataset for Aquaculture Characterization in Kenya,Agricultural Sciences,incomes,AGROVOC,http://aims.fao.org/aos/agrovoc/c_3820
+10796848,https://doi.org/10.7910/DVN/EJF326,2024-12-23,Dataset for Aquaculture Characterization in Kenya,Agricultural Sciences,climate-change,AGROVOC,http://aims.fao.org/aos/agrovoc/c_1666
+10796848,https://doi.org/10.7910/DVN/EJF326,2024-12-23,Dataset for Aquaculture Characterization in Kenya,Agricultural Sciences,kobotoolbox,,
+10796853,https://doi.org/10.7910/DVN/APYUS3,2024-12-23,FISH FOR LIVELIHOODS (F4L) MIDLINE STUDY DATASET IN MYANMAR,Agricultural Sciences,livelihoods,AGROVOC,http://aims.fao.org/aos/agrovoc/c_1374498089962
+10796853,https://doi.org/10.7910/DVN/APYUS3,2024-12-23,FISH FOR LIVELIHOODS (F4L) MIDLINE STUDY DATASET IN MYANMAR,Agricultural Sciences,production costs,AGROVOC,http://aims.fao.org/aos/agrovoc/c_6202
+10796853,https://doi.org/10.7910/DVN/APYUS3,2024-12-23,FISH FOR LIVELIHOODS (F4L) MIDLINE STUDY DATASET IN MYANMAR,Agricultural Sciences,extension system,AGROVOC,http://aims.fao.org/aos/agrovoc/c_dcf5bb78
+10796853,https://doi.org/10.7910/DVN/APYUS3,2024-12-23,FISH FOR LIVELIHOODS (F4L) MIDLINE STUDY DATASET IN MYANMAR,Agricultural Sciences,better manageent practices,,
+10796853,https://doi.org/10.7910/DVN/APYUS3,2024-12-23,FISH FOR LIVELIHOODS (F4L) MIDLINE STUDY DATASET IN MYANMAR,Agricultural Sciences,knowledge base,AGROVOC,http://aims.fao.org/aos/agrovoc/c_105df063
+10796853,https://doi.org/10.7910/DVN/APYUS3,2024-12-23,FISH FOR LIVELIHOODS (F4L) MIDLINE STUDY DATASET IN MYANMAR,Agricultural Sciences,aquaculture systems,AGROVOC,http://aims.fao.org/aos/agrovoc/c_448881b5
+10796853,https://doi.org/10.7910/DVN/APYUS3,2024-12-23,FISH FOR LIVELIHOODS (F4L) MIDLINE STUDY DATASET IN MYANMAR,Agricultural Sciences,attitude,AGROVOC,http://aims.fao.org/aos/agrovoc/c_28836
+10796853,https://doi.org/10.7910/DVN/APYUS3,2024-12-23,FISH FOR LIVELIHOODS (F4L) MIDLINE STUDY DATASET IN MYANMAR,Agricultural Sciences,household,AGROVOC,http://aims.fao.org/aos/agrovoc/c_3676
+10796858,https://doi.org/10.7910/DVN/WOL3MR,2024-12-23,Dataset for AABS baseline/characterization in Kenya (wp1),Agricultural Sciences,kenya,AGROVOC,http://aims.fao.org/aos/agrovoc/c_4086
+10796858,https://doi.org/10.7910/DVN/WOL3MR,2024-12-23,Dataset for AABS baseline/characterization in Kenya (wp1),Agricultural Sciences,fisheries management,,
+10796858,https://doi.org/10.7910/DVN/WOL3MR,2024-12-23,Dataset for AABS baseline/characterization in Kenya (wp1),Agricultural Sciences,digital coast,,
+10796858,https://doi.org/10.7910/DVN/WOL3MR,2024-12-23,Dataset for AABS baseline/characterization in Kenya (wp1),Agricultural Sciences,digital systems,AGROVOC,http://aims.fao.org/aos/agrovoc/c_b4c6ff16
+10796858,https://doi.org/10.7910/DVN/WOL3MR,2024-12-23,Dataset for AABS baseline/characterization in Kenya (wp1),Agricultural Sciences,traders,,
+10796858,https://doi.org/10.7910/DVN/WOL3MR,2024-12-23,Dataset for AABS baseline/characterization in Kenya (wp1),Agricultural Sciences,waste,AGROVOC,http://aims.fao.org/aos/agrovoc/c_8307
+10796858,https://doi.org/10.7910/DVN/WOL3MR,2024-12-23,Dataset for AABS baseline/characterization in Kenya (wp1),Agricultural Sciences,market dynamics,AGROVOC,http://aims.fao.org/aos/agrovoc/c_4626
+10796858,https://doi.org/10.7910/DVN/WOL3MR,2024-12-23,Dataset for AABS baseline/characterization in Kenya (wp1),Agricultural Sciences,postharvest,AGROVOC,http://aims.fao.org/aos/agrovoc/c_6133
+10796858,https://doi.org/10.7910/DVN/WOL3MR,2024-12-23,Dataset for AABS baseline/characterization in Kenya (wp1),Agricultural Sciences,fisherfolks,AGROVOC,http://aims.fao.org/aos/agrovoc/c_2936
+10796858,https://doi.org/10.7910/DVN/WOL3MR,2024-12-23,Dataset for AABS baseline/characterization in Kenya (wp1),Agricultural Sciences,kobotoolbox,,
+10801585,https://doi.org/10.7910/DVN/0ILUHR,2025-01-03,One Health Initiative: Intervention participation survey,Agricultural Sciences,bangladesh,AGROVOC,http://aims.fao.org/aos/agrovoc/c_810
+10801585,https://doi.org/10.7910/DVN/0ILUHR,2025-01-03,One Health Initiative: Intervention participation survey,Agricultural Sciences,antimicrobial resistance (amr),,
+10801585,https://doi.org/10.7910/DVN/0ILUHR,2025-01-03,One Health Initiative: Intervention participation survey,Agricultural Sciences,one health,AGROVOC,http://aims.fao.org/aos/agrovoc/c_b29a1475
+10801585,https://doi.org/10.7910/DVN/0ILUHR,2025-01-03,One Health Initiative: Intervention participation survey,Agricultural Sciences,antimicrobial use (amu),,
+10801585,https://doi.org/10.7910/DVN/0ILUHR,2025-01-03,One Health Initiative: Intervention participation survey,Agricultural Sciences,cross-sectional study,,
+10801585,https://doi.org/10.7910/DVN/0ILUHR,2025-01-03,One Health Initiative: Intervention participation survey,Agricultural Sciences,tilapia dominated farming,,
+10801585,https://doi.org/10.7910/DVN/0ILUHR,2025-01-03,One Health Initiative: Intervention participation survey,Earth and Environmental Sciences,bangladesh,AGROVOC,http://aims.fao.org/aos/agrovoc/c_810
+10801585,https://doi.org/10.7910/DVN/0ILUHR,2025-01-03,One Health Initiative: Intervention participation survey,Earth and Environmental Sciences,antimicrobial resistance (amr),,
+10801585,https://doi.org/10.7910/DVN/0ILUHR,2025-01-03,One Health Initiative: Intervention participation survey,Earth and Environmental Sciences,one health,AGROVOC,http://aims.fao.org/aos/agrovoc/c_b29a1475
+10801585,https://doi.org/10.7910/DVN/0ILUHR,2025-01-03,One Health Initiative: Intervention participation survey,Earth and Environmental Sciences,antimicrobial use (amu),,
+10801585,https://doi.org/10.7910/DVN/0ILUHR,2025-01-03,One Health Initiative: Intervention participation survey,Earth and Environmental Sciences,cross-sectional study,,
+10801585,https://doi.org/10.7910/DVN/0ILUHR,2025-01-03,One Health Initiative: Intervention participation survey,Earth and Environmental Sciences,tilapia dominated farming,,
+10801585,https://doi.org/10.7910/DVN/0ILUHR,2025-01-03,One Health Initiative: Intervention participation survey,"Medicine, Health and Life Sciences",bangladesh,AGROVOC,http://aims.fao.org/aos/agrovoc/c_810
+10801585,https://doi.org/10.7910/DVN/0ILUHR,2025-01-03,One Health Initiative: Intervention participation survey,"Medicine, Health and Life Sciences",antimicrobial resistance (amr),,
+10801585,https://doi.org/10.7910/DVN/0ILUHR,2025-01-03,One Health Initiative: Intervention participation survey,"Medicine, Health and Life Sciences",one health,AGROVOC,http://aims.fao.org/aos/agrovoc/c_b29a1475
+10801585,https://doi.org/10.7910/DVN/0ILUHR,2025-01-03,One Health Initiative: Intervention participation survey,"Medicine, Health and Life Sciences",antimicrobial use (amu),,
+10801585,https://doi.org/10.7910/DVN/0ILUHR,2025-01-03,One Health Initiative: Intervention participation survey,"Medicine, Health and Life Sciences",cross-sectional study,,
+10801585,https://doi.org/10.7910/DVN/0ILUHR,2025-01-03,One Health Initiative: Intervention participation survey,"Medicine, Health and Life Sciences",tilapia dominated farming,,
+10801585,https://doi.org/10.7910/DVN/0ILUHR,2025-01-03,One Health Initiative: Intervention participation survey,Social Sciences,bangladesh,AGROVOC,http://aims.fao.org/aos/agrovoc/c_810
+10801585,https://doi.org/10.7910/DVN/0ILUHR,2025-01-03,One Health Initiative: Intervention participation survey,Social Sciences,antimicrobial resistance (amr),,
+10801585,https://doi.org/10.7910/DVN/0ILUHR,2025-01-03,One Health Initiative: Intervention participation survey,Social Sciences,one health,AGROVOC,http://aims.fao.org/aos/agrovoc/c_b29a1475
+10801585,https://doi.org/10.7910/DVN/0ILUHR,2025-01-03,One Health Initiative: Intervention participation survey,Social Sciences,antimicrobial use (amu),,
+10801585,https://doi.org/10.7910/DVN/0ILUHR,2025-01-03,One Health Initiative: Intervention participation survey,Social Sciences,cross-sectional study,,
+10801585,https://doi.org/10.7910/DVN/0ILUHR,2025-01-03,One Health Initiative: Intervention participation survey,Social Sciences,tilapia dominated farming,,
+10802992,https://doi.org/10.7910/DVN/FZQ5HJ,2025-01-06,Dataset for AABS baseline/characterization in Kenya (wp2),Agricultural Sciences,kenya,AGROVOC,http://aims.fao.org/aos/agrovoc/c_4086
+10802992,https://doi.org/10.7910/DVN/FZQ5HJ,2025-01-06,Dataset for AABS baseline/characterization in Kenya (wp2),Agricultural Sciences,fish,AGROVOC,http://aims.fao.org/aos/agrovoc/c_15903
+10802992,https://doi.org/10.7910/DVN/FZQ5HJ,2025-01-06,Dataset for AABS baseline/characterization in Kenya (wp2),Agricultural Sciences,shellfish,AGROVOC,http://aims.fao.org/aos/agrovoc/c_7033
+10802992,https://doi.org/10.7910/DVN/FZQ5HJ,2025-01-06,Dataset for AABS baseline/characterization in Kenya (wp2),Agricultural Sciences,mariculture,AGROVOC,http://aims.fao.org/aos/agrovoc/c_15649
+10802992,https://doi.org/10.7910/DVN/FZQ5HJ,2025-01-06,Dataset for AABS baseline/characterization in Kenya (wp2),Agricultural Sciences,stakeholders,AGROVOC,http://aims.fao.org/aos/agrovoc/c_9001020
+10802992,https://doi.org/10.7910/DVN/FZQ5HJ,2025-01-06,Dataset for AABS baseline/characterization in Kenya (wp2),Agricultural Sciences,kobotoolbox,,
+10802992,https://doi.org/10.7910/DVN/FZQ5HJ,2025-01-06,Dataset for AABS baseline/characterization in Kenya (wp2),Agricultural Sciences,seaweed,AGROVOC,http://aims.fao.org/aos/agrovoc/c_14154
+10802992,https://doi.org/10.7910/DVN/FZQ5HJ,2025-01-06,Dataset for AABS baseline/characterization in Kenya (wp2),Agricultural Sciences,seaweed farming,AGROVOC,http://aims.fao.org/aos/agrovoc/c_6914
+10802992,https://doi.org/10.7910/DVN/FZQ5HJ,2025-01-06,Dataset for AABS baseline/characterization in Kenya (wp2),Agricultural Sciences,integrated multi-trophic aquaculture,AGROVOC,http://aims.fao.org/aos/agrovoc/c_db43c4d6
+10807936,https://doi.org/10.7910/DVN/PUS6YK,2025-01-07,A dataset listing the parents of the G19 GIFT growth line families,"Medicine, Health and Life Sciences",genetic improvement,AGROVOC,http://aims.fao.org/aos/agrovoc/c_11119
+10807936,https://doi.org/10.7910/DVN/PUS6YK,2025-01-07,A dataset listing the parents of the G19 GIFT growth line families,"Medicine, Health and Life Sciences",tilapia,AGROVOC,http://aims.fao.org/aos/agrovoc/c_32720
+10807936,https://doi.org/10.7910/DVN/PUS6YK,2025-01-07,A dataset listing the parents of the G19 GIFT growth line families,"Medicine, Health and Life Sciences",gift,,
+10807936,https://doi.org/10.7910/DVN/PUS6YK,2025-01-07,A dataset listing the parents of the G19 GIFT growth line families,"Medicine, Health and Life Sciences",fish fry,AGROVOC,http://aims.fao.org/aos/agrovoc/c_37240890
+10807936,https://doi.org/10.7910/DVN/PUS6YK,2025-01-07,A dataset listing the parents of the G19 GIFT growth line families,"Medicine, Health and Life Sciences",spawn (eggs),AGROVOC,http://aims.fao.org/aos/agrovoc/c_50c16124
+10807942,https://doi.org/10.7910/DVN/IOQOUW,2025-01-07,Dataset for Aquaculture Stakeholder Workshop Characterization (Kenya),Agricultural Sciences,aquaculture,AGROVOC,http://aims.fao.org/aos/agrovoc/c_550
+10807942,https://doi.org/10.7910/DVN/IOQOUW,2025-01-07,Dataset for Aquaculture Stakeholder Workshop Characterization (Kenya),Agricultural Sciences,challenges,,
+10807942,https://doi.org/10.7910/DVN/IOQOUW,2025-01-07,Dataset for Aquaculture Stakeholder Workshop Characterization (Kenya),Agricultural Sciences,traits,,
+10807942,https://doi.org/10.7910/DVN/IOQOUW,2025-01-07,Dataset for Aquaculture Stakeholder Workshop Characterization (Kenya),Agricultural Sciences,workshop,AGROVOC,http://aims.fao.org/aos/agrovoc/c_26838
+10807942,https://doi.org/10.7910/DVN/IOQOUW,2025-01-07,Dataset for Aquaculture Stakeholder Workshop Characterization (Kenya),Agricultural Sciences,characterization,AGROVOC,http://aims.fao.org/aos/agrovoc/c_7f818cf2
+10807942,https://doi.org/10.7910/DVN/IOQOUW,2025-01-07,Dataset for Aquaculture Stakeholder Workshop Characterization (Kenya),Agricultural Sciences,stakeholder,AGROVOC,http://aims.fao.org/aos/agrovoc/c_9001020
+10807942,https://doi.org/10.7910/DVN/IOQOUW,2025-01-07,Dataset for Aquaculture Stakeholder Workshop Characterization (Kenya),Agricultural Sciences,coastal,,
+10807942,https://doi.org/10.7910/DVN/IOQOUW,2025-01-07,Dataset for Aquaculture Stakeholder Workshop Characterization (Kenya),Agricultural Sciences,actors,,
+10807942,https://doi.org/10.7910/DVN/IOQOUW,2025-01-07,Dataset for Aquaculture Stakeholder Workshop Characterization (Kenya),Agricultural Sciences,lake,AGROVOC,http://aims.fao.org/aos/agrovoc/c_4160
+10807955,https://doi.org/10.7910/DVN/VSFSAE,2025-01-07,G3 rohu dissemination dataset 2024,Agricultural Sciences,data,AGROVOC,http://aims.fao.org/aos/agrovoc/c_49816
+10807955,https://doi.org/10.7910/DVN/VSFSAE,2025-01-07,G3 rohu dissemination dataset 2024,Agricultural Sciences,production,AGROVOC,http://aims.fao.org/aos/agrovoc/c_6200
+10807955,https://doi.org/10.7910/DVN/VSFSAE,2025-01-07,G3 rohu dissemination dataset 2024,Agricultural Sciences,bangladesh,AGROVOC,http://aims.fao.org/aos/agrovoc/c_810
+10807955,https://doi.org/10.7910/DVN/VSFSAE,2025-01-07,G3 rohu dissemination dataset 2024,Agricultural Sciences,dissemination,,
+10807955,https://doi.org/10.7910/DVN/VSFSAE,2025-01-07,G3 rohu dissemination dataset 2024,Agricultural Sciences,adoption,,
+10807955,https://doi.org/10.7910/DVN/VSFSAE,2025-01-07,G3 rohu dissemination dataset 2024,Agricultural Sciences,rohu,AGROVOC,http://aims.fao.org/aos/agrovoc/c_34683
+10809939,https://doi.org/10.7910/DVN/HN03JQ,2025-01-09,Dataset for AABS baseline/characterization in Kenya (wp3),Agricultural Sciences,kenya,AGROVOC,http://aims.fao.org/aos/agrovoc/c_4086
+10809939,https://doi.org/10.7910/DVN/HN03JQ,2025-01-09,Dataset for AABS baseline/characterization in Kenya (wp3),Agricultural Sciences,challenges,,
+10809939,https://doi.org/10.7910/DVN/HN03JQ,2025-01-09,Dataset for AABS baseline/characterization in Kenya (wp3),Agricultural Sciences,coastal fisheries,AGROVOC,http://aims.fao.org/aos/agrovoc/c_1696
+10809939,https://doi.org/10.7910/DVN/HN03JQ,2025-01-09,Dataset for AABS baseline/characterization in Kenya (wp3),Agricultural Sciences,survey tools,,
+10809939,https://doi.org/10.7910/DVN/HN03JQ,2025-01-09,Dataset for AABS baseline/characterization in Kenya (wp3),Agricultural Sciences,fish traders,AGROVOC,http://aims.fao.org/aos/agrovoc/c_f18ea2c9
+10809939,https://doi.org/10.7910/DVN/HN03JQ,2025-01-09,Dataset for AABS baseline/characterization in Kenya (wp3),Agricultural Sciences,enumerators training,,
+10809939,https://doi.org/10.7910/DVN/HN03JQ,2025-01-09,Dataset for AABS baseline/characterization in Kenya (wp3),Agricultural Sciences,fish processors,,
+10809939,https://doi.org/10.7910/DVN/HN03JQ,2025-01-09,Dataset for AABS baseline/characterization in Kenya (wp3),Agricultural Sciences,marketing dynamics,,
+10809939,https://doi.org/10.7910/DVN/HN03JQ,2025-01-09,Dataset for AABS baseline/characterization in Kenya (wp3),Agricultural Sciences,postharvest,AGROVOC,http://aims.fao.org/aos/agrovoc/c_6133
+10809939,https://doi.org/10.7910/DVN/HN03JQ,2025-01-09,Dataset for AABS baseline/characterization in Kenya (wp3),Agricultural Sciences,fisherfolks,AGROVOC,http://aims.fao.org/aos/agrovoc/c_2936
+10814753,https://doi.org/10.7910/DVN/5XT23X,2025-01-10,DATASET_GHANA_FISH EPIDEMIOLOGY AND HEALTH ECONOMICS SURVEY,Agricultural Sciences,nile tilapia,AGROVOC,http://aims.fao.org/aos/agrovoc/c_34687
+10814753,https://doi.org/10.7910/DVN/5XT23X,2025-01-10,DATASET_GHANA_FISH EPIDEMIOLOGY AND HEALTH ECONOMICS SURVEY,Agricultural Sciences,fish health,,
+10814753,https://doi.org/10.7910/DVN/5XT23X,2025-01-10,DATASET_GHANA_FISH EPIDEMIOLOGY AND HEALTH ECONOMICS SURVEY,Agricultural Sciences,fish epidemiology,,
+10814753,https://doi.org/10.7910/DVN/5XT23X,2025-01-10,DATASET_GHANA_FISH EPIDEMIOLOGY AND HEALTH ECONOMICS SURVEY,Agricultural Sciences,earthen ponds,AGROVOC,http://aims.fao.org/aos/agrovoc/c_a7e1da74
+10814753,https://doi.org/10.7910/DVN/5XT23X,2025-01-10,DATASET_GHANA_FISH EPIDEMIOLOGY AND HEALTH ECONOMICS SURVEY,Agricultural Sciences,antibiotic usage,,
+10814753,https://doi.org/10.7910/DVN/5XT23X,2025-01-10,DATASET_GHANA_FISH EPIDEMIOLOGY AND HEALTH ECONOMICS SURVEY,Agricultural Sciences,fish farmed,,
+10814753,https://doi.org/10.7910/DVN/5XT23X,2025-01-10,DATASET_GHANA_FISH EPIDEMIOLOGY AND HEALTH ECONOMICS SURVEY,Agricultural Sciences,fish vaccination,,
+10818516,https://doi.org/10.7910/DVN/DQQJDH,2025-01-13,Dataset of Irrigation Scheme Research,Agricultural Sciences,food production systems,,
+10818516,https://doi.org/10.7910/DVN/DQQJDH,2025-01-13,Dataset of Irrigation Scheme Research,Agricultural Sciences,water governance program,,
+10818516,https://doi.org/10.7910/DVN/DQQJDH,2025-01-13,Dataset of Irrigation Scheme Research,Agricultural Sciences,irrigation schemes,AGROVOC,http://aims.fao.org/aos/agrovoc/c_25428
+10818516,https://doi.org/10.7910/DVN/DQQJDH,2025-01-13,Dataset of Irrigation Scheme Research,Agricultural Sciences,irrigation data,,
+10818516,https://doi.org/10.7910/DVN/DQQJDH,2025-01-13,Dataset of Irrigation Scheme Research,Computer and Information Science,food production systems,,
+10818516,https://doi.org/10.7910/DVN/DQQJDH,2025-01-13,Dataset of Irrigation Scheme Research,Computer and Information Science,water governance program,,
+10818516,https://doi.org/10.7910/DVN/DQQJDH,2025-01-13,Dataset of Irrigation Scheme Research,Computer and Information Science,irrigation schemes,AGROVOC,http://aims.fao.org/aos/agrovoc/c_25428
+10818516,https://doi.org/10.7910/DVN/DQQJDH,2025-01-13,Dataset of Irrigation Scheme Research,Computer and Information Science,irrigation data,,
+10818516,https://doi.org/10.7910/DVN/DQQJDH,2025-01-13,Dataset of Irrigation Scheme Research,Social Sciences,food production systems,,
+10818516,https://doi.org/10.7910/DVN/DQQJDH,2025-01-13,Dataset of Irrigation Scheme Research,Social Sciences,water governance program,,
+10818516,https://doi.org/10.7910/DVN/DQQJDH,2025-01-13,Dataset of Irrigation Scheme Research,Social Sciences,irrigation schemes,AGROVOC,http://aims.fao.org/aos/agrovoc/c_25428
+10818516,https://doi.org/10.7910/DVN/DQQJDH,2025-01-13,Dataset of Irrigation Scheme Research,Social Sciences,irrigation data,,
+10820473,https://doi.org/10.7910/DVN/2Z7RAK,2025-01-14,Report on AABS baseline/characterization in Kenya (wp3),Agricultural Sciences,kenya,AGROVOC,http://aims.fao.org/aos/agrovoc/c_4086
+10820473,https://doi.org/10.7910/DVN/2Z7RAK,2025-01-14,Report on AABS baseline/characterization in Kenya (wp3),Agricultural Sciences,traders,,
+10820473,https://doi.org/10.7910/DVN/2Z7RAK,2025-01-14,Report on AABS baseline/characterization in Kenya (wp3),Agricultural Sciences,fisher,AGROVOC,http://aims.fao.org/aos/agrovoc/c_2936
+10820473,https://doi.org/10.7910/DVN/2Z7RAK,2025-01-14,Report on AABS baseline/characterization in Kenya (wp3),Agricultural Sciences,fish species,,
+10820473,https://doi.org/10.7910/DVN/2Z7RAK,2025-01-14,Report on AABS baseline/characterization in Kenya (wp3),Agricultural Sciences,fisherfolks,AGROVOC,http://aims.fao.org/aos/agrovoc/c_2936
+10820473,https://doi.org/10.7910/DVN/2Z7RAK,2025-01-14,Report on AABS baseline/characterization in Kenya (wp3),Agricultural Sciences,kenya marine and fisheries research institute (kmfri),,
+10820473,https://doi.org/10.7910/DVN/2Z7RAK,2025-01-14,Report on AABS baseline/characterization in Kenya (wp3),Agricultural Sciences,coastal fishery,,
+10820473,https://doi.org/10.7910/DVN/2Z7RAK,2025-01-14,Report on AABS baseline/characterization in Kenya (wp3),Agricultural Sciences,bmu,,
+10827893,https://doi.org/10.7910/DVN/S67OCU,2025-01-15,Rural and Urban Agri-Food Vendors Survey in Bangladesh,Agricultural Sciences,agri-foodsystem,,
+10827893,https://doi.org/10.7910/DVN/S67OCU,2025-01-15,Rural and Urban Agri-Food Vendors Survey in Bangladesh,Agricultural Sciences,food waste management,,
+10827893,https://doi.org/10.7910/DVN/S67OCU,2025-01-15,Rural and Urban Agri-Food Vendors Survey in Bangladesh,Agricultural Sciences,supply chain,,
+10827893,https://doi.org/10.7910/DVN/S67OCU,2025-01-15,Rural and Urban Agri-Food Vendors Survey in Bangladesh,Agricultural Sciences,rural food vendors,,
+10827893,https://doi.org/10.7910/DVN/S67OCU,2025-01-15,Rural and Urban Agri-Food Vendors Survey in Bangladesh,Agricultural Sciences,agri-food vendors,,
+10827893,https://doi.org/10.7910/DVN/S67OCU,2025-01-15,Rural and Urban Agri-Food Vendors Survey in Bangladesh,Agricultural Sciences,food vendor,,
+10827893,https://doi.org/10.7910/DVN/S67OCU,2025-01-15,Rural and Urban Agri-Food Vendors Survey in Bangladesh,Agricultural Sciences,urban food vendors,,
+10827893,https://doi.org/10.7910/DVN/S67OCU,2025-01-15,Rural and Urban Agri-Food Vendors Survey in Bangladesh,Social Sciences,agri-foodsystem,,
+10827893,https://doi.org/10.7910/DVN/S67OCU,2025-01-15,Rural and Urban Agri-Food Vendors Survey in Bangladesh,Social Sciences,food waste management,,
+10827893,https://doi.org/10.7910/DVN/S67OCU,2025-01-15,Rural and Urban Agri-Food Vendors Survey in Bangladesh,Social Sciences,supply chain,,
+10827893,https://doi.org/10.7910/DVN/S67OCU,2025-01-15,Rural and Urban Agri-Food Vendors Survey in Bangladesh,Social Sciences,rural food vendors,,
+10827893,https://doi.org/10.7910/DVN/S67OCU,2025-01-15,Rural and Urban Agri-Food Vendors Survey in Bangladesh,Social Sciences,agri-food vendors,,
+10827893,https://doi.org/10.7910/DVN/S67OCU,2025-01-15,Rural and Urban Agri-Food Vendors Survey in Bangladesh,Social Sciences,food vendor,,
+10827893,https://doi.org/10.7910/DVN/S67OCU,2025-01-15,Rural and Urban Agri-Food Vendors Survey in Bangladesh,Social Sciences,urban food vendors,,
+10828189,https://doi.org/10.7910/DVN/CGEPBK,2025-01-16,Rice-Fish Impact and Adoption Survey in Southwest and Northern Bangladesh,Agricultural Sciences,assets,AGROVOC,http://aims.fao.org/aos/agrovoc/c_677
+10828189,https://doi.org/10.7910/DVN/CGEPBK,2025-01-16,Rice-Fish Impact and Adoption Survey in Southwest and Northern Bangladesh,Agricultural Sciences,rural households,,
+10828189,https://doi.org/10.7910/DVN/CGEPBK,2025-01-16,Rice-Fish Impact and Adoption Survey in Southwest and Northern Bangladesh,Agricultural Sciences,farming technologies,,
+10828189,https://doi.org/10.7910/DVN/CGEPBK,2025-01-16,Rice-Fish Impact and Adoption Survey in Southwest and Northern Bangladesh,Agricultural Sciences,carp fish farming,,
+10828189,https://doi.org/10.7910/DVN/CGEPBK,2025-01-16,Rice-Fish Impact and Adoption Survey in Southwest and Northern Bangladesh,Agricultural Sciences,farming system,,
+10828189,https://doi.org/10.7910/DVN/CGEPBK,2025-01-16,Rice-Fish Impact and Adoption Survey in Southwest and Northern Bangladesh,Agricultural Sciences,rice-fish farming,,
+10828189,https://doi.org/10.7910/DVN/CGEPBK,2025-01-16,Rice-Fish Impact and Adoption Survey in Southwest and Northern Bangladesh,Agricultural Sciences,liquid assets,AGROVOC,http://aims.fao.org/aos/agrovoc/c_4370
+10828189,https://doi.org/10.7910/DVN/CGEPBK,2025-01-16,Rice-Fish Impact and Adoption Survey in Southwest and Northern Bangladesh,Social Sciences,assets,AGROVOC,http://aims.fao.org/aos/agrovoc/c_677
+10828189,https://doi.org/10.7910/DVN/CGEPBK,2025-01-16,Rice-Fish Impact and Adoption Survey in Southwest and Northern Bangladesh,Social Sciences,rural households,,
+10828189,https://doi.org/10.7910/DVN/CGEPBK,2025-01-16,Rice-Fish Impact and Adoption Survey in Southwest and Northern Bangladesh,Social Sciences,farming technologies,,
+10828189,https://doi.org/10.7910/DVN/CGEPBK,2025-01-16,Rice-Fish Impact and Adoption Survey in Southwest and Northern Bangladesh,Social Sciences,carp fish farming,,
+10828189,https://doi.org/10.7910/DVN/CGEPBK,2025-01-16,Rice-Fish Impact and Adoption Survey in Southwest and Northern Bangladesh,Social Sciences,farming system,,
+10828189,https://doi.org/10.7910/DVN/CGEPBK,2025-01-16,Rice-Fish Impact and Adoption Survey in Southwest and Northern Bangladesh,Social Sciences,rice-fish farming,,
+10828189,https://doi.org/10.7910/DVN/CGEPBK,2025-01-16,Rice-Fish Impact and Adoption Survey in Southwest and Northern Bangladesh,Social Sciences,liquid assets,AGROVOC,http://aims.fao.org/aos/agrovoc/c_4370
+10828205,https://doi.org/10.7910/DVN/SCSVMM,2025-01-16,Digital Landscape and User Need Assessment Survey across Northwest and Southwest Bangladesh,Social Sciences,agriculture,AGROVOC,http://aims.fao.org/aos/agrovoc/c_203
+10828205,https://doi.org/10.7910/DVN/SCSVMM,2025-01-16,Digital Landscape and User Need Assessment Survey across Northwest and Southwest Bangladesh,Social Sciences,aquaculture,AGROVOC,http://aims.fao.org/aos/agrovoc/c_550
+10828205,https://doi.org/10.7910/DVN/SCSVMM,2025-01-16,Digital Landscape and User Need Assessment Survey across Northwest and Southwest Bangladesh,Social Sciences,digital landscape survey,,
+10828205,https://doi.org/10.7910/DVN/SCSVMM,2025-01-16,Digital Landscape and User Need Assessment Survey across Northwest and Southwest Bangladesh,Social Sciences,impact of digital tools,,
+10828205,https://doi.org/10.7910/DVN/SCSVMM,2025-01-16,Digital Landscape and User Need Assessment Survey across Northwest and Southwest Bangladesh,Social Sciences,digital services,,
+10828205,https://doi.org/10.7910/DVN/SCSVMM,2025-01-16,Digital Landscape and User Need Assessment Survey across Northwest and Southwest Bangladesh,Social Sciences,north-west bangladesh,,
+10828205,https://doi.org/10.7910/DVN/SCSVMM,2025-01-16,Digital Landscape and User Need Assessment Survey across Northwest and Southwest Bangladesh,Social Sciences,south-west bangladesh,,
+10845386,https://doi.org/10.7910/DVN/4BMUHL,2025-01-27,DArTag single nucleotide ploymorphism (SNP) data for rohu,"Medicine, Health and Life Sciences",single nucleotide polymorphism (snp),,
+10845386,https://doi.org/10.7910/DVN/4BMUHL,2025-01-27,DArTag single nucleotide ploymorphism (SNP) data for rohu,"Medicine, Health and Life Sciences",sex determination,AGROVOC,http://aims.fao.org/aos/agrovoc/c_14226
+10845386,https://doi.org/10.7910/DVN/4BMUHL,2025-01-27,DArTag single nucleotide ploymorphism (SNP) data for rohu,"Medicine, Health and Life Sciences",rohu,AGROVOC,http://aims.fao.org/aos/agrovoc/c_34683
+10845386,https://doi.org/10.7910/DVN/4BMUHL,2025-01-27,DArTag single nucleotide ploymorphism (SNP) data for rohu,"Medicine, Health and Life Sciences",parentage assignment,AGROVOC,http://aims.fao.org/aos/agrovoc/c_15ef1693
+10845386,https://doi.org/10.7910/DVN/4BMUHL,2025-01-27,DArTag single nucleotide ploymorphism (SNP) data for rohu,"Medicine, Health and Life Sciences",labeo rohita,AGROVOC,http://aims.fao.org/aos/agrovoc/c_34683
+10845386,https://doi.org/10.7910/DVN/4BMUHL,2025-01-27,DArTag single nucleotide ploymorphism (SNP) data for rohu,"Medicine, Health and Life Sciences",dartag,,
+10845394,https://doi.org/10.7910/DVN/LJG7DI,2025-01-27,DArTag single nucleotide ploymorphism (SNP) data for silver carp,Agricultural Sciences,single nucleotide polymorphism (snp),,
+10845394,https://doi.org/10.7910/DVN/LJG7DI,2025-01-27,DArTag single nucleotide ploymorphism (SNP) data for silver carp,Agricultural Sciences,genetic improvement,AGROVOC,http://aims.fao.org/aos/agrovoc/c_11119
+10845394,https://doi.org/10.7910/DVN/LJG7DI,2025-01-27,DArTag single nucleotide ploymorphism (SNP) data for silver carp,Agricultural Sciences,sex determination,AGROVOC,http://aims.fao.org/aos/agrovoc/c_14226
+10845394,https://doi.org/10.7910/DVN/LJG7DI,2025-01-27,DArTag single nucleotide ploymorphism (SNP) data for silver carp,Agricultural Sciences,parentage assignment,AGROVOC,http://aims.fao.org/aos/agrovoc/c_15ef1693
+10845394,https://doi.org/10.7910/DVN/LJG7DI,2025-01-27,DArTag single nucleotide ploymorphism (SNP) data for silver carp,Agricultural Sciences,silver carp,AGROVOC,http://aims.fao.org/aos/agrovoc/c_35400
+10845394,https://doi.org/10.7910/DVN/LJG7DI,2025-01-27,DArTag single nucleotide ploymorphism (SNP) data for silver carp,Agricultural Sciences,hypophthalmichthys molitrix,AGROVOC,http://aims.fao.org/aos/agrovoc/c_35400
+10845394,https://doi.org/10.7910/DVN/LJG7DI,2025-01-27,DArTag single nucleotide ploymorphism (SNP) data for silver carp,Agricultural Sciences,dartag,,
+10845394,https://doi.org/10.7910/DVN/LJG7DI,2025-01-27,DArTag single nucleotide ploymorphism (SNP) data for silver carp,"Medicine, Health and Life Sciences",single nucleotide polymorphism (snp),,
+10845394,https://doi.org/10.7910/DVN/LJG7DI,2025-01-27,DArTag single nucleotide ploymorphism (SNP) data for silver carp,"Medicine, Health and Life Sciences",genetic improvement,AGROVOC,http://aims.fao.org/aos/agrovoc/c_11119
+10845394,https://doi.org/10.7910/DVN/LJG7DI,2025-01-27,DArTag single nucleotide ploymorphism (SNP) data for silver carp,"Medicine, Health and Life Sciences",sex determination,AGROVOC,http://aims.fao.org/aos/agrovoc/c_14226
+10845394,https://doi.org/10.7910/DVN/LJG7DI,2025-01-27,DArTag single nucleotide ploymorphism (SNP) data for silver carp,"Medicine, Health and Life Sciences",parentage assignment,AGROVOC,http://aims.fao.org/aos/agrovoc/c_15ef1693
+10845394,https://doi.org/10.7910/DVN/LJG7DI,2025-01-27,DArTag single nucleotide ploymorphism (SNP) data for silver carp,"Medicine, Health and Life Sciences",silver carp,AGROVOC,http://aims.fao.org/aos/agrovoc/c_35400
+10845394,https://doi.org/10.7910/DVN/LJG7DI,2025-01-27,DArTag single nucleotide ploymorphism (SNP) data for silver carp,"Medicine, Health and Life Sciences",hypophthalmichthys molitrix,AGROVOC,http://aims.fao.org/aos/agrovoc/c_35400
+10845394,https://doi.org/10.7910/DVN/LJG7DI,2025-01-27,DArTag single nucleotide ploymorphism (SNP) data for silver carp,"Medicine, Health and Life Sciences",dartag,,
+10884290,https://doi.org/10.7910/DVN/7LTFKL,2025-02-12,Baseline study: Digital fisheries and scaling postharvest technologies to reduce aquatic food waste and loss in coastal Kenya,Agricultural Sciences,baseline survey,,
+10884290,https://doi.org/10.7910/DVN/7LTFKL,2025-02-12,Baseline study: Digital fisheries and scaling postharvest technologies to reduce aquatic food waste and loss in coastal Kenya,Agricultural Sciences,small scale fisheries,,
+10884290,https://doi.org/10.7910/DVN/7LTFKL,2025-02-12,Baseline study: Digital fisheries and scaling postharvest technologies to reduce aquatic food waste and loss in coastal Kenya,Agricultural Sciences,fisheries management,,
+10884290,https://doi.org/10.7910/DVN/7LTFKL,2025-02-12,Baseline study: Digital fisheries and scaling postharvest technologies to reduce aquatic food waste and loss in coastal Kenya,Agricultural Sciences,postharvest,,
+10884290,https://doi.org/10.7910/DVN/7LTFKL,2025-02-12,Baseline study: Digital fisheries and scaling postharvest technologies to reduce aquatic food waste and loss in coastal Kenya,Agricultural Sciences,value chain,,
+10884290,https://doi.org/10.7910/DVN/7LTFKL,2025-02-12,Baseline study: Digital fisheries and scaling postharvest technologies to reduce aquatic food waste and loss in coastal Kenya,Social Sciences,baseline survey,,
+10884290,https://doi.org/10.7910/DVN/7LTFKL,2025-02-12,Baseline study: Digital fisheries and scaling postharvest technologies to reduce aquatic food waste and loss in coastal Kenya,Social Sciences,small scale fisheries,,
+10884290,https://doi.org/10.7910/DVN/7LTFKL,2025-02-12,Baseline study: Digital fisheries and scaling postharvest technologies to reduce aquatic food waste and loss in coastal Kenya,Social Sciences,fisheries management,,
+10884290,https://doi.org/10.7910/DVN/7LTFKL,2025-02-12,Baseline study: Digital fisheries and scaling postharvest technologies to reduce aquatic food waste and loss in coastal Kenya,Social Sciences,postharvest,,
+10884290,https://doi.org/10.7910/DVN/7LTFKL,2025-02-12,Baseline study: Digital fisheries and scaling postharvest technologies to reduce aquatic food waste and loss in coastal Kenya,Social Sciences,value chain,,
+10905694,https://doi.org/10.7910/DVN/WUWUIS,2025-02-25,DArTag single nucleotide ploymorphism (SNP) data for catla,Agricultural Sciences,single nucleotide polymorphism (snp),,
+10905694,https://doi.org/10.7910/DVN/WUWUIS,2025-02-25,DArTag single nucleotide ploymorphism (SNP) data for catla,Agricultural Sciences,catla catla,AGROVOC,http://aims.fao.org/aos/agrovoc/c_34675
+10905694,https://doi.org/10.7910/DVN/WUWUIS,2025-02-25,DArTag single nucleotide ploymorphism (SNP) data for catla,Agricultural Sciences,labeo catla,,
+10905694,https://doi.org/10.7910/DVN/WUWUIS,2025-02-25,DArTag single nucleotide ploymorphism (SNP) data for catla,Agricultural Sciences,carp genetic resources,,
+10905694,https://doi.org/10.7910/DVN/WUWUIS,2025-02-25,DArTag single nucleotide ploymorphism (SNP) data for catla,Agricultural Sciences,sex markers,,
+10989056,https://doi.org/10.7910/DVN/Z0OQXP,2025-03-17,GIFT sales data,"Medicine, Health and Life Sciences",genetically improved farmed tilapia (gift),,
+10989056,https://doi.org/10.7910/DVN/Z0OQXP,2025-03-17,GIFT sales data,"Medicine, Health and Life Sciences",aquaculture productivity,,
+10989056,https://doi.org/10.7910/DVN/Z0OQXP,2025-03-17,GIFT sales data,"Medicine, Health and Life Sciences",production data,AGROVOC,http://aims.fao.org/aos/agrovoc/c_32548
+11384865,https://doi.org/10.7910/DVN/K3O3QH,2025-05-15,Environmental Mitigation and Monitoring Plan (EMMP) dataset,Agricultural Sciences,monitoring,AGROVOC,http://aims.fao.org/aos/agrovoc/c_4911
+11384865,https://doi.org/10.7910/DVN/K3O3QH,2025-05-15,Environmental Mitigation and Monitoring Plan (EMMP) dataset,Agricultural Sciences,mitigation,AGROVOC,http://aims.fao.org/aos/agrovoc/c_10a6fbd8
+11384865,https://doi.org/10.7910/DVN/K3O3QH,2025-05-15,Environmental Mitigation and Monitoring Plan (EMMP) dataset,Agricultural Sciences,environments,,http://aims.fao.org/aos/agrovoc/c_2593
+11384865,https://doi.org/10.7910/DVN/K3O3QH,2025-05-15,Environmental Mitigation and Monitoring Plan (EMMP) dataset,Agricultural Sciences,environmental mitigation and monitoring plan (emmp),,
+11799925,https://doi.org/10.7910/DVN/1CLCWK,2025-07-21,Nutrient composition of dried marine small fish in Bangladesh and their potential to address hidden hunger,"Medicine, Health and Life Sciences",micronutrient,,
+11799925,https://doi.org/10.7910/DVN/1CLCWK,2025-07-21,Nutrient composition of dried marine small fish in Bangladesh and their potential to address hidden hunger,"Medicine, Health and Life Sciences",mineral,,
+11799925,https://doi.org/10.7910/DVN/1CLCWK,2025-07-21,Nutrient composition of dried marine small fish in Bangladesh and their potential to address hidden hunger,"Medicine, Health and Life Sciences",vitamins,AGROVOC,http://aims.fao.org/aos/agrovoc/c_8274
+11799925,https://doi.org/10.7910/DVN/1CLCWK,2025-07-21,Nutrient composition of dried marine small fish in Bangladesh and their potential to address hidden hunger,"Medicine, Health and Life Sciences",nutrient composition,,
+11799925,https://doi.org/10.7910/DVN/1CLCWK,2025-07-21,Nutrient composition of dried marine small fish in Bangladesh and their potential to address hidden hunger,"Medicine, Health and Life Sciences",small fish,,
+11799925,https://doi.org/10.7910/DVN/1CLCWK,2025-07-21,Nutrient composition of dried marine small fish in Bangladesh and their potential to address hidden hunger,"Medicine, Health and Life Sciences",fortification,,
+11799925,https://doi.org/10.7910/DVN/1CLCWK,2025-07-21,Nutrient composition of dried marine small fish in Bangladesh and their potential to address hidden hunger,"Medicine, Health and Life Sciences",fish powder,,
+11799925,https://doi.org/10.7910/DVN/1CLCWK,2025-07-21,Nutrient composition of dried marine small fish in Bangladesh and their potential to address hidden hunger,"Medicine, Health and Life Sciences",contaminants,AGROVOC,http://aims.fao.org/aos/agrovoc/c_4ba65a4a
+11799925,https://doi.org/10.7910/DVN/1CLCWK,2025-07-21,Nutrient composition of dried marine small fish in Bangladesh and their potential to address hidden hunger,"Medicine, Health and Life Sciences",pelagic,,
+11799935,https://doi.org/10.7910/DVN/YJUSTR,2025-07-21,Data on aquaculture loss due to climate variability and extremes,"Medicine, Health and Life Sciences",climate,AGROVOC,http://aims.fao.org/aos/agrovoc/c_1665
+11799935,https://doi.org/10.7910/DVN/YJUSTR,2025-07-21,Data on aquaculture loss due to climate variability and extremes,"Medicine, Health and Life Sciences",loss,,
+11799935,https://doi.org/10.7910/DVN/YJUSTR,2025-07-21,Data on aquaculture loss due to climate variability and extremes,"Medicine, Health and Life Sciences",climate variability,AGROVOC,http://aims.fao.org/aos/agrovoc/c_45796fbf
+11799935,https://doi.org/10.7910/DVN/YJUSTR,2025-07-21,Data on aquaculture loss due to climate variability and extremes,"Medicine, Health and Life Sciences",newspaper scraping,,
+11799935,https://doi.org/10.7910/DVN/YJUSTR,2025-07-21,Data on aquaculture loss due to climate variability and extremes,"Medicine, Health and Life Sciences",aquacultural,,
+11799935,https://doi.org/10.7910/DVN/YJUSTR,2025-07-21,Data on aquaculture loss due to climate variability and extremes,"Medicine, Health and Life Sciences",climate extremes,AGROVOC,http://aims.fao.org/aos/agrovoc/c_c0860ce1
+11799937,https://doi.org/10.7910/DVN/TK1NUT,2025-07-21,"Conservation efforts mitigate effects of human disturbance on ghost crab (Ocypode macrocera) abundance and behavior on a sandy beach in Kuakata, Bangladesh",Earth and Environmental Sciences,biodiversity conservation,AGROVOC,http://aims.fao.org/aos/agrovoc/c_33955
+11799937,https://doi.org/10.7910/DVN/TK1NUT,2025-07-21,"Conservation efforts mitigate effects of human disturbance on ghost crab (Ocypode macrocera) abundance and behavior on a sandy beach in Kuakata, Bangladesh",Earth and Environmental Sciences,coastal biodiversity conservation,,
+11799937,https://doi.org/10.7910/DVN/TK1NUT,2025-07-21,"Conservation efforts mitigate effects of human disturbance on ghost crab (Ocypode macrocera) abundance and behavior on a sandy beach in Kuakata, Bangladesh",Earth and Environmental Sciences,ocypode macrocera,,
+11799937,https://doi.org/10.7910/DVN/TK1NUT,2025-07-21,"Conservation efforts mitigate effects of human disturbance on ghost crab (Ocypode macrocera) abundance and behavior on a sandy beach in Kuakata, Bangladesh",Earth and Environmental Sciences,tufted ghost crab,,
+11799937,https://doi.org/10.7910/DVN/TK1NUT,2025-07-21,"Conservation efforts mitigate effects of human disturbance on ghost crab (Ocypode macrocera) abundance and behavior on a sandy beach in Kuakata, Bangladesh",Earth and Environmental Sciences,burrow sizes,,
+11799937,https://doi.org/10.7910/DVN/TK1NUT,2025-07-21,"Conservation efforts mitigate effects of human disturbance on ghost crab (Ocypode macrocera) abundance and behavior on a sandy beach in Kuakata, Bangladesh",Earth and Environmental Sciences,anthropogenic activity,,
+11799937,https://doi.org/10.7910/DVN/TK1NUT,2025-07-21,"Conservation efforts mitigate effects of human disturbance on ghost crab (Ocypode macrocera) abundance and behavior on a sandy beach in Kuakata, Bangladesh",Earth and Environmental Sciences,effective management,,
+11799941,https://doi.org/10.7910/DVN/6ODVOA,2025-07-21,"Stocking Hatchery-Produced Mola (Amblypharyngodon mola) Seed in Carp Polyculture Ponds: A Performance Assessment in Odisha, India: Performance assessment of hatchery-produced mola seed.",Agricultural Sciences,sale,,
+11799941,https://doi.org/10.7910/DVN/6ODVOA,2025-07-21,"Stocking Hatchery-Produced Mola (Amblypharyngodon mola) Seed in Carp Polyculture Ponds: A Performance Assessment in Odisha, India: Performance assessment of hatchery-produced mola seed.",Agricultural Sciences,carp-mola,,
+11799941,https://doi.org/10.7910/DVN/6ODVOA,2025-07-21,"Stocking Hatchery-Produced Mola (Amblypharyngodon mola) Seed in Carp Polyculture Ponds: A Performance Assessment in Odisha, India: Performance assessment of hatchery-produced mola seed.",Agricultural Sciences,polyculture,,
+11799941,https://doi.org/10.7910/DVN/6ODVOA,2025-07-21,"Stocking Hatchery-Produced Mola (Amblypharyngodon mola) Seed in Carp Polyculture Ponds: A Performance Assessment in Odisha, India: Performance assessment of hatchery-produced mola seed.",Agricultural Sciences,hatchery,,
+11799941,https://doi.org/10.7910/DVN/6ODVOA,2025-07-21,"Stocking Hatchery-Produced Mola (Amblypharyngodon mola) Seed in Carp Polyculture Ponds: A Performance Assessment in Odisha, India: Performance assessment of hatchery-produced mola seed.",Agricultural Sciences,small indigenous species,,
+11799941,https://doi.org/10.7910/DVN/6ODVOA,2025-07-21,"Stocking Hatchery-Produced Mola (Amblypharyngodon mola) Seed in Carp Polyculture Ponds: A Performance Assessment in Odisha, India: Performance assessment of hatchery-produced mola seed.",Agricultural Sciences,mola seed production,,
+11799941,https://doi.org/10.7910/DVN/6ODVOA,2025-07-21,"Stocking Hatchery-Produced Mola (Amblypharyngodon mola) Seed in Carp Polyculture Ponds: A Performance Assessment in Odisha, India: Performance assessment of hatchery-produced mola seed.",Agricultural Sciences,small indigenous species (sis) – mola,,
+12049428,https://doi.org/10.7910/DVN/3QHQS3,2025-09-05,,,,,
+12049430,https://doi.org/10.7910/DVN/83GYYR,2025-09-05,,,,,
+12049432,https://doi.org/10.7910/DVN/QZNSIL,2025-09-05,,,,,
+12108712,https://doi.org/10.7910/DVN/MJIFBM,2025-09-26,Historical small-scale fisheries landings (1995–2016) from 35 Kenyan BMUs — Wildlife Conservation Society (WCS) monitoring program,Agricultural Sciences,fisheries,AGROVOC,http://aims.fao.org/aos/agrovoc/c_2934
+12108712,https://doi.org/10.7910/DVN/MJIFBM,2025-09-26,Historical small-scale fisheries landings (1995–2016) from 35 Kenyan BMUs — Wildlife Conservation Society (WCS) monitoring program,Agricultural Sciences,fishing gear,AGROVOC,http://aims.fao.org/aos/agrovoc/c_2946
+12108712,https://doi.org/10.7910/DVN/MJIFBM,2025-09-26,Historical small-scale fisheries landings (1995–2016) from 35 Kenyan BMUs — Wildlife Conservation Society (WCS) monitoring program,Agricultural Sciences,fish categories,,
+13084592,https://doi.org/10.7910/DVN/WLEJZU,2025-10-24,2025 mating list for catla genetic improvement program,Agricultural Sciences,carp,AGROVOC,http://aims.fao.org/aos/agrovoc/c_1334
+13084592,https://doi.org/10.7910/DVN/WLEJZU,2025-10-24,2025 mating list for catla genetic improvement program,Agricultural Sciences,genetically improved carp,,
+13084592,https://doi.org/10.7910/DVN/WLEJZU,2025-10-24,2025 mating list for catla genetic improvement program,Agricultural Sciences,worldfish carp genetic improvement program,,
+13084596,https://doi.org/10.7910/DVN/NVSSIG,2025-10-24,Combined mating list for 2025 rohu spawning as part of the WorldFish Carp Genetic Improvement Program,Agricultural Sciences,rohu,AGROVOC,http://aims.fao.org/aos/agrovoc/c_34683
+13084596,https://doi.org/10.7910/DVN/NVSSIG,2025-10-24,Combined mating list for 2025 rohu spawning as part of the WorldFish Carp Genetic Improvement Program,Agricultural Sciences,labeo rohita,AGROVOC,http://aims.fao.org/aos/agrovoc/c_34683
+13084596,https://doi.org/10.7910/DVN/NVSSIG,2025-10-24,Combined mating list for 2025 rohu spawning as part of the WorldFish Carp Genetic Improvement Program,Agricultural Sciences,genetically improved carp,,
+13084596,https://doi.org/10.7910/DVN/NVSSIG,2025-10-24,Combined mating list for 2025 rohu spawning as part of the WorldFish Carp Genetic Improvement Program,Agricultural Sciences,worldfish carp genetic improvement program,,
+13084600,https://doi.org/10.7910/DVN/K6NSID,2025-10-24,Catla family production 2025 as part of the WorldFish Carp Genetic Improvement Program,Agricultural Sciences,catla catla,AGROVOC,http://aims.fao.org/aos/agrovoc/c_34675
+13084600,https://doi.org/10.7910/DVN/K6NSID,2025-10-24,Catla family production 2025 as part of the WorldFish Carp Genetic Improvement Program,Agricultural Sciences,catla,AGROVOC,http://aims.fao.org/aos/agrovoc/c_34434
+13084600,https://doi.org/10.7910/DVN/K6NSID,2025-10-24,Catla family production 2025 as part of the WorldFish Carp Genetic Improvement Program,Agricultural Sciences,carp genetic improvement,,
+13084600,https://doi.org/10.7910/DVN/K6NSID,2025-10-24,Catla family production 2025 as part of the WorldFish Carp Genetic Improvement Program,Agricultural Sciences,labeo catla,,
+13084600,https://doi.org/10.7910/DVN/K6NSID,2025-10-24,Catla family production 2025 as part of the WorldFish Carp Genetic Improvement Program,Agricultural Sciences,worldfish carp genetic improvement program,,
+13084603,https://doi.org/10.7910/DVN/UZCDWC,2025-10-24,Rohu family production 2025 as part of the WorldFish Carp Genetic Improvement Program,Agricultural Sciences,rohu,AGROVOC,http://aims.fao.org/aos/agrovoc/c_34683
+13084603,https://doi.org/10.7910/DVN/UZCDWC,2025-10-24,Rohu family production 2025 as part of the WorldFish Carp Genetic Improvement Program,Agricultural Sciences,labeo rohita,AGROVOC,http://aims.fao.org/aos/agrovoc/c_34683
+13084603,https://doi.org/10.7910/DVN/UZCDWC,2025-10-24,Rohu family production 2025 as part of the WorldFish Carp Genetic Improvement Program,Agricultural Sciences,rui,,
+13084603,https://doi.org/10.7910/DVN/UZCDWC,2025-10-24,Rohu family production 2025 as part of the WorldFish Carp Genetic Improvement Program,Agricultural Sciences,carp genetic improvement,,
+13084603,https://doi.org/10.7910/DVN/UZCDWC,2025-10-24,Rohu family production 2025 as part of the WorldFish Carp Genetic Improvement Program,Agricultural Sciences,worldfish carp genetic improvement program,,
+13084603,https://doi.org/10.7910/DVN/UZCDWC,2025-10-24,Rohu family production 2025 as part of the WorldFish Carp Genetic Improvement Program,Agricultural Sciences,g5,,
+13084609,https://doi.org/10.7910/DVN/HTNJUY,2025-10-24,Harvest age data for GIFT tilapia G20 (2024) TiLV resistant individuals,Agricultural Sciences,harvest weight,,
+13084609,https://doi.org/10.7910/DVN/HTNJUY,2025-10-24,Harvest age data for GIFT tilapia G20 (2024) TiLV resistant individuals,Agricultural Sciences,genetic improvement program,,
+13084609,https://doi.org/10.7910/DVN/HTNJUY,2025-10-24,Harvest age data for GIFT tilapia G20 (2024) TiLV resistant individuals,Agricultural Sciences,harvest age data,,
+13084609,https://doi.org/10.7910/DVN/HTNJUY,2025-10-24,Harvest age data for GIFT tilapia G20 (2024) TiLV resistant individuals,Agricultural Sciences,gift tilapia,,
+13084609,https://doi.org/10.7910/DVN/HTNJUY,2025-10-24,Harvest age data for GIFT tilapia G20 (2024) TiLV resistant individuals,Agricultural Sciences,harvest length,,
+13084609,https://doi.org/10.7910/DVN/HTNJUY,2025-10-24,Harvest age data for GIFT tilapia G20 (2024) TiLV resistant individuals,Agricultural Sciences,harvest width,,
+13084613,https://doi.org/10.7910/DVN/9QTTNW,2025-10-24,Mating plan for the production of G21 (G202502) GIFT tilapia TiLV resistant families,Agricultural Sciences,marker assisted selection,AGROVOC,http://aims.fao.org/aos/agrovoc/c_394fd447
+13084613,https://doi.org/10.7910/DVN/9QTTNW,2025-10-24,Mating plan for the production of G21 (G202502) GIFT tilapia TiLV resistant families,Agricultural Sciences,disease resistance,AGROVOC,http://aims.fao.org/aos/agrovoc/c_2328
+13084613,https://doi.org/10.7910/DVN/9QTTNW,2025-10-24,Mating plan for the production of G21 (G202502) GIFT tilapia TiLV resistant families,Agricultural Sciences,tilv,,
+13084613,https://doi.org/10.7910/DVN/9QTTNW,2025-10-24,Mating plan for the production of G21 (G202502) GIFT tilapia TiLV resistant families,Agricultural Sciences,genetic improvement program,,
+13084613,https://doi.org/10.7910/DVN/9QTTNW,2025-10-24,Mating plan for the production of G21 (G202502) GIFT tilapia TiLV resistant families,Agricultural Sciences,gift tilapia,,
+13084613,https://doi.org/10.7910/DVN/9QTTNW,2025-10-24,Mating plan for the production of G21 (G202502) GIFT tilapia TiLV resistant families,Agricultural Sciences,tilapia lake virus (tilv),,
+13084618,https://doi.org/10.7910/DVN/BRMLG9,2025-10-24,WorldFish G20 GIFT Growth line family production,Agricultural Sciences,aquaculture,AGROVOC,http://aims.fao.org/aos/agrovoc/c_550
+13084618,https://doi.org/10.7910/DVN/BRMLG9,2025-10-24,WorldFish G20 GIFT Growth line family production,Agricultural Sciences,gift,,
+13084618,https://doi.org/10.7910/DVN/BRMLG9,2025-10-24,WorldFish G20 GIFT Growth line family production,Agricultural Sciences,worldfish,,
+13084618,https://doi.org/10.7910/DVN/BRMLG9,2025-10-24,WorldFish G20 GIFT Growth line family production,Agricultural Sciences,genetic improvement program,,
+13084618,https://doi.org/10.7910/DVN/BRMLG9,2025-10-24,WorldFish G20 GIFT Growth line family production,Agricultural Sciences,tilpaia,,
+13084622,https://doi.org/10.7910/DVN/UIXJQH,2025-10-24,Abbassa GIANT tilapia G18 harvest data,Agricultural Sciences,egypt,AGROVOC,http://aims.fao.org/aos/agrovoc/c_2503
+13084622,https://doi.org/10.7910/DVN/UIXJQH,2025-10-24,Abbassa GIANT tilapia G18 harvest data,Agricultural Sciences,nile tilapia,AGROVOC,http://aims.fao.org/aos/agrovoc/c_34687
+13084622,https://doi.org/10.7910/DVN/UIXJQH,2025-10-24,Abbassa GIANT tilapia G18 harvest data,Agricultural Sciences,worldfish,,
+13084622,https://doi.org/10.7910/DVN/UIXJQH,2025-10-24,Abbassa GIANT tilapia G18 harvest data,Agricultural Sciences,genetic improvement program,,
+13084622,https://doi.org/10.7910/DVN/UIXJQH,2025-10-24,Abbassa GIANT tilapia G18 harvest data,Agricultural Sciences,giant strain,,
+13084622,https://doi.org/10.7910/DVN/UIXJQH,2025-10-24,Abbassa GIANT tilapia G18 harvest data,Agricultural Sciences,abbassa strain,,
+13084626,https://doi.org/10.7910/DVN/A46WDD,2025-10-24,G21 family production for WorldFish GIFT TiLV strain 2025,Agricultural Sciences,gift,,
+13084626,https://doi.org/10.7910/DVN/A46WDD,2025-10-24,G21 family production for WorldFish GIFT TiLV strain 2025,Agricultural Sciences,nile tilapia,AGROVOC,http://aims.fao.org/aos/agrovoc/c_34687
+13084626,https://doi.org/10.7910/DVN/A46WDD,2025-10-24,G21 family production for WorldFish GIFT TiLV strain 2025,Agricultural Sciences,tilapia lake virus,AGROVOC,http://aims.fao.org/aos/agrovoc/c_23e9da10
+13084626,https://doi.org/10.7910/DVN/A46WDD,2025-10-24,G21 family production for WorldFish GIFT TiLV strain 2025,Agricultural Sciences,worldfish,,
+13084626,https://doi.org/10.7910/DVN/A46WDD,2025-10-24,G21 family production for WorldFish GIFT TiLV strain 2025,Agricultural Sciences,genetic improvement program,,
+13084626,https://doi.org/10.7910/DVN/A46WDD,2025-10-24,G21 family production for WorldFish GIFT TiLV strain 2025,Agricultural Sciences,tilv resistance,,
+13084626,https://doi.org/10.7910/DVN/A46WDD,2025-10-24,G21 family production for WorldFish GIFT TiLV strain 2025,Agricultural Sciences,family production,,
+13125347,https://doi.org/10.7910/DVN/BFV5P1,2025-11-06,"Dissemination of Genetically Improved Seed (Bangladesh, 2025)",Agricultural Sciences,seed,AGROVOC,http://aims.fao.org/aos/agrovoc/c_6927
+13125347,https://doi.org/10.7910/DVN/BFV5P1,2025-11-06,"Dissemination of Genetically Improved Seed (Bangladesh, 2025)",Agricultural Sciences,genetically improved farmed tilapia,,
+13125347,https://doi.org/10.7910/DVN/BFV5P1,2025-11-06,"Dissemination of Genetically Improved Seed (Bangladesh, 2025)",Agricultural Sciences,genetically improved carp,,
+13128541,https://doi.org/10.7910/DVN/086DH3,2025-11-07,Mating plan for G3 for Oreochromis andersonii GIP Zambia,Agricultural Sciences,oreochromis andersonii,AGROVOC,http://aims.fao.org/aos/agrovoc/c_43539
+13128541,https://doi.org/10.7910/DVN/086DH3,2025-11-07,Mating plan for G3 for Oreochromis andersonii GIP Zambia,Agricultural Sciences,genetic improvement programs,,
+13128611,https://doi.org/10.7910/DVN/8PGQJA,2025-11-07,Family of G3 Oreochromis andersoni fish,Agricultural Sciences,oreochromis andersonii,AGROVOC,http://aims.fao.org/aos/agrovoc/c_43539
+13128611,https://doi.org/10.7910/DVN/8PGQJA,2025-11-07,Family of G3 Oreochromis andersoni fish,Agricultural Sciences,genetic improvement program,,
+13128611,https://doi.org/10.7910/DVN/8PGQJA,2025-11-07,Family of G3 Oreochromis andersoni fish,Agricultural Sciences,republic of zambia,AGROVOC,http://aims.fao.org/aos/agrovoc/c_8501
+13128662,https://doi.org/10.7910/DVN/CNTE2R,2025-11-07,Harvest and survival phenotypes for G2 Oreochromis shiranus,Agricultural Sciences,malawi,AGROVOC,http://aims.fao.org/aos/agrovoc/c_4532
+13128662,https://doi.org/10.7910/DVN/CNTE2R,2025-11-07,Harvest and survival phenotypes for G2 Oreochromis shiranus,Agricultural Sciences,genetic improvement programs in aquaculture,,
+13128662,https://doi.org/10.7910/DVN/CNTE2R,2025-11-07,Harvest and survival phenotypes for G2 Oreochromis shiranus,Agricultural Sciences,oreochromis shiranus,AGROVOC,http://aims.fao.org/aos/agrovoc/c_35415
+13128716,https://doi.org/10.7910/DVN/AQIK89,2025-11-07,Mating plan for G3 of Oreochromis shiranus GIP Malawi,Agricultural Sciences,malawi,AGROVOC,http://aims.fao.org/aos/agrovoc/c_4532
+13128716,https://doi.org/10.7910/DVN/AQIK89,2025-11-07,Mating plan for G3 of Oreochromis shiranus GIP Malawi,Agricultural Sciences,genetic improvement programs in aquaculture,,
+13128716,https://doi.org/10.7910/DVN/AQIK89,2025-11-07,Mating plan for G3 of Oreochromis shiranus GIP Malawi,Agricultural Sciences,oreochromis shiranus,AGROVOC,http://aims.fao.org/aos/agrovoc/c_35415
+13129079,https://doi.org/10.7910/DVN/MXHWBP,2025-11-07,Harvest phenotypes for G20 GIFT Growth line,Agricultural Sciences,gift,,
+13129079,https://doi.org/10.7910/DVN/MXHWBP,2025-11-07,Harvest phenotypes for G20 GIFT Growth line,Agricultural Sciences,nile tilapia,AGROVOC,http://aims.fao.org/aos/agrovoc/c_34687
+13129079,https://doi.org/10.7910/DVN/MXHWBP,2025-11-07,Harvest phenotypes for G20 GIFT Growth line,Agricultural Sciences,genetic improvement program,,
+13129079,https://doi.org/10.7910/DVN/MXHWBP,2025-11-07,Harvest phenotypes for G20 GIFT Growth line,Agricultural Sciences,harvest phenotype,,
+13185568,https://doi.org/10.7910/DVN/OOHMK7,2025-11-27,Fish Catch Monitoring in Cambodia,Agricultural Sciences,cambodia,AGROVOC,http://aims.fao.org/aos/agrovoc/c_4073
+13185568,https://doi.org/10.7910/DVN/OOHMK7,2025-11-27,Fish Catch Monitoring in Cambodia,Agricultural Sciences,fish catch monitoring,,
+13185568,https://doi.org/10.7910/DVN/OOHMK7,2025-11-27,Fish Catch Monitoring in Cambodia,Agricultural Sciences,mekong,,
+13185568,https://doi.org/10.7910/DVN/OOHMK7,2025-11-27,Fish Catch Monitoring in Cambodia,Agricultural Sciences,fishpond,,
+13185568,https://doi.org/10.7910/DVN/OOHMK7,2025-11-27,Fish Catch Monitoring in Cambodia,Agricultural Sciences,migration trends,,
+13185568,https://doi.org/10.7910/DVN/OOHMK7,2025-11-27,Fish Catch Monitoring in Cambodia,Agricultural Sciences,fish catch patterns,,
+13185568,https://doi.org/10.7910/DVN/OOHMK7,2025-11-27,Fish Catch Monitoring in Cambodia,Agricultural Sciences,riverine system,,
+13243418,https://doi.org/10.7910/DVN/ZWEEII,2025-12-14,Harvest age data for silver carp families spawned in 2024,Agricultural Sciences,growth rate,AGROVOC,http://aims.fao.org/aos/agrovoc/c_16130
+13243418,https://doi.org/10.7910/DVN/ZWEEII,2025-12-14,Harvest age data for silver carp families spawned in 2024,Agricultural Sciences,silver carp,AGROVOC,http://aims.fao.org/aos/agrovoc/c_35400
+13243418,https://doi.org/10.7910/DVN/ZWEEII,2025-12-14,Harvest age data for silver carp families spawned in 2024,Agricultural Sciences,hypophthalmichthys molitrix,AGROVOC,http://aims.fao.org/aos/agrovoc/c_35400
+13243418,https://doi.org/10.7910/DVN/ZWEEII,2025-12-14,Harvest age data for silver carp families spawned in 2024,Agricultural Sciences,genetic improvement program,,
+13243572,https://doi.org/10.7910/DVN/2COQA0,2025-12-15,Harvest age data for catla families produced in 2024,Agricultural Sciences,carp,AGROVOC,http://aims.fao.org/aos/agrovoc/c_1334
+13243572,https://doi.org/10.7910/DVN/2COQA0,2025-12-15,Harvest age data for catla families produced in 2024,Agricultural Sciences,catla,AGROVOC,http://aims.fao.org/aos/agrovoc/c_34434
+13243572,https://doi.org/10.7910/DVN/2COQA0,2025-12-15,Harvest age data for catla families produced in 2024,Agricultural Sciences,genetic improvement program,,
+13243572,https://doi.org/10.7910/DVN/2COQA0,2025-12-15,Harvest age data for catla families produced in 2024,Agricultural Sciences,rapid growth,,
+13269639,https://doi.org/10.7910/DVN/17LKXF,2025-12-21,Analyzing the power of collective agency in strengthening fisher communities in Kenya - FGDs,Agricultural Sciences,communities,AGROVOC,http://aims.fao.org/aos/agrovoc/c_50182
+13269639,https://doi.org/10.7910/DVN/17LKXF,2025-12-21,Analyzing the power of collective agency in strengthening fisher communities in Kenya - FGDs,Agricultural Sciences,gender study,,
+13269639,https://doi.org/10.7910/DVN/17LKXF,2025-12-21,Analyzing the power of collective agency in strengthening fisher communities in Kenya - FGDs,Agricultural Sciences,power,AGROVOC,http://aims.fao.org/aos/agrovoc/c_2570
+13269639,https://doi.org/10.7910/DVN/17LKXF,2025-12-21,Analyzing the power of collective agency in strengthening fisher communities in Kenya - FGDs,Agricultural Sciences,focus group discussions,,
+13269639,https://doi.org/10.7910/DVN/17LKXF,2025-12-21,Analyzing the power of collective agency in strengthening fisher communities in Kenya - FGDs,Agricultural Sciences,womens,,
+13269641,https://doi.org/10.7910/DVN/21UAUI,2025-12-22,Analyzing the power of collective agency in strengthening fisher communities in Kenya - Quantitative,Agricultural Sciences,communities,AGROVOC,http://aims.fao.org/aos/agrovoc/c_50182
+13269641,https://doi.org/10.7910/DVN/21UAUI,2025-12-22,Analyzing the power of collective agency in strengthening fisher communities in Kenya - Quantitative,Agricultural Sciences,power,AGROVOC,http://aims.fao.org/aos/agrovoc/c_2570
+13269641,https://doi.org/10.7910/DVN/21UAUI,2025-12-22,Analyzing the power of collective agency in strengthening fisher communities in Kenya - Quantitative,Agricultural Sciences,kenya,AGROVOC,http://aims.fao.org/aos/agrovoc/c_4086
+13270296,https://doi.org/10.7910/DVN/MMV42T,2025-12-22,Analyzing the power of collective agency in strengthening fisher communities in Kenya - KIIs,Agricultural Sciences,key informant interview,,
+13270296,https://doi.org/10.7910/DVN/MMV42T,2025-12-22,Analyzing the power of collective agency in strengthening fisher communities in Kenya - KIIs,Agricultural Sciences,community-based institutions,,
+13270296,https://doi.org/10.7910/DVN/MMV42T,2025-12-22,Analyzing the power of collective agency in strengthening fisher communities in Kenya - KIIs,Agricultural Sciences,market linkages,,
+13270296,https://doi.org/10.7910/DVN/MMV42T,2025-12-22,Analyzing the power of collective agency in strengthening fisher communities in Kenya - KIIs,Agricultural Sciences,womens,,
+13270296,https://doi.org/10.7910/DVN/MMV42T,2025-12-22,Analyzing the power of collective agency in strengthening fisher communities in Kenya - KIIs,Agricultural Sciences,fisher community,,
+13272135,https://doi.org/10.7910/DVN/56R1CW,2025-12-22,Mating list for generation 19 Abbassa,Agricultural Sciences,gip,,
+13272135,https://doi.org/10.7910/DVN/56R1CW,2025-12-22,Mating list for generation 19 Abbassa,Agricultural Sciences,abbassa,,
+13272135,https://doi.org/10.7910/DVN/56R1CW,2025-12-22,Mating list for generation 19 Abbassa,Agricultural Sciences,mating list,,
+13349948,https://doi.org/10.7910/DVN/BQWKF8,2026-01-12,Socio-Economic Study of Integrated Rice-Fish Systems in Mali,Agricultural Sciences,aquaculture,AGROVOC,http://aims.fao.org/aos/agrovoc/c_550
+13349948,https://doi.org/10.7910/DVN/BQWKF8,2026-01-12,Socio-Economic Study of Integrated Rice-Fish Systems in Mali,Agricultural Sciences,monoculture,AGROVOC,http://aims.fao.org/aos/agrovoc/c_4915
+13349948,https://doi.org/10.7910/DVN/BQWKF8,2026-01-12,Socio-Economic Study of Integrated Rice-Fish Systems in Mali,Agricultural Sciences,integrated rice-fish system,,
+13366391,https://doi.org/10.7910/DVN/MVETGW,2026-01-15,Characterization of the practices and utilization of fish feed ingredients among fish farmers in Kenya,Agricultural Sciences,household survey,,
+13366391,https://doi.org/10.7910/DVN/MVETGW,2026-01-15,Characterization of the practices and utilization of fish feed ingredients among fish farmers in Kenya,Agricultural Sciences,baseline study,,
+13366391,https://doi.org/10.7910/DVN/MVETGW,2026-01-15,Characterization of the practices and utilization of fish feed ingredients among fish farmers in Kenya,Agricultural Sciences,small scale quaculture,,
+13366391,https://doi.org/10.7910/DVN/MVETGW,2026-01-15,Characterization of the practices and utilization of fish feed ingredients among fish farmers in Kenya,Agricultural Sciences,kenya aquaculture,,
+13366391,https://doi.org/10.7910/DVN/MVETGW,2026-01-15,Characterization of the practices and utilization of fish feed ingredients among fish farmers in Kenya,Agricultural Sciences,fish feed,,
+13366394,https://doi.org/10.7910/DVN/VEFL98,2026-01-15,Baseline characterization of the practices and utilization of feed ingredients among processors/millers in Kenya,Agricultural Sciences,baseline survey,,
+13366394,https://doi.org/10.7910/DVN/VEFL98,2026-01-15,Baseline characterization of the practices and utilization of feed ingredients among processors/millers in Kenya,Agricultural Sciences,kenya,AGROVOC,http://aims.fao.org/aos/agrovoc/c_4086
+13366394,https://doi.org/10.7910/DVN/VEFL98,2026-01-15,Baseline characterization of the practices and utilization of feed ingredients among processors/millers in Kenya,Agricultural Sciences,aquaculture sustainability,,
+13366394,https://doi.org/10.7910/DVN/VEFL98,2026-01-15,Baseline characterization of the practices and utilization of feed ingredients among processors/millers in Kenya,Agricultural Sciences,feed ingredient processors,,
+13397098,https://doi.org/10.7910/DVN/KJQLZV,2026-01-22,Dataset Case Study Assessment of Climate Change-Driven Economic Loss in Mollusc Farming Operations,Agricultural Sciences,aquaculture,AGROVOC,http://aims.fao.org/aos/agrovoc/c_550
+13397098,https://doi.org/10.7910/DVN/KJQLZV,2026-01-22,Dataset Case Study Assessment of Climate Change-Driven Economic Loss in Mollusc Farming Operations,Agricultural Sciences,climate change,AGROVOC,http://aims.fao.org/aos/agrovoc/c_1666
+13397098,https://doi.org/10.7910/DVN/KJQLZV,2026-01-22,Dataset Case Study Assessment of Climate Change-Driven Economic Loss in Mollusc Farming Operations,Agricultural Sciences,livelihood,,http://aims.fao.org/aos/agrovoc/c_1374498089962
+13397098,https://doi.org/10.7910/DVN/KJQLZV,2026-01-22,Dataset Case Study Assessment of Climate Change-Driven Economic Loss in Mollusc Farming Operations,Agricultural Sciences,economic losses,,http://aims.fao.org/aos/agrovoc/c_28805
+13397098,https://doi.org/10.7910/DVN/KJQLZV,2026-01-22,Dataset Case Study Assessment of Climate Change-Driven Economic Loss in Mollusc Farming Operations,Agricultural Sciences,mollusc farming,,
+13397098,https://doi.org/10.7910/DVN/KJQLZV,2026-01-22,Dataset Case Study Assessment of Climate Change-Driven Economic Loss in Mollusc Farming Operations,Agricultural Sciences,loss and damage,,http://aims.fao.org/aos/agrovoc/c_160c5eaa
+13399755,https://doi.org/10.7910/DVN/5SWHZT,2026-01-23,G19 Abbassa strain family production 2025,Agricultural Sciences,oreochromis niloticus,AGROVOC,http://aims.fao.org/aos/agrovoc/c_34687
+13399755,https://doi.org/10.7910/DVN/5SWHZT,2026-01-23,G19 Abbassa strain family production 2025,Agricultural Sciences,nile tilapia,AGROVOC,http://aims.fao.org/aos/agrovoc/c_34687
+13399755,https://doi.org/10.7910/DVN/5SWHZT,2026-01-23,G19 Abbassa strain family production 2025,Agricultural Sciences,genetic improvement program,,
+13399755,https://doi.org/10.7910/DVN/5SWHZT,2026-01-23,G19 Abbassa strain family production 2025,Agricultural Sciences,giant strain,,
+13399755,https://doi.org/10.7910/DVN/5SWHZT,2026-01-23,G19 Abbassa strain family production 2025,Agricultural Sciences,abbassa strain,,
+13399755,https://doi.org/10.7910/DVN/5SWHZT,2026-01-23,G19 Abbassa strain family production 2025,Agricultural Sciences,family production,,
+13399778,https://doi.org/10.7910/DVN/XPC5X4,2026-01-23,Abbassa tilapia strain comparison trial,Agricultural Sciences,oreochromis niloticus,AGROVOC,http://aims.fao.org/aos/agrovoc/c_34687
+13399778,https://doi.org/10.7910/DVN/XPC5X4,2026-01-23,Abbassa tilapia strain comparison trial,Agricultural Sciences,nile tilapia,AGROVOC,http://aims.fao.org/aos/agrovoc/c_34687
+13399778,https://doi.org/10.7910/DVN/XPC5X4,2026-01-23,Abbassa tilapia strain comparison trial,Agricultural Sciences,genetic improvement program,,
+13399778,https://doi.org/10.7910/DVN/XPC5X4,2026-01-23,Abbassa tilapia strain comparison trial,Agricultural Sciences,strain comparison,,
+13399778,https://doi.org/10.7910/DVN/XPC5X4,2026-01-23,Abbassa tilapia strain comparison trial,Agricultural Sciences,giant strain,,
+13399778,https://doi.org/10.7910/DVN/XPC5X4,2026-01-23,Abbassa tilapia strain comparison trial,Agricultural Sciences,abbassa strain,,
+13399780,https://doi.org/10.7910/DVN/FK9CWK,2026-01-23,Mating plan for G21 GIFT tilapia growth line,Agricultural Sciences,tilapia,AGROVOC,http://aims.fao.org/aos/agrovoc/c_32720
+13399780,https://doi.org/10.7910/DVN/FK9CWK,2026-01-23,Mating plan for G21 GIFT tilapia growth line,Agricultural Sciences,gift,,
+13399780,https://doi.org/10.7910/DVN/FK9CWK,2026-01-23,Mating plan for G21 GIFT tilapia growth line,Agricultural Sciences,worldfish,,
+13399780,https://doi.org/10.7910/DVN/FK9CWK,2026-01-23,Mating plan for G21 GIFT tilapia growth line,Agricultural Sciences,genetic improvement program,,
+13405800,https://doi.org/10.7910/DVN/KJLBI9,2026-01-26,"Biosecurity Knowledge, Attitudes, and Practices in Carp Hatcheries and Nurseries in Bangladesh",Agricultural Sciences,aquaculture,AGROVOC,http://aims.fao.org/aos/agrovoc/c_550
+13405800,https://doi.org/10.7910/DVN/KJLBI9,2026-01-26,"Biosecurity Knowledge, Attitudes, and Practices in Carp Hatcheries and Nurseries in Bangladesh",Agricultural Sciences,bangladesh,AGROVOC,http://aims.fao.org/aos/agrovoc/c_810
+13405800,https://doi.org/10.7910/DVN/KJLBI9,2026-01-26,"Biosecurity Knowledge, Attitudes, and Practices in Carp Hatcheries and Nurseries in Bangladesh",Agricultural Sciences,disease prevention,AGROVOC,http://aims.fao.org/aos/agrovoc/c_10394
+13405800,https://doi.org/10.7910/DVN/KJLBI9,2026-01-26,"Biosecurity Knowledge, Attitudes, and Practices in Carp Hatcheries and Nurseries in Bangladesh",Agricultural Sciences,biosecurity,AGROVOC,http://aims.fao.org/aos/agrovoc/c_52ed426b
+13405800,https://doi.org/10.7910/DVN/KJLBI9,2026-01-26,"Biosecurity Knowledge, Attitudes, and Practices in Carp Hatcheries and Nurseries in Bangladesh",Agricultural Sciences,fish seed quality,,
+13405800,https://doi.org/10.7910/DVN/KJLBI9,2026-01-26,"Biosecurity Knowledge, Attitudes, and Practices in Carp Hatcheries and Nurseries in Bangladesh",Agricultural Sciences,carp hatcheries,,
+13405800,https://doi.org/10.7910/DVN/KJLBI9,2026-01-26,"Biosecurity Knowledge, Attitudes, and Practices in Carp Hatcheries and Nurseries in Bangladesh",Agricultural Sciences,fish nurseries,,
+13405800,https://doi.org/10.7910/DVN/KJLBI9,2026-01-26,"Biosecurity Knowledge, Attitudes, and Practices in Carp Hatcheries and Nurseries in Bangladesh",Agricultural Sciences,kap survey,,
+13405805,https://doi.org/10.7910/DVN/EO4CE8,2026-01-26,The Role of the Fish Seed Compact Model in Enhancing Aquaculture Productivity and Household Food Security in Rural Bangladesh,Agricultural Sciences,bangladesh,AGROVOC,http://aims.fao.org/aos/agrovoc/c_810
+13405805,https://doi.org/10.7910/DVN/EO4CE8,2026-01-26,The Role of the Fish Seed Compact Model in Enhancing Aquaculture Productivity and Household Food Security in Rural Bangladesh,Agricultural Sciences,household food security,AGROVOC,http://aims.fao.org/aos/agrovoc/c_9000078
+13405805,https://doi.org/10.7910/DVN/EO4CE8,2026-01-26,The Role of the Fish Seed Compact Model in Enhancing Aquaculture Productivity and Household Food Security in Rural Bangladesh,Agricultural Sciences,intervention,,
+13405805,https://doi.org/10.7910/DVN/EO4CE8,2026-01-26,The Role of the Fish Seed Compact Model in Enhancing Aquaculture Productivity and Household Food Security in Rural Bangladesh,Agricultural Sciences,control,,
+13405805,https://doi.org/10.7910/DVN/EO4CE8,2026-01-26,The Role of the Fish Seed Compact Model in Enhancing Aquaculture Productivity and Household Food Security in Rural Bangladesh,Agricultural Sciences,fish seed,AGROVOC,http://aims.fao.org/aos/agrovoc/c_87b2f749
+13405805,https://doi.org/10.7910/DVN/EO4CE8,2026-01-26,The Role of the Fish Seed Compact Model in Enhancing Aquaculture Productivity and Household Food Security in Rural Bangladesh,Agricultural Sciences,aquaculture productivity,,
+13405805,https://doi.org/10.7910/DVN/EO4CE8,2026-01-26,The Role of the Fish Seed Compact Model in Enhancing Aquaculture Productivity and Household Food Security in Rural Bangladesh,Agricultural Sciences,fish seed compact model,,
+13405866,https://doi.org/10.7910/DVN/EWIZYY,2026-01-26,WorldFish generated Question & Answer pairs for training AgriLLM development for Aquatic food systems,Agricultural Sciences,development,AGROVOC,http://aims.fao.org/aos/agrovoc/c_331049
+13405866,https://doi.org/10.7910/DVN/EWIZYY,2026-01-26,WorldFish generated Question & Answer pairs for training AgriLLM development for Aquatic food systems,Agricultural Sciences,artificial intelligence,AGROVOC,http://aims.fao.org/aos/agrovoc/c_27064
+13405866,https://doi.org/10.7910/DVN/EWIZYY,2026-01-26,WorldFish generated Question & Answer pairs for training AgriLLM development for Aquatic food systems,Agricultural Sciences,large language model,,
+13405866,https://doi.org/10.7910/DVN/EWIZYY,2026-01-26,WorldFish generated Question & Answer pairs for training AgriLLM development for Aquatic food systems,Computer and Information Science,development,AGROVOC,http://aims.fao.org/aos/agrovoc/c_331049
+13405866,https://doi.org/10.7910/DVN/EWIZYY,2026-01-26,WorldFish generated Question & Answer pairs for training AgriLLM development for Aquatic food systems,Computer and Information Science,artificial intelligence,AGROVOC,http://aims.fao.org/aos/agrovoc/c_27064
+13405866,https://doi.org/10.7910/DVN/EWIZYY,2026-01-26,WorldFish generated Question & Answer pairs for training AgriLLM development for Aquatic food systems,Computer and Information Science,large language model,,
+13417146,https://doi.org/10.7910/DVN/CSDBO6,2026-01-30,Survey data for the characterization of locally available raw material for low-cost fish feed production in Mali,Agricultural Sciences,feeds,AGROVOC,http://aims.fao.org/aos/agrovoc/c_2843
+13417146,https://doi.org/10.7910/DVN/CSDBO6,2026-01-30,Survey data for the characterization of locally available raw material for low-cost fish feed production in Mali,Agricultural Sciences,feed production,AGROVOC,http://aims.fao.org/aos/agrovoc/c_33986
+13417146,https://doi.org/10.7910/DVN/CSDBO6,2026-01-30,Survey data for the characterization of locally available raw material for low-cost fish feed production in Mali,Agricultural Sciences,rice fish systems,,
+13417146,https://doi.org/10.7910/DVN/CSDBO6,2026-01-30,Survey data for the characterization of locally available raw material for low-cost fish feed production in Mali,Agricultural Sciences,household diets,,
+14019520,https://doi.org/10.7910/DVN/FJXTDB,2026-06-22,Gender analysis of fish loss and waste in Kenya,Agricultural Sciences,gendered analysis,,
+14019520,https://doi.org/10.7910/DVN/FJXTDB,2026-06-22,Gender analysis of fish loss and waste in Kenya,Agricultural Sciences,youth inclusion,,
+14019520,https://doi.org/10.7910/DVN/FJXTDB,2026-06-22,Gender analysis of fish loss and waste in Kenya,Agricultural Sciences,fish loss and waste assessments,,
+14019520,https://doi.org/10.7910/DVN/FJXTDB,2026-06-22,Gender analysis of fish loss and waste in Kenya,Agricultural Sciences,fish loss,,
+14019520,https://doi.org/10.7910/DVN/FJXTDB,2026-06-22,Gender analysis of fish loss and waste in Kenya,Agricultural Sciences,fish waste,,
